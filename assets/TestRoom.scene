@@ -245,7 +245,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -590.1425,
-      "y": -354.5,
+      "y": -354.9555,
       "z": 0
     },
     "_lrot": {
@@ -284,7 +284,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 99.71499999999999,
-      "height": 11
+      "height": 10.089
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -416,7 +416,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -635.052,
-      "y": -316.975,
+      "y": -317.4305,
       "z": 0
     },
     "_lrot": {
@@ -455,7 +455,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 9.896000000000004,
-      "height": 64.049
+      "height": 64.96000000000001
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -485,10 +485,10 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "d3a27749-f473-4262-b78e-d69a16b5c32a@f9941",
+      "__uuid__": "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_type": 0,
+    "_type": 2,
     "_fillType": 0,
     "_sizeMode": 0,
     "_fillCenter": {
@@ -587,15 +587,15 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": -545.233,
-      "y": -316.975,
+      "y": -317.368,
       "z": 0
     },
     "_lrot": {
       "__type__": "cc.Quat",
       "x": 0,
       "y": 0,
-      "z": 0,
-      "w": 1
+      "z": 1,
+      "w": 6.123233995736766e-17
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -609,7 +609,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 0
+      "z": 180
     },
     "_id": "0fLdeuZbtCvpnU7audnNV7"
   },
@@ -626,7 +626,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 9.896000000000004,
-      "height": 64.049
+      "height": 64.83500000000001
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -656,10 +656,10 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "d3a27749-f473-4262-b78e-d69a16b5c32a@f9941",
+      "__uuid__": "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_type": 0,
+    "_type": 2,
     "_fillType": 0,
     "_sizeMode": 0,
     "_fillCenter": {

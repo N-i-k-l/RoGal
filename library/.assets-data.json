@@ -121,9 +121,7 @@
   },
   "d3a27749-f473-4262-b78e-d69a16b5c32a": {
     "url": "db://assets/Tast_stena.jpg",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "d3a27749-f473-4262-b78e-d69a16b5c32a@6c48a": {
@@ -253,6 +251,54 @@
         "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4@f9941"
       ],
       "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "a234f3a5-1620-47c6-9257-9abd301c368f": {
+    "url": "db://assets/stena1.bmp",
+    "value": {},
+    "versionCode": 0
+  },
+  "a234f3a5-1620-47c6-9257-9abd301c368f@6c48a": {
+    "url": "db://assets/stena1.bmp@6c48a",
+    "value": {
+      "depends": [
+        "a234f3a5-1620-47c6-9257-9abd301c368f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a234f3a5-1620-47c6-9257-9abd301c368f@f9941": {
+    "url": "db://assets/stena1.bmp@f9941",
+    "value": {
+      "depends": [
+        "a234f3a5-1620-47c6-9257-9abd301c368f@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a2390a58-5404-40f2-b5ae-bf79429ee2d9": {
+    "url": "db://assets/stena3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a2390a58-5404-40f2-b5ae-bf79429ee2d9@6c48a": {
+    "url": "db://assets/stena3.png@6c48a",
+    "value": {
+      "depends": [
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941": {
+    "url": "db://assets/stena3.png@f9941",
+    "value": {
+      "depends": [
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9@6c48a"
+      ]
     },
     "versionCode": 0
   }
