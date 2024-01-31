@@ -243,7 +243,7 @@
     "versionCode": 0
   },
   "65f38699-c145-4caa-adf1-6c5f89eb8022": {
-    "url": "db://assets/scene.scene",
+    "url": "db://assets/TestRoom.scene",
     "value": {
       "depends": [
         "65f38699-c145-4caa-adf1-6c5f89eb8022",

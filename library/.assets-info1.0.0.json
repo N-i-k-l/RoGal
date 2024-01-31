@@ -44,10 +44,6 @@
       "time": 1706643672942.885,
       "uuid": "5623aa38-a4c6-4465-b808-6d084093731e"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene": {
-      "time": 1706686129129.1548,
-      "uuid": "65f38699-c145-4caa-adf1-6c5f89eb8022"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\stena1.png": {
       "time": 1706643353176.1946,
       "uuid": "42cb2127-d8f8-4bf1-803a-b5ae866310e2"
@@ -55,9 +51,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Tast_stena.jpg": {
       "time": 1706642148894.1892,
       "uuid": "d3a27749-f473-4262-b78e-d69a16b5c32a"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene.meta": {
-      "time": 1706646878875.932
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\stena1.png.meta": {
       "time": 1706643368069.833
@@ -70,6 +63,13 @@
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png.meta": {
       "time": 1706645597691.0796
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\TestRoom.scene.meta": {
+      "time": 1706646878875.932
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\TestRoom.scene": {
+      "time": 1706687521959.4512,
+      "uuid": "65f38699-c145-4caa-adf1-6c5f89eb8022"
     }
   },
   "missing": {
@@ -112,6 +112,11 @@
       "path": "C:\\Users\\USERRR\\NewProject\\assets\\pol4.bmp",
       "time": 1706641579898.924,
       "removeTime": 1706675261881
+    },
+    "65f38699-c145-4caa-adf1-6c5f89eb8022": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene",
+      "time": 1706686129129.1548,
+      "removeTime": 1706687515731
     }
   }
 }
