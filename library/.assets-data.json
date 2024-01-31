@@ -1,0 +1,259 @@
+{
+  "3945351f-2aeb-45b1-abd2-2868d731bdf7": {
+    "url": "db://assets/wall",
+    "value": {},
+    "versionCode": 0
+  },
+  "ac920d09-254a-4d28-ab63-1dc73648fd20": {
+    "url": "db://assets/Test_pol.webp",
+    "value": {},
+    "versionCode": 0
+  },
+  "ac920d09-254a-4d28-ab63-1dc73648fd20@6c48a": {
+    "url": "db://assets/Test_pol.webp@6c48a",
+    "value": {
+      "depends": [
+        "ac920d09-254a-4d28-ab63-1dc73648fd20"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ac920d09-254a-4d28-ab63-1dc73648fd20@f9941": {
+    "url": "db://assets/Test_pol.webp@f9941",
+    "value": {
+      "depends": [
+        "ac920d09-254a-4d28-ab63-1dc73648fd20@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2b6fc24f-5599-4f23-946f-c09c9dd93453": {
+    "url": "db://assets/Tast_stena.webp",
+    "value": {},
+    "versionCode": 0
+  },
+  "2b6fc24f-5599-4f23-946f-c09c9dd93453@6c48a": {
+    "url": "db://assets/Tast_stena.webp@6c48a",
+    "value": {
+      "depends": [
+        "2b6fc24f-5599-4f23-946f-c09c9dd93453"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2b6fc24f-5599-4f23-946f-c09c9dd93453@f9941": {
+    "url": "db://assets/Tast_stena.webp@f9941",
+    "value": {
+      "depends": [
+        "2b6fc24f-5599-4f23-946f-c09c9dd93453@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bea3b74b-f709-4527-b6c4-d00e4cc8f97d": {
+    "url": "db://assets/pol3.bmp",
+    "value": {},
+    "versionCode": 0
+  },
+  "bea3b74b-f709-4527-b6c4-d00e4cc8f97d@6c48a": {
+    "url": "db://assets/pol3.bmp@6c48a",
+    "value": {
+      "depends": [
+        "bea3b74b-f709-4527-b6c4-d00e4cc8f97d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "bea3b74b-f709-4527-b6c4-d00e4cc8f97d@f9941": {
+    "url": "db://assets/pol3.bmp@f9941",
+    "value": {
+      "depends": [
+        "bea3b74b-f709-4527-b6c4-d00e4cc8f97d@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3a619f41-6613-445c-a36a-088d9a531099": {
+    "url": "db://assets/pol4.bmp",
+    "value": {},
+    "versionCode": 0
+  },
+  "3a619f41-6613-445c-a36a-088d9a531099@6c48a": {
+    "url": "db://assets/pol4.bmp@6c48a",
+    "value": {
+      "depends": [
+        "3a619f41-6613-445c-a36a-088d9a531099"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3a619f41-6613-445c-a36a-088d9a531099@f9941": {
+    "url": "db://assets/pol4.bmp@f9941",
+    "value": {
+      "depends": [
+        "3a619f41-6613-445c-a36a-088d9a531099@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ef54f53e-a6d5-4591-892d-1448efa64146": {
+    "url": "db://assets/wall/Tast_stena.webp",
+    "value": {},
+    "versionCode": 0
+  },
+  "ef54f53e-a6d5-4591-892d-1448efa64146@6c48a": {
+    "url": "db://assets/wall/Tast_stena.webp@6c48a",
+    "value": {
+      "depends": [
+        "ef54f53e-a6d5-4591-892d-1448efa64146"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ef54f53e-a6d5-4591-892d-1448efa64146@f9941": {
+    "url": "db://assets/wall/Tast_stena.webp@f9941",
+    "value": {
+      "depends": [
+        "ef54f53e-a6d5-4591-892d-1448efa64146@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d3a27749-f473-4262-b78e-d69a16b5c32a": {
+    "url": "db://assets/Tast_stena.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "d3a27749-f473-4262-b78e-d69a16b5c32a@6c48a": {
+    "url": "db://assets/Tast_stena.jpg@6c48a",
+    "value": {
+      "depends": [
+        "d3a27749-f473-4262-b78e-d69a16b5c32a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d3a27749-f473-4262-b78e-d69a16b5c32a@f9941": {
+    "url": "db://assets/Tast_stena.jpg@f9941",
+    "value": {
+      "depends": [
+        "d3a27749-f473-4262-b78e-d69a16b5c32a@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "21e97423-c11b-4a5c-9cd9-e00b39fffe48": {
+    "url": "db://assets/stena1.bmp",
+    "value": {},
+    "versionCode": 0
+  },
+  "21e97423-c11b-4a5c-9cd9-e00b39fffe48@6c48a": {
+    "url": "db://assets/stena1.bmp@6c48a",
+    "value": {
+      "depends": [
+        "21e97423-c11b-4a5c-9cd9-e00b39fffe48"
+      ]
+    },
+    "versionCode": 0
+  },
+  "21e97423-c11b-4a5c-9cd9-e00b39fffe48@f9941": {
+    "url": "db://assets/stena1.bmp@f9941",
+    "value": {
+      "depends": [
+        "21e97423-c11b-4a5c-9cd9-e00b39fffe48@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "42cb2127-d8f8-4bf1-803a-b5ae866310e2": {
+    "url": "db://assets/stena1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "42cb2127-d8f8-4bf1-803a-b5ae866310e2@6c48a": {
+    "url": "db://assets/stena1.png@6c48a",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941": {
+    "url": "db://assets/stena1.png@f9941",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5623aa38-a4c6-4465-b808-6d084093731e": {
+    "url": "db://assets/pol3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5623aa38-a4c6-4465-b808-6d084093731e@6c48a": {
+    "url": "db://assets/pol3.png@6c48a",
+    "value": {
+      "depends": [
+        "5623aa38-a4c6-4465-b808-6d084093731e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5623aa38-a4c6-4465-b808-6d084093731e@f9941": {
+    "url": "db://assets/pol3.png@f9941",
+    "value": {
+      "depends": [
+        "5623aa38-a4c6-4465-b808-6d084093731e@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4": {
+    "url": "db://assets/pngwing.com.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4@6c48a": {
+    "url": "db://assets/pngwing.com.png@6c48a",
+    "value": {
+      "depends": [
+        "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4@f9941": {
+    "url": "db://assets/pngwing.com.png@f9941",
+    "value": {
+      "depends": [
+        "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "65f38699-c145-4caa-adf1-6c5f89eb8022": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "65f38699-c145-4caa-adf1-6c5f89eb8022",
+        "5623aa38-a4c6-4465-b808-6d084093731e@f9941",
+        "d3a27749-f473-4262-b78e-d69a16b5c32a@f9941",
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  }
+}

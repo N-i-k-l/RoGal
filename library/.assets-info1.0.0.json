@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "C:\\Users\\USERRR\\NewProject\\assets\\stena1.png.meta": {
+      "time": 1706643368069.833
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\stena1.png": {
+      "time": 1706643353176.1946,
+      "uuid": "42cb2127-d8f8-4bf1-803a-b5ae866310e2"
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\Tast_stena.jpg.meta": {
+      "time": 1706642169575.882
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\Tast_stena.jpg": {
+      "time": 1706642148894.1892,
+      "uuid": "d3a27749-f473-4262-b78e-d69a16b5c32a"
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\pol3.png.meta": {
+      "time": 1706643701772.3499
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\pol3.png": {
+      "time": 1706643672942.885,
+      "uuid": "5623aa38-a4c6-4465-b808-6d084093731e"
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\pngwing.com.png.meta": {
+      "time": 1706645597691.0796
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\pngwing.com.png": {
+      "time": 1706645561016.4224,
+      "uuid": "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4"
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\scene.scene.meta": {
+      "time": 1706646878875.932
+    },
+    "C:\\Users\\USERRR\\NewProject\\assets\\scene.scene": {
+      "time": 1706646878873.9297,
+      "uuid": "65f38699-c145-4caa-adf1-6c5f89eb8022"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png": {
+      "time": 1706645561016.4224,
+      "uuid": "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pol3.png": {
+      "time": 1706643672942.885,
+      "uuid": "5623aa38-a4c6-4465-b808-6d084093731e"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene": {
+      "time": 1706646878873.9297,
+      "uuid": "65f38699-c145-4caa-adf1-6c5f89eb8022"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\stena1.png": {
+      "time": 1706643353176.1946,
+      "uuid": "42cb2127-d8f8-4bf1-803a-b5ae866310e2"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Tast_stena.jpg": {
+      "time": 1706642148894.1892,
+      "uuid": "d3a27749-f473-4262-b78e-d69a16b5c32a"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene.meta": {
+      "time": 1706646878875.932
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\stena1.png.meta": {
+      "time": 1706643368069.833
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pol3.png.meta": {
+      "time": 1706643701772.3499
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Tast_stena.jpg.meta": {
+      "time": 1706642169575.882
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png.meta": {
+      "time": 1706645597691.0796
+    }
+  },
+  "missing": {
+    "2b6fc24f-5599-4f23-946f-c09c9dd93453": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\Tast_stena.webp",
+      "time": 1706621971448.926,
+      "removeTime": 1706641195931
+    },
+    "ac920d09-254a-4d28-ab63-1dc73648fd20": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\Test_pol.webp",
+      "time": 1706621312698.2256,
+      "removeTime": 1706641423546
+    },
+    "ef54f53e-a6d5-4591-892d-1448efa64146": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\wall\\Tast_stena.webp",
+      "time": 1706621971448.926,
+      "removeTime": 1706642176643
+    },
+    "d3a27749-f473-4262-b78e-d69a16b5c32a": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\wall\\Tast_stena.jpg",
+      "time": 1706642148894.1892,
+      "removeTime": 1706643373552
+    },
+    "3945351f-2aeb-45b1-abd2-2868d731bdf7": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\wall",
+      "time": 1706643373549.9668,
+      "removeTime": 1706643376544
+    },
+    "21e97423-c11b-4a5c-9cd9-e00b39fffe48": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\stena1.bmp",
+      "time": 1706643142511.2273,
+      "removeTime": 1706643491202
+    },
+    "bea3b74b-f709-4527-b6c4-d00e4cc8f97d": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\pol3.bmp",
+      "time": 1706641300879.8228,
+      "removeTime": 1706643705914
+    },
+    "3a619f41-6613-445c-a36a-088d9a531099": {
+      "path": "C:\\Users\\USERRR\\NewProject\\assets\\pol4.bmp",
+      "time": 1706641579898.924,
+      "removeTime": 1706675261881
+    }
+  }
+}
