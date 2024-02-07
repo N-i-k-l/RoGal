@@ -245,12 +245,15 @@
     "value": {
       "depends": [
         "65f38699-c145-4caa-adf1-6c5f89eb8022",
-        "5623aa38-a4c6-4465-b808-6d084093731e@f9941",
-        "d3a27749-f473-4262-b78e-d69a16b5c32a@f9941",
         "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "77df32a7-c34e-4db0-9659-350844005766",
         "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4@f9941"
       ],
-      "dependScripts": []
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "b05a1860-9c74-444b-87de-e32ba4c01cea",
+        "9446f268-25de-4758-8e25-423135d6deb1"
+      ]
     },
     "versionCode": 0
   },
@@ -298,6 +301,174 @@
     "value": {
       "depends": [
         "a2390a58-5404-40f2-b5ae-bf79429ee2d9@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "740715e7-234e-442b-8aff-f5ae7f9de85b": {
+    "url": "db://assets/Test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "261d4342-2f7e-4d20-a83e-a75941614295": {
+    "url": "db://assets/Pol2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "261d4342-2f7e-4d20-a83e-a75941614295@6c48a": {
+    "url": "db://assets/Pol2.png@6c48a",
+    "value": {
+      "depends": [
+        "261d4342-2f7e-4d20-a83e-a75941614295"
+      ]
+    },
+    "versionCode": 0
+  },
+  "261d4342-2f7e-4d20-a83e-a75941614295@f9941": {
+    "url": "db://assets/Pol2.png@f9941",
+    "value": {
+      "depends": [
+        "261d4342-2f7e-4d20-a83e-a75941614295@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0858c7f4-a36d-4c56-a769-446c7361c7f6": {
+    "url": "db://assets/Test_pers.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "0858c7f4-a36d-4c56-a769-446c7361c7f6@6c48a": {
+    "url": "db://assets/Test_pers.png@6c48a",
+    "value": {
+      "depends": [
+        "0858c7f4-a36d-4c56-a769-446c7361c7f6"
+      ]
+    },
+    "versionCode": 0
+  },
+  "0858c7f4-a36d-4c56-a769-446c7361c7f6@f9941": {
+    "url": "db://assets/Test_pers.png@f9941",
+    "value": {
+      "depends": [
+        "0858c7f4-a36d-4c56-a769-446c7361c7f6@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7b3a9e6f-ec93-4fcc-a663-d8efb4044f4c": {
+    "url": "db://assets/GG.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4e833f3c-267e-4767-813c-68558c928412": {
+    "url": "db://assets/rooms",
+    "value": {},
+    "versionCode": 0
+  },
+  "b05a1860-9c74-444b-87de-e32ba4c01cea": {
+    "url": "db://assets/BallDebug.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "172d0f6f-51be-425d-8b22-87756123350f": {
+    "url": "db://assets/Backwall.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "77df32a7-c34e-4db0-9659-350844005766": {
+    "url": "db://assets/rooms/room_test_1.prefab",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "261d4342-2f7e-4d20-a83e-a75941614295@f9941",
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "91bf537c-eb2c-4726-9a6a-219e597de672": {
+    "url": "db://assets/rooms/room_test_papka.prefab",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "261d4342-2f7e-4d20-a83e-a75941614295@f9941",
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941",
+        "060511c9-f6c5-410c-9bff-b7efd66ab720@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "8de0c54a-d6c5-4c37-9082-068afaf130ce": {
+    "url": "db://assets/rooms/room_test_store.prefab",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "261d4342-2f7e-4d20-a83e-a75941614295@f9941",
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941",
+        "42153e1a-f992-44b2-acaf-8dcb464147d9@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "060511c9-f6c5-410c-9bff-b7efd66ab720": {
+    "url": "db://assets/Papka.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "060511c9-f6c5-410c-9bff-b7efd66ab720@6c48a": {
+    "url": "db://assets/Papka.png@6c48a",
+    "value": {
+      "depends": [
+        "060511c9-f6c5-410c-9bff-b7efd66ab720"
+      ]
+    },
+    "versionCode": 0
+  },
+  "060511c9-f6c5-410c-9bff-b7efd66ab720@f9941": {
+    "url": "db://assets/Papka.png@f9941",
+    "value": {
+      "depends": [
+        "060511c9-f6c5-410c-9bff-b7efd66ab720@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9446f268-25de-4758-8e25-423135d6deb1": {
+    "url": "db://assets/GenerateRoomsDebug.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "42153e1a-f992-44b2-acaf-8dcb464147d9": {
+    "url": "db://assets/lavka_test.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "42153e1a-f992-44b2-acaf-8dcb464147d9@6c48a": {
+    "url": "db://assets/lavka_test.png@6c48a",
+    "value": {
+      "depends": [
+        "42153e1a-f992-44b2-acaf-8dcb464147d9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "42153e1a-f992-44b2-acaf-8dcb464147d9@f9941": {
+    "url": "db://assets/lavka_test.png@f9941",
+    "value": {
+      "depends": [
+        "42153e1a-f992-44b2-acaf-8dcb464147d9@6c48a"
       ]
     },
     "versionCode": 0
