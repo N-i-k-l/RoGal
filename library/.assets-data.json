@@ -498,5 +498,39 @@
     "url": "db://assets/resources",
     "value": {},
     "versionCode": 0
+  },
+  "cc7ca12b-1f6c-4db8-9808-cc2610c09462": {
+    "url": "db://assets/resources/rooms/room_D.prefab",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "261d4342-2f7e-4d20-a83e-a75941614295@f9941",
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "23813982-1afe-4221-ab12-f6b0e88d4d43": {
+    "url": "db://assets/resources/rooms/1",
+    "value": {},
+    "versionCode": 0
+  },
+  "e7abd889-497d-435e-866b-bdbda0aa722b": {
+    "url": "db://assets/resources/rooms/scene-2d.scene",
+    "value": {},
+    "versionCode": 0
+  },
+  "e56c185b-6287-445c-a0c7-31f7bbccbdf6": {
+    "url": "db://assets/resources/rooms/room_D2.prefab",
+    "value": {
+      "depends": [
+        "42cb2127-d8f8-4bf1-803a-b5ae866310e2@f9941",
+        "261d4342-2f7e-4d20-a83e-a75941614295@f9941",
+        "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 0
   }
 }
