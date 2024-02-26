@@ -2,12 +2,12 @@
   "__version__": "1.0.6",
   "layer": [
     {
-      "name": "BackWalls",
-      "value": 1
-    },
-    {
       "name": "PlayZone",
       "value": 2
+    },
+    {
+      "name": "BackWalls",
+      "value": 1
     }
   ],
   "sorting-layer": {
