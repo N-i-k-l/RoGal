@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse } from 'cc';
+import { UITransform } from '../../../extensions/plugin-import-2x/creator/components/UITransform';
 const { ccclass, property } = _decorator;
 
 @ccclass('Player')
@@ -19,7 +20,7 @@ export class Player extends Component {
     private rigidbody: any;
     private direction: number = 0;
     private walk_force: number = 70;
-    private jump_force: number = 40;
+    private jump_force: number = 400;
     private _startJump: boolean = false;
 
     private rope: Node[] = [];
@@ -160,7 +161,7 @@ export class Player extends Component {
                     return;
                 }
 
-                if (this.isPlayerOnGround()) {
+                if (!this._startJump) {
                     console.log("isonground");
                     this._startJump = true;
                     this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
@@ -182,6 +183,11 @@ export class Player extends Component {
 
     onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         // Check the collider type or any other necessary conditions
+        console.log(otherCollider.name);
+        if (otherCollider.node.worldPosition.y < this.node.worldPosition.y) {
+            console.log(otherCollider.name);
+            this._startJump = false;
+        }
         if (otherCollider instanceof BoxCollider2D && otherCollider.node?.name === "Enemy") {
             this.HP--;
             this.HPLabel.string = "HP: " + this.HP;
