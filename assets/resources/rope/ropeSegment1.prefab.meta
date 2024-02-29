@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "a450b041-974e-4bdd-9099-ff3750f8cd20",
+  "uuid": "976c5943-87d9-4b1a-acad-e1ae6e676ae8",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "ropeSegment"
+    "syncNodeName": "ropeSegment1"
   }
 }
