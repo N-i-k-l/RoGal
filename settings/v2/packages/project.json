@@ -20,5 +20,13 @@
     ],
     "increaseId": 1
   },
-  "custom_joint_texture_layouts": []
+  "custom_joint_texture_layouts": [],
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Enemy"
+      }
+    ]
+  }
 }

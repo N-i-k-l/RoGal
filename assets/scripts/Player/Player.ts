@@ -4,9 +4,11 @@ const { ccclass, property } = _decorator;
 
 @ccclass('Player')
 export class Player extends Component {
-    @property({ type: Label })
-    private HPLabel: Label | null = null;
+
+    @property(Label)
+    HPLabel: Label = null;
     private HP: number = 100;
+
     @property(Prefab)
     segmentPrefab: Prefab = null;
 
@@ -20,7 +22,7 @@ export class Player extends Component {
     private rigidbody: any;
     private direction: number = 0;
     private walk_force: number = 70;
-    private jump_force: number = 400;
+    private jump_force: number = 600;
     private _startJump: boolean = false;
 
     private rope: Node[] = [];
@@ -30,6 +32,7 @@ export class Player extends Component {
     
 
     onLoad() {
+        this.HPLabel = this.node.getComponentInChildren(Label);
         systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyRightLeft, this);
         systemEvent.on(SystemEventType.KEY_UP, this.onKeyUp, this);
         director.getScene().getChildByName("Canvas").getChildByName("WallOutside").on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
@@ -174,27 +177,60 @@ export class Player extends Component {
         }
     }
 
-
-    isPlayerOnGround(): boolean {
-        return this.collider && this.collider.contacts && this.collider.contacts.some(contact => contact.collider === this.collider);
-    }
-
-    
-
-    onBeginContact(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-        // Check the collider type or any other necessary conditions
-        console.log(otherCollider.name);
+    onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
+        if (otherCollider.node.name === 'Enemy') {
+            console.log('ouch');
+            this.HP--;
+            console.log(`Player HP: ${this.HP}`);
+            if (this.HPLabel) {
+                this.HPLabel.string = `HP: ${this.HP}`;
+            }
+        }
+        if (otherCollider.node.name === 'Medicbag') {
+            this.HP = 100;
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+            console.log('ouagh thanks my friend');
+            if (this.HPLabel) {
+                this.HPLabel.string = `HP: ${this.HP}`;
+            }
+        }
         if (otherCollider.node.worldPosition.y < this.node.worldPosition.y) {
-            console.log(otherCollider.name);
+            //console.log(otherCollider.name);
             this._startJump = false;
         }
-        if (otherCollider instanceof BoxCollider2D && otherCollider.node?.name === "Enemy") {
-            this.HP--;
-            this.HPLabel.string = "HP: " + this.HP;
+
+
+    }
+
+    decreaseHealth(amount: number) {
+        this.HP -= amount;
+        if (this.HP < 0) {
+            this.HP = 0;
         }
+        this.updateHealthLabel();
+    }
+
+    increaseHealth(amount: number) {
+        this.HP += amount;
+        if (this.HP > 100) {
+            this.HP = 100;
+        }
+        this.updateHealthLabel();
     }
 
 
+    updateHealthLabel() {
+        if (this.HPLabel) {
+            this.HPLabel.string = `HP: ${this.HP}`;
+        }
+    }
+
+    onEndContact(contact, selfCollider, otherCollider) {
+
+            this._startJump = false;
+        
+    }
 
     onKeyUp(event: EventKeyboard) {
         switch (event.keyCode) {
