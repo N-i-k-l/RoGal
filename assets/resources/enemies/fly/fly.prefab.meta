@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "ab152512-7186-463a-b774-8af27900ec91",
+  "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "genericAirEnemy"
+    "syncNodeName": "fly"
   }
 }

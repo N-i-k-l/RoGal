@@ -154,7 +154,6 @@ export class Player extends Component {
             case 68: // D
             case 39: // RIGHT
                 this.direction = 1;
-                this.node.setScale(new Vec3(this.node.scale.x * -1, this.node.scale.y));
                 //this.node.setScale(new Vec3(this.node.scale.x * -1, this.node.scale.y));
                 break;
             case 32: // SPACE

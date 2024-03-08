@@ -1,8 +1,10 @@
-import { _decorator, Component, EventKeyboard, macro, systemEvent, SystemEvent } from 'cc';
+import { _decorator, BoxCollider2D, Component, EventKeyboard, macro, RigidBody, RigidBody2D, systemEvent, SystemEvent } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Platform')
 export class Platform extends Component {
+
+    private initState: number;
 
     onLoad() {
         systemEvent.on(SystemEvent.EventType.KEY_DOWN, this.keyDown, this);
@@ -10,6 +12,7 @@ export class Platform extends Component {
     }
 
     start() {
+        this.initState = this.getComponent(RigidBody2D).group
         // Инициализация
     }
 
@@ -17,7 +20,8 @@ export class Platform extends Component {
         switch (event.keyCode) {
             case macro.KEY.s:
                 console.log('Key s pressed');
-                this.assignPhysicalState();
+                this.getComponent(RigidBody2D).group = 2;
+                this.getComponent(BoxCollider2D).group = 2;
                 break;
         }
     }
@@ -26,7 +30,8 @@ export class Platform extends Component {
         switch (event.keyCode) {
             case macro.KEY.s:
                 console.log('Key s released');
-                this.assignDefaultState();
+                this.getComponent(RigidBody2D).group = this.initState;
+                this.getComponent(BoxCollider2D).group = this.initState;
                 break;
         }
     }
