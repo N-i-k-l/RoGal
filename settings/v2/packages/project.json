@@ -25,17 +25,18 @@
     "collisionGroups": [
       {
         "index": 1,
-        "name": "player"
+        "name": "Enemy"
       },
       {
         "index": 2,
-        "name": "enemy"
+        "name": "platforma"
       }
     ],
     "collisionMatrix": {
-      "0": 7,
-      "1": 1,
-      "2": 5
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0
     }
   }
 }

@@ -8,6 +8,7 @@
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "room_test_papka"
+    "syncNodeName": "room_test_papka",
+    "persistent": false
   }
 }
