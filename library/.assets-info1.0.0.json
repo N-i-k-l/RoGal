@@ -246,17 +246,9 @@
       "time": 1709273306331.1882,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope": {
-      "time": 1709273306337.1897,
-      "uuid": "10d36dd9-d55d-45ad-9d9e-095dd2fd3e4c"
-    },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
       "time": 1709273306328.188,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeTest.ts": {
-      "time": 1709273306338.19,
-      "uuid": "87e959ea-9d67-43db-891f-00add236a8d8"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\resources.meta": {
       "time": 1707466964021.3914
@@ -405,14 +397,6 @@
       "time": 1709273306330.1885,
       "uuid": "b8669401-37b3-4d8a-b632-18144fefc9ef"
     },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\HookLaunch.ts": {
-      "time": 1709273306332.1885,
-      "uuid": "028f8e17-c23b-42cf-b278-68eb24476b96"
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeScript2.ts": {
-      "time": 1709273306335.1892,
-      "uuid": "69b4e74e-1fc8-411e-85e4-b8dedc0fa7ad"
-    },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc.meta": {
       "time": 1709273306339.1897
     },
@@ -524,7 +508,7 @@
       "time": 1710231524995.964
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly.meta": {
-      "time": 1710264426960.0325
+      "time": 1710265226739.0425
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka.meta": {
       "time": 1710263637390.2603
@@ -578,7 +562,7 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player": {
-      "time": 1710264426979.7078,
+      "time": 1710264801814.9578,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\GenerateRoomsDebug.ts": {
@@ -586,8 +570,8 @@
       "uuid": "9446f268-25de-4758-8e25-423135d6deb1"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly": {
-      "time": 1710264426962.0786,
-      "uuid": "69692cf1-6f23-4813-ab3f-f0dde99a7ec7"
+      "time": 1710265148003.4114,
+      "uuid": "647cad86-244a-4a6c-bcf3-277c229ee2cc"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka": {
       "time": 1710263637391.3064,
@@ -606,7 +590,7 @@
       "uuid": "0e634999-3e39-4762-a089-f007d443fd66"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1710264426978.3765,
+      "time": 1710264801810.9675,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\PlayerController.ts": {
@@ -635,7 +619,7 @@
       "time": 1710231523240.0479
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\PlayerRoom.scene.meta": {
-      "time": 1710264454021.496
+      "time": 1710265301603.2358
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\pngwing.com.png.meta": {
       "time": 1710231523463.8877
@@ -662,7 +646,7 @@
       "time": 1710231523372.6855
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Летающий враг.png.meta": {
-      "time": 1710264426988.6216
+      "time": 1710265228942.9438
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Перс.png.meta": {
       "time": 1710231523810.7085
@@ -731,7 +715,7 @@
       "time": 1710263637420.2583
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
-      "time": 1710264453990.9548
+      "time": 1710265147998.9182
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka\\Pianka.prefab.meta": {
       "time": 1710263637391.3064
@@ -757,7 +741,7 @@
       "uuid": "858e30a7-8ec3-4416-8574-1923952b7fca"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\PlayerRoom.scene": {
-      "time": 1710264426957.8335,
+      "time": 1710265812669.11,
       "uuid": "6d56bca0-f375-4254-ac0c-f8086a11cbb7"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Papka.png": {
@@ -794,7 +778,7 @@
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Летающий враг.png": {
       "time": 1710231523739.0051,
-      "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0"
+      "uuid": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Test_pers.png": {
       "time": 1710231523351.5483,
@@ -889,7 +873,7 @@
       "uuid": "976c5943-87d9-4b1a-acad-e1ae6e676ae8"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly\\fly.prefab": {
-      "time": 1710264426961.056,
+      "time": 1710265696327.62,
       "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka\\Pianka.prefab": {
@@ -908,24 +892,24 @@
       "uuid": "aefa44ae-93f8-4cb4-8775-f7170506b757"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts.meta": {
-      "time": 1710264426982.8499
+      "time": 1710265226747.5369
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts.meta": {
       "time": 1710263637433.0417
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic": {
-      "time": 1710264426982.8499,
+      "time": 1710265718346.2395,
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\Enemy.ts.meta": {
       "time": 1710231525437.9185
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts": {
-      "time": 1710264426981.7295,
-      "uuid": "13dcc907-8ee2-44d0-9ec4-63b64d1e3f70"
+      "time": 1710265635219.7258,
+      "uuid": "f285c825-05ca-44cf-83b7-bbfe1d797b1f"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts": {
-      "time": 1710264426983.885,
+      "time": 1710265718343.247,
       "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\Enemy.prefab": {
@@ -995,7 +979,7 @@
       "time": 1710264426958.9397
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Player.prefab.meta": {
-      "time": 1710264453675.8198
+      "time": 1710264857546.363
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\start-mech.png.meta": {
       "time": 1710263637437.556
@@ -1007,7 +991,7 @@
       "time": 1710264426977.1846
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Player.prefab": {
-      "time": 1710264426955.6936,
+      "time": 1710264806498.3245,
       "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\bullet.prefab": {
@@ -1259,9 +1243,9 @@
       "removeTime": 1710231418572
     },
     "10d36dd9-d55d-45ad-9d9e-095dd2fd3e4c": {
-      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Rope",
-      "time": 1710231525327.1423,
-      "removeTime": 1710264453521
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope",
+      "time": 1709273306337.1897,
+      "removeTime": 1710265228943
     },
     "69692cf1-6f23-4813-ab3f-f0dde99a7ec7": {
       "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly",
@@ -1299,19 +1283,19 @@
       "removeTime": 1710231418574
     },
     "028f8e17-c23b-42cf-b278-68eb24476b96": {
-      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Rope\\HookLaunch.ts",
-      "time": 1710231525228.5051,
-      "removeTime": 1710264453521
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\HookLaunch.ts",
+      "time": 1709273306332.1885,
+      "removeTime": 1710265228944
     },
     "69b4e74e-1fc8-411e-85e4-b8dedc0fa7ad": {
-      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Rope\\RopeNodeScript2.ts",
-      "time": 1710231525277.999,
-      "removeTime": 1710264453522
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeScript2.ts",
+      "time": 1709273306335.1892,
+      "removeTime": 1710265228944
     },
     "87e959ea-9d67-43db-891f-00add236a8d8": {
-      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Rope\\RopeNodeTest.ts",
-      "time": 1710231525325.1082,
-      "removeTime": 1710264453522
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeTest.ts",
+      "time": 1709273306338.19,
+      "removeTime": 1710265228944
     },
     "908a7f8b-349b-4de1-85a8-5b385822423a": {
       "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Hook.png",

@@ -31,7 +31,6 @@
       },
       {
         "__id__": 8
-<<<<<<< Updated upstream
       },
       {
         "__id__": 10
@@ -39,12 +38,6 @@
     ],
     "_prefab": {
       "__id__": 12
-=======
-      }
-    ],
-    "_prefab": {
-      "__id__": 10
->>>>>>> Stashed changes
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -61,13 +54,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-<<<<<<< Updated upstream
       "x": 0.5,
       "y": 0.5,
-=======
-      "x": 0.25,
-      "y": 0.25,
->>>>>>> Stashed changes
       "z": 1
     },
     "_mobility": 0,
@@ -94,13 +82,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-<<<<<<< Updated upstream
       "width": 19,
       "height": 15
-=======
-      "width": 190,
-      "height": 150
->>>>>>> Stashed changes
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -136,11 +119,7 @@
       "a": 255
     },
     "_spriteFrame": {
-<<<<<<< Updated upstream
-      "__uuid__": "65c850c5-c972-46cb-a7cc-1908493112d0@f9941",
-=======
-      "__uuid__": "3999923c-a377-4c8d-a714-2825d529a534@f9941",
->>>>>>> Stashed changes
+      "__uuid__": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -153,11 +132,7 @@
     },
     "_fillStart": 0,
     "_fillRange": 0,
-<<<<<<< Updated upstream
     "_isTrimmedMode": true,
-=======
-    "_isTrimmedMode": false,
->>>>>>> Stashed changes
     "_useGrayscale": false,
     "_atlas": null,
     "_id": ""
@@ -225,13 +200,8 @@
     },
     "_size": {
       "__type__": "cc.Size",
-<<<<<<< Updated upstream
       "width": 19,
       "height": 15
-=======
-      "width": 190,
-      "height": 150
->>>>>>> Stashed changes
     },
     "_id": ""
   },
@@ -240,8 +210,7 @@
     "fileId": "87u9z6zI1Fx5AK9ReNyxBq"
   },
   {
-<<<<<<< Updated upstream
-    "__type__": "5e024IAVVlMQKKz4IXdh4CS",
+    "__type__": "f285cglBcpEz4O3u/4deXsf",
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -252,17 +221,15 @@
     "__prefab": {
       "__id__": 11
     },
-    "Speed": 10,
+    "Speed": 0,
     "DMG": 0,
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "89gdQkHPlGy4Rh6tE04VdS"
+    "fileId": "ad+pWwp/9BeaR0UyYOK1q5"
   },
   {
-=======
->>>>>>> Stashed changes
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
