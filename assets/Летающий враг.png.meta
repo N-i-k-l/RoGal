@@ -2,7 +2,11 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
+<<<<<<< Updated upstream
   "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0",
+=======
+  "uuid": "3999923c-a377-4c8d-a714-2825d529a534",
+>>>>>>> Stashed changes
   "files": [
     ".json",
     ".png"
@@ -10,14 +14,22 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
+<<<<<<< Updated upstream
       "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0@6c48a",
+=======
+      "uuid": "3999923c-a377-4c8d-a714-2825d529a534@6c48a",
+>>>>>>> Stashed changes
       "displayName": "Летающий враг",
       "id": "6c48a",
       "name": "texture",
       "userData": {
         "wrapModeS": "clamp-to-edge",
         "wrapModeT": "clamp-to-edge",
+<<<<<<< Updated upstream
         "imageUuidOrDatabaseUri": "65c850c5-c972-46cb-a7cc-1908493112d0",
+=======
+        "imageUuidOrDatabaseUri": "3999923c-a377-4c8d-a714-2825d529a534",
+>>>>>>> Stashed changes
         "isUuid": true,
         "visible": false,
         "minfilter": "linear",
@@ -34,7 +46,11 @@
     },
     "f9941": {
       "importer": "sprite-frame",
+<<<<<<< Updated upstream
       "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0@f9941",
+=======
+      "uuid": "3999923c-a377-4c8d-a714-2825d529a534@f9941",
+>>>>>>> Stashed changes
       "displayName": "Летающий враг",
       "id": "f9941",
       "name": "spriteFrame",
@@ -114,7 +130,11 @@
           ]
         },
         "isUuid": true,
+<<<<<<< Updated upstream
         "imageUuidOrDatabaseUri": "65c850c5-c972-46cb-a7cc-1908493112d0@6c48a",
+=======
+        "imageUuidOrDatabaseUri": "3999923c-a377-4c8d-a714-2825d529a534@6c48a",
+>>>>>>> Stashed changes
         "atlasUuid": ""
       },
       "ver": "1.0.12",
@@ -129,6 +149,10 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
+<<<<<<< Updated upstream
     "redirect": "65c850c5-c972-46cb-a7cc-1908493112d0@f9941"
+=======
+    "redirect": "3999923c-a377-4c8d-a714-2825d529a534@f9941"
+>>>>>>> Stashed changes
   }
 }

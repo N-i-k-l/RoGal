@@ -102,7 +102,11 @@
       "uuid": "060511c9-f6c5-410c-9bff-b7efd66ab720"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
+<<<<<<< Updated upstream
       "time": 1710262761295.0032,
+=======
+      "time": 1709801184803.8513,
+>>>>>>> Stashed changes
       "uuid": "6d56bca0-f375-4254-ac0c-f8086a11cbb7"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png": {
@@ -292,7 +296,11 @@
       "time": 1709713230170.6667
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies": {
+<<<<<<< Updated upstream
       "time": 1709896134921.0542,
+=======
+      "time": 1709838977627.4895,
+>>>>>>> Stashed changes
       "uuid": "2387a4d1-6130-4f9c-963b-694ed4a33fb4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka.meta": {
@@ -327,13 +335,18 @@
       "time": 1709726424511.1897
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic": {
+<<<<<<< Updated upstream
       "time": 1710160004088.878,
+=======
+      "time": 1709893361296.0396,
+>>>>>>> Stashed changes
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts.meta": {
       "time": 1709726443043.488
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts": {
+<<<<<<< Updated upstream
       "time": 1710156787177.4963,
       "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
     },
@@ -476,6 +489,38 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\touchArea.ts": {
       "time": 1710232622242.2148,
       "uuid": "c2e18eaa-9294-415f-8902-48868fb1cf52"
+=======
+      "time": 1709801173391.1538,
+      "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly.meta": {
+      "time": 1709838977627.4895
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly": {
+      "time": 1709838990351.7317,
+      "uuid": "2125f09f-5b53-4e72-aad1-57487f48647f"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
+      "time": 1709838990351.7317
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab": {
+      "time": 1709887403271.9058,
+      "uuid": "e887f130-5b25-4a38-8a71-77f7959e604d"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Летающий враг.png.meta": {
+      "time": 1709886589020.7556
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Летающий враг.png": {
+      "time": 1709886583187.1887,
+      "uuid": "3999923c-a377-4c8d-a714-2825d529a534"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts.meta": {
+      "time": 1709891256211.1418
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts": {
+      "time": 1709893361294.0376,
+      "uuid": "89f1f8f8-b11a-4511-8892-c9d54b078650"
+>>>>>>> Stashed changes
     }
   },
   "missing": {
@@ -500,6 +545,7 @@
       "removeTime": 1709726564388
     },
     "e887f130-5b25-4a38-8a71-77f7959e604d": {
+<<<<<<< Updated upstream
       "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab",
       "time": 1709887403271.9058,
       "removeTime": 1709894402857
@@ -608,6 +654,21 @@
       "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeTest.ts",
       "time": 1709124727148.937,
       "removeTime": 1710247077932
+=======
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Pianka.prefab",
+      "time": 1709739442515.7136,
+      "removeTime": 1709838990355
+    },
+    "ab152512-7186-463a-b774-8af27900ec91": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.prefab",
+      "time": 1709790204234.9644,
+      "removeTime": 1709891246364
+    },
+    "89f1f8f8-b11a-4511-8892-c9d54b078650": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy-001.ts",
+      "time": 1709801173391.1538,
+      "removeTime": 1709891269056
+>>>>>>> Stashed changes
     }
   }
 }

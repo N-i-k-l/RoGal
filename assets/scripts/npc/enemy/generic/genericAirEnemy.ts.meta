@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "ver": "4.0.23",
   "importer": "typescript",
@@ -7,3 +8,6 @@
   "subMetas": {},
   "userData": {}
 }
+=======
+{"ver":"4.0.23","importer":"typescript","imported":true,"uuid":"89f1f8f8-b11a-4511-8892-c9d54b078650","files":[],"subMetas":{},"userData":{}}
+>>>>>>> Stashed changes
