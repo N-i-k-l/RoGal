@@ -1,5 +1,4 @@
-import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse } from 'cc';
-import { UITransform } from '../../../extensions/plugin-import-2x/creator/components/UITransform';
+import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Player')
@@ -7,7 +6,7 @@ export class Player extends Component {
 
     @property(Label)
     HPLabel: Label = null;
-    private HP: number = 100;
+    public HP: number = 100;
 
     @property(Prefab)
     segmentPrefab: Prefab = null;
@@ -21,8 +20,8 @@ export class Player extends Component {
     private collider: any;
     private rigidbody: any;
     private direction: number = 0;
-    private walk_force: number = 70;
-    private jump_force: number = 600;
+    private walk_force: number = 100;
+    private jump_force: number = 6000;
     private _startJump: boolean = false;
 
     private rope: Node[] = [];
@@ -33,7 +32,7 @@ export class Player extends Component {
 
     onLoad() {
         this.HPLabel = this.node.getComponentInChildren(Label);
-        systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyRightLeft, this);
+        systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.on(SystemEventType.KEY_UP, this.onKeyUp, this);
         director.getScene().getChildByName("Canvas").getChildByName("WallOutside").on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
             if (event.getButton() == 2) {
@@ -146,7 +145,7 @@ export class Player extends Component {
     }
 
 
-    onKeyRightLeft(event: EventKeyboard) {
+    onKeyDown(event: EventKeyboard) {
         switch (event.keyCode) {
             case 65: // A
             case 37: // LEFT
@@ -155,6 +154,7 @@ export class Player extends Component {
             case 68: // D
             case 39: // RIGHT
                 this.direction = 1;
+                //this.node.setScale(new Vec3(this.node.scale.x * -1, this.node.scale.y));
                 break;
             case 32: // SPACE
             case 38: // UP
@@ -180,27 +180,34 @@ export class Player extends Component {
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node.name === 'Enemy') {
             console.log('ouch');
-            this.HP--;
+            this.decreaseHealth(20)
             console.log(`Player HP: ${this.HP}`);
             if (this.HPLabel) {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
         if (otherCollider.node.name === 'Medicbag') {
-            this.HP = 100;
+            this.increaseHealth(80);
             otherCollider.node.removeFromParent();
             otherCollider.node.destroy();
-            console.log('ouagh thanks my friend');
+            console.log('Ouagh thanks a lot my friend');
             if (this.HPLabel) {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
-        if (otherCollider.node.worldPosition.y < this.node.worldPosition.y) {
+        if (otherCollider.node.name === 'FirstAidKit') {
+            this.increaseHealth(20);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+            console.log('Using a first aid!');
+            if (this.HPLabel) {
+                this.HPLabel.string = `HP: ${this.HP}`;
+            }
+        }
+        if ((otherCollider.node.worldPosition.y < this.node.worldPosition.y) && (otherCollider.node.getComponent(BoxCollider2D).sensor == false)) {
             //console.log(otherCollider.name);
             this._startJump = false;
         }
-
-
     }
 
     decreaseHealth(amount: number) {
@@ -208,6 +215,7 @@ export class Player extends Component {
         if (this.HP < 0) {
             this.HP = 0;
         }
+        console.log(amount);
         this.updateHealthLabel();
     }
 
