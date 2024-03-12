@@ -10,7 +10,7 @@
       "uuid": "a4c1275c-73e4-460b-9a63-596212cb9c0d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts": {
-      "time": 1710232476449.7656,
+      "time": 1710247077920.557,
       "uuid": "7ea34dfb-51a7-480e-bd23-9653b23b0dde"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms": {
@@ -26,12 +26,8 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player": {
-      "time": 1710235241394.6833,
+      "time": 1710257013469.646,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope": {
-      "time": 1709124727148.937,
-      "uuid": "10d36dd9-d55d-45ad-9d9e-095dd2fd3e4c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\BallDebug.ts": {
       "time": 1707322531277.6904,
@@ -52,18 +48,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\PlayerController.ts": {
       "time": 1709124600257.2507,
       "uuid": "b8669401-37b3-4d8a-b632-18144fefc9ef"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\HookLaunch.ts": {
-      "time": 1709124727148.937,
-      "uuid": "028f8e17-c23b-42cf-b278-68eb24476b96"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeScript2.ts": {
-      "time": 1709124727148.937,
-      "uuid": "69b4e74e-1fc8-411e-85e4-b8dedc0fa7ad"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeTest.ts": {
-      "time": 1709124727148.937,
-      "uuid": "87e959ea-9d67-43db-891f-00add236a8d8"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources.meta": {
       "time": 1707454430276.9785
@@ -86,9 +70,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player.meta": {
       "time": 1707719032739.9792
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope.meta": {
-      "time": 1708030483638.4822
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\BallDebug.ts.meta": {
       "time": 1707287217196.8748
     },
@@ -104,17 +85,8 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\PlayerController.ts.meta": {
       "time": 1709124600257.2507
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\HookLaunch.ts.meta": {
-      "time": 1709124727148.937
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeScript2.ts.meta": {
-      "time": 1709124727148.937
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeTest.ts.meta": {
-      "time": 1708030508804.2483
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Hook.png": {
-      "time": 1709124727140.955,
+      "time": 1710239510623.7122,
       "uuid": "908a7f8b-349b-4de1-85a8-5b385822423a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\lavka_test.png": {
@@ -130,7 +102,7 @@
       "uuid": "060511c9-f6c5-410c-9bff-b7efd66ab720"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
-      "time": 1710230531038.7075,
+      "time": 1710262761295.0032,
       "uuid": "6d56bca0-f375-4254-ac0c-f8086a11cbb7"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png": {
@@ -218,11 +190,11 @@
       "uuid": "468ebbd2-ae24-4673-8565-1e28b40d9995"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rope\\hook.prefab": {
-      "time": 1709124727140.955,
+      "time": 1710251621011.936,
       "uuid": "18d0ee2b-cf8d-491c-bb9c-ce34f98b404f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rope\\ropeSegment1.prefab": {
-      "time": 1709124727140.955,
+      "time": 1710253295690.1472,
       "uuid": "976c5943-87d9-4b1a-acad-e1ae6e676ae8"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\Enemy.prefab": {
@@ -236,7 +208,7 @@
       "time": 1707318600749.2393
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Hook.png.meta": {
-      "time": 1709124727140.955
+      "time": 1710239574893.7893
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png.meta": {
       "time": 1706645597691.0796
@@ -411,14 +383,14 @@
       "time": 1709124600257.2507
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Player.prefab": {
-      "time": 1710233326734.6897,
+      "time": 1710240371632.5857,
       "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts.meta": {
       "time": 1707719032739.9792
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1710235241392.6821,
+      "time": 1710257013456.2117,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts.meta": {
@@ -474,14 +446,14 @@
       "time": 1710226338834.7075
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock": {
-      "time": 1710235434632.1577,
+      "time": 1710248469057.6414,
       "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts.meta": {
       "time": 1710226358396.389
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts": {
-      "time": 1710235434625.6519,
+      "time": 1710248469044.4812,
       "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\bullet.prefab.meta": {
@@ -616,6 +588,26 @@
       "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\touchArea.ts",
       "time": 1710232551314.02,
       "removeTime": 1710232571927
+    },
+    "10d36dd9-d55d-45ad-9d9e-095dd2fd3e4c": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope",
+      "time": 1709124727148.937,
+      "removeTime": 1710247077932
+    },
+    "028f8e17-c23b-42cf-b278-68eb24476b96": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\HookLaunch.ts",
+      "time": 1709124727148.937,
+      "removeTime": 1710247077932
+    },
+    "69b4e74e-1fc8-411e-85e4-b8dedc0fa7ad": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeScript2.ts",
+      "time": 1709124727148.937,
+      "removeTime": 1710247077932
+    },
+    "87e959ea-9d67-43db-891f-00add236a8d8": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope\\RopeNodeTest.ts",
+      "time": 1709124727148.937,
+      "removeTime": 1710247077932
     }
   }
 }

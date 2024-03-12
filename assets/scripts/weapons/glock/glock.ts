@@ -21,7 +21,7 @@ export class glock extends Component {
         this.hidden = false;
     }
     shoot(mouseLoc: Vec2) {
-        
+        if (this.hidden) return
         const Bullet = instantiate(this.Bullet);
         this.C.addChild(Bullet);
         Bullet.setPosition(this.gun.position);
@@ -29,11 +29,11 @@ export class glock extends Component {
     }
 
     start() {
-        this.C =director.getScene().getChildByName("Canvas");
+        this.C = PlayerGlobal.playerNode;
         resources.load("weapons/glock/glock", Prefab, (err, prefab) => {
             this.gun = instantiate(prefab);
             this.C.addChild(this.gun);
-            this.gun.setPosition(this.node.position);
+            this.gun.setPosition(0,0);
         })
         resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {
             this.Bullet = prefab;
@@ -52,7 +52,7 @@ export class glock extends Component {
 
     update(deltaTime: number) { 
         if (!this.gun) return
-        this.gun.setWorldPosition(this.node.worldPosition);
+        //this.gun.setWorldPosition(this.node.worldPosition);
     }
 }
 
