@@ -2,7 +2,11 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
+<<<<<<< Updated upstream
   "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
+=======
+  "uuid": "e887f130-5b25-4a38-8a71-77f7959e604d",
+>>>>>>> Stashed changes
   "files": [
     ".json"
   ],
