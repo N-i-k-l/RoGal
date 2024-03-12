@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
-
+import { PlayerGlobal } from "../PlayerGlobal";
 @ccclass('Player')
 export class Player extends Component {
 
@@ -13,6 +13,7 @@ export class Player extends Component {
 
     @property(Prefab)
     hookPrefab: Prefab = null;
+    
 
     @property
     ropeLength: number = 10;
@@ -20,8 +21,8 @@ export class Player extends Component {
     private collider: any;
     private rigidbody: any;
     private direction: number = 0;
-    private walk_force: number = 70;
-    private jump_force: number = 600;
+    private walk_force: number = 250;
+    private jump_force: number = 1000;
     private _startJump: boolean = false;
 
     private rope: Node[] = [];
@@ -31,14 +32,16 @@ export class Player extends Component {
     
 
     onLoad() {
+        PlayerGlobal.playerNode = this.node;
         this.HPLabel = this.node.getComponentInChildren(Label);
         systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyRightLeft, this);
         systemEvent.on(SystemEventType.KEY_UP, this.onKeyUp, this);
-        director.getScene().getChildByName("Canvas").getChildByName("WallOutside").on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+        /*PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
             if (event.getButton() == 2) {
                 this.hookLaunch(event.getLocation());
             } //console.log();
-        }, this);
+        }, this);*/
+        
     }
     hookJump() {
 
@@ -47,8 +50,8 @@ export class Player extends Component {
         if (this.hContact) this.hookDespawn();
         if (this.hLaunch) return;
         this.hLaunch = true;
-        console.log(mouseLoc);
-        console.log(this.node.position);
+        //console.log(mouseLoc);
+        //console.log(this.node.position);
         let prevSegment = this.node;
         let sc = director.getScene().getChildByName("Canvas");
         
@@ -87,11 +90,14 @@ export class Player extends Component {
         //console.log(x)
         let a = new Vec2;
         let b = new Vec2(this.node.worldPosition.x, this.node.worldPosition.y);
-        a = mouseLoc.subtract(b);
+        a = b.subtract(mouseLoc);
         console.log(a);
-        let modul: number = (Math.abs(this.node.worldPosition.x) * Math.abs(this.node.worldPosition.y)) / (Math.abs(a.x) * Math.abs(a.y));
-        //a.set(a.x * modul, a.y * modul);
+        
+        let modul: number = this.ropeLength / a.length() / 10;
+        console.log(modul);
+        a.set(a.x * modul, a.y * modul);
         console.log(a);
+        
         //console.log(mouseLoc.signAngle(a));
         //(/*(new Vec2(this.node.position.x, this.node.position.y)).angle(mouseLoc)*/);
         this.hook.getComponent(RigidBody2D).linearVelocity = a;
@@ -128,6 +134,7 @@ export class Player extends Component {
     
 
     start() {
+
         this.rigidbody = this.node.getComponent(RigidBody2D);
 
         this.collider = this.node.getComponent(BoxCollider2D);

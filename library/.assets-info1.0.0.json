@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "map": {
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources": {
-      "time": 1709893439008.887,
+      "time": 1710224520727.797,
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\rooms": {
@@ -10,7 +10,7 @@
       "uuid": "a4c1275c-73e4-460b-9a63-596212cb9c0d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts": {
-      "time": 1709714515045.8958,
+      "time": 1710232476449.7656,
       "uuid": "7ea34dfb-51a7-480e-bd23-9653b23b0dde"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms": {
@@ -26,7 +26,7 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player": {
-      "time": 1709896072357.8696,
+      "time": 1710235241394.6833,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Rope": {
@@ -48,10 +48,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\Enemy.ts": {
       "time": 1709124600257.2507,
       "uuid": "aefa44ae-93f8-4cb4-8775-f7170506b757"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1709896072341.009,
-      "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\PlayerController.ts": {
       "time": 1709124600257.2507,
@@ -105,9 +101,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\Enemy.ts.meta": {
       "time": 1709124600265.2546
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts.meta": {
-      "time": 1707719032739.9792
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\PlayerController.ts.meta": {
       "time": 1709124600257.2507
     },
@@ -137,7 +130,7 @@
       "uuid": "060511c9-f6c5-410c-9bff-b7efd66ab720"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
-      "time": 1709914753062.5715,
+      "time": 1710230531038.7075,
       "uuid": "6d56bca0-f375-4254-ac0c-f8086a11cbb7"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png": {
@@ -236,10 +229,6 @@
       "time": 1709124600257.2507,
       "uuid": "9ad8d721-8e76-47a8-8bc2-1cac48586584"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.prefab": {
-      "time": 1709914863510.5774,
-      "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene.meta": {
       "time": 1709124600249.0923
     },
@@ -327,9 +316,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rope\\ropeSegment1.prefab.meta": {
       "time": 1709124727148.937
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.prefab.meta": {
-      "time": 1709124600257.2507
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies.meta": {
       "time": 1709713230170.6667
     },
@@ -369,14 +355,14 @@
       "time": 1709726424511.1897
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic": {
-      "time": 1709915399552.1409,
+      "time": 1710160004088.878,
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts.meta": {
       "time": 1709726443043.488
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts": {
-      "time": 1709801173391.1538,
+      "time": 1710156787177.4963,
       "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\platforma.meta": {
@@ -400,13 +386,6 @@
       "time": 1709893439008.887,
       "uuid": "261d4342-2f7e-4d20-a83e-a75941614295"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts.meta": {
-      "time": 1709894430915.6428
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts": {
-      "time": 1709915399541.956,
-      "uuid": "5e024200-5559-4c40-a2b3-e085dd878092"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly.meta": {
       "time": 1709896134921.0542
     },
@@ -427,6 +406,104 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Летающий враг.png": {
       "time": 1709886583187.1887,
       "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Player.prefab.meta": {
+      "time": 1709124600257.2507
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Player.prefab": {
+      "time": 1710233326734.6897,
+      "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts.meta": {
+      "time": 1707719032739.9792
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
+      "time": 1710235241392.6821,
+      "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts.meta": {
+      "time": 1709894430915.6428
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts": {
+      "time": 1710160004073.2002,
+      "uuid": "5e024200-5559-4c40-a2b3-e085dd878092"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\PlayerGlobal.ts.meta": {
+      "time": 1710159262698.8022
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\PlayerGlobal.ts": {
+      "time": 1710232476441.9546,
+      "uuid": "2a909ea9-45ea-4d42-a166-10fd2fc095b6"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons.meta": {
+      "time": 1710224520736.2197
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons": {
+      "time": 1710224610903.8796,
+      "uuid": "fb2416b3-9069-4ffb-bd82-891595471571"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock.meta": {
+      "time": 1710224610916.8982
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock": {
+      "time": 1710230478696.6057,
+      "uuid": "3a50399d-336f-400d-86b4-828e24dc4343"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\glock.png.meta": {
+      "time": 1710224657537.4468
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\glock.png": {
+      "time": 1710224650797.031,
+      "uuid": "aa3b1ae2-0a63-4254-9957-119559a5a252"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\glock.prefab.meta": {
+      "time": 1710224683390.9739
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\glock.prefab": {
+      "time": 1710231732132.804,
+      "uuid": "3d69a399-32e1-492f-b57d-a9024d413d58"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons.meta": {
+      "time": 1710226332892.7944
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons": {
+      "time": 1710226346791.911,
+      "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock.meta": {
+      "time": 1710226338834.7075
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock": {
+      "time": 1710235434632.1577,
+      "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts.meta": {
+      "time": 1710226358396.389
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts": {
+      "time": 1710235434625.6519,
+      "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\bullet.prefab.meta": {
+      "time": 1710230478696.6057
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\bullet.prefab": {
+      "time": 1710234506660.1306,
+      "uuid": "ff286410-7f3f-493f-93ba-b20eb60d7cdc"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\Bullet.ts.meta": {
+      "time": 1710228846388.5664
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\Bullet.ts": {
+      "time": 1710234922941.5222,
+      "uuid": "0592fe65-b9ec-46ae-b626-dc2e30d9da13"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\touchArea.ts.meta": {
+      "time": 1710232513386.0403
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\touchArea.ts": {
+      "time": 1710232622242.2148,
+      "uuid": "c2e18eaa-9294-415f-8902-48868fb1cf52"
     }
   },
   "missing": {
@@ -484,6 +561,61 @@
       "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Pianka.prefab",
       "time": 1709739442515.7136,
       "removeTime": 1709896149224
+    },
+    "eb0681b3-d5f2-4bce-9d13-b43f6689e571": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.prefab",
+      "time": 1709916573852.4578,
+      "removeTime": 1710158238077
+    },
+    "5e024200-5559-4c40-a2b3-e085dd878092": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\genericAirEnemy.ts",
+      "time": 1710155629369.3699,
+      "removeTime": 1710158481058
+    },
+    "22216486-22a1-4ac3-9346-f778bab50810": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Player.ts",
+      "time": 1710158404566.4436,
+      "removeTime": 1710158457857
+    },
+    "0687e7d1-abc9-4f33-892a-9366d4a02d72": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Player.ts",
+      "time": 1710158511558.5303,
+      "removeTime": 1710159060948
+    },
+    "3b039f42-0ff8-4dda-8b8a-f412c3370f89": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\PlayerGlobal.ts",
+      "time": 1710159498226.8884,
+      "removeTime": 1710159533445
+    },
+    "2a909ea9-45ea-4d42-a166-10fd2fc095b6": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerGlobal.ts",
+      "time": 1710159507988.2693,
+      "removeTime": 1710159558789
+    },
+    "3cba295e-7584-4577-877a-db9ab3adf6a9": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\material.mtl",
+      "time": 1710225428848.0515,
+      "removeTime": 1710225566179
+    },
+    "25137249-f090-4892-b5ea-9b18b8617fe1": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\folder",
+      "time": 1710226338832.7075,
+      "removeTime": 1710226346793
+    },
+    "ff286410-7f3f-493f-93ba-b20eb60d7cdc": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\Bullet.prefab",
+      "time": 1710230477848.5256,
+      "removeTime": 1710230478692
+    },
+    "0592fe65-b9ec-46ae-b626-dc2e30d9da13": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\bullet.ts",
+      "time": 1710229940832.1624,
+      "removeTime": 1710230488729
+    },
+    "c2e18eaa-9294-415f-8902-48868fb1cf52": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\touchArea.ts",
+      "time": 1710232551314.02,
+      "removeTime": 1710232571927
     }
   }
 }
