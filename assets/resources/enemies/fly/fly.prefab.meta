@@ -2,13 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "d40394e2-dc22-4b43-9b79-8670b3b8c8bf",
+  "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "room_test_papka",
-    "persistent": false
+    "syncNodeName": "fly"
   }
 }
