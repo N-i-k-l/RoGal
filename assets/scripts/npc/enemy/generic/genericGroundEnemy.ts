@@ -1,4 +1,4 @@
-import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, director, IPhysics2DContact, Node, Quat, RigidBody2D, Scene, Sprite, Vec2, Vec3 } from 'cc';
+import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, director, IPhysics2DContact, Node, Quat, RigidBody2D, Scene, Label, Sprite, Vec2, Vec3 } from 'cc';
 import { Player } from '../../../Player/Player';
 const { ccclass, property } = _decorator;
 
@@ -12,11 +12,17 @@ export class genericGroundEnemy extends Component {
     @property(Number)
     DMG: number = 0; 
 
+
+    @property(Label)
+    HPLabel: Label = null;
+    public HP: number = 100;
+
+
     private direction: number = 0;
     private startScale: number;
 
     dealDmg(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
-        console.log(otherCollider.node.name + " " + this.player.name);
+        //console.log(otherCollider.node.name + " " + this.player.name);
         if (otherCollider.node.name == this.player.name) {
             this.player.getComponent(Player).decreaseHealth(this.DMG);
         }
@@ -43,6 +49,27 @@ export class genericGroundEnemy extends Component {
         }
     }
 
+    decreaseHealth(amount: number) {
+        this.HP -= amount;
+        if (this.HP < 0) {
+            this.HP = 0;
+        }
+        console.log(amount);
+        this.updateHealthLabel();
+    }
+
+    increaseHealth(amount: number) {
+        this.HP += amount;
+        if (this.HP > 100) {
+            this.HP = 100;
+        }
+        this.updateHealthLabel();
+    }
+    updateHealthLabel() {
+        if (this.HPLabel) {
+            this.HPLabel.string = `HP: ${this.HP}`;
+        }
+    }
     
 }
 

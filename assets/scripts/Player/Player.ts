@@ -21,8 +21,9 @@ export class Player extends Component {
     private collider: any;
     private rigidbody: RigidBody2D;
     private direction: number = 0;
-
+    @property(Number)
     private walk_force: number = 250;
+    @property(Number)
     private jump_force: number = 500;
 
     private _startJump: boolean = false;
@@ -34,7 +35,7 @@ export class Player extends Component {
     private hLaunch: boolean = false;
     private cutTheRope: number = 0;
     private isSmall: boolean = false;
-    private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>"];
+    private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>", "FirstAidKit<BoxCollider2D>" ];
 
     private weapons;
     private currentWeapon: number = 0;
@@ -254,6 +255,20 @@ export class Player extends Component {
             if (this.HPLabel) {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
+        }
+        if (otherCollider.node.name === 'Speedboost') {
+            console.log('Speed boosted!');
+            this.walk_force *= 3;
+            console.log(`Current speed rate - ${this.walk_force}`);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+        }
+        if (otherCollider.node.name === 'Jumpboost') {
+            console.log('Jump boosted!');
+            this.jump_force *= 3;
+            console.log(`Current jump rate - ${this.jump_force}`);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
         }
         if ((otherCollider.node.worldPosition.y < this.node.worldPosition.y) && (otherCollider.node.getComponent(BoxCollider2D).sensor == false)) {
             //console.log(otherCollider.name);
