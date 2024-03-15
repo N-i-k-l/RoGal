@@ -1,12 +1,13 @@
 import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, director, IPhysics2DContact, Node, Quat, RigidBody2D, Scene, Label, Sprite, Vec2, Vec3 } from 'cc';
 import { Player } from '../../../Player/Player';
+import { PlayerGlobal } from '../../../PlayerGlobal';
 const { ccclass, property } = _decorator;
 
 @ccclass('genericGroundEnemy')
 export class genericGroundEnemy extends Component {
     
     @property(Node)
-    player: Node; //= this.node; //= director.getScene().getChildByName("Player");
+    player: Node = PlayerGlobal.playerNode;
     @property(Number)
     XSpeed: number = 0; 
     @property(Number)
@@ -31,6 +32,7 @@ export class genericGroundEnemy extends Component {
     start() {
         /*if (this.DMG != 0)*/
         //console.log(this.player);
+        this.player = PlayerGlobal.playerNode;
         this.startScale = this.node.scale.x;
         this.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.dealDmg, this);
     }
@@ -38,7 +40,11 @@ export class genericGroundEnemy extends Component {
     update(deltaTime: number) {
         //if (this.node.worldPosition.y < this.player.worldPosition.y) return
         this.node.getComponent(RigidBody2D).applyForceToCenter(new Vec2(this.XSpeed * this.direction, 0), true);
-        if (!this.player) return;
+        if (!this.player) {
+            console.log("S");
+            return;
+            
+        }
         if (this.node.worldPosition.x > this.player.worldPosition.x && this.direction!=-1) {
             this.direction = -1;
             this.node.setScale(new Vec3(this.startScale*1, this.node.scale.y));

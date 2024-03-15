@@ -12,8 +12,8 @@ class roomC
         this.dirList = dirList;
         this.Nd = Nd;
         console.log(this.Nd);
-        let i = 0;
-        while (!i);
+        //let i = 0;
+        //while (!i);
         
         console.log("Room created");
     }
@@ -44,7 +44,7 @@ export class GenerateRoomsDebug extends Component {
 
     
 
-    private rooms: string[] = ['rooms/room_test_start'/*,'rooms/room_test_papka',*/, 'rooms/room_test_shop', 'rooms/room_test_1'];
+    private rooms: string[] = ['rooms/room_test_start', 'rooms/room_test_papka', 'rooms/room_test_cruk', 'rooms/room_test_cruk-001', 'rooms/room_test_cruk-002'];
     private PlacedRooms: roomC[] = [];
     private roomList: roomC[] = [];
     
@@ -59,32 +59,37 @@ export class GenerateRoomsDebug extends Component {
     createRoom(p: string) {
         let a: any;
         let b: any;
-        let dirList: number[] = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,0,0];
+        let dirList: number[] = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 0, 0];
+        console.log(dirList);
+        
         resources.load(p, Prefab, (err, prefab) => {
+            
             dirList = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,0,0];
             const newNode = instantiate(prefab);
-            director.getScene().getChildByName('Canvas').addChild(newNode);
-            //newNode.setPosition(X, 0);
+            this.node.addChild(newNode);
             a = newNode.getChildByName('Door_left');
             b = newNode.getChildByName('Door_right');
-            //this.roomList.push(newNode);
             if (a) {
-                dirList[0] = (a.position.x + a.width / 2);
-                dirList[1] = (a.position.y + a.height / 2);
+                dirList[0] = (a.position.x + a.width * a.scale.x / 2);
+                dirList[1] = (a.position.y + a.height * a.scale.y / 2);
                 //console.log(dirList)
             }
             if (b) {
-                dirList[2] = (b.position.x + b.width / 2);
-                dirList[3] = (b.position.y + b.height / 2);
+                dirList[2] = (b.position.x + b.width* b.scale.x / 2);
+                dirList[3] = (b.position.y + b.height* b.scale.y / 2);
                 //console.log(dirList)
             }
+            
             console.log(dirList);
+            
             this.roomList.push(new roomC(newNode, dirList));
+            
             //this.roomExits.push(dirList);
             //console.log(this.roomExits);
         })
         //console.log(dirList+" room " + p + " added at" + X);
         //return X + 100
+        
     }
 
     
@@ -103,8 +108,10 @@ export class GenerateRoomsDebug extends Component {
             let r: number;
             let a;
             //let r1: number;
+            let w = 0;
             while (this.roomList.length > 0) {
                 r = Math.floor(Math.random() * 2);
+                w++;
                 let count = 0;
                 let count1 = 0;
                 t = this.roomList.pop();
@@ -129,12 +136,12 @@ export class GenerateRoomsDebug extends Component {
                         console.log("error1")
                         break
                     }
-                }
+                } console.log("a");
                 count = 0;
                 t.Place(a[0], a[1], r);
                 this.PlacedRooms.push(t);
                 t.Block(r, true);
-            }
+            } console.log("b");
             
             
         }, 1000)

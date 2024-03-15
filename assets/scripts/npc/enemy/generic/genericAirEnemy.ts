@@ -13,25 +13,11 @@ export class genericAirEnemy extends Component {
 
     private direction: number = 0;
 
-    dealDmg(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
-        console.log(otherCollider.node.name + " " + this.player.name);
-        if (otherCollider.node.name == this.player.name) {
-            this.player.getComponent(Player).decreaseHealth(this.DMG);
-        }
-    }
-
     start() {
         this.player = PlayerGlobal.playerNode;
-        console.log(PlayerGlobal.playerNode);
-        /*if (this.DMG != 0)*/
-        //console.log(this.player);
-        //this.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.dealDmg, this);
     }
 
     update(deltaTime: number) {
-        //let PWP = new Vec3(this.player.worldPosition);
-        //let tar: Vec3 = new Vec3(PWP.subtract(this.node.worldPosition));
-
         let tar: Vec3 = new Vec3(new Vec3(this.player.worldPosition).subtract(this.node.worldPosition));
         let mult: number = this.Speed/ tar.length();
         //console.log(tar+ " " +tar.length()+" "+ mult);

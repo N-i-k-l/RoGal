@@ -13,12 +13,6 @@ export class Sword extends Component {
     start() {
 
     }
-    dealDmg(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
-        console.log(otherCollider.node.name + " " + );
-        if (otherCollider.group == 1) {
-            this.genericGroundEnemy.getComponent(genericGroundEnemy).decreaseHealth(this.DMG);
-        }
-    }
     update(deltaTime: number) {
         
     }

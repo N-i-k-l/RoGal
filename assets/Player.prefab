@@ -412,7 +412,11 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 5,
+<<<<<<< Updated upstream
       "height": 5
+=======
+      "height": 8
+>>>>>>> Stashed changes
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -554,7 +558,7 @@
     "_priority": 1,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 54.54,
+    "_orthoHeight": 59,
     "_near": 0,
     "_far": 1000,
     "_color": {

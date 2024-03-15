@@ -23,7 +23,6 @@ export class Player extends Component {
     private direction: number = 0;
     @property(Number)
     private walk_force: number = 250;
-    @property(Number)
     private jump_force: number = 500;
 
     private _startJump: boolean = false;
