@@ -412,11 +412,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 5,
-<<<<<<< Updated upstream
       "height": 5
-=======
-      "height": 8
->>>>>>> Stashed changes
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
