@@ -230,8 +230,13 @@
       "time": 1709273306307.183,
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
+<<<<<<< Updated upstream
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\scripts": {
       "time": 1709273306339.1897,
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts": {
+      "time": 1711011759184.4966,
+>>>>>>> Stashed changes
       "uuid": "7ea34dfb-51a7-480e-bd23-9653b23b0dde"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms": {
@@ -520,16 +525,54 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player": {
+<<<<<<< Updated upstream
       "time": 1710229850981.8813,
+=======
+      "time": 1711015662155.794,
+>>>>>>> Stashed changes
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Rope": {
       "time": 1709201979263.118,
       "uuid": "10d36dd9-d55d-45ad-9d9e-095dd2fd3e4c"
     },
+<<<<<<< Updated upstream
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\BallDebug.ts": {
       "time": 1707465478684.0847,
       "uuid": "b05a1860-9c74-444b-87de-e32ba4c01cea"
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly": {
+      "time": 1710484804581.0144,
+      "uuid": "647cad86-244a-4a6c-bcf3-277c229ee2cc"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka": {
+      "time": 1710484804583.0078,
+      "uuid": "b5ae8414-a0a4-425e-893d-ef35d3e8dfd4"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\spisok": {
+      "time": 1710321207648.1309,
+      "uuid": "9ba8633c-2add-42bc-8108-40fd0aac1d80"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock": {
+      "time": 1710484804590.098,
+      "uuid": "3a50399d-336f-400d-86b4-828e24dc4343"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy": {
+      "time": 1710263637434.0637,
+      "uuid": "ea955a25-2cbc-4b7b-82bc-536519e40ffe"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock": {
+      "time": 1710484804608.3835,
+      "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic": {
+      "time": 1711014032038.1875,
+      "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\changeRoom.ts": {
+      "time": 1710484804576.905,
+      "uuid": "177bd21f-a63b-44db-842f-6de9571aa181"
+>>>>>>> Stashed changes
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\GenerateRoomsDebug.ts": {
       "time": 1709201979253.1526,
@@ -539,6 +582,7 @@
       "time": 1709273567409.436,
       "uuid": "cdaf5928-6232-4968-8222-b32be613cf76"
     },
+<<<<<<< Updated upstream
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Medicbag.ts": {
       "time": 1709239017964.578,
       "uuid": "f17e1e7d-0567-47a7-82e0-36cbc6ed4db8"
@@ -546,13 +590,38 @@
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\pizdez.ts": {
       "time": 1709273567427.8914,
       "uuid": "4b636259-7d64-4a23-bd43-0bfd3389a1bf"
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\PlayerGlobal.ts": {
+      "time": 1710484804594.0847,
+      "uuid": "2a909ea9-45ea-4d42-a166-10fd2fc095b6"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\rooms.ts": {
+      "time": 1710484804602.1736,
+      "uuid": "246336f2-9083-4ce8-af8e-070063ec7893"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\spawner.ts": {
+      "time": 1710484804604.1667,
+      "uuid": "bf4004d7-39e5-4755-84fe-52e52b500d5b"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Sword.ts": {
+      "time": 1710484804595.0833,
+      "uuid": "dd910a8c-5720-48dd-b76a-949293b0e89b"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\platforma\\platform.ts": {
+      "time": 1710263637393.3557,
+      "uuid": "0e634999-3e39-4762-a089-f007d443fd66"
+>>>>>>> Stashed changes
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\Enemy.ts": {
       "time": 1710229851937.8606,
       "uuid": "aefa44ae-93f8-4cb4-8775-f7170506b757"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\Player.ts": {
+<<<<<<< Updated upstream
       "time": 1710229850977.895,
+=======
+      "time": 1711015662151.2788,
+>>>>>>> Stashed changes
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\PlayerController.ts": {
@@ -567,9 +636,35 @@
       "time": 1709201979262.1213,
       "uuid": "69b4e74e-1fc8-411e-85e4-b8dedc0fa7ad"
     },
+<<<<<<< Updated upstream
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Rope\\RopeNodeTest.ts": {
       "time": 1709201979263.118,
       "uuid": "87e959ea-9d67-43db-891f-00add236a8d8"
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock\\Bullet.ts": {
+      "time": 1710484804608.3835,
+      "uuid": "0592fe65-b9ec-46ae-b626-dc2e30d9da13"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock\\glock.ts": {
+      "time": 1710264426986.4534,
+      "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\damageAura.ts": {
+      "time": 1711014032034.172,
+      "uuid": "4bed0eb4-b05a-4c03-838a-f4bbbe1ac110"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\fakeAir.ts": {
+      "time": 1710484804599.1836,
+      "uuid": "39929862-e670-4ef2-9b5f-56ad9faa3395"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts": {
+      "time": 1710484804600.1816,
+      "uuid": "f285c825-05ca-44cf-83b7-bbfe1d797b1f"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts": {
+      "time": 1710484804601.1772,
+      "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
+>>>>>>> Stashed changes
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources.meta": {
       "time": 1707472512916.3994
@@ -604,11 +699,28 @@
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\NewComponent.ts.meta": {
       "time": 1709273567409.436
     },
+<<<<<<< Updated upstream
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Medicbag.ts.meta": {
       "time": 1709239017967.5686
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\pizdez.ts.meta": {
       "time": 1709273567427.8914
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\PlayerGlobal.ts.meta": {
+      "time": 1710264426980.7322
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\rooms.ts.meta": {
+      "time": 1710484804603.17
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\spawner.ts.meta": {
+      "time": 1710484804605.1636
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Sword.ts.meta": {
+      "time": 1710266403538.445
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\platforma\\platform.ts.meta": {
+      "time": 1710263637394.3567
+>>>>>>> Stashed changes
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\Enemy.ts.meta": {
       "time": 1708067832141.9849
@@ -852,8 +964,62 @@
       "time": 1709536777269.035,
       "uuid": "83a67046-ed25-46c3-9c6e-0006445e6a4d"
     },
+<<<<<<< Updated upstream
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\TEST-Boss.png.meta": {
       "time": 1709651309139.7625
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Papka.png": {
+      "time": 1710231523218.9263,
+      "uuid": "060511c9-f6c5-410c-9bff-b7efd66ab720"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Player.prefab": {
+      "time": 1710484804569.9282,
+      "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\PlayerRoom.scene": {
+      "time": 1711014459805.38,
+      "uuid": "6d56bca0-f375-4254-ac0c-f8086a11cbb7"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\pngwing.com.png": {
+      "time": 1710231523441.7166,
+      "uuid": "824fc2ae-cc7c-41ad-a7a0-54a2ca8cd1f4"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\pol3.png": {
+      "time": 1710231523487.7793,
+      "uuid": "5623aa38-a4c6-4465-b808-6d084093731e"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\ropeTest.png": {
+      "time": 1710231523586.5315,
+      "uuid": "088af85f-630e-4ecd-91d9-f990abf67254"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scenePrototype.scene": {
+      "time": 1710484804590.098,
+      "uuid": "ea86a450-29ca-4fa4-bd55-c76538ef75c9"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\speed.png": {
+      "time": 1710440254839.4016,
+      "uuid": "8cdcc4d3-b643-42fc-966b-fa048940e8bf"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Stamin-up.png": {
+      "time": 1710440922166.495,
+      "uuid": "78a5beca-966d-46d2-be54-2c3280194834"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\start-mech.png": {
+      "time": 1710263637436.0562,
+      "uuid": "d44ca45f-8a53-4cb5-8715-b7f4be6ea0c2"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\StartMenu.scene": {
+      "time": 1710842513237.502,
+      "uuid": "363bc89a-67ea-4316-955f-a51c106998c9"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\stena1.png": {
+      "time": 1710231523648.5652,
+      "uuid": "42cb2127-d8f8-4bf1-803a-b5ae866310e2"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\stena3.png": {
+      "time": 1710231523697.116,
+      "uuid": "a2390a58-5404-40f2-b5ae-bf79429ee2d9"
+>>>>>>> Stashed changes
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\TEST-Boss.png": {
       "time": 1709651218512.4639,
@@ -911,6 +1077,7 @@
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\start-mech.png.meta": {
       "time": 1710228112584.046
     },
+<<<<<<< Updated upstream
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\start-mech.png": {
       "time": 1710228059765.5742,
       "uuid": "d44ca45f-8a53-4cb5-8715-b7f4be6ea0c2"
@@ -1056,6 +1223,102 @@
       "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\start-mech.png",
       "time": 1710226770619.8828,
       "removeTime": 1710228074472
+=======
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\Powerups\\Speedboost.prefab.meta": {
+      "time": 1710441972642.59
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_cruk-001.prefab.meta": {
+      "time": 1710263637397.1436
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_cruk-002.prefab.meta": {
+      "time": 1710263637400.1887
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_cruk.prefab.meta": {
+      "time": 1710263637401.372
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_papka.prefab.meta": {
+      "time": 1710263637403.6924
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_shop.prefab.meta": {
+      "time": 1710263637406.033
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\platforma\\Pol2.png.meta": {
+      "time": 1710263637393.3557
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_start-001.prefab.meta": {
+      "time": 1710263637408.0676
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_start-002.prefab.meta": {
+      "time": 1710263637410.5552
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_start-003.prefab.meta": {
+      "time": 1710263637411.853
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_start-004.prefab.meta": {
+      "time": 1710263637414.1545
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rooms\\room_test_start.prefab.meta": {
+      "time": 1710263637415.1511
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rope\\hook.prefab.meta": {
+      "time": 1710263637417.727
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly\\fakeFly.prefab.meta": {
+      "time": 1710484804580.0188
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\Enemy.prefab.meta": {
+      "time": 1710231525396.9175
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\rope\\ropeSegment1.prefab.meta": {
+      "time": 1710263637420.2583
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
+      "time": 1710265147998.9182
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka\\PiankaMenu.prefab.meta": {
+      "time": 1710484804584.0044
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\pianka\\Pianka.prefab.meta": {
+      "time": 1710263637391.3064
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\spisok\\Spisok.prefab.meta": {
+      "time": 1710321188141.5562
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\bullet.prefab.meta": {
+      "time": 1710264426975.7031
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\glock.prefab.meta": {
+      "time": 1710264426977.1846
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\MedicbagPayday2.png.meta": {
+      "time": 1709569098578.015
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups.meta": {
+      "time": 1711011734311.666
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups": {
+      "time": 1711012533887.7446,
+      "uuid": "c4cdee75-a7c7-4187-98e4-afe0e0bbd702"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups\\Medicbag.ts.meta": {
+      "time": 1710231524975.7234
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups\\Medicbag.ts": {
+      "time": 1711012533883.7444,
+      "uuid": "f17e1e7d-0567-47a7-82e0-36cbc6ed4db8"
+    }
+  },
+  "missing": {
+    "c4cdee75-a7c7-4187-98e4-afe0e0bbd702": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Powerups",
+      "time": 1711011734307.6655,
+      "removeTime": 1711011752293
+    },
+    "f17e1e7d-0567-47a7-82e0-36cbc6ed4db8": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Medicbag.ts",
+      "time": 1710231524954.8523,
+      "removeTime": 1711011759187
+>>>>>>> Stashed changes
     }
   }
 }

@@ -6,7 +6,7 @@ export class Player extends Component {
 
     @property(Label)
     HPLabel: Label = null;
-    public HP: number = 100;
+    public HP: number = 19;
 
     @property(Prefab)
     segmentPrefab: Prefab = null;
@@ -20,8 +20,16 @@ export class Player extends Component {
     private collider: any;
     private rigidbody: any;
     private direction: number = 0;
+<<<<<<< Updated upstream
     private walk_force: number = 100;
     private jump_force: number = 6000;
+=======
+    @property(Number)
+    private walk_force: number = 250;
+    @property(Number)
+    private jump_force: number = 500;
+
+>>>>>>> Stashed changes
     private _startJump: boolean = false;
 
     private rope: Node[] = [];
@@ -34,11 +42,17 @@ export class Player extends Component {
         this.HPLabel = this.node.getComponentInChildren(Label);
         systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.on(SystemEventType.KEY_UP, this.onKeyUp, this);
+<<<<<<< Updated upstream
         director.getScene().getChildByName("Canvas").getChildByName("WallOutside").on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
             if (event.getButton() == 2) {
                 this.hookLaunch(event.getLocation());
             } //console.log();
         }, this);
+=======
+        this.HPLabel.string = `HP: ${this.HP}`;
+        
+        
+>>>>>>> Stashed changes
     }
     hookJump() {
 
@@ -186,15 +200,7 @@ export class Player extends Component {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
-        if (otherCollider.node.name === 'Medicbag') {
-            this.increaseHealth(80);
-            otherCollider.node.removeFromParent();
-            otherCollider.node.destroy();
-            console.log('Ouagh thanks a lot my friend');
-            if (this.HPLabel) {
-                this.HPLabel.string = `HP: ${this.HP}`;
-            }
-        }
+
         if (otherCollider.node.name === 'FirstAidKit') {
             this.increaseHealth(20);
             otherCollider.node.removeFromParent();
@@ -212,11 +218,15 @@ export class Player extends Component {
 
     decreaseHealth(amount: number) {
         this.HP -= amount;
+        this.updateHealthLabel();
         if (this.HP < 0) {
             this.HP = 0;
         }
+<<<<<<< Updated upstream
         console.log(amount);
         this.updateHealthLabel();
+=======
+>>>>>>> Stashed changes
     }
 
     increaseHealth(amount: number) {
@@ -226,7 +236,17 @@ export class Player extends Component {
         }
         this.updateHealthLabel();
     }
+<<<<<<< Updated upstream
 
+=======
+    death() {
+        console.log("you're dead!")
+        if (this.HPLabel) {
+            this.HPLabel.string = 'DEAD'
+        }
+           this.destroy();
+    }
+>>>>>>> Stashed changes
 
     updateHealthLabel() {
         if (this.HPLabel) {
