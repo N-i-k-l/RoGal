@@ -1,79 +1,97 @@
-import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3 } from 'cc';
+import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3, RigidBody } from 'cc';
 const { ccclass, property } = _decorator;
-
+import { PlayerGlobal } from "../PlayerGlobal";
 @ccclass('Player')
 export class Player extends Component {
 
     @property(Label)
     HPLabel: Label = null;
-    public HP: number = 19;
+    public HP: number = 100;
 
     @property(Prefab)
     segmentPrefab: Prefab = null;
 
     @property(Prefab)
     hookPrefab: Prefab = null;
+    
 
     @property
     ropeLength: number = 10;
 
     private collider: any;
-    private rigidbody: any;
+    private rigidbody: RigidBody2D;
     private direction: number = 0;
-<<<<<<< Updated upstream
-    private walk_force: number = 100;
-    private jump_force: number = 6000;
-=======
     @property(Number)
     private walk_force: number = 250;
-    @property(Number)
     private jump_force: number = 500;
 
->>>>>>> Stashed changes
     private _startJump: boolean = false;
 
     private rope: Node[] = [];
     private hook: Node;
     private hContact: boolean = false;
+    private contactObject: RigidBody2D;
     private hLaunch: boolean = false;
+    private cutTheRope: number = 0;
+    private isSmall: boolean = false;
+    private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>", "FirstAidKit<BoxCollider2D>" ];
+
+    private weapons;
+    private currentWeapon: number = 0;
+
+    private costil: boolean = true;
     
 
     onLoad() {
+        PlayerGlobal.playerNode = this.node;
         this.HPLabel = this.node.getComponentInChildren(Label);
         systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.on(SystemEventType.KEY_UP, this.onKeyUp, this);
-<<<<<<< Updated upstream
-        director.getScene().getChildByName("Canvas").getChildByName("WallOutside").on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-            if (event.getButton() == 2) {
-                this.hookLaunch(event.getLocation());
-            } //console.log();
-        }, this);
-=======
-        this.HPLabel.string = `HP: ${this.HP}`;
         
         
->>>>>>> Stashed changes
+        
     }
-    hookJump() {
 
+    hookJump() {
+        let a = this.hook.getWorldPosition().subtract(this.node.getWorldPosition());
+        this.rigidbody.applyForceToCenter(new Vec2(a.x*10000, a.y*10000), true);
+        this.hookDespawn();
     }
+
+    hookGrab() {
+        let a = this.node.getWorldPosition().subtract(this.hook.getWorldPosition());
+        this.contactObject.applyForceToCenter(new Vec2(a.x * 1000, a.y * 1000), true)
+        this.hookDespawn();
+    }
+
     hookLaunch(mouseLoc: Vec2) {
-        if (this.hContact) this.hookDespawn();
+        
+        if (this.hContact) {
+            if (this.isSmall) {
+                this.hookGrab();
+            }
+            else {
+                this.hookJump();
+            }
+            
+            return
+        }
         if (this.hLaunch) return;
+        this.cutTheRope = 0;
         this.hLaunch = true;
-        console.log(mouseLoc);
-        console.log(this.node.position);
+        //console.log(mouseLoc);
+        //console.log(this.node.position);
         let prevSegment = this.node;
         let sc = director.getScene().getChildByName("Canvas");
         
         for (let i = 0; i < this.ropeLength; i++) {
             let segment = instantiate(this.segmentPrefab);
-            
             sc.addChild(segment);
-            segment.setPosition(prevSegment.position.x, prevSegment.position.y);
-
+            segment.setWorldPosition(this.node.worldPosition)
             let distanceJoint = segment.getComponent(DistanceJoint2D);
-
+            this.cutTheRope += distanceJoint.maxLength;
+            
+            //setTimeout(function () { segment.getComponent(BoxCollider2D).enabled = true }, 10000);
             if (distanceJoint) {
                 distanceJoint.connectedBody = prevSegment.getComponent(RigidBody2D);
                 distanceJoint.enabled = false; //Удаление этой строки ломает всю физику
@@ -88,8 +106,8 @@ export class Player extends Component {
         
         this.hook = instantiate(this.hookPrefab);
         sc.addChild(this.hook);
-        this.hook.setPosition(prevSegment.position.x, prevSegment.position.y);
-
+        this.hook.setWorldPosition(this.node.worldPosition);
+        
         this.hook.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.hookHit, this);
 
         let distanceJoint = this.hook.getComponent(DistanceJoint2D);
@@ -99,24 +117,27 @@ export class Player extends Component {
         //let x = 0;
         //if (mouseLoc.x - this.node.worldPosition.x < 0)
         //console.log(x)
-        let a = new Vec2;
-        let b = new Vec2(this.node.worldPosition.x, this.node.worldPosition.y);
-        a = mouseLoc.subtract(b);
-        console.log(a);
-        let modul: number = (Math.abs(this.node.worldPosition.x) * Math.abs(this.node.worldPosition.y)) / (Math.abs(a.x) * Math.abs(a.y));
-        //a.set(a.x * modul, a.y * modul);
-        console.log(a);
-        //console.log(mouseLoc.signAngle(a));
-        //(/*(new Vec2(this.node.position.x, this.node.position.y)).angle(mouseLoc)*/);
-        this.hook.getComponent(RigidBody2D).linearVelocity = a;
+        let tar: Vec2 = mouseLoc.subtract(new Vec2(this.node.worldPosition.x,this.node.worldPosition.y));
+        let mult: number = 10 / tar.length();
+        tar.set(tar.x * mult, tar.y * mult);
+        this.hook.getComponent(RigidBody2D).linearVelocity = tar;
+        console.log(this.node.getWorldPosition());
         //mouseLoc.x - this.node.worldPosition.x, mouseLoc.y - this.node.worldPosition.y); //applyForceToCenter(new Vec2(mouseLoc.x - this.node.worldPosition.x, mouseLoc.y - this.node.worldPosition.y), true);
         //setTimeout(this.hookDespawn, 10000);
     }
 
     hookHit(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
+        
         if (otherCollider.name != "ropeSegment1<BoxCollider2D>" && !this.hContact && otherCollider.node != this.node) {
+            if (this.smallList.indexOf(otherCollider.name) !== 1) {
+                this.isSmall = true;
+            }
+            else {
+                this.isSmall = false;
+            }
+            this.contactObject = otherCollider.node.getComponent(RigidBody2D);
             this.hContact = true;
-            console.log(otherCollider.node);
+            console.log(otherCollider.name);
             this.hook.getComponent(RigidBody2D).linearVelocity = new Vec2(0, 0);
             for (let i in this.rope) {
                 //console.log(i);
@@ -126,6 +147,7 @@ export class Player extends Component {
     }
 
     hookDespawn() {
+        
         this.hook.removeFromParent();
         this.hook.destroy();
         let c: Node;
@@ -142,24 +164,40 @@ export class Player extends Component {
     
 
     start() {
+
         this.rigidbody = this.node.getComponent(RigidBody2D);
 
         this.collider = this.node.getComponent(BoxCollider2D);
         if (this.collider) {
             this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
         }
+        
     }
 
+    getDistance(dot1: Vec3, dot2: Vec3) {
+        return dot1.subtract(dot2).length();
+    }
 
     update(deltaTime: number) {
         this.rigidbody.applyForceToCenter(new Vec2(this.direction * this.walk_force, 0), true);
         if (this.hook && !this.hContact) {
-
+            if (this.cutTheRope != 0 && this.cutTheRope < this.getDistance(this.hook.getWorldPosition(), this.node.getWorldPosition())) {
+                this.hookDespawn();
+            }
         }
     }
 
 
     onKeyDown(event: EventKeyboard) {
+        if (this.costil) {
+            PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+                if (event.getButton() == 2) {
+                    this.hookLaunch(event.getUILocation());
+                } //console.log();
+            }, this);
+            this.costil = false;
+        }
+
         switch (event.keyCode) {
             case 65: // A
             case 37: // LEFT
@@ -168,7 +206,6 @@ export class Player extends Component {
             case 68: // D
             case 39: // RIGHT
                 this.direction = 1;
-                //this.node.setScale(new Vec3(this.node.scale.x * -1, this.node.scale.y));
                 break;
             case 32: // SPACE
             case 38: // UP
@@ -200,7 +237,15 @@ export class Player extends Component {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
-
+        if (otherCollider.node.name === 'Medicbag') {
+            this.increaseHealth(80);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+            console.log('Ouagh thanks a lot my friend');
+            if (this.HPLabel) {
+                this.HPLabel.string = `HP: ${this.HP}`;
+            }
+        }
         if (otherCollider.node.name === 'FirstAidKit') {
             this.increaseHealth(20);
             otherCollider.node.removeFromParent();
@@ -210,6 +255,20 @@ export class Player extends Component {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
+        if (otherCollider.node.name === 'Speedboost') {
+            console.log('Speed boosted!');
+            this.walk_force *= 3;
+            console.log(`Current speed rate - ${this.walk_force}`);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+        }
+        if (otherCollider.node.name === 'Jumpboost') {
+            console.log('Jump boosted!');
+            this.jump_force *= 3;
+            console.log(`Current jump rate - ${this.jump_force}`);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+        }
         if ((otherCollider.node.worldPosition.y < this.node.worldPosition.y) && (otherCollider.node.getComponent(BoxCollider2D).sensor == false)) {
             //console.log(otherCollider.name);
             this._startJump = false;
@@ -218,15 +277,11 @@ export class Player extends Component {
 
     decreaseHealth(amount: number) {
         this.HP -= amount;
-        this.updateHealthLabel();
         if (this.HP < 0) {
             this.HP = 0;
+            this.death()
         }
-<<<<<<< Updated upstream
-        console.log(amount);
         this.updateHealthLabel();
-=======
->>>>>>> Stashed changes
     }
 
     increaseHealth(amount: number) {
@@ -236,17 +291,10 @@ export class Player extends Component {
         }
         this.updateHealthLabel();
     }
-<<<<<<< Updated upstream
-
-=======
     death() {
         console.log("you're dead!")
-        if (this.HPLabel) {
-            this.HPLabel.string = 'DEAD'
-        }
-           this.destroy();
+        this.
     }
->>>>>>> Stashed changes
 
     updateHealthLabel() {
         if (this.HPLabel) {
@@ -261,6 +309,7 @@ export class Player extends Component {
     }
 
     onKeyUp(event: EventKeyboard) {
+
         switch (event.keyCode) {
             case 65: // A
             case 37: // LEFT:

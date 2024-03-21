@@ -2,7 +2,7 @@
   "ver": "1.0.26",
   "importer": "image",
   "imported": true,
-  "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0",
+  "uuid": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e",
   "files": [
     ".json",
     ".png"
@@ -10,14 +10,14 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0@6c48a",
+      "uuid": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e@6c48a",
       "displayName": "Летающий враг",
       "id": "6c48a",
       "name": "texture",
       "userData": {
         "wrapModeS": "clamp-to-edge",
         "wrapModeT": "clamp-to-edge",
-        "imageUuidOrDatabaseUri": "65c850c5-c972-46cb-a7cc-1908493112d0",
+        "imageUuidOrDatabaseUri": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e",
         "isUuid": true,
         "visible": false,
         "minfilter": "linear",
@@ -34,7 +34,7 @@
     },
     "f9941": {
       "importer": "sprite-frame",
-      "uuid": "65c850c5-c972-46cb-a7cc-1908493112d0@f9941",
+      "uuid": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e@f9941",
       "displayName": "Летающий враг",
       "id": "f9941",
       "name": "spriteFrame",
@@ -114,7 +114,7 @@
           ]
         },
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "65c850c5-c972-46cb-a7cc-1908493112d0@6c48a",
+        "imageUuidOrDatabaseUri": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e@6c48a",
         "atlasUuid": ""
       },
       "ver": "1.0.12",
@@ -129,6 +129,6 @@
     "type": "sprite-frame",
     "hasAlpha": true,
     "fixAlphaTransparencyArtifacts": false,
-    "redirect": "65c850c5-c972-46cb-a7cc-1908493112d0@f9941"
+    "redirect": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e@f9941"
   }
 }

@@ -7,7 +7,7 @@ const { ccclass, property } = _decorator;
 export class damageAura extends Component {
     
     @property
-    dmg: number = 10;
+    dmg: number = 0;
     @property
     isDamageble: number = 1;
     @property
