@@ -279,8 +279,8 @@ export class Player extends Component {
         this.HP -= amount;
         if (this.HP < 0) {
             this.HP = 0;
+            this.death()
         }
-        console.log(amount);
         this.updateHealthLabel();
     }
 
@@ -291,7 +291,10 @@ export class Player extends Component {
         }
         this.updateHealthLabel();
     }
-
+    death() {
+        console.log("you're dead!")
+        this.
+    }
 
     updateHealthLabel() {
         if (this.HPLabel) {
@@ -306,6 +309,7 @@ export class Player extends Component {
     }
 
     onKeyUp(event: EventKeyboard) {
+
         switch (event.keyCode) {
             case 65: // A
             case 37: // LEFT:
