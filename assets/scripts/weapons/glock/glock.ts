@@ -55,4 +55,5 @@ export class glock extends Component {
         //this.gun.setWorldPosition(this.node.worldPosition);
     }
 }
-
+
+

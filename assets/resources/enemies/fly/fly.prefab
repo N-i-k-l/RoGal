@@ -156,13 +156,13 @@
     "__prefab": {
       "__id__": 7
     },
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_group": 2,
     "_type": 2,
     "_allowSleep": true,
-    "_gravityScale": 3,
+    "_gravityScale": 1,
     "_linearDamping": 3,
     "_angularDamping": 0,
     "_linearVelocity": {
@@ -192,7 +192,7 @@
     },
     "tag": 0,
     "_group": 2,
-    "_density": 1,
+    "_density": 0.1,
     "_sensor": false,
     "_friction": 0.2,
     "_restitution": 0,
@@ -224,7 +224,7 @@
     "__prefab": {
       "__id__": 11
     },
-    "Speed": 5,
+    "Speed": 10,
     "DMG": 0,
     "_id": ""
   },
@@ -244,8 +244,9 @@
     "__prefab": {
       "__id__": 13
     },
-    "dmg": 5,
-    "isDamageble": true,
+    "dmg": 50,
+    "isDamageble": 1,
+    "HP": 100,
     "_id": ""
   },
   {

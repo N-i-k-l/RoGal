@@ -1,6 +1,7 @@
 import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsGroup } from 'cc';
 import { Player } from '../../../Player/Player';
 import { PlayerGlobal } from '../../../PlayerGlobal';
+import { BOXCOLLIDER2D } from '../../../../../extensions/plugin-import-2x/creator/components/BoxCollider2D';
 const { ccclass, property } = _decorator;
 
 @ccclass('damageAura')
@@ -22,15 +23,17 @@ export class damageAura extends Component {
         this.hitbox = this.node.addComponent(BoxCollider2D);
         this.hitbox.group = 16;
         this.hitbox.sensor = true;
-        this.hitbox.size //= hitbox.size;
-        this.hitbox.offset //= hitbox.offset;
-        if (this.dmg != 0) this.hitbox.on(Contact2DType.BEGIN_CONTACT, this.dealDmg, this);
+        this.hitbox.size = hitbox.size;
+        this.hitbox.offset = hitbox.offset;
+        
     }
 
     dealDmg(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null)
     {
-        if (otherCollider.group != 1)
-        this.player.decreaseHealth(this.dmg);
+        if (otherCollider.group == this.player.getComponent(BoxCollider2D).group) {
+            console.log("S");
+            this.player.decreaseHealth(this.dmg);
+        }
     }
 
     getDmg(DMG: number)
@@ -40,7 +43,7 @@ export class damageAura extends Component {
     }
 
     start() {
-        
+        if (this.dmg != 0) this.hitbox.on(Contact2DType.BEGIN_CONTACT, this.dealDmg, this);
     }
 
     update(deltaTime: number) {
