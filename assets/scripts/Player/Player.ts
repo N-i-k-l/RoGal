@@ -293,7 +293,7 @@ export class Player extends Component {
     }
     death() {
         console.log("you're dead!")
-        this.
+        //this.
     }
 
     updateHealthLabel() {

@@ -50,19 +50,22 @@
       },
       {
         "__id__": 88
+      },
+      {
+        "__id__": 96
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 99
+        "__id__": 107
       },
       {
-        "__id__": 101
+        "__id__": 109
       }
     ],
     "_prefab": {
-      "__id__": 103
+      "__id__": 111
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -1955,7 +1958,7 @@
       "__id__": 88
     },
     "asset": {
-      "__uuid__": "eb0681b3-d5f2-4bce-9d13-b43f6689e571",
+      "__uuid__": "5b7e2444-cb39-4ae7-a774-4a7f7c48e7d1",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
@@ -1966,7 +1969,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "c2t0fd6tZPD6yESd4wPDYG",
+    "fileId": "c2RIY7gwRLJJ4AV2zwB8Ed",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -1984,12 +1987,6 @@
       },
       {
         "__id__": 95
-      },
-      {
-        "__id__": 96
-      },
-      {
-        "__id__": 98
       }
     ],
     "removedComponents": []
@@ -2000,14 +1997,9 @@
       "__id__": 92
     },
     "propertyPath": [
-      "_lpos"
+      "_name"
     ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": -3.768,
-      "y": 3.818,
-      "z": 0
-    }
+    "value": "ball"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2021,9 +2013,14 @@
       "__id__": 92
     },
     "propertyPath": [
-      "_name"
+      "_lpos"
     ],
-    "value": "Player"
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
   },
   {
     "__type__": "CCPropertyOverrideInfo",
@@ -2057,9 +2054,127 @@
     }
   },
   {
+    "__type__": "cc.Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_prefab": {
+      "__id__": 97
+    },
+    "__editorExtras__": {}
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 96
+    },
+    "asset": {
+      "__uuid__": "eb0681b3-d5f2-4bce-9d13-b43f6689e571",
+      "__expectedType__": "cc.Prefab"
+    },
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
+    "instance": {
+      "__id__": 98
+    },
+    "targetOverrides": null
+  },
+  {
+    "__type__": "cc.PrefabInstance",
+    "fileId": "c2t0fd6tZPD6yESd4wPDYG",
+    "prefabRootNode": {
+      "__id__": 1
+    },
+    "mountedChildren": [],
+    "mountedComponents": [],
+    "propertyOverrides": [
+      {
+        "__id__": 99
+      },
+      {
+        "__id__": 101
+      },
+      {
+        "__id__": 102
+      },
+      {
+        "__id__": 103
+      },
+      {
+        "__id__": 104
+      },
+      {
+        "__id__": 106
+      }
+    ],
+    "removedComponents": []
+  },
+  {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 97
+      "__id__": 100
+    },
+    "propertyPath": [
+      "_lpos"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": -3.768,
+      "y": 3.818,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "c46/YsCPVOJYA4mWEpNYRx"
+    ]
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 100
+    },
+    "propertyPath": [
+      "_name"
+    ],
+    "value": "Player"
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 100
+    },
+    "propertyPath": [
+      "_lrot"
+    ],
+    "value": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 100
+    },
+    "propertyPath": [
+      "_euler"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 105
     },
     "propertyPath": [
       "_orthoHeight"
@@ -2075,7 +2190,7 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
-      "__id__": 97
+      "__id__": 105
     },
     "propertyPath": [
       "_enabled"
@@ -2092,7 +2207,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 100
+      "__id__": 108
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -2120,7 +2235,7 @@
     },
     "_enabled": false,
     "__prefab": {
-      "__id__": 102
+      "__id__": 110
     },
     "_projection": 0,
     "_priority": 0,
@@ -2174,6 +2289,9 @@
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
+      {
+        "__id__": 96
+      },
       {
         "__id__": 88
       }

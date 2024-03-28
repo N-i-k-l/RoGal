@@ -554,7 +554,7 @@
     "_priority": 1,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 59,
+    "_orthoHeight": 89,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -615,7 +615,6 @@
     },
     "ropeLength": 30,
     "walk_force": 250,
-    "jump_force": 500,
     "_id": ""
   },
   {
