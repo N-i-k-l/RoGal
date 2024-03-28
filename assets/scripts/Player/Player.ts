@@ -40,6 +40,8 @@ export class Player extends Component {
     private currentWeapon: number = 0;
 
     private costil: boolean = true;
+    @property(Node)
+    sword: Node;
     
 
     onLoad() {
@@ -188,47 +190,51 @@ export class Player extends Component {
     }
 
 
-    onKeyDown(event: EventKeyboard) {
-        if (this.costil) {
-            PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-                if (event.getButton() == 2) {
-                    this.hookLaunch(event.getUILocation());
-                } //console.log();
-            }, this);
-            this.costil = false;
-        }
-
-        switch (event.keyCode) {
-            case 65: // A
-            case 37: // LEFT
-                this.direction = -1;
-                break;
-            case 68: // D
-            case 39: // RIGHT
-                this.direction = 1;
-                break;
-            case 32: // SPACE
-            case 38: // UP
-                console.log("trytojump");
-                if (this._startJump) {
-                    console.log("alreadyjump");
-                    return;
-                }
-
-                if (!this._startJump) {
-                    console.log("isonground");
-                    this._startJump = true;
-                    this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
-                } else {
-                    console.log("intheair");
-                }
-                break;
-            case 70: // F
-                this.node.getComponent(sprite)
-            default:
-                break;
-        }
+onKeyDown(event: EventKeyboard) {
+    if (this.costil) {
+        PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+            if (event.getButton() == 2) {
+                this.hookLaunch(event.getUILocation());
+            } //console.log();
+        }, this);
+        this.costil = false;
     }
+
+    switch (event.keyCode) {
+        case 65: // A
+        case 37: // LEFT
+            this.direction = -1;
+            break;
+        case 68: // D
+        case 39: // RIGHT
+            this.direction = 1;
+            break;
+        case 32: // SPACE
+        case 38: // UP
+            console.log("trytojump");
+            if (this._startJump) {
+                console.log("alreadyjump");
+                return;
+            }
+
+            if (!this._startJump) {
+                console.log("isonground");
+                this._startJump = true;
+                this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
+            } else {
+                console.log("intheair");
+            }
+            break;
+        case 70: // F
+            if (this.sword) {
+                this.sword.swing();
+            }
+            break;
+        default:
+            break;
+    }
+}
+
 
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node.name === 'Enemy') {

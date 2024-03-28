@@ -842,7 +842,7 @@
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts": {
-      "time": 1711637776335.143,
+      "time": 1711651909396.2383,
       "uuid": "7ea34dfb-51a7-480e-bd23-9653b23b0dde"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\debug": {
@@ -882,15 +882,15 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups": {
-      "time": 1711637750413.2422,
+      "time": 1711651909399.7456,
       "uuid": "c4cdee75-a7c7-4187-98e4-afe0e0bbd702"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player": {
-      "time": 1711639043523.165,
+      "time": 1711656392380.6135,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons": {
-      "time": 1711640627460.9963,
+      "time": 1711651909392.238,
       "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly": {
@@ -930,11 +930,11 @@
       "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic": {
-      "time": 1711651369181.5686,
+      "time": 1711656659328.5066,
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\folder\\swordDefault": {
-      "time": 1711640723981.5227,
+      "time": 1711657039539.1987,
       "uuid": "ddb5c8ce-7396-4189-a60e-574b21b443c4"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\changeRoom.ts": {
@@ -990,11 +990,11 @@
       "uuid": "aefa44ae-93f8-4cb4-8775-f7170506b757"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups\\Medicbag.ts": {
-      "time": 1711637750413.2422,
+      "time": 1711651909398.2375,
       "uuid": "df9d5bb1-7edd-497f-85ba-fed8267c04cc"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1711639043510.162,
+      "time": 1711656291160.3752,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\PlayerController.ts": {
@@ -1014,7 +1014,7 @@
       "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\damageAura.ts": {
-      "time": 1711651369177.569,
+      "time": 1711652016061.985,
       "uuid": "4bed0eb4-b05a-4c03-838a-f4bbbe1ac110"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\fakeAir.ts": {
@@ -1026,11 +1026,11 @@
       "uuid": "f285c825-05ca-44cf-83b7-bbfe1d797b1f"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts": {
-      "time": 1711052255499.6416,
+      "time": 1711656659323.9004,
       "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\folder\\swordDefault\\sword.ts": {
-      "time": 1711640723978.011,
+      "time": 1711657039533.529,
       "uuid": "ac04d957-8427-40fc-9723-11cc0e35ff5f"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources.meta": {
@@ -1067,7 +1067,7 @@
       "time": 1711052254827.0166
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups.meta": {
-      "time": 1711637750413.2422
+      "time": 1711651909396.2383
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player.meta": {
       "time": 1711052254790.3865
@@ -1148,7 +1148,7 @@
       "time": 1711052255144.2532
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups\\Medicbag.ts.meta": {
-      "time": 1711637750414.2422
+      "time": 1711651909399.7456
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\Player.ts.meta": {
       "time": 1711052254915.2354
@@ -1229,7 +1229,7 @@
       "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\PlayerRoom.scene": {
-      "time": 1711638035593.7598,
+      "time": 1711657090271.8555,
       "uuid": "1b8558d5-6e4e-405a-b041-c47b2f6e51d0"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\pngwing.com.png": {
@@ -1498,7 +1498,7 @@
       "time": 1711637776308.24
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\PlayerRoom.scene.meta": {
-      "time": 1711638035620.3118
+      "time": 1711651909395.2383
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scenePrototype.scene.meta": {
       "time": 1711052245994.775
@@ -1676,6 +1676,20 @@
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\glock.prefab.meta": {
       "time": 1711052247712.143
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\swordanimation.anim.meta": {
+      "time": 1711652716807.9824
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\swordanimation.anim": {
+      "time": 1711652716776.816,
+      "uuid": "2c63cfd6-3f2b-4be7-b051-f08166ec863c"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\newFile.ts.meta": {
+      "time": 1711656392383.6206
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\newFile.ts": {
+      "time": 1711656252910.2097,
+      "uuid": "b20bfcbd-e017-4f75-81f1-681de49599b6"
     }
   },
   "missing": {
