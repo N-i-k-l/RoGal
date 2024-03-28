@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.1",
+  "importer": "*",
+  "imported": true,
+  "uuid": "d57bcade-41a1-4e1a-912b-d5e8a40b478b",
+  "files": [
+    ".json",
+    ".sql"
+  ],
+  "subMetas": {},
+  "userData": {}
+}

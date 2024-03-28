@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "3cfb9247-5de8-451f-9481-6f78bec13010",
+  "uuid": "7126e7fb-c801-4e4a-bbf0-c0deb6346fa2",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "room_test_1"
+    "syncNodeName": "shooter"
   }
 }

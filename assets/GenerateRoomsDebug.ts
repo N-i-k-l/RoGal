@@ -1,4 +1,4 @@
-import { _decorator, Component, director, error, instantiate, Node, Prefab, resources, v2, Vec2 } from 'cc';
+import { _decorator, Component, director, error, instantiate, Node, Prefab, resources, v2, Vec2, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 class roomC
@@ -18,10 +18,10 @@ class roomC
         console.log("Room created");
     }
 
-    Place(sx: number, sy: number,direction:number): Vec2
+    Place(sx: number, sy: number,direction:number): Vec3
     {
-        let a: Vec2 = new Vec2(sx - this.dirList[2 * direction], sy - this.dirList[(2 * direction) + 1]);
-        this.Nd.setPosition(a.x, a.y);
+        let a: Vec3 = new Vec3(sx - this.dirList[2 * direction], sy - this.dirList[(2 * direction) + 1]);
+        this.Nd.setPosition(a);
         this.Block(direction, false);
         console.log("room placed at " + this.Nd.position)
         return a
@@ -52,18 +52,12 @@ export class GenerateRoomsDebug extends Component {
         console.log(this.rooms);
     }
 
-    initRoom(err, prefab) {
-        
-    }
-
     createRoom(p: string) {
         let a: any;
         let b: any;
         let dirList: number[] = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, 0, 0];
-        console.log(dirList);
         
-        resources.load(p, Prefab, (err, prefab) => {
-            
+        resources.load(p, Prefab, (err, prefab) => {       
             dirList = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,0,0];
             const newNode = instantiate(prefab);
             this.node.addChild(newNode);
@@ -99,7 +93,6 @@ export class GenerateRoomsDebug extends Component {
         while (this.rooms.length  > 0) {
             this.createRoom(this.rooms.pop());
         }
-        director.getScene().getChildByName
         setTimeout(() => {
             this.PlacedRooms.push(this.roomList.pop());
             this.PlacedRooms[0].Place(0,0,4)
@@ -107,11 +100,8 @@ export class GenerateRoomsDebug extends Component {
             let t: roomC;
             let r: number;
             let a;
-            //let r1: number;
-            let w = 0;
             while (this.roomList.length > 0) {
                 r = Math.floor(Math.random() * 2);
-                w++;
                 let count = 0;
                 let count1 = 0;
                 t = this.roomList.pop();
