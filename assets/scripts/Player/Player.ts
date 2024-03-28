@@ -223,6 +223,8 @@ export class Player extends Component {
                     console.log("intheair");
                 }
                 break;
+            case 70: // F
+                this.node.getComponent(sprite)
             default:
                 break;
         }
@@ -293,7 +295,9 @@ export class Player extends Component {
     }
     death() {
         console.log("you're dead!")
-        this.
+        this.node.off
+        this.node.destroy
+
     }
 
     updateHealthLabel() {
