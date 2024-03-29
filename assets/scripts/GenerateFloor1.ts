@@ -20,7 +20,7 @@ export class GenerateFloor1 extends Component {
     
 
     start() {
-        let roomPref: string[] = ['rooms/floor1/room_test_start', 'rooms/floor1/room_test_cruk','rooms/floor1/room_test_platform_15'];
+        let roomPref: string[] = ['rooms/floor1/room_test_start', 'rooms/floor1/room_test_cruk', 'rooms/floor1/room_test_platform_15', 'rooms/floor1/room_test_papka-001' /*'rooms/floor1/room_test_4'*/];
         this.a = roomPref.length;
         while (roomPref.length > 0){
             this.createRoom(roomPref.pop());
@@ -37,12 +37,12 @@ export class GenerateFloor1 extends Component {
         console.log(r);
         
         r.Nd.setPosition(point);
-        for (let i = 0/*Math.floor(Math.random() * 3)*/; i < 4; i +=  1/*Math.floor(Math.random() * 3)*/) {
+        for (let i = 0/*Math.floor(Math.random() * 3)*/; i < 2; i += 1) {
             if (!r) return 1
             if (!r.dirList[i]) continue
             console.log(i);
             status = this.asd(r.Nd.getPosition().add(r.dirList[i]).subtract(this.roomList[this.roomList.length - 1].dirList[this.reverser[i]]));
-            if (status == 1) break;
+            if (status == 1) return 1;
         }
         return 0;
     }
@@ -52,6 +52,7 @@ export class GenerateFloor1 extends Component {
             let dirList: Vec3[] = [null, null,null,null];
             const newNode = instantiate(prefab);
             this.node.addChild(newNode);
+            //newNode.setPosition(0, 0);
             let a = newNode.getChildByName('Door_left');
             let b = newNode.getChildByName('Door_right');
             if (a) {
