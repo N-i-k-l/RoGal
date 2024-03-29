@@ -35,6 +35,7 @@ export class genericGroundEnemy extends Component {
         this.player = PlayerGlobal.playerNode;
         this.startScale = this.node.scale.x;
         this.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.dealDmg, this);
+        this.updateHealthLabel()
     }
 
     update(deltaTime: number) {

@@ -1,4 +1,4 @@
-import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsGroup } from 'cc';
+import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsGroup, Label } from 'cc';
 import { Player } from '../../../Player/Player';
 import { PlayerGlobal } from '../../../PlayerGlobal';
 import { BOXCOLLIDER2D } from '../../../../../extensions/plugin-import-2x/creator/components/BoxCollider2D';
@@ -11,6 +11,8 @@ export class damageAura extends Component {
     dmg: number = 0;
     @property
     isDamageble: number = 1;
+    @property(Label)
+    HPLabel: Label = null;
     @property
     HP: number = 100;
     private hitbox: BoxCollider2D;
@@ -33,6 +35,13 @@ export class damageAura extends Component {
         if (otherCollider.group == this.player.getComponent(BoxCollider2D).group) {
             console.log("S");
             this.player.decreaseHealth(this.dmg);
+            this.updateHealthLabel();
+        }
+    }
+
+    updateHealthLabel() {
+        if (this.HPLabel) {
+            this.HPLabel.string = `HP: ${this.HP}`;
         }
     }
 

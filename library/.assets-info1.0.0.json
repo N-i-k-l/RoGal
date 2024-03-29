@@ -6,7 +6,7 @@
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts": {
-      "time": 1711651515675.1013,
+      "time": 1711690669121.9507,
       "uuid": "7ea34dfb-51a7-480e-bd23-9653b23b0dde"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms": {
@@ -22,7 +22,7 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player": {
-      "time": 1711090610971.3352,
+      "time": 1711690669122.9512,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GenerateRoomsDebug.ts": {
@@ -257,14 +257,14 @@
       "time": 1709726424511.1897
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic": {
-      "time": 1711684561294.714,
+      "time": 1711690669123.9502,
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts.meta": {
       "time": 1709726443043.488
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts": {
-      "time": 1711090285322.0654,
+      "time": 1711690669123.9502,
       "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\platforma.meta": {
@@ -320,7 +320,7 @@
       "time": 1707719032739.9792
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1711090610959.8584,
+      "time": 1711690669122.9512,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericAirEnemy.ts.meta": {
@@ -369,7 +369,7 @@
       "time": 1710263566366.5876
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons": {
-      "time": 1711090285330.067,
+      "time": 1711690669120.9502,
       "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock.meta": {
@@ -481,7 +481,7 @@
       "time": 1711090285322.0654
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\damageAura.ts": {
-      "time": 1711681056561.5015,
+      "time": 1711690669123.9502,
       "uuid": "4bed0eb4-b05a-4c03-838a-f4bbbe1ac110"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\rooms.ts.meta": {
@@ -549,9 +549,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\spisok.meta": {
       "time": 1711090285298.0706
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sword.ts.meta": {
-      "time": 1711090285330.067
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Powerups": {
       "time": 1711090285290.0647,
       "uuid": "0ee68f11-3f69-4403-9fe0-23b326f85214"
@@ -563,10 +560,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Sword.ts": {
       "time": 1711090285322.0654,
       "uuid": "dd910a8c-5720-48dd-b76a-949293b0e89b"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sword.ts": {
-      "time": 1711090285330.067,
-      "uuid": "71436a91-acd2-4d76-8700-6ec3bef4437a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\speed.png.meta": {
       "time": 1711090285338.0693
@@ -663,14 +656,14 @@
       "time": 1711090285330.067
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\folder\\swordDefault": {
-      "time": 1711090285330.067,
+      "time": 1711690669123.9502,
       "uuid": "ddb5c8ce-7396-4189-a60e-574b21b443c4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\folder\\swordDefault\\sword.ts.meta": {
       "time": 1711090285330.067
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\folder\\swordDefault\\sword.ts": {
-      "time": 1711090285330.067,
+      "time": 1711690669124.9504,
       "uuid": "ac04d957-8427-40fc-9723-11cc0e35ff5f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\GenerateFloor1.ts.meta": {
@@ -789,7 +782,7 @@
       "time": 1711090312059.5186
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
-      "time": 1711090312051.5176,
+      "time": 1711690669120.9502,
       "uuid": "1b8558d5-6e4e-405a-b041-c47b2f6e51d0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\shooter.prefab.meta": {
@@ -1057,6 +1050,34 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\bossTest.scene": {
       "time": 1711690521722.3645,
       "uuid": "f8f5bbdb-706a-4977-8f4d-5e4b3c6c946b"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups.meta": {
+      "time": 1711690669121.9507
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\Medicbag.ts.meta": {
+      "time": 1711690669121.9507
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\newFile.ts.meta": {
+      "time": 1711690669122.9512
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups": {
+      "time": 1711690669121.9507,
+      "uuid": "c4cdee75-a7c7-4187-98e4-afe0e0bbd702"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\Medicbag.ts": {
+      "time": 1711690669121.9507,
+      "uuid": "df9d5bb1-7edd-497f-85ba-fed8267c04cc"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\newFile.ts": {
+      "time": 1711690669122.9512,
+      "uuid": "b20bfcbd-e017-4f75-81f1-681de49599b6"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\swordanimation.anim.meta": {
+      "time": 1711690669124.9504
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\swordanimation.anim": {
+      "time": 1711690669124.9504,
+      "uuid": "2c63cfd6-3f2b-4be7-b051-f08166ec863c"
     }
   },
   "missing": {
@@ -1349,6 +1370,11 @@
       "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slime\\слайм.prefab",
       "time": 1711680832253.5444,
       "removeTime": 1711680904870
+    },
+    "71436a91-acd2-4d76-8700-6ec3bef4437a": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sword.ts",
+      "time": 1711090285330.067,
+      "removeTime": 1711690750018
     }
   }
 }
