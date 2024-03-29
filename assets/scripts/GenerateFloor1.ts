@@ -20,7 +20,7 @@ export class GenerateFloor1 extends Component {
     
 
     start() {
-        let roomPref: string[] = ['rooms/room_test_start', 'rooms/room_test_cruk','rooms/room_test_platform_15'];
+        let roomPref: string[] = ['rooms/floor1/room_test_start', 'rooms/floor1/room_test_cruk','rooms/floor1/room_test_platform_15'];
         this.a = roomPref.length;
         while (roomPref.length > 0){
             this.createRoom(roomPref.pop());
