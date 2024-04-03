@@ -6,7 +6,7 @@
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts": {
-      "time": 1711693948246.8684,
+      "time": 1712133072892.9966,
       "uuid": "7ea34dfb-51a7-480e-bd23-9653b23b0dde"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms": {
@@ -22,7 +22,7 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player": {
-      "time": 1711690761897.2466,
+      "time": 1712141741572.7021,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GenerateRoomsDebug.ts": {
@@ -229,7 +229,7 @@
       "time": 1709713475544.373
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab": {
-      "time": 1711090285298.0706,
+      "time": 1712143760637.5432,
       "uuid": "07540058-feb2-4428-a2ef-76a495bf8941"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy.meta": {
@@ -250,7 +250,7 @@
       "time": 1709726424511.1897
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic": {
-      "time": 1711690669123.9502,
+      "time": 1712143067984.8381,
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericGroundEnemy.ts.meta": {
@@ -369,14 +369,14 @@
       "time": 1710263566367.589
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock": {
-      "time": 1711090285330.067,
+      "time": 1712143646690.1367,
       "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts.meta": {
       "time": 1710263566368.588
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts": {
-      "time": 1711090285330.067,
+      "time": 1712143455455.2117,
       "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\bullet.prefab.meta": {
@@ -390,7 +390,7 @@
       "time": 1710263566368.588
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\Bullet.ts": {
-      "time": 1711090285330.067,
+      "time": 1712143646679.3945,
       "uuid": "0592fe65-b9ec-46ae-b626-dc2e30d9da13"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\touchArea.ts.meta": {
@@ -451,7 +451,7 @@
       "uuid": "acc008e4-cd5e-459f-a5ed-a3df858d3e36"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Sword.prefab": {
-      "time": 1711090285290.0647,
+      "time": 1711696255892.6392,
       "uuid": "b7fcaf8c-b493-4eed-a3fb-ffcfb903d8d4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Стена.png": {
@@ -474,7 +474,7 @@
       "time": 1711090285322.0654
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\damageAura.ts": {
-      "time": 1711690669123.9502,
+      "time": 1712143067974.4922,
       "uuid": "4bed0eb4-b05a-4c03-838a-f4bbbe1ac110"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\rooms.ts.meta": {
@@ -719,7 +719,7 @@
       "time": 1711090285322.0654
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\door.ts": {
-      "time": 1711090285322.0654,
+      "time": 1712133072891.9963,
       "uuid": "5a815377-15bd-4b5f-a5cd-e7164b643b70"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\doors\\doorBasic.prefab.meta": {
@@ -768,7 +768,7 @@
       "time": 1711090312059.5186
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
-      "time": 1711690669120.9502,
+      "time": 1711699856488.2068,
       "uuid": "1b8558d5-6e4e-405a-b041-c47b2f6e51d0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\shooter.prefab.meta": {
@@ -957,7 +957,7 @@
       "time": 1707818593520.7864
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_start.prefab": {
-      "time": 1711695120090.9023,
+      "time": 1712143162728.2712,
       "uuid": "468ebbd2-ae24-4673-8565-1e28b40d9995"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_cruk.prefab.meta": {
@@ -1092,6 +1092,34 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ФОН.png": {
       "time": 1711693334890.526,
       "uuid": "b8714d0c-63df-4406-891a-cfb8ec75310b"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController.meta": {
+      "time": 1712132329072.0813
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController": {
+      "time": 1712148446803.8657,
+      "uuid": "28d9a04e-3a3e-4dc9-88bc-7acbbd05ee07"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController\\roomController.ts.meta": {
+      "time": 1712132336559.2175
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController\\roomController.ts": {
+      "time": 1712148446794.8047,
+      "uuid": "61d6e3c0-5f49-4a0b-9f48-9cee899b17cd"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTest.scene.meta": {
+      "time": 1712133722587.9622
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTest.scene": {
+      "time": 1712148552150.9175,
+      "uuid": "10272a17-e98d-42a5-a7fa-c3fb7527f6bd"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Решотка.png.meta": {
+      "time": 1712141733355.0242
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Решотка.png": {
+      "time": 1712141692861.3235,
+      "uuid": "0e746a6c-7f55-4326-b936-38148708421a"
     }
   },
   "missing": {
@@ -1414,6 +1442,16 @@
       "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\ФОН.png",
       "time": 1711693334890.526,
       "removeTime": 1711693384034
+    },
+    "61d6e3c0-5f49-4a0b-9f48-9cee899b17cd": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController\\NewComponent.ts",
+      "time": 1712132336559.2175,
+      "removeTime": 1712132351344
+    },
+    "0e746a6c-7f55-4326-b936-38148708421a": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Решотка.png",
+      "time": 1712141692861.3235,
+      "removeTime": 1712141741575
     }
   }
 }

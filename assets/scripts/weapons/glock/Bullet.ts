@@ -19,6 +19,7 @@ export class bullet extends Component {
     }
 
     wallHit() {
+        console.log('OK');
         this.node.destroy();
     }
 

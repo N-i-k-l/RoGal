@@ -12,12 +12,21 @@ export class door extends Component {
     doorShut(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         console.log('a');
         if (otherCollider.group == PlayerGlobal.playerNode.getComponent(Collider2D).group) {
-            console.log('b');
-            this.node.getComponent(Sprite).enabled = false;
-            this.node.getComponent(Sprite).enabled = true;
-            this.node.getComponent(BoxCollider2D).enabled = false;
-            this.node.getComponent(BoxCollider2D).enabled = true;
+            this.doorClose();
         }
+    }
+
+    doorClose() {
+        console.log('b');
+        this.node.getComponent(Sprite).enabled = false;
+        this.node.getComponent(Sprite).enabled = true;
+        this.node.getComponent(BoxCollider2D).enabled = false;
+        this.node.getComponent(BoxCollider2D).enabled = true;
+    }
+
+    doorOpen() {
+        this.node.getComponent(Sprite).enabled = false;
+        this.node.getComponent(BoxCollider2D).enabled = false;
     }
 
     update(deltaTime: number) {

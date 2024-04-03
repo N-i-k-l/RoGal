@@ -49,7 +49,7 @@ export class damageAura extends Component {
     {
         this.HP -= DMG * this.isDamageble;
         console.log(this.node.name + " HP: " + this.HP);
-        this.die();
+        if (this.HP <=0)  this.die();
     }
 
     die() {
