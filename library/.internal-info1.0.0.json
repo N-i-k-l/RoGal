@@ -3,6 +3,9 @@
   "map": {
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
       "time": 1706351446078.0842,
       "uuid": "ce750465-15d2-42c5-b176-10f21578f3f0"
     },
@@ -3249,6 +3252,7 @@
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\dependencies\\textures\\lut\\original-color-grading.png.meta": {
       "time": 1706351446269.9275
+<<<<<<< Updated upstream
 =======
       "time": 1712131709423.9937,
       "uuid": "ce750465-15d2-42c5-b176-10f21578f3f0"
@@ -6496,6 +6500,8 @@
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\dependencies\\textures\\lut\\original-color-grading.png.meta": {
       "time": 1712131710465.3306
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
   },
