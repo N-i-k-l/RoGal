@@ -8,4 +8,5 @@ export class touchArea extends Component {
         PlayerGlobal.touchArea = this.node;
     }
 }
-
+
+

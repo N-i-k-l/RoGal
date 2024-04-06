@@ -82,8 +82,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 12,
-      "height": 12
+      "width": 3,
+      "height": 3
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -201,7 +201,7 @@
     "connectedBody": {
       "__id__": 6
     },
-    "_maxLength": 8,
+    "_maxLength": 2,
     "_autoCalcDistance": false,
     "_id": ""
   },
@@ -234,8 +234,8 @@
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 12,
-      "height": 12
+      "width": 3,
+      "height": 3
     },
     "_id": ""
   },

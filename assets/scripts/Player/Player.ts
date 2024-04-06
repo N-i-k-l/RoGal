@@ -21,7 +21,7 @@ export class Player extends Component {
     private collider: any;
     private rigidbody: RigidBody2D;
     private direction: number = 0;
-
+    @property(Number)
     private walk_force: number = 250;
     private jump_force: number = 500;
 
@@ -34,12 +34,14 @@ export class Player extends Component {
     private hLaunch: boolean = false;
     private cutTheRope: number = 0;
     private isSmall: boolean = false;
-    private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>"];
+    private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>", "FirstAidKit<BoxCollider2D>" ];
 
     private weapons;
     private currentWeapon: number = 0;
 
     private costil: boolean = true;
+    @property(Node)
+    sword: Node;
     
 
     onLoad() {
@@ -54,7 +56,7 @@ export class Player extends Component {
 
     hookJump() {
         let a = this.hook.getWorldPosition().subtract(this.node.getWorldPosition());
-        this.rigidbody.applyForceToCenter(new Vec2(a.x*1000, a.y*1000), true);
+        this.rigidbody.applyForceToCenter(new Vec2(a.x*10000, a.y*10000), true);
         this.hookDespawn();
     }
 
@@ -188,45 +190,51 @@ export class Player extends Component {
     }
 
 
-    onKeyDown(event: EventKeyboard) {
-        if (this.costil) {
-            PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-                if (event.getButton() == 2) {
-                    this.hookLaunch(event.getUILocation());
-                } //console.log();
-            }, this);
-            this.costil = false;
-        }
-
-        switch (event.keyCode) {
-            case 65: // A
-            case 37: // LEFT
-                this.direction = -1;
-                break;
-            case 68: // D
-            case 39: // RIGHT
-                this.direction = 1;
-                break;
-            case 32: // SPACE
-            case 38: // UP
-                console.log("trytojump");
-                if (this._startJump) {
-                    console.log("alreadyjump");
-                    return;
-                }
-
-                if (!this._startJump) {
-                    console.log("isonground");
-                    this._startJump = true;
-                    this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
-                } else {
-                    console.log("intheair");
-                }
-                break;
-            default:
-                break;
-        }
+onKeyDown(event: EventKeyboard) {
+    if (this.costil) {
+        PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+            if (event.getButton() == 2) {
+                this.hookLaunch(event.getUILocation());
+            } //console.log();
+        }, this);
+        this.costil = false;
     }
+
+    switch (event.keyCode) {
+        case 65: // A
+        case 37: // LEFT
+            this.direction = -1;
+            break;
+        case 68: // D
+        case 39: // RIGHT
+            this.direction = 1;
+            break;
+        case 32: // SPACE
+        case 38: // UP
+            console.log("trytojump");
+            if (this._startJump) {
+                console.log("alreadyjump");
+                return;
+            }
+
+            if (!this._startJump) {
+                console.log("isonground");
+                this._startJump = true;
+                this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
+            } else {
+                console.log("intheair");
+            }
+            break;
+        case 70: // F
+            if (this.sword) {
+                //this.sword.swing();
+            }
+            break;
+        default:
+            break;
+    }
+}
+
 
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node.name === 'Enemy') {
@@ -255,6 +263,20 @@ export class Player extends Component {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
+        if (otherCollider.node.name === 'Speedboost') {
+            console.log('Speed boosted!');
+            this.walk_force *= 3;
+            console.log(`Current speed rate - ${this.walk_force}`);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+        }
+        if (otherCollider.node.name === 'Jumpboost') {
+            console.log('Jump boosted!');
+            this.jump_force *= 3;
+            console.log(`Current jump rate - ${this.jump_force}`);
+            otherCollider.node.removeFromParent();
+            otherCollider.node.destroy();
+        }
         if ((otherCollider.node.worldPosition.y < this.node.worldPosition.y) && (otherCollider.node.getComponent(BoxCollider2D).sensor == false)) {
             //console.log(otherCollider.name);
             this._startJump = false;
@@ -265,8 +287,8 @@ export class Player extends Component {
         this.HP -= amount;
         if (this.HP < 0) {
             this.HP = 0;
+            this.death()
         }
-        console.log(amount);
         this.updateHealthLabel();
     }
 
@@ -277,7 +299,11 @@ export class Player extends Component {
         }
         this.updateHealthLabel();
     }
-
+    death() {
+        console.log("you're dead!")
+        this.node.off
+        this.node.destroy
+    }
 
     updateHealthLabel() {
         if (this.HPLabel) {
@@ -292,6 +318,7 @@ export class Player extends Component {
     }
 
     onKeyUp(event: EventKeyboard) {
+
         switch (event.keyCode) {
             case 65: // A
             case 37: // LEFT:

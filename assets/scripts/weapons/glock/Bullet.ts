@@ -1,4 +1,5 @@
 import { _decorator, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, RigidBody2D, Vec2, Vec3 } from 'cc';
+import { damageAura } from '../../npc/enemy/generic/damageAura';
 const { ccclass, property } = _decorator;
 
 @ccclass('bullet')
@@ -13,11 +14,12 @@ export class bullet extends Component {
     }
 
     Hit(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-        //this.node.removeFromParent();
+        if (otherCollider.group == 16) otherCollider.node.getComponent(damageAura).getDmg(20);
         this.wallHit();
     }
 
     wallHit() {
+        console.log('OK');
         this.node.destroy();
     }
 
@@ -26,4 +28,5 @@ export class bullet extends Component {
         this.node.getComponent(RigidBody2D).applyForceToCenter(this.target, true);
     }
 }
-
+
+

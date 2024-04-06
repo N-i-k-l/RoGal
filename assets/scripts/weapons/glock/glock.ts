@@ -23,8 +23,8 @@ export class glock extends Component {
     shoot(mouseLoc: Vec2) {
         if (this.hidden) return
         const Bullet = instantiate(this.Bullet);
-        this.C.addChild(Bullet);
-        Bullet.setPosition(this.gun.position);
+        director.getScene().getChildByName("Canvas").addChild(Bullet);
+        Bullet.setWorldPosition(this.C.worldPosition);
         Bullet.getComponent(bullet).setTarget(new Vec3(mouseLoc.x, mouseLoc.y));
     }
 
@@ -55,4 +55,5 @@ export class glock extends Component {
         //this.gun.setWorldPosition(this.node.worldPosition);
     }
 }
-
+
+

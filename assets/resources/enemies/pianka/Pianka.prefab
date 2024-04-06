@@ -162,10 +162,10 @@
     "enabledContactListener": false,
     "bullet": false,
     "awakeOnLoad": true,
-    "_group": 1,
+    "_group": 2,
     "_type": 2,
     "_allowSleep": true,
-    "_gravityScale": 3,
+    "_gravityScale": 5,
     "_linearDamping": 3,
     "_angularDamping": 0,
     "_linearVelocity": {
@@ -194,7 +194,7 @@
       "__id__": 9
     },
     "tag": 0,
-    "_group": 4,
+    "_group": 2,
     "_density": 1,
     "_sensor": false,
     "_friction": 0.2,
@@ -227,8 +227,15 @@
     "__prefab": {
       "__id__": 11
     },
+<<<<<<< HEAD
     "XSpeed": 0,
     "DMG": 0,
+=======
+    "player": null,
+    "XSpeed": 100,
+    "DMG": 0,
+    "HPLabel": null,
+>>>>>>> main
     "_id": ""
   },
   {
@@ -236,7 +243,11 @@
     "fileId": "24ZjmbSlpGKauossNuf7I4"
   },
   {
+<<<<<<< HEAD
     "__type__": "cc.Animation",
+=======
+    "__type__": "4bed060sFpMA4OK9Lu+GsEQ",
+>>>>>>> main
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -247,6 +258,7 @@
     "__prefab": {
       "__id__": 13
     },
+<<<<<<< HEAD
     "playOnLoad": false,
     "_clips": [
       {
@@ -258,11 +270,21 @@
       "__uuid__": "f665e54e-bc2a-4f56-b527-4401bf633802",
       "__expectedType__": "cc.AnimationClip"
     },
+=======
+    "dmg": 0,
+    "isDamageble": 1,
+    "HPLabel": null,
+    "HP": 100,
+>>>>>>> main
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
+<<<<<<< HEAD
     "fileId": "69xqPI3shF/IS3peROu44E"
+=======
+    "fileId": "50Y+ahhzRGEJyorXDFmat6"
+>>>>>>> main
   },
   {
     "__type__": "cc.PrefabInfo",

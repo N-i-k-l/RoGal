@@ -247,8 +247,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 10,
+      "y": 10,
       "z": 1
     },
     "_mobility": 0,
@@ -446,7 +446,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "12TUMhBUZKD5oFCET8BPEF"
+    "_id": "f0Hjrs/HZPGLrtXLJ4So5u"
   },
   {
     "__type__": "cc.PrefabInfo",
