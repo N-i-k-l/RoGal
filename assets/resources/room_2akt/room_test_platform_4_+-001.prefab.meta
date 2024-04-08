@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "63deb88a-6358-4fe4-8690-d8dfc0a799f9",
+  "uuid": "8844dae8-003f-42ba-8116-3e8f8368341b",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "шахта"
+    "syncNodeName": "room_test_platform_4_+-001"
   }
 }
