@@ -2,12 +2,12 @@
   "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
-  "uuid": "f5539832-d179-4955-9af4-32a104137a9d",
+  "uuid": "9be4d36c-943c-4e82-83c3-dad383078173",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "room_test_platform_8"
+    "syncNodeName": "room_test_platform_7_+"
   }
 }
