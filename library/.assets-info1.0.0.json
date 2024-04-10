@@ -2713,7 +2713,7 @@
       "time": 1712573955537.811
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt": {
-      "time": 1712744523615.5698,
+      "time": 1712768073272.243,
       "uuid": "5fcb7f0c-aab1-4396-8a12-e787bc00d63e"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+.prefab.meta": {
@@ -2939,6 +2939,34 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_start-002_+-001.prefab": {
       "time": 1712745960287.4292,
       "uuid": "a28bc3bc-1ca7-4da3-a15a-183512807751"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platforma_6_+-001.prefab.meta": {
+      "time": 1712765577203.491
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platforma_6_+-001.prefab": {
+      "time": 1712766331918.8774,
+      "uuid": "6fc44aa8-0f11-4e49-bcc7-5266a01033ea"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+-001.prefab.meta": {
+      "time": 1712766550453.6382
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+-001.prefab": {
+      "time": 1712767206606.3987,
+      "uuid": "027e9de7-6f86-4b2d-b6d7-ffcb87861fbd"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+-001.prefab.meta": {
+      "time": 1712767276857.588
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+-001.prefab": {
+      "time": 1712767804745.0422,
+      "uuid": "63ba3480-e2c8-4169-bca3-0f2428f32d2a"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_plantform_11_+-001.prefab.meta": {
+      "time": 1712767865296.3933
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_plantform_11_+-001.prefab": {
+      "time": 1712768272786.2908,
+      "uuid": "031600a0-46f0-4055-b66f-1a8e3c38d17f"
     }
   },
   "missing": {
@@ -3411,6 +3439,11 @@
       "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_+.prefab",
       "time": 1712580853667.7937,
       "removeTime": 1712583133162
+    },
+    "b73faf25-8cb6-4399-8f86-56bdce229500": {
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\PiankaMenu.prefab",
+      "time": 1712528252264.1711,
+      "removeTime": 1712768073283
     }
   }
 }
