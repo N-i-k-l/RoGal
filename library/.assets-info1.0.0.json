@@ -2713,7 +2713,7 @@
       "time": 1712573955537.811
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt": {
-      "time": 1712583192680.0657,
+      "time": 1712732480043.4263,
       "uuid": "5fcb7f0c-aab1-4396-8a12-e787bc00d63e"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+.prefab.meta": {
@@ -2783,7 +2783,7 @@
       "time": 1712574030489.7642
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+.prefab": {
-      "time": 1712582066744.702,
+      "time": 1712732436930.125,
       "uuid": "16ac7dc8-c98f-4e81-8626-5155ba8b8fa3"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_10_+.prefab.meta": {
@@ -2804,7 +2804,7 @@
       "time": 1712574058100.781
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_13_+.prefab": {
-      "time": 1712575912670.7856,
+      "time": 1712733224292.067,
       "uuid": "e58e1038-be61-4176-aefd-274fe039b2f8"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_14_+.prefab.meta": {
@@ -2925,6 +2925,13 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_4_+-001.prefab": {
       "time": 1712583654631.6018,
       "uuid": "8844dae8-003f-42ba-8116-3e8f8368341b"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_13_+-001.prefab.meta": {
+      "time": 1712732480059.4297
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_13_+-001.prefab": {
+      "time": 1712732480053.4321,
+      "uuid": "6ed333e2-e632-469d-bbeb-9b58d235fed8"
     }
   },
   "missing": {
