@@ -23,6 +23,7 @@ export class Player extends Component {
     private direction: number = 0;
     @property(Number)
     private walk_force: number = 250;
+    @property(Number)
     private jump_force: number = 500;
 
     private _startJump: boolean = false;
@@ -36,12 +37,38 @@ export class Player extends Component {
     private isSmall: boolean = false;
     private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>", "FirstAidKit<BoxCollider2D>" ];
 
-    private weapons;
-    private currentWeapon: number = 0;
+    //private weapons;
+    //private currentWeapon: number = 0;
 
     private costil: boolean = true;
-    @property(Node)
-    sword: Node;
+
+    private weaponSlot1: Component = null;
+    private weaponSlot2: Component = null;
+
+
+    switchWeapon() {
+        if (this.weaponSlot1 && this.weaponSlot2) {
+            this.weaponSlot1.hide();
+            this.weaponSlot2.show();
+            [this.weaponSlot1, this.weaponSlot2] = [this.weaponSlot2, this.weaponSlot1];
+            console.log(this.weaponSlot1, ", ", this.weaponSlot2)
+        }
+    }
+
+    pickupWeapon(weapon: any) {
+        this.node.addComponent(weapon);
+
+        if (!this.weaponSlot1) {
+            this.weaponSlot1 = this.node.getComponent(weapon);
+        } else if (!this.weaponSlot2) {
+            this.node.hide()
+            this.weaponSlot2 = this.node.getComponent(weapon);
+        } else {
+            this.weaponSlot1.
+            this.weaponSlot1 = this.node.getComponent(weapon);
+            //console.log("Нет свободных слотов для оружия!");
+        }
+    }
     
 
     onLoad() {
@@ -226,9 +253,13 @@ onKeyDown(event: EventKeyboard) {
             }
             break;
         case 70: // F
+<<<<<<< Updated upstream
             if (this.sword) {
                 this.sword.swing();
             }
+=======
+            this.switchWeapon()
+>>>>>>> Stashed changes
             break;
         default:
             break;
@@ -313,9 +344,7 @@ onKeyDown(event: EventKeyboard) {
     }
 
     onEndContact(contact, selfCollider, otherCollider) {
-
             this._startJump = false;
-        
     }
 
     onKeyUp(event: EventKeyboard) {

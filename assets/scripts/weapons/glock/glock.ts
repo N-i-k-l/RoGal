@@ -1,4 +1,4 @@
-import { _decorator, Component, director, EventMouse, instantiate, Node, Prefab, resources, Vec2, Vec3 } from 'cc';
+    import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Canvas } from 'cc';
 import { bullet } from './Bullet';
 import { PlayerGlobal } from '../../PlayerGlobal';
 const { ccclass, property } = _decorator;
@@ -8,7 +8,7 @@ export class glock extends Component {
     private Bullet: Prefab;
     private C: Node;
     private hidden: Boolean = false;
-
+    private gunAngle: number = 0;
     onLoad() {
         
     }
@@ -29,11 +29,14 @@ export class glock extends Component {
     }
 
     start() {
+        
         this.C = PlayerGlobal.playerNode;
+        PlayerGlobal.touchArea.on(Node.EventType.MOUSE_MOVE, this.mouseMove);
         resources.load("weapons/glock/glock", Prefab, (err, prefab) => {
             this.gun = instantiate(prefab);
             this.C.addChild(this.gun);
-            this.gun.setPosition(0,0);
+            this.gun.setPosition(0, 0);
+            PlayerGlobal.weapon = this.gun
         })
         resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {
             this.Bullet = prefab;
@@ -48,12 +51,26 @@ export class glock extends Component {
         })
     }
 
-    
+    mouseMove(event: EventMouse) {
+        //console.log(PlayerGlobal.weapon.angle)
+        //console.log(event.getUILocationX() + ' ' + event.getUILocationY());
+        console.log(director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY())))
+        let ML: Vec3 = director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY()));
+        PlayerGlobal.weapon.angle = 90 - math.toDegree(Math.atan2(ML.x, ML.y))
+        console.log(PlayerGlobal.weapon.angle)
+        console.log(PlayerGlobal.weapon.angle)
+        //const angleRadians = Math.atan2(this.node.worldPosition.y, this..x);
+        //const angleDegrees = math.toDegree(angleRadians);
+        //this.gunAngle = angleDegrees;
+        
+    } 
 
     update(deltaTime: number) { 
-        if (!this.gun) return
-        //this.gun.setWorldPosition(this.node.worldPosition);
+        //if (!this.gun) return
+        if (this.hidden) return;
+        //PlayerGlobal.weapon.angle = this.gunAngle
+       
+
     }
 }
-
 
