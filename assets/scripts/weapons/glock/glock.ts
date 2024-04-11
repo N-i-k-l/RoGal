@@ -9,6 +9,9 @@ export class glock extends Component {
     private C: Node;
     private hidden: Boolean = false;
     private gunAngle: number = 0;
+    private startScale: number;
+    private reversed: boolean = false;
+
     onLoad() {
         
     }
@@ -29,7 +32,7 @@ export class glock extends Component {
     }
 
     start() {
-        
+        this.startScale = this.node.scale.x;
         this.C = PlayerGlobal.playerNode;
         PlayerGlobal.touchArea.on(Node.EventType.MOUSE_MOVE, this.mouseMove);
         resources.load("weapons/glock/glock", Prefab, (err, prefab) => {
@@ -58,14 +61,15 @@ export class glock extends Component {
         let ML: Vec3 = director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY()));
         PlayerGlobal.weapon.angle = 90 - math.toDegree(Math.atan2(ML.x, ML.y))
         console.log(PlayerGlobal.weapon.angle)
-        console.log(PlayerGlobal.weapon.angle)
         //const angleRadians = Math.atan2(this.node.worldPosition.y, this..x);
         //const angleDegrees = math.toDegree(angleRadians);
         //this.gunAngle = angleDegrees;
         
     } 
 
-    update(deltaTime: number) { 
+    update(deltaTime: number) {
+        if (PlayerGlobal.weapon.angle > 90 || PlayerGlobal.weapon.angle < -90 && (this.reversed = false)) PlayerGlobal.weapon.setScale(new Vec3(PlayerGlobal.weapon.scale.x, PlayerGlobal.weapon.scale.y * -1)), console.log(this.reversed), this.reversed = true
+        else this.reversed = false
         //if (!this.gun) return
         if (this.hidden) return;
         //PlayerGlobal.weapon.angle = this.gunAngle

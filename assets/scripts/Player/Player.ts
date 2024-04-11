@@ -64,7 +64,6 @@ export class Player extends Component {
             this.node.hide()
             this.weaponSlot2 = this.node.getComponent(weapon);
         } else {
-            this.weaponSlot1.
             this.weaponSlot1 = this.node.getComponent(weapon);
             //console.log("Нет свободных слотов для оружия!");
         }
@@ -253,13 +252,7 @@ onKeyDown(event: EventKeyboard) {
             }
             break;
         case 70: // F
-<<<<<<< Updated upstream
-            if (this.sword) {
-                this.sword.swing();
-            }
-=======
             this.switchWeapon()
->>>>>>> Stashed changes
             break;
         default:
             break;
