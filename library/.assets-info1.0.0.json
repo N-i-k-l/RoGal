@@ -20115,7 +20115,7 @@
       "time": 1712884773003.4294
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt": {
-      "time": 1712886132965.9243,
+      "time": 1712886836376.5923,
       "uuid": "3bddad66-81ef-46c9-8821-0d67ac9e555b"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\Спуск(3АКТ).png.meta": {
@@ -20201,6 +20201,20 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_14_+-001.prefab": {
       "time": 1712886253449.7063,
       "uuid": "d5cf0148-88d6-44a7-b88c-dd821acc4ef9"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\room_=.prefab.meta": {
+      "time": 1712886588636.6785
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\room_=.prefab": {
+      "time": 1712886731153.757,
+      "uuid": "2ad611b9-0149-4992-8bfb-2ae32c26dab9"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_9_+-001.prefab.meta": {
+      "time": 1712886836371.5903
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_9_+-001.prefab": {
+      "time": 1712887098700.0657,
+      "uuid": "b8741f12-6d36-4456-a0ff-01dda1be4e54"
     }
   },
   "missing": {
