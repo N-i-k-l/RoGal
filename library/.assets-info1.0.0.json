@@ -6864,7 +6864,7 @@
       "uuid": "26f329e7-2ab8-41ba-8b6e-414434c5e108"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\cocos-awesome-tech-solutions.meta": {
-      "time": 1712884745582.7168
+      "time": 1712889411376.1592
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\cocos-awesome-tech-solutions\\demo.meta": {
       "time": 1712863681442.5112
@@ -20115,7 +20115,7 @@
       "time": 1712884773003.4294
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt": {
-      "time": 1712889221805.8206,
+      "time": 1712889456818.1829,
       "uuid": "3bddad66-81ef-46c9-8821-0d67ac9e555b"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\Спуск(3АКТ).png.meta": {
@@ -20231,11 +20231,11 @@
       "uuid": "9ffc57ee-f3b3-44bf-a733-0ac0e0479061"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\шахта-.prefab.meta": {
-      "time": 1712889221801.821
+      "time": 1712889456813.1812
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\шахта-.prefab": {
-      "time": 1712889277999.965,
-      "uuid": "6b279515-9df2-4378-90f0-1718aab5a2cf"
+      "time": 1712891704102.5747,
+      "uuid": "11c2aaea-96d9-4a27-b61a-a00f65fe70cf"
     }
   },
   "missing": {
@@ -20983,6 +20983,11 @@
       "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\gora.prefab",
       "time": 1712889178753.405,
       "removeTime": 1712889214331
+    },
+    "6b279515-9df2-4378-90f0-1718aab5a2cf": {
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_3akt\\шахта-.prefab",
+      "time": 1712889277999.965,
+      "removeTime": 1712889447825
     }
   }
 }
