@@ -554,7 +554,7 @@
     "_priority": 1,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 89,
+    "_orthoHeight": 10,
     "_near": 0,
     "_far": 1000,
     "_color": {
@@ -613,8 +613,8 @@
       "__uuid__": "18d0ee2b-cf8d-491c-bb9c-ce34f98b404f",
       "__expectedType__": "cc.Prefab"
     },
-    "ropeLength": 30,
-    "walk_force": 250,
+    "ropeLength": 10,
+    "walk_force": 25,
     "_id": ""
   },
   {

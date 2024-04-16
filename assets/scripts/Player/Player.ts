@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3, RigidBody } from 'cc';
 const { ccclass, property } = _decorator;
 import { PlayerGlobal } from "../PlayerGlobal";
+import { sword } from '../weapons/folder/swordDefault/sword';
 @ccclass('Player')
 export class Player extends Component {
 
@@ -22,7 +23,8 @@ export class Player extends Component {
     private rigidbody: RigidBody2D;
     private direction: number = 0;
     @property(Number)
-    private walk_force: number = 250;
+    private walk_force: number = 2500;
+    @property(Number)
     private jump_force: number = 500;
 
     private _startJump: boolean = false;
@@ -168,7 +170,6 @@ export class Player extends Component {
     start() {
 
         this.rigidbody = this.node.getComponent(RigidBody2D);
-
         this.collider = this.node.getComponent(BoxCollider2D);
         if (this.collider) {
             this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
@@ -301,8 +302,8 @@ onKeyDown(event: EventKeyboard) {
     }
     death() {
         console.log("you're dead!")
-        this.node.off
-        this.node.destroy
+        PlayerGlobal.playerNode.active = false;
+        PlayerGlobal.playerNode.destroy();
     }
 
     updateHealthLabel() {

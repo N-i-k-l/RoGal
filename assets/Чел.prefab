@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "glock",
+    "_name": "Чел",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_native": "",
@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "glock",
+    "_name": "Чел",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
@@ -25,15 +25,18 @@
       },
       {
         "__id__": 4
+      },
+      {
+        "__id__": 6
       }
     ],
     "_prefab": {
-      "__id__": 6
+      "__id__": 8
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 19.568,
-      "y": 0,
+      "x": 500.648,
+      "y": -222.377,
       "z": 0
     },
     "_lrot": {
@@ -45,12 +48,12 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.3,
-      "y": 0.3,
+      "x": 0.5,
+      "y": 0.5,
       "z": 1
     },
     "_mobility": 0,
-    "_layer": 1073741824,
+    "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -73,8 +76,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
-      "height": 65
+      "width": 270,
+      "height": 270
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -85,7 +88,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "0d/jh479ROz6Pe+jRVVzul"
+    "fileId": "afBQs5iVZJULhMku29QiUE"
   },
   {
     "__type__": "cc.Sprite",
@@ -110,12 +113,12 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "aa3b1ae2-0a63-4254-9957-119559a5a252@f9941",
+      "__uuid__": "e7b72f33-6ccb-470a-b55e-8ef5c1541516@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 0,
+    "_sizeMode": 1,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -130,7 +133,25 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "7691f/bZNLXZ0gXeYvYnUc"
+    "fileId": "fabJkkcGBMELDJxuVKTpKz"
+  },
+  {
+    "__type__": "91e888URutHuK75Ks2u5wXq",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 7
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "283OtuqSlDSLQ+mXURAqX4"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -140,8 +161,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
-    "instance": null,
+    "fileId": "48YHbLMZRNT6BFnPf0XUpY",
     "targetOverrides": null
   }
 ]
