@@ -1,12 +1,13 @@
-import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Sprite, Canvas } from 'cc';
-import { bullet } from './Bullet';
+import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Sprite } from 'cc';
 import { PlayerGlobal } from '../../PlayerGlobal';
 import { pickupWeapon } from '../pickupWeapon';
+import { Pellet } from './Pellet';
+
 const { ccclass, property } = _decorator;
-@ccclass('glock')
-export class glock extends Component {
+@ccclass('shotgun')
+export class shotgun extends Component {
     private gun: Node;
-    private Bullet: Prefab;
+    private Pellet: Prefab;
     private C: Node;
     private hidden: Boolean = false;
     private gunAngle: number = 0;
@@ -17,10 +18,9 @@ export class glock extends Component {
     weaponDrop: Prefab;        ;
 
     onLoad() {
-        resources.load('weapons/PickupWeapon', Prefab, (err, prefab) => {
-            this.weaponDrop = prefab;
-        });
+        
     }
+
     hide() {
         //this.node.removeFromParent();
         this.hidden = true;
@@ -29,20 +29,30 @@ export class glock extends Component {
         this.node.setParent(this.C);
         this.hidden = false;
     }
+
     shoot(mouseLoc: Vec2) {
-        if (this.hidden) return
-        const Bullet = instantiate(this.Bullet);
-        director.getScene().getChildByName("Canvas").addChild(Bullet);
-        Bullet.setWorldPosition(this.C.worldPosition);
-        Bullet.getComponent(bullet).setTarget(new Vec3(mouseLoc.x, mouseLoc.y));
+        if (this.hidden) return;
+
+        const numBullets: number = 5; //  оличество пуль
+        const spreadAngle: number = 20; // ”гол разброса дробовика в градусах
+
+        for (let i = 0; i < numBullets; i++) {
+            const bulletInstance = instantiate(this.Pellet);
+            this.C.addChild(bulletInstance);
+
+            // –ассчитываем случайное отклонение от цели дл€ создани€ разброса
+            const deviationX: number = (Math.random() - 0.5) * spreadAngle;
+            const deviationY: number = (Math.random() - 0.5) * spreadAngle;
+            const targetWithDeviation = new Vec3(mouseLoc.x + deviationX, mouseLoc.y + deviationY);
+
+            bulletInstance.setPosition(this.gun.position);
+            bulletInstance.getComponent(Pellet).setTarget(targetWithDeviation);
+        }
     }
 
     onDestroy() {
-        const weaponItem = instantiate(this.weaponDrop);
-        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, glock);
-        director.getScene().getChildByName('Canvas').addChild(weaponItem);
-        let dropLocation: Vec3 = PlayerGlobal.playerNode.getWorldPosition();
-        weaponItem.setWorldPosition(dropLocation);
+        const weaponItem = instantiate(this.weaponDrop)
+        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, shotgun)
         if (this.gun) this.gun.destroy;
     }
 
@@ -50,14 +60,14 @@ export class glock extends Component {
         this.startScale = this.node.scale.x;
         this.C = PlayerGlobal.playerNode;
         PlayerGlobal.touchArea.on(Node.EventType.MOUSE_MOVE, this.mouseMove);
-        resources.load("weapons/glock/glock", Prefab, (err, prefab) => {
+        resources.load("weapons/shotgun/shotgun", Prefab, (err, prefab) => {
             this.gun = instantiate(prefab);
             this.C.addChild(this.gun);
             this.gun.setPosition(0, 0);
             PlayerGlobal.weapon = this.gun
         })
-        resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {
-            this.Bullet = prefab;
+        resources.load("weapons/shotgun/bullet", Prefab, (err, prefab) => {
+            this.Pellet = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
                 //console.log(event.getUILocation());
                 //console.log(this.node.worldPosition);
@@ -92,4 +102,3 @@ export class glock extends Component {
 
     }
 }
-

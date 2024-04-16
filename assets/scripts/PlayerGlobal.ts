@@ -6,6 +6,8 @@ const { ccclass, property } = _decorator;
 export class PlayerGlobal extends Component {
     public static playerNode: Node = null;
     public static touchArea: Node = null;
+    public static weapon: Node = null;
+
 }
 
 
