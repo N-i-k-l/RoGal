@@ -42,8 +42,8 @@ export class Player extends Component {
 
     private costil: boolean = true;
 
-    private weaponSlot1: Component = null;
-    private weaponSlot2: Component = null;
+    private weaponSlot1: any = null;
+    private weaponSlot2: any = null;
 
 
     switchWeapon() {
@@ -56,16 +56,17 @@ export class Player extends Component {
     }
 
     pickupWeapon(weapon: any) {
-        this.node.addComponent(weapon);
-
+        console.log(weapon)
         if (!this.weaponSlot1) {
-            this.weaponSlot1 = this.node.getComponent(weapon);
-        } else if (!this.weaponSlot2) {
-            this.node.hide()
-            this.weaponSlot2 = this.node.getComponent(weapon);
+            this.weaponSlot1 = this.node.addComponent(weapon);
+        } else if (!this.weaponSlot2) {            
+            this.weaponSlot2 = this.node.addComponent(weapon);
+            this.weaponSlot2.hide();
         } else {
-            this.weaponSlot1 = this.node.getComponent(weapon);
-            //console.log("Нет свободных слотов для оружия!");
+            console.log("nope!");
+            this.weaponSlot1.destroy();
+            this.weaponSlot1 = this.node.addComponent(weapon);
+            console.log("Нет свободных слотов для оружия!");
         }
     }
     
@@ -325,8 +326,7 @@ onKeyDown(event: EventKeyboard) {
     }
     death() {
         console.log("you're dead!")
-        this.node.off
-        this.node.destroy
+        this.node.destroy()
 
     }
 
