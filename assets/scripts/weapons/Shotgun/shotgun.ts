@@ -1,12 +1,13 @@
 import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Sprite } from 'cc';
-import { bullet } from './Bullet';
 import { PlayerGlobal } from '../../PlayerGlobal';
 import { pickupWeapon } from '../pickupWeapon';
+import { Pellet } from './Pellet';
+
 const { ccclass, property } = _decorator;
 @ccclass('shotgun')
 export class shotgun extends Component {
     private gun: Node;
-    private Bullet: Prefab;
+    private Pellet: Prefab;
     private C: Node;
     private hidden: Boolean = false;
     private gunAngle: number = 0;
@@ -19,6 +20,7 @@ export class shotgun extends Component {
     onLoad() {
         
     }
+
     hide() {
         //this.node.removeFromParent();
         this.hidden = true;
@@ -35,7 +37,7 @@ export class shotgun extends Component {
         const spreadAngle: number = 20; // ”гол разброса дробовика в градусах
 
         for (let i = 0; i < numBullets; i++) {
-            const bulletInstance = instantiate(this.Bullet);
+            const bulletInstance = instantiate(this.Pellet);
             this.C.addChild(bulletInstance);
 
             // –ассчитываем случайное отклонение от цели дл€ создани€ разброса
@@ -44,7 +46,7 @@ export class shotgun extends Component {
             const targetWithDeviation = new Vec3(mouseLoc.x + deviationX, mouseLoc.y + deviationY);
 
             bulletInstance.setPosition(this.gun.position);
-            bulletInstance.getComponent(bullet).setTarget(targetWithDeviation);
+            bulletInstance.getComponent(Pellet).setTarget(targetWithDeviation);
         }
     }
 
@@ -65,7 +67,7 @@ export class shotgun extends Component {
             PlayerGlobal.weapon = this.gun
         })
         resources.load("weapons/shotgun/bullet", Prefab, (err, prefab) => {
-            this.Bullet = prefab;
+            this.Pellet = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
                 //console.log(event.getUILocation());
                 //console.log(this.node.worldPosition);

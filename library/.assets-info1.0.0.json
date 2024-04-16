@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "map": {
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources": {
-      "time": 1712866981363.5098,
+      "time": 1713294786619.0918,
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\debug": {
@@ -30,7 +30,7 @@
       "uuid": "7c17ad34-e9f2-40ef-8022-624e9f34c561"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons": {
-      "time": 1713271615559.2173,
+      "time": 1713292380208.362,
       "uuid": "fb2416b3-9069-4ffb-bd82-891595471571"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\enemies\\fly": {
@@ -54,7 +54,7 @@
       "uuid": "d128b9b2-bdec-40a8-bc42-ed9c2ed6e197"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock": {
-      "time": 1712866981739.3936,
+      "time": 1713292380208.362,
       "uuid": "3a50399d-336f-400d-86b4-828e24dc4343"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\changeRoom.ts": {
@@ -169,7 +169,7 @@
       "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\PlayerRoom.scene": {
-      "time": 1712919323635.4993,
+      "time": 1713294727741.139,
       "uuid": "1b8558d5-6e4e-405a-b041-c47b2f6e51d0"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\pngwing.com.png": {
@@ -404,10 +404,6 @@
       "time": 1712866981740.386,
       "uuid": "3d69a399-32e1-492f-b57d-a9024d413d58"
     },
-    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\PickupWeapon.prefab": {
-      "time": 1713268060600.5056,
-      "uuid": "4164f4b7-ab6f-4a45-99ca-22436fb1f957"
-    },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\lab7.sql.meta": {
       "time": 1711637776323.0554
     },
@@ -621,9 +617,6 @@
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\glock.prefab.meta": {
       "time": 1711052247712.143
     },
-    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\PickupWeapon.prefab.meta": {
-      "time": 1712866981739.3936
-    },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts.meta": {
       "time": 1712868287534.0388
     },
@@ -638,9 +631,6 @@
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\GenerateFloor1.ts.meta": {
       "time": 1711637776332.142
-    },
-    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Medicbag.ts.meta": {
-      "time": 1711052247803.5613
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc.meta": {
       "time": 1711052254827.0166
@@ -706,7 +696,7 @@
       "time": 1711052255550.4368
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts": {
-      "time": 1712868583383.8093,
+      "time": 1713294907912.6555,
       "uuid": "5cbdaf68-967f-4425-a5e3-94b6e17e5881"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\debug": {
@@ -722,11 +712,11 @@
       "uuid": "5a815377-15bd-4b5f-a5cd-e7164b643b70"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups": {
-      "time": 1713275052414.42,
+      "time": 1713282621357.9302,
       "uuid": "c4cdee75-a7c7-4187-98e4-afe0e0bbd702"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player": {
-      "time": 1713209797987.3777,
+      "time": 1713279954670.2993,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\fakePlayer.ts": {
@@ -738,12 +728,8 @@
       "uuid": "1092c9cf-d6b4-4660-bef1-3aeae38aae48"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons": {
-      "time": 1713275827607.6504,
+      "time": 1713294234957.2627,
       "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
-    },
-    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Medicbag.ts": {
-      "time": 1711052247771.745,
-      "uuid": "f17e1e7d-0567-47a7-82e0-36cbc6ed4db8"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy": {
       "time": 1711052255228.9707,
@@ -770,15 +756,15 @@
       "uuid": "aefa44ae-93f8-4cb4-8775-f7170506b757"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Pickups\\Medicbag.ts": {
-      "time": 1713275052409.4197,
+      "time": 1713282621354.8196,
       "uuid": "df9d5bb1-7edd-497f-85ba-fed8267c04cc"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1713209797984.0676,
+      "time": 1713279954654.8347,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock": {
-      "time": 1713276191583.9353,
+      "time": 1713293322556.2444,
       "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic": {
@@ -794,7 +780,7 @@
       "uuid": "7b2ad20c-42ff-4574-b9c1-389ac824cc97"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock\\glock.ts": {
-      "time": 1713208564356.1619,
+      "time": 1713293322545.6855,
       "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\npc\\enemy\\generic\\damageAura.ts": {
@@ -827,7 +813,7 @@
       "time": 1711637776336.1523
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee": {
-      "time": 1713267679560.2466,
+      "time": 1713289648315.8723,
       "uuid": "0c06da63-0213-4cc7-bbf8-13b24e699456"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee\\swordDefault": {
@@ -840,13 +826,6 @@
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee\\swordDefault\\sword.ts": {
       "time": 1712234837952.2632,
       "uuid": "ac04d957-8427-40fc-9723-11cc0e35ff5f"
-    },
-    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee\\sword-001.ts.meta": {
-      "time": 1713267674215.3447
-    },
-    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee\\sword-001.ts": {
-      "time": 1712234837952.2632,
-      "uuid": "25d5e007-36f4-47b8-aa7e-6f7f7bef9dee"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Дробовик.png.meta": {
       "time": 1713271591720.6604
@@ -866,36 +845,71 @@
       "time": 1713271643786.7778
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\shotgun\\shotgun.prefab": {
-      "time": 1713275591751.1047,
+      "time": 1713290881769.579,
       "uuid": "99db830c-e5f1-4402-8680-2350ab00ef1c"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun.meta": {
       "time": 1713267271578.6182
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun": {
-      "time": 1713276191583.9353,
+      "time": 1713290792972.2415,
       "uuid": "cc5bc1ab-3c2b-4ba4-b431-0d812c3d5784"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\pickupWeapon.ts.meta": {
       "time": 1712866981745.5537
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\pickupWeapon.ts": {
-      "time": 1713208478096.1565,
+      "time": 1713294234952.2673,
       "uuid": "dfff6cb6-a899-4e62-9355-1774acf70863"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun\\shotgun.ts.meta": {
       "time": 1713271756298.9866
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun\\shotgun.ts": {
-      "time": 1713275412913.4592,
+      "time": 1713290792967.4133,
       "uuid": "c2ada5bc-8fc4-4870-927b-ffa85b2c3efb"
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock\\Bullet.ts.meta": {
       "time": 1711052248850.9167
     },
     "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\glock\\Bullet.ts": {
-      "time": 1713275049836.964,
+      "time": 1713277351969.9114,
       "uuid": "0592fe65-b9ec-46ae-b626-dc2e30d9da13"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun\\Pellet.ts.meta": {
+      "time": 1713276938468.09
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun\\Pellet.ts": {
+      "time": 1713278346825.5708,
+      "uuid": "d50d0a35-1b13-4ba9-82b6-34ed1571f0a4"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\PickupWeapon.prefab.meta": {
+      "time": 1712866981739.3936
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\PickupWeapon.prefab": {
+      "time": 1713293624869.2612,
+      "uuid": "4164f4b7-ab6f-4a45-99ca-22436fb1f957"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Коробка.png.meta": {
+      "time": 1713294615519.5266
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Коробка.png": {
+      "time": 1713294560567.1062,
+      "uuid": "a989aec8-8055-428b-bd32-12e3bf7ba040"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\Коробка.prefab.meta": {
+      "time": 1713294759135.5886
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\Коробка.prefab": {
+      "time": 1713294759130.2773,
+      "uuid": "a8296d19-9a9f-497a-bfb0-ac0f53d70c90"
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\box.ts.meta": {
+      "time": 1713294907914.776
+    },
+    "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\box.ts": {
+      "time": 1713294907910.2903,
+      "uuid": "e252d25f-2844-42c9-9a99-0f1d10d89221"
     }
   },
   "missing": {
@@ -972,7 +986,7 @@
     "f17e1e7d-0567-47a7-82e0-36cbc6ed4db8": {
       "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Medicbag.ts",
       "time": 1711052247771.745,
-      "removeTime": 1712868269074
+      "removeTime": 1713279853811
     },
     "2a909ea9-45ea-4d42-a166-10fd2fc095b6": {
       "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\PlayerGlobal.ts",
@@ -1085,14 +1099,39 @@
       "removeTime": 1713271741457
     },
     "25d5e007-36f4-47b8-aa7e-6f7f7bef9dee": {
-      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee\\swordDefault\\sword-001.ts",
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\melee\\sword-001.ts",
       "time": 1712234837952.2632,
-      "removeTime": 1713267679562
+      "removeTime": 1713289648326
     },
     "c2ada5bc-8fc4-4870-927b-ffa85b2c3efb": {
       "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\shotgun.ts",
       "time": 1713275412913.4592,
       "removeTime": 1713275827609
+    },
+    "d50d0a35-1b13-4ba9-82b6-34ed1571f0a4": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\weapons\\Shotgun\\pellet.ts",
+      "time": 1713275049836.964,
+      "removeTime": 1713278249010
+    },
+    "4164f4b7-ab6f-4a45-99ca-22436fb1f957": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\weapons\\glock\\PickupWeapon.prefab",
+      "time": 1713268060600.5056,
+      "removeTime": 1713292380210
+    },
+    "a989aec8-8055-428b-bd32-12e3bf7ba040": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\scripts\\Коробка.png",
+      "time": 1713294560567.1062,
+      "removeTime": 1713294618442
+    },
+    "f4854e91-7962-42e8-a90d-2dc6ed0b5a5e": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\resources\\Chest.prefab",
+      "time": 1713294694263.4868,
+      "removeTime": 1713294707403
+    },
+    "a8296d19-9a9f-497a-bfb0-ac0f53d70c90": {
+      "path": "C:\\Users\\caxa3\\Documents\\GitHub\\RoGal 2\\assets\\Коробка.prefab",
+      "time": 1713294759130.2773,
+      "removeTime": 1713294786621
     }
   }
 }

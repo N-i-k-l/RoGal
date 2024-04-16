@@ -1,7 +1,7 @@
-import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, Prefab, resources, Script, Sprite, SpriteFrame } from 'cc';
-import { PlayerGlobal } from '../../PlayerGlobal';
-import { Player } from '../../Player/Player';
-import { glock } from './glock';
+import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, Prefab, resources, RigidBody2D, Script, Sprite, SpriteFrame, Vec2 } from 'cc';
+import { glock } from './glock/glock';
+import { Player } from '../Player/Player';
+import { PlayerGlobal } from '../PlayerGlobal';
 const { ccclass, property } = _decorator;
 
 @ccclass('pickupWeapon')
@@ -21,7 +21,20 @@ export class pickupWeapon extends Component {
         
         this.weapon = this.weapon1;
         if (this.weaponSprite) this.node.getComponent(Sprite).spriteFrame = this.weaponSprite;
-        this.node.getComponent(BoxCollider2D).on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this)
+        setTimeout(() => {
+            this.node.getComponent(BoxCollider2D).on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
+            this.node.getComponent(BoxCollider2D).group = 1
+            this.node.getComponent(RigidBody2D).group = 1
+            this.node.getComponent(BoxCollider2D).enabled = false;
+            this.node.getComponent(BoxCollider2D).enabled = true;
+            this.node.getComponent(RigidBody2D).enabled = false;
+            this.node.getComponent(RigidBody2D).enabled = true;
+        }, 1500);
+        this.node.getComponent(RigidBody2D).applyForceToCenter(new Vec2(50 * (1 - Math.random()), 50 * (1-Math.random())), true);
+    }
+
+    pickupActivate() {
+        
     }
 
     update(deltaTime: number) {

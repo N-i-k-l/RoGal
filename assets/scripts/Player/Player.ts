@@ -270,15 +270,15 @@ onKeyDown(event: EventKeyboard) {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
-        if (otherCollider.node.name === 'Medicbag') {
-            this.increaseHealth(80);
-            otherCollider.node.removeFromParent();
-            otherCollider.node.destroy();
-            console.log('Ouagh thanks a lot my friend');
-            if (this.HPLabel) {
-                this.HPLabel.string = `HP: ${this.HP}`;
-            }
-        }
+       //if (otherCollider.node.name === 'Medicbag') {
+       //     this.increaseHealth(80);
+       //     otherCollider.node.removeFromParent();
+       //     otherCollider.node.destroy();
+       //     console.log('Ouagh thanks a lot my friend');
+       //     if (this.HPLabel) {
+       //         this.HPLabel.string = `HP: ${this.HP}`;
+       //     }
+       //}
         if (otherCollider.node.name === 'FirstAidKit') {
             this.increaseHealth(20);
             otherCollider.node.removeFromParent();

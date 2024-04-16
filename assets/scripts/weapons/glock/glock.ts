@@ -1,7 +1,7 @@
-    import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Canvas, Sprite } from 'cc';
+import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Sprite, Canvas } from 'cc';
 import { bullet } from './Bullet';
 import { PlayerGlobal } from '../../PlayerGlobal';
-import { pickupWeapon } from './pickupWeapon';
+import { pickupWeapon } from '../pickupWeapon';
 const { ccclass, property } = _decorator;
 @ccclass('glock')
 export class glock extends Component {
@@ -17,7 +17,9 @@ export class glock extends Component {
     weaponDrop: Prefab;        ;
 
     onLoad() {
-        
+        resources.load('weapons/PickupWeapon', Prefab, (err, prefab) => {
+            this.weaponDrop = prefab;
+        });
     }
     hide() {
         //this.node.removeFromParent();
@@ -36,8 +38,11 @@ export class glock extends Component {
     }
 
     onDestroy() {
-        const weaponItem = instantiate(this.weaponDrop)
-        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, glock)
+        const weaponItem = instantiate(this.weaponDrop);
+        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, glock);
+        director.getScene().getChildByName('Canvas').addChild(weaponItem);
+        let dropLocation: Vec3 = PlayerGlobal.playerNode.getWorldPosition();
+        weaponItem.setWorldPosition(dropLocation);
         if (this.gun) this.gun.destroy;
     }
 
