@@ -20,7 +20,6 @@ export class genericAirEnemy extends Component {
     update(deltaTime: number) {
         let tar: Vec3 = new Vec3(new Vec3(this.player.worldPosition).subtract(this.node.worldPosition));
         let mult: number = this.Speed/ tar.length();
-        //console.log(tar+ " " +tar.length()+" "+ mult);
         this.node.getComponent(RigidBody2D).applyForceToCenter(new Vec2(tar.x * mult, tar.y * mult), true);
         if (tar.x > 0) {
             this.node.setScale(new Vec3(Math.abs(this.node.scale.x)*-1, this.node.scale.y));

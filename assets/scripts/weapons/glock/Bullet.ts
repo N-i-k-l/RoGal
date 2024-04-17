@@ -28,5 +28,3 @@ export class bullet extends Component {
         this.node.getComponent(RigidBody2D).applyForceToCenter(this.target, true);
     }
 }
-
-

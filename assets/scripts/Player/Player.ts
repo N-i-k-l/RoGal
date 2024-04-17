@@ -23,6 +23,7 @@ export class Player extends Component {
     private direction: number = 0;
     @property(Number)
     private walk_force: number = 250;
+    @property(Number)
     private jump_force: number = 500;
 
     private _startJump: boolean = false;
@@ -36,12 +37,38 @@ export class Player extends Component {
     private isSmall: boolean = false;
     private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>", "FirstAidKit<BoxCollider2D>" ];
 
-    private weapons;
-    private currentWeapon: number = 0;
+    //private weapons;
+    //private currentWeapon: number = 0;
 
     private costil: boolean = true;
-    @property(Node)
-    sword: Node;
+
+    private weaponSlot1: any = null;
+    private weaponSlot2: any = null;
+
+
+    switchWeapon() {
+        if (this.weaponSlot1 && this.weaponSlot2) {
+            this.weaponSlot1.hide();
+            this.weaponSlot2.show();
+            [this.weaponSlot1, this.weaponSlot2] = [this.weaponSlot2, this.weaponSlot1];
+            console.log(this.weaponSlot1, ", ", this.weaponSlot2)
+        }
+    }
+
+    pickupWeapon(weapon: any) {
+        console.log(weapon)
+        if (!this.weaponSlot1) {
+            this.weaponSlot1 = this.node.addComponent(weapon);
+        } else if (!this.weaponSlot2) {            
+            this.weaponSlot2 = this.node.addComponent(weapon);
+            this.weaponSlot2.hide();
+        } else {
+            console.log("nope!");
+            this.weaponSlot1.destroy();
+            this.weaponSlot1 = this.node.addComponent(weapon);
+            console.log("Нет свободных слотов для оружия!");
+        }
+    }
     
 
     onLoad() {
@@ -168,7 +195,6 @@ export class Player extends Component {
     start() {
 
         this.rigidbody = this.node.getComponent(RigidBody2D);
-
         this.collider = this.node.getComponent(BoxCollider2D);
         if (this.collider) {
             this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
@@ -226,9 +252,7 @@ onKeyDown(event: EventKeyboard) {
             }
             break;
         case 70: // F
-            if (this.sword) {
-                //this.sword.swing();
-            }
+            this.switchWeapon()
             break;
         default:
             break;
@@ -245,15 +269,15 @@ onKeyDown(event: EventKeyboard) {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
         }
-        if (otherCollider.node.name === 'Medicbag') {
-            this.increaseHealth(80);
-            otherCollider.node.removeFromParent();
-            otherCollider.node.destroy();
-            console.log('Ouagh thanks a lot my friend');
-            if (this.HPLabel) {
-                this.HPLabel.string = `HP: ${this.HP}`;
-            }
-        }
+       //if (otherCollider.node.name === 'Medicbag') {
+       //     this.increaseHealth(80);
+       //     otherCollider.node.removeFromParent();
+       //     otherCollider.node.destroy();
+       //     console.log('Ouagh thanks a lot my friend');
+       //     if (this.HPLabel) {
+       //         this.HPLabel.string = `HP: ${this.HP}`;
+       //     }
+       //}
         if (otherCollider.node.name === 'FirstAidKit') {
             this.increaseHealth(20);
             otherCollider.node.removeFromParent();
@@ -301,8 +325,8 @@ onKeyDown(event: EventKeyboard) {
     }
     death() {
         console.log("you're dead!")
-        this.node.off
-        this.node.destroy
+        PlayerGlobal.playerNode.active = false;
+        PlayerGlobal.playerNode.destroy();
     }
 
     updateHealthLabel() {
@@ -312,9 +336,7 @@ onKeyDown(event: EventKeyboard) {
     }
 
     onEndContact(contact, selfCollider, otherCollider) {
-
             this._startJump = false;
-        
     }
 
     onKeyUp(event: EventKeyboard) {

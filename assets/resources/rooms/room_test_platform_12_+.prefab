@@ -53,6 +53,7 @@
       },
       {
         "__id__": 108
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       },
       {
         "__id__": 116
@@ -65,11 +66,23 @@
       },
       {
         "__id__": 140
+=======
+      },
+      {
+        "__id__": 120
+      },
+      {
+        "__id__": 132
+      },
+      {
+        "__id__": 142
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       }
     ],
     "_active": true,
     "_components": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 152
       },
       {
@@ -81,6 +94,19 @@
     ],
     "_prefab": {
       "__id__": 158
+=======
+        "__id__": 158
+      },
+      {
+        "__id__": 160
+      },
+      {
+        "__id__": 162
+      }
+    ],
+    "_prefab": {
+      "__id__": 164
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -1597,15 +1623,30 @@
     "_parent": {
       "__id__": 1
     },
-    "_children": [],
+    "_children": [
+      {
+        "__id__": 79
+      },
+      {
+        "__id__": 87
+      }
+    ],
     "_active": true,
     "_components": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 73
       }
     ],
     "_prefab": {
       "__id__": 75
+=======
+        "__id__": 95
+      }
+    ],
+    "_prefab": {
+      "__id__": 97
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -1637,6 +1678,230 @@
     "_id": ""
   },
   {
+    "__type__": "cc.Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 78
+    },
+    "_prefab": {
+      "__id__": 80
+    },
+    "__editorExtras__": {}
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 79
+    },
+    "asset": {
+      "__uuid__": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
+      "__expectedType__": "cc.Prefab"
+    },
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
+    "instance": {
+      "__id__": 81
+    },
+    "targetOverrides": null
+  },
+  {
+    "__type__": "cc.PrefabInstance",
+    "fileId": "50UgTXp0NDxayDXYLMY7o4",
+    "prefabRootNode": {
+      "__id__": 1
+    },
+    "mountedChildren": [],
+    "mountedComponents": [],
+    "propertyOverrides": [
+      {
+        "__id__": 82
+      },
+      {
+        "__id__": 84
+      },
+      {
+        "__id__": 85
+      },
+      {
+        "__id__": 86
+      }
+    ],
+    "removedComponents": []
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 83
+    },
+    "propertyPath": [
+      "_lpos"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 34.799099999999996,
+      "y": 25.7652,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "c46/YsCPVOJYA4mWEpNYRx"
+    ]
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 83
+    },
+    "propertyPath": [
+      "_name"
+    ],
+    "value": "fly"
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 83
+    },
+    "propertyPath": [
+      "_lrot"
+    ],
+    "value": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 83
+    },
+    "propertyPath": [
+      "_euler"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 78
+    },
+    "_prefab": {
+      "__id__": 88
+    },
+    "__editorExtras__": {}
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 87
+    },
+    "asset": {
+      "__uuid__": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
+      "__expectedType__": "cc.Prefab"
+    },
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
+    "instance": {
+      "__id__": 89
+    },
+    "targetOverrides": null
+  },
+  {
+    "__type__": "cc.PrefabInstance",
+    "fileId": "cfknJeO9ZJ07YU8YmZVQjJ",
+    "prefabRootNode": {
+      "__id__": 1
+    },
+    "mountedChildren": [],
+    "mountedComponents": [],
+    "propertyOverrides": [
+      {
+        "__id__": 90
+      },
+      {
+        "__id__": 92
+      },
+      {
+        "__id__": 93
+      },
+      {
+        "__id__": 94
+      }
+    ],
+    "removedComponents": []
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 91
+    },
+    "propertyPath": [
+      "_lpos"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": -10.10090000000001,
+      "y": 22.2652,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "c46/YsCPVOJYA4mWEpNYRx"
+    ]
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 91
+    },
+    "propertyPath": [
+      "_name"
+    ],
+    "value": "fly"
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 91
+    },
+    "propertyPath": [
+      "_lrot"
+    ],
+    "value": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 91
+    },
+    "propertyPath": [
+      "_euler"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -1646,7 +1911,11 @@
     },
     "_enabled": true,
     "__prefab": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 74
+=======
+      "__id__": 96
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -1689,6 +1958,7 @@
     "_active": true,
     "_components": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 77
       },
       {
@@ -1703,6 +1973,22 @@
     ],
     "_prefab": {
       "__id__": 85
+=======
+        "__id__": 99
+      },
+      {
+        "__id__": 101
+      },
+      {
+        "__id__": 103
+      },
+      {
+        "__id__": 105
+      }
+    ],
+    "_prefab": {
+      "__id__": 107
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -1739,11 +2025,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 76
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 78
+=======
+      "__id__": 98
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 100
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -1767,11 +2061,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 76
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 80
+=======
+      "__id__": 98
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 102
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -1812,11 +2114,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 76
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 82
+=======
+      "__id__": 98
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 104
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "tag": 0,
     "_group": 1,
@@ -1846,11 +2156,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 76
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 84
+=======
+      "__id__": 98
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 106
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "enabledContactListener": false,
     "bullet": false,
@@ -1899,6 +2217,7 @@
     "_active": true,
     "_components": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 87
       },
       {
@@ -1916,6 +2235,25 @@
     ],
     "_prefab": {
       "__id__": 97
+=======
+        "__id__": 109
+      },
+      {
+        "__id__": 111
+      },
+      {
+        "__id__": 113
+      },
+      {
+        "__id__": 115
+      },
+      {
+        "__id__": 117
+      }
+    ],
+    "_prefab": {
+      "__id__": 119
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -1952,11 +2290,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 86
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 88
+=======
+      "__id__": 108
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 110
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -1980,11 +2326,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 86
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 90
+=======
+      "__id__": 108
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 112
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -2025,11 +2379,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 86
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 92
+=======
+      "__id__": 108
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 114
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "tag": 0,
     "_group": 1,
@@ -2059,11 +2421,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 86
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 94
+=======
+      "__id__": 108
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 116
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "enabledContactListener": false,
     "bullet": false,
@@ -2093,11 +2463,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 86
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 96
+=======
+      "__id__": 108
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 118
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_id": ""
   },
@@ -2130,6 +2508,7 @@
     "_active": true,
     "_components": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 99
       },
       {
@@ -2144,6 +2523,25 @@
     ],
     "_prefab": {
       "__id__": 107
+=======
+        "__id__": 121
+      },
+      {
+        "__id__": 123
+      },
+      {
+        "__id__": 125
+      },
+      {
+        "__id__": 127
+      },
+      {
+        "__id__": 129
+      }
+    ],
+    "_prefab": {
+      "__id__": 131
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -2180,11 +2578,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 98
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 100
+=======
+      "__id__": 120
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 122
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -2208,11 +2614,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 98
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 102
+=======
+      "__id__": 120
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 124
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_customMaterial": null,
     "_srcBlendFactor": 2,
@@ -2253,11 +2667,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 98
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 104
+=======
+      "__id__": 120
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 126
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "tag": 0,
     "_group": 1,
@@ -2287,11 +2709,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 98
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 106
+=======
+      "__id__": 120
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 128
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "enabledContactListener": false,
     "bullet": false,
@@ -2316,6 +2746,27 @@
     "fileId": "390xuIeJFC6aZbDxH31Vjy"
   },
   {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
+=======
+    "__type__": "0e634mZPjlHYqCJ8AfUQ/1m",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 120
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 130
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "1cqBcXegBN2IZivyvryfle"
+  },
+  {
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -2564,6 +3015,7 @@
     "_active": true,
     "_components": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 125
       },
       {
@@ -2575,6 +3027,22 @@
     ],
     "_prefab": {
       "__id__": 131
+=======
+        "__id__": 133
+      },
+      {
+        "__id__": 135
+      },
+      {
+        "__id__": 137
+      },
+      {
+        "__id__": 139
+      }
+    ],
+    "_prefab": {
+      "__id__": 141
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -2611,11 +3079,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 124
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 126
+=======
+      "__id__": 132
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 134
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -2631,7 +3107,90 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     "fileId": "74CrL4aplE9KvsXgj2LnZN"
+=======
+    "fileId": "9a8X/AxINAwJLYYvb3qMch"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 132
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 136
+    },
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_spriteFrame": {
+      "__uuid__": "a2390a58-5404-40f2-b5ae-bf79429ee2d9@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "_type": 2,
+    "_fillType": 0,
+    "_sizeMode": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_useGrayscale": false,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "7a0ky4b8FMCamXXwQ7mAyQ"
+  },
+  {
+    "__type__": "cc.BoxCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 132
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 138
+    },
+    "tag": 0,
+    "_group": 1,
+    "_density": 1,
+    "_sensor": false,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 9.896,
+      "height": 54.967
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "beKbjFg6hF3agLujWoFtq+"
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
   },
   {
     "__type__": "cc.RigidBody2D",
@@ -2639,11 +3198,19 @@
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 124
     },
     "_enabled": true,
     "__prefab": {
       "__id__": 128
+=======
+      "__id__": 132
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 140
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "enabledContactListener": false,
     "bullet": false,
@@ -2716,6 +3283,7 @@
   },
   {
     "__type__": "cc.Node",
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -2804,11 +3372,47 @@
       "_lrot"
     ],
     "value": {
+=======
+    "_name": "Node-001",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 143
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 151
+      },
+      {
+        "__id__": 153
+      },
+      {
+        "__id__": 155
+      }
+    ],
+    "_prefab": {
+      "__id__": 157
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 16.508350000000004,
+      "y": -0.8876000000000026,
+      "z": 0
+    },
+    "_lrot": {
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       "__type__": "cc.Quat",
       "x": 0,
       "y": 0,
       "z": 0,
       "w": 1
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     }
   },
   {
@@ -2820,41 +3424,80 @@
       "_euler"
     ],
     "value": {
+=======
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 2,
+    "_euler": {
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
       "z": 0
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     }
+=======
+    },
+    "_id": ""
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
   },
   {
     "__type__": "cc.Node",
     "_objFlags": 0,
     "_parent": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 1
     },
     "_prefab": {
       "__id__": 141
+=======
+      "__id__": 142
+    },
+    "_prefab": {
+      "__id__": 144
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "__editorExtras__": {}
   },
   {
     "__type__": "cc.PrefabInfo",
     "root": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 140
     },
     "asset": {
       "__uuid__": "16cd5ae3-806c-40d7-9b3a-ee74f695c81b",
+=======
+      "__id__": 143
+    },
+    "asset": {
+      "__uuid__": "37b43f57-8b16-4acb-96f7-923a1ba560a1",
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 142
+=======
+      "__id__": 145
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "targetOverrides": null
   },
   {
     "__type__": "cc.PrefabInstance",
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     "fileId": "d7NyV+bIRGXIVE/8DxS/yV",
+=======
+    "fileId": "25ykvweOZPkK4hCvF1VIUk",
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     "prefabRootNode": {
       "__id__": 1
     },
@@ -2862,6 +3505,7 @@
     "mountedComponents": [],
     "propertyOverrides": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 143
       },
       {
@@ -2875,6 +3519,15 @@
       },
       {
         "__id__": 148
+=======
+        "__id__": 146
+      },
+      {
+        "__id__": 148
+      },
+      {
+        "__id__": 149
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       },
       {
         "__id__": 150
@@ -2885,12 +3538,26 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 144
     },
     "propertyPath": [
       "_name"
     ],
     "value": "PiankaMenu"
+=======
+      "__id__": 147
+    },
+    "propertyPath": [
+      "_lpos"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": -59.502,
+      "y": -25.867,
+      "z": 0
+    }
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2901,6 +3568,7 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 144
     },
     "propertyPath": [
@@ -2912,11 +3580,23 @@
       "y": -49.199600000000004,
       "z": 0
     }
+=======
+      "__id__": 147
+    },
+    "propertyPath": [
+      "_name"
+    ],
+    "value": "doorBasic"
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
   },
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 144
+=======
+      "__id__": 147
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "propertyPath": [
       "_lrot"
@@ -2932,7 +3612,11 @@
   {
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 144
+=======
+      "__id__": 147
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "propertyPath": [
       "_euler"
@@ -2945,6 +3629,7 @@
     }
   },
   {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     "__type__": "CCPropertyOverrideInfo",
     "targetInfo": {
       "__id__": 149
@@ -2983,6 +3668,115 @@
     "localID": [
       "87u9z6zI1Fx5AK9ReNyxBq"
     ]
+=======
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 152
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 107.5113,
+      "height": 61.011199999999995
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "e4jbxrIu5JcpLYAUZa0fkI"
+  },
+  {
+    "__type__": "cc.BoxCollider2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 154
+    },
+    "tag": 0,
+    "_group": 1,
+    "_density": 1,
+    "_sensor": true,
+    "_friction": 0.2,
+    "_restitution": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0.1,
+      "y": -1
+    },
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 106.5,
+      "height": 63.4
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "983mTUCBdGgITqf0+8CwCb"
+  },
+  {
+    "__type__": "cc.RigidBody2D",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 156
+    },
+    "enabledContactListener": false,
+    "bullet": false,
+    "awakeOnLoad": true,
+    "_group": 1,
+    "_type": 2,
+    "_allowSleep": true,
+    "_gravityScale": 1,
+    "_linearDamping": 0,
+    "_angularDamping": 0,
+    "_linearVelocity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_angularVelocity": 0,
+    "_fixedRotation": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "15PXjPNkRLraMjUDfXleT4"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "f0n0nR9gVLGrWhToSa8ls8",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
   },
   {
     "__type__": "cc.UITransform",
@@ -2994,7 +3788,11 @@
     },
     "_enabled": true,
     "__prefab": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 153
+=======
+      "__id__": 159
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3022,7 +3820,11 @@
     },
     "_enabled": false,
     "__prefab": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 155
+=======
+      "__id__": 161
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
     },
     "_projection": 0,
     "_priority": 0,
@@ -3074,6 +3876,7 @@
     },
     "_enabled": true,
     "__prefab": {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
       "__id__": 157
     },
     "Doors": [
@@ -3095,13 +3898,38 @@
       },
       {
         "__id__": 132
+=======
+      "__id__": 163
+    },
+    "Doors": [
+      {
+        "__id__": 50
+      },
+      {
+        "__id__": 54
+      }
+    ],
+    "Hitboxes": [
+      null
+    ],
+    "Enemies": [
+      {
+        "__id__": 79
+      },
+      {
+        "__id__": 87
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       }
     ],
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
     "fileId": "4en/uokM5BZKInvlZ45DWO"
+=======
+    "fileId": "03jNjNF0NK3rS25n4K4ryQ"
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3116,6 +3944,7 @@
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
       {
+<<<<<<< HEAD:assets/resources/rooms/room_test_platform_12_+.prefab
         "__id__": 140
       },
       {
@@ -3126,6 +3955,15 @@
       },
       {
         "__id__": 108
+=======
+        "__id__": 143
+      },
+      {
+        "__id__": 87
+      },
+      {
+        "__id__": 79
+>>>>>>> main:assets/resources/rooms/room_test_platform_9.prefab
       }
     ]
   }
