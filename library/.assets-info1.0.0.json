@@ -1174,7 +1174,7 @@
       "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly": {
-      "time": 1713334605456.0378,
+      "time": 1713335009502.3809,
       "uuid": "647cad86-244a-4a6c-bcf3-277c229ee2cc"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pers": {
@@ -1844,7 +1844,7 @@
       "uuid": "2c76b34b-8fd1-430c-a8b7-5e80ff2e8bf4"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fakeFly.prefab": {
-      "time": 1712884731312.6897,
+      "time": 1713375679048.0742,
       "uuid": "c18012c4-cdb1-4c07-baf1-c1a57f0d44ca"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab": {
@@ -3077,8 +3077,15 @@
       "time": 1713333917623.5989
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao.ts": {
-      "time": 1713334437876.4102,
+      "time": 1713334956763.1963,
       "uuid": "6df1cf74-c882-4f23-8763-eeb86873138c"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao2.ts.meta": {
+      "time": 1713334962743.3557
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao2.ts": {
+      "time": 1713334956553.2134,
+      "uuid": "5e1cb491-3942-40ce-968a-28e20272b86d"
     }
   },
   "missing": {
@@ -16096,6 +16103,11 @@
       "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\play.ts",
       "time": 1713334437876.4102,
       "removeTime": 1713334605457
+    },
+    "5e1cb491-3942-40ce-968a-28e20272b86d": {
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\newFile.ts",
+      "time": 1713334956553.2134,
+      "removeTime": 1713335009503
     }
   }
 }
