@@ -198,7 +198,6 @@ export class Player extends Component {
     start() {
 
         this.rigidbody = this.node.getComponent(RigidBody2D);
-
         this.collider = this.node.getComponent(BoxCollider2D);
         if (this.collider) {
             this.collider.on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
@@ -311,8 +310,8 @@ onKeyDown(event: EventKeyboard) {
     }
     death() {
         console.log("you're dead!")
-        this.node.destroy()
-
+        PlayerGlobal.playerNode.active = false;
+        PlayerGlobal.playerNode.destroy();
     }
 
     updateHealthLabel() {

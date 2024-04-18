@@ -1,4 +1,5 @@
-import { _decorator, BoxCollider2D, Component, EventKeyboard, macro, RigidBody, RigidBody2D, systemEvent, SystemEvent } from 'cc';
+import { _decorator, BoxCollider, BoxCollider2D, Component, EventKeyboard, macro, RigidBody, RigidBody2D, systemEvent, SystemEvent } from 'cc';
+import { PlayerGlobal } from '../../scripts/PlayerGlobal';
 const { ccclass, property } = _decorator;
 
 @ccclass('Platform')
@@ -13,12 +14,11 @@ export class Platform extends Component {
 
     start() {
         this.initState = this.getComponent(RigidBody2D).group
-        // Инициализация
     }
 
     keyDown(event: EventKeyboard) {
         switch (event.keyCode) {
-            case macro.KEY.s:
+            case macro.KEY.s, macro.KEY.down:
                 console.log('Key s pressed');
                 this.getComponent(RigidBody2D).group = 2;
                 this.getComponent(BoxCollider2D).group = 2;
@@ -28,7 +28,7 @@ export class Platform extends Component {
 
     keyUp(event: EventKeyboard) {
         switch (event.keyCode) {
-            case macro.KEY.s:
+            case macro.KEY.s, macro.KEY.down:
                 console.log('Key s released');
                 this.getComponent(RigidBody2D).group = this.initState;
                 this.getComponent(BoxCollider2D).group = this.initState;
@@ -36,18 +36,9 @@ export class Platform extends Component {
         }
     }
 
-    private assignPhysicalState() {
-        console.log('Platform switched to PHYSICAL state');
-        // Ваша логика для перехода в физическое состояние
-    }
-
-    private assignDefaultState() {
-        console.log('Platform returned to DEFAULT state');
-        // Ваша логика для возврата в состояние по умолчанию
-    }
-
     update(deltaTime: number) {
-        // Обновление компонента
+        if (PlayerGlobal.playerNode.worldPosition.y < this.node.worldPosition.y) this.getComponent(BoxCollider2D).enabled = false;
+        else this.getComponent(BoxCollider2D).enabled = true;
     }
 }
 

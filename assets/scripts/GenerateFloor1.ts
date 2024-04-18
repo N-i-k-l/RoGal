@@ -20,7 +20,7 @@ export class GenerateFloor1 extends Component {
     
 
     start() {
-        let roomPref: string[] = ['rooms/room_test_start', 'rooms/room_test_cruk-001', 'rooms/room_test_cruk-002', 'rooms/room_test_cruk',];
+        let roomPref: string[] = ['rooms/floor1/room_test_start', 'rooms/floor1/room_test_cruk', 'rooms/floor1/room_test_platform_15', 'rooms/floor1/room_test_papka-001' /*'rooms/floor1/room_test_4'*/];
         this.a = roomPref.length;
         while (roomPref.length > 0){
             this.createRoom(roomPref.pop());
@@ -32,33 +32,35 @@ export class GenerateFloor1 extends Component {
     asd(point: Vec3): number {
         let status: number = 0;
         //console.log(this.roomList);
+        if (this.roomList.length ==0) return 1
         let r: room = this.roomList.pop();
-        if (!r) return 1
+        console.log(r);
+        
         r.Nd.setPosition(point);
-        for (let i = 0/*Math.floor(Math.random() * 3)*/; i < 4; i +=  1/*Math.floor(Math.random() * 3)*/) {
+        for (let i = 0/*Math.floor(Math.random() * 3)*/; i < 2; i += 1) {
             if (!r) return 1
             if (!r.dirList[i]) continue
             console.log(i);
             status = this.asd(r.Nd.getPosition().add(r.dirList[i]).subtract(this.roomList[this.roomList.length - 1].dirList[this.reverser[i]]));
+            if (status == 1) return 1;
         }
         return 0;
     }
 
     createRoom(p: string) {
-        let a: any;
-        let b: any;
         resources.load(p, Prefab, (err, prefab) => {
             let dirList: Vec3[] = [null, null,null,null];
             const newNode = instantiate(prefab);
             this.node.addChild(newNode);
-            a = newNode.getChildByName('Door_left');
-            b = newNode.getChildByName('Door_right');
+            //newNode.setPosition(0, 0);
+            let a = newNode.getChildByName('Door_left');
+            let b = newNode.getChildByName('Door_right');
             if (a) {
-                dirList[0] = (new Vec3(a.position.x + a.width * newNode.scale.x / 2, a.position.y + a.height * newNode.scale.y / 2));
+                dirList[0] = (new Vec3(a.position.x * newNode.scale.x, a.position.y * newNode.scale.y));
                 //console.log(dirList)
             }
             if (b) {
-                dirList[1] = (new Vec3(b.position.x + b.width * newNode.scale.x / 2, b.position.y + b.height * newNode.scale.y / 2));
+                dirList[1] = (new Vec3(b.position.x * newNode.scale.x, b.position.y * newNode.scale.y));
             }
 
             this.roomList.push(new room(newNode, dirList));
