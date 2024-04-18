@@ -5,19 +5,17 @@ const { ccclass, property } = _decorator;
 @ccclass('Pellet')
 export class Pellet extends Component {
 
-    private speed: number = 1000; // Скорость пули
-    private target: Vec2 = new Vec2(); // Направление пули
+    private speed: number = 1; 
+    private target: Vec2 = new Vec2();
 
     setTarget(target: Vec3) {
-        // Просто устанавливаем заданное направление пули
         const tar: Vec3 = new Vec3(target.subtract(this.node.getWorldPosition()));
         const mult: number = 1 / tar.length();
         this.target.set(tar.x * mult, tar.y * mult);
-
-        // Устанавливаем скорость пули в заданное направление
         const rigidBody = this.node.getComponent(RigidBody2D);
         if (rigidBody) {
             rigidBody.linearVelocity = this.target.multiplyScalar(this.speed);
+            this.node.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.Hit, this);
         }
     }
 

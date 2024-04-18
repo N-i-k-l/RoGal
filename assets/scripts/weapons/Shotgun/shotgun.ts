@@ -33,20 +33,20 @@ export class shotgun extends Component {
     shoot(mouseLoc: Vec2) {
         if (this.hidden) return;
 
-        const numBullets: number = 5; // Количество пуль
-        const spreadAngle: number = 20; // Угол разброса дробовика в градусах
+        const numPellets: number = 5; // Количество пуль
+        const spreadAngle: number = 120; // Угол разброса дробовика в градусах
 
-        for (let i = 0; i < numBullets; i++) {
-            const bulletInstance = instantiate(this.Pellet);
-            this.C.addChild(bulletInstance);
+        for (let i = 0; i < numPellets; i++) {
+            const pelletInstance = instantiate(this.Pellet);
+            this.C.addChild(pelletInstance);
 
             // Рассчитываем случайное отклонение от цели для создания разброса
             const deviationX: number = (Math.random() - 0.5) * spreadAngle;
             const deviationY: number = (Math.random() - 0.5) * spreadAngle;
             const targetWithDeviation = new Vec3(mouseLoc.x + deviationX, mouseLoc.y + deviationY);
 
-            bulletInstance.setPosition(this.gun.position);
-            bulletInstance.getComponent(Pellet).setTarget(targetWithDeviation);
+            pelletInstance.setPosition(this.gun.position);
+            pelletInstance.getComponent(Pellet).setTarget(targetWithDeviation);
         }
     }
 
@@ -66,7 +66,7 @@ export class shotgun extends Component {
             this.gun.setPosition(0, 0);
             PlayerGlobal.weapon = this.gun
         })
-        resources.load("weapons/shotgun/bullet", Prefab, (err, prefab) => {
+        resources.load("weapons/shotgun/pellet", Prefab, (err, prefab) => {
             this.Pellet = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
                 //console.log(event.getUILocation());
@@ -82,10 +82,10 @@ export class shotgun extends Component {
     mouseMove(event: EventMouse) {
         //console.log(PlayerGlobal.weapon.angle)
         //console.log(event.getUILocationX() + ' ' + event.getUILocationY());
-        console.log(director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY())))
+        //console.log(director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY())))
         let ML: Vec3 = director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY()));
         PlayerGlobal.weapon.angle = 90 - math.toDegree(Math.atan2(ML.x, ML.y))
-        console.log(PlayerGlobal.weapon.angle)
+        //console.log(PlayerGlobal.weapon.angle)
         //const angleRadians = Math.atan2(this.node.worldPosition.y, this..x);
         //const angleDegrees = math.toDegree(angleRadians);
         //this.gunAngle = angleDegrees;

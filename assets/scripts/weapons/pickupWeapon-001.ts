@@ -2,7 +2,7 @@ import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysi
 import { glock } from './glock/glock';
 import { Player } from '../Player/Player';
 import { PlayerGlobal } from '../PlayerGlobal';
-import { Sas } from './Sas';
+import { shotgun } from './Shotgun/shotgun';
 const { ccclass, property } = _decorator;
 
 @ccclass('pickupWeapon')
@@ -19,17 +19,11 @@ export class pickupWeapon extends Component {
     private weapon: any = null;
 
     start() {
-
+        
+        this.weapon = this.weapon1;
         if (this.weaponSprite) this.node.getComponent(Sprite).spriteFrame = this.weaponSprite;
         setTimeout(() => {
-            this.node.getComponent(BoxCollider2D).on(Contact2DType.BEGIN_CONTACT, (selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null, weapon) => {
-                if (otherCollider.node === PlayerGlobal.playerNode) {
-                    console.log(weapon)
-                    console.log('picked up ' + weapon);
-                    this.spawnWeapon();
-                    this.node.destroy();
-                }
-            });
+            this.node.getComponent(BoxCollider2D).on(Contact2DType.BEGIN_CONTACT, this.onBeginContact, this);
             this.node.getComponent(BoxCollider2D).group = 1
             this.node.getComponent(RigidBody2D).group = 1
             this.node.getComponent(BoxCollider2D).enabled = false;
@@ -48,28 +42,20 @@ export class pickupWeapon extends Component {
         
     }
 
-    onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null, weapon) {
+    onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node === PlayerGlobal.playerNode) {
-            console.log(weapon)
-            PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(weapon)
-            console.log('picked up ' + weapon);
+            console.log(this.weapon)
+            PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(shotgun)
+            console.log('picked up ' + this.weapon);
+            
             this.node.destroy();
             }
     }
-
-    spawnWeapon() {
-        PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(this.node.getComponent(Sas).weapon);
-    }
-
-
-
     setWeapon(weaponSprite: SpriteFrame, weapon: any) {
-        
         this.weaponSprite = weaponSprite;
         this.weapon = weapon;
         this.node.getComponent(Sprite).spriteFrame = this.weaponSprite;
-        console.log(this.weapon);
-        this.node.getComponent(Sas).weapon = weapon
+        console.log(weapon);
 
     }
 }

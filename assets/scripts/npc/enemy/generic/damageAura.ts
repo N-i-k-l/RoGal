@@ -1,7 +1,6 @@
 import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, IPhysics2DContact, Node, PhysicsGroup, Label } from 'cc';
 import { Player } from '../../../Player/Player';
 import { PlayerGlobal } from '../../../PlayerGlobal';
-import { BOXCOLLIDER2D } from '../../../../../extensions/plugin-import-2x/creator/components/BoxCollider2D';
 const { ccclass, property } = _decorator;
 
 @ccclass('damageAura')

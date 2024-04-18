@@ -93,8 +93,6 @@ export class glock extends Component {
     } 
 
     update(deltaTime: number) {
-        
-        //else this.reversed = false
         //if (!this.gun) return
         if (this.hidden) return;
         //PlayerGlobal.weapon.angle = this.gunAngle
