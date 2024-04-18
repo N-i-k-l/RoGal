@@ -25,13 +25,10 @@
       },
       {
         "__id__": 4
-      },
-      {
-        "__id__": 6
       }
     ],
     "_prefab": {
-      "__id__": 8
+      "__id__": 6
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -76,12 +73,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 32,
-      "height": 11
+      "width": 3.3,
+      "height": 1.1
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
+      "x": -0.6,
       "y": 0.5
     },
     "_id": ""
@@ -134,28 +131,6 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "8bk7xJxCBH0pnKm7BkfoA4"
-  },
-  {
-    "__type__": "c2adaW8j8RIcJJ7/6hbLD77",
-    "_name": "",
-    "_objFlags": 0,
-    "__editorExtras__": {},
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 7
-    },
-    "weaponDrop": {
-      "__uuid__": "4164f4b7-ab6f-4a45-99ca-22436fb1f957",
-      "__expectedType__": "cc.Prefab"
-    },
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "c6h76uXb9C5o4bp5cUUZrn"
   },
   {
     "__type__": "cc.PrefabInfo",

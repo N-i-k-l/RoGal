@@ -72,10 +72,10 @@ export class glock extends Component {
     mouseMove(event: EventMouse) {
         //console.log(PlayerGlobal.weapon.angle)
         //console.log(event.getUILocationX() + ' ' + event.getUILocationY());
-        console.log(director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY())))
+        //console.log(director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY())))
         let ML: Vec3 = director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY()));
         PlayerGlobal.weapon.angle = 90 - math.toDegree(Math.atan2(ML.x, ML.y))
-        console.log(PlayerGlobal.weapon.angle)
+        //console.log(PlayerGlobal.weapon.angle)
         //const angleRadians = Math.atan2(this.node.worldPosition.y, this..x);
         //const angleDegrees = math.toDegree(angleRadians);
         //this.gunAngle = angleDegrees;
@@ -83,8 +83,8 @@ export class glock extends Component {
     } 
 
     update(deltaTime: number) {
-        //if (PlayerGlobal.weapon.angle > 90 || PlayerGlobal.weapon.angle < -90 && (this.reversed = false)) PlayerGlobal.weapon.setScale(new Vec3(PlayerGlobal.weapon.scale.x, PlayerGlobal.weapon.scale.y * -1)), console.log(this.reversed), this.reversed = true
-        //else this.reversed = false
+        if (PlayerGlobal.weapon.angle > 90 || PlayerGlobal.weapon.angle < -90 && (this.reversed = false)) PlayerGlobal.weapon.setScale(new Vec3(PlayerGlobal.weapon.scale.x, PlayerGlobal.weapon.scale.y * -1)), console.log(this.reversed), this.reversed = true
+        else this.reversed = false
         //if (!this.gun) return
         if (this.hidden) return;
         //PlayerGlobal.weapon.angle = this.gunAngle

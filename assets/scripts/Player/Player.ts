@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3, RigidBody } from 'cc';
+import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3, RigidBody, Input } from 'cc';
 const { ccclass, property } = _decorator;
 import { PlayerGlobal } from "../PlayerGlobal";
 @ccclass('Player')
@@ -50,7 +50,9 @@ export class Player extends Component {
         if (this.weaponSlot1 && this.weaponSlot2) {
             this.weaponSlot1.hide();
             this.weaponSlot2.show();
-            [this.weaponSlot1, this.weaponSlot2] = [this.weaponSlot2, this.weaponSlot1];
+            let a = this.weaponSlot1
+            this.weaponSlot1 = this.weaponSlot2
+            this.weaponSlot2 = a
             console.log(this.weaponSlot1, ", ", this.weaponSlot2)
         }
     }
@@ -74,6 +76,7 @@ export class Player extends Component {
     onLoad() {
         PlayerGlobal.playerNode = this.node;
         this.HPLabel = this.node.getComponentInChildren(Label);
+
         systemEvent.on(SystemEventType.KEY_DOWN, this.onKeyDown, this);
         systemEvent.on(SystemEventType.KEY_UP, this.onKeyUp, this);
         
@@ -266,24 +269,6 @@ onKeyDown(event: EventKeyboard) {
             console.log('ouch');
             this.decreaseHealth(20)
             console.log(`Player HP: ${this.HP}`);
-            if (this.HPLabel) {
-                this.HPLabel.string = `HP: ${this.HP}`;
-            }
-        }
-       //if (otherCollider.node.name === 'Medicbag') {
-       //     this.increaseHealth(80);
-       //     otherCollider.node.removeFromParent();
-       //     otherCollider.node.destroy();
-       //     console.log('Ouagh thanks a lot my friend');
-       //     if (this.HPLabel) {
-       //         this.HPLabel.string = `HP: ${this.HP}`;
-       //     }
-       //}
-        if (otherCollider.node.name === 'FirstAidKit') {
-            this.increaseHealth(20);
-            otherCollider.node.removeFromParent();
-            otherCollider.node.destroy();
-            console.log('Using a first aid!');
             if (this.HPLabel) {
                 this.HPLabel.string = `HP: ${this.HP}`;
             }
