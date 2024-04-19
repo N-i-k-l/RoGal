@@ -227,8 +227,10 @@
     "__prefab": {
       "__id__": 11
     },
+    "player": null,
     "XSpeed": 0,
     "DMG": 0,
+    "HPLabel": null,
     "_id": ""
   },
   {
@@ -247,7 +249,7 @@
     "__prefab": {
       "__id__": 13
     },
-    "playOnLoad": false,
+    "playOnLoad": true,
     "_clips": [
       {
         "__uuid__": "6bb1b299-45f6-4fd9-ba50-f239ed112169",

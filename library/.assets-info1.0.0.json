@@ -789,7 +789,7 @@
       "uuid": "a759fe85-3e37-4bb0-b9ed-f3b6e80afa4c"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\slime\\slime.prefab": {
-      "time": 1713496282588.6013,
+      "time": 1713501498911.4167,
       "uuid": "8d9211fc-a7da-4f0d-ba54-77217fd878c0"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\spisok\\Spisok.prefab": {
@@ -1606,11 +1606,11 @@
       "uuid": "f665e54e-bc2a-4f56-b527-4401bf633802"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\skelet.anim": {
-      "time": 1713496282709.6294,
+      "time": 1713501521533.2651,
       "uuid": "6bb1b299-45f6-4fd9-ba50-f239ed112169"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\slaym.anim": {
-      "time": 1713496282709.6294,
+      "time": 1713501507048.6501,
       "uuid": "7169b7dd-5b92-4bc2-b7e9-2e3a5bca3fb2"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\slaym_ataka.anim": {
@@ -1710,7 +1710,7 @@
       "uuid": "476b0dc0-4f22-4751-835e-5220963519b7"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_=.prefab": {
-      "time": 1713496282590.6018,
+      "time": 1713501362545.451,
       "uuid": "63deb88a-6358-4fe4-8690-d8dfc0a799f9"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+-001.prefab": {
@@ -2042,7 +2042,7 @@
       "uuid": "df8d987a-6649-4c02-85d6-12a172ec4089"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\skelet\\skelet.prefab": {
-      "time": 1713496282577.5986,
+      "time": 1713501528987.287,
       "uuid": "7ed7df50-d953-47c6-990e-aeb4c528721d"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(идёт).png": {
@@ -2140,7 +2140,7 @@
       "time": 1713376031926.5437
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\iceHead\\iceHead.prefab": {
-      "time": 1713376031926.5437,
+      "time": 1713501460661.0708,
       "uuid": "83441c0a-f35e-4ae3-81dd-34af5cf09687"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\iceHead\\Ледяная_голова(3АКТ).png.meta": {
@@ -2161,7 +2161,7 @@
       "time": 1713376031928.544
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\golem\\plantGolem.prefab": {
-      "time": 1713376031928.544,
+      "time": 1713501384667.2937,
       "uuid": "08fa852b-711a-42ac-adf3-0875f8f96db8"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\golem2.meta": {
@@ -2175,7 +2175,7 @@
       "time": 1713376031928.544
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\golem2\\iceGolem.prefab": {
-      "time": 1713376031928.544,
+      "time": 1713501414856.6924,
       "uuid": "f77d3eca-7b99-419e-97d1-9d16c152fbaa"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта).png.meta": {
@@ -2203,7 +2203,7 @@
       "time": 1713376031930.545
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\soldier\\soldier.prefab": {
-      "time": 1713376031930.545,
+      "time": 1713501582941.78,
       "uuid": "bdd0ffd7-df37-46d3-808a-25edb4c1678e"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe.meta": {
@@ -2392,7 +2392,7 @@
       "time": 1713497566383.5227
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe\\nasekomoe.prefab": {
-      "time": 1713497614205.207,
+      "time": 1713501477075.236,
       "uuid": "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\nasekomoe.anim.meta": {
@@ -2560,7 +2560,7 @@
       "time": 1713498271878.7256
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\Boss\\plantGolem.prefab": {
-      "time": 1713500692179.9834,
+      "time": 1713501433584.534,
       "uuid": "0184f352-5425-4efe-ada7-c2185bec0339"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\Boss.anim.meta": {
@@ -2658,7 +2658,7 @@
       "time": 1713500299237.515
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\ognemetchik.anim": {
-      "time": 1713500523416.9639,
+      "time": 1713501604545.7507,
       "uuid": "13eff855-d5e0-4a42-97cd-29c9f9e0a711"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\огнеметчик\\ognemechik.prefab.meta": {
