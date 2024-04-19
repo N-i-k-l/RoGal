@@ -70,11 +70,11 @@
       "uuid": "89d064e8-ad62-40ac-9515-390d4f0b555b"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly": {
-      "time": 1713496425170.06,
+      "time": 1713512334499.9458,
       "uuid": "647cad86-244a-4a6c-bcf3-277c229ee2cc"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka": {
-      "time": 1713496524728.068,
+      "time": 1713512087269.6328,
       "uuid": "b5ae8414-a0a4-425e-893d-ef35d3e8dfd4"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\shooter": {
@@ -262,7 +262,7 @@
       "uuid": "ac04d957-8427-40fc-9723-11cc0e35ff5f"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources.meta": {
-      "time": 1712431915922.092
+      "time": 1713512087256.6316
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\scripts.meta": {
       "time": 1713376031939.5562
@@ -271,7 +271,7 @@
       "time": 1712434306920.4363
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies.meta": {
-      "time": 1712431915927.3787
+      "time": 1713512087260.628
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\platforma.meta": {
       "time": 1712431915936.0522
@@ -313,10 +313,10 @@
       "time": 1713376031925.5435
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly.meta": {
-      "time": 1712431915927.6445
+      "time": 1713512334491.9438
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka.meta": {
-      "time": 1712431915930.051
+      "time": 1713512087266.6306
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\shooter.meta": {
       "time": 1712434306922.4368
@@ -629,7 +629,7 @@
       "uuid": "a989aec8-8055-428b-bd32-12e3bf7ba040"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\Летающий враг.png": {
-      "time": 1712431915992.9546,
+      "time": 1713512334501.9463,
       "uuid": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\насекомое_для(2акта).png": {
@@ -653,7 +653,7 @@
       "uuid": "0f39fac0-4d47-45fb-97dd-6fa7e2d0eb93"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\Пьянка.png": {
-      "time": 1712431915993.9546,
+      "time": 1713512087271.6318,
       "uuid": "08fd3527-ad20-47f4-83b3-3d9199d49d88"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\ревальвер.png": {
@@ -753,7 +753,7 @@
       "uuid": "9ad8d721-8e76-47a8-8bc2-1cac48586584"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\bug\\bug.prefab": {
-      "time": 1713376031926.5437,
+      "time": 1713512206133.822,
       "uuid": "db877b4d-5e97-491d-90cd-4993e5edfcbe"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\animation.anim": {
@@ -763,14 +763,6 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fakeFly.prefab": {
       "time": 1713496282555.5935,
       "uuid": "c18012c4-cdb1-4c07-baf1-c1a57f0d44ca"
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab": {
-      "time": 1713496282556.594,
-      "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7"
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab": {
-      "time": 1713496282571.5974,
-      "uuid": "07540058-feb2-4428-a2ef-76a495bf8941"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\PiankaMenu.prefab": {
       "time": 1713496282572.5974,
@@ -968,7 +960,7 @@
       "time": 1713376031952.55
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\Летающий враг.png.meta": {
-      "time": 1712431915992.9546
+      "time": 1713512334503.9468
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\Перс.png.meta": {
       "time": 1712431915993.9546
@@ -980,7 +972,7 @@
       "time": 1712434306950.4438
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\Пьянка.png.meta": {
-      "time": 1712431915994.9548
+      "time": 1713512087273.6338
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\ревальвер.png.meta": {
       "time": 1712434306952.4436
@@ -1054,9 +1046,6 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\bug\\bug.prefab.meta": {
       "time": 1713376031926.5437
     },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
-      "time": 1713496282556.594
-    },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\animation.anim.meta": {
       "time": 1712431915928.0488
     },
@@ -1065,9 +1054,6 @@
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\scripts\\npc\\Enemy.prefab.meta": {
       "time": 1712431915976.1409
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab.meta": {
-      "time": 1713496282571.5974
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\PiankaMenu.prefab.meta": {
       "time": 1712434306922.4368
@@ -1602,7 +1588,7 @@
       "uuid": "44a8b9b6-ee3a-42c6-a606-34f4649277da"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\pianka.anim": {
-      "time": 1713496282553.5933,
+      "time": 1713512599355.8494,
       "uuid": "f665e54e-bc2a-4f56-b527-4401bf633802"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\skelet.anim": {
@@ -1798,7 +1784,7 @@
       "uuid": "483e68ab-68c2-4742-8d5c-351ef12c2f06"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_8_+.prefab": {
-      "time": 1713496282621.6094,
+      "time": 1713504068642.5232,
       "uuid": "edbf0698-2914-42aa-bc3d-0c24a69fae2a"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+-001.prefab": {
@@ -2175,7 +2161,7 @@
       "time": 1713376031928.544
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\golem2\\iceGolem.prefab": {
-      "time": 1713501414856.6924,
+      "time": 1713512288662.215,
       "uuid": "f77d3eca-7b99-419e-97d1-9d16c152fbaa"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта).png.meta": {
@@ -2210,7 +2196,7 @@
       "time": 1713496741488.205
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe": {
-      "time": 1713497566378.5212,
+      "time": 1713512507767.2683,
       "uuid": "fb1c7993-2b54-4465-837a-68507f576ddc"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ1).png.meta": {
@@ -2387,13 +2373,6 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe\\насекомое_для(2акта4).png": {
       "time": 1713494900167.902,
       "uuid": "8accceb7-947f-4882-8c93-93178806b996"
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe\\nasekomoe.prefab.meta": {
-      "time": 1713497566383.5227
-    },
-    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe\\nasekomoe.prefab": {
-      "time": 1713501477075.236,
-      "uuid": "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7"
     },
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\nasekomoe.anim.meta": {
       "time": 1713497635361.496
@@ -2667,6 +2646,20 @@
     "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\огнеметчик\\ognemechik.prefab": {
       "time": 1713500609184.5625,
       "uuid": "03c0cad7-6a68-47e7-8a74-ef6229bcd15f"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab.meta": {
+      "time": 1713512087269.6328
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab": {
+      "time": 1713512087268.6328,
+      "uuid": "07540058-feb2-4428-a2ef-76a495bf8941"
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
+      "time": 1713512334500.9302
+    },
+    "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab": {
+      "time": 1713512406458.4749,
+      "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7"
     }
   },
   "missing": {
@@ -3436,14 +3429,24 @@
       "removeTime": 1713496650386
     },
     "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7": {
-      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe\\slime.prefab",
-      "time": 1713496282588.6013,
-      "removeTime": 1713497566379
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\nasekomoe\\nasekomoe.prefab",
+      "time": 1713501477075.236,
+      "removeTime": 1713512507779
     },
     "03c0cad7-6a68-47e7-8a74-ef6229bcd15f": {
       "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\огнеметчик\\slime.prefab",
       "time": 1713496282588.6013,
       "removeTime": 1713500539765
+    },
+    "07540058-feb2-4428-a2ef-76a495bf8941": {
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab",
+      "time": 1713496282571.5974,
+      "removeTime": 1713512046845
+    },
+    "e05d3532-a173-4ef0-b151-efae0c1bcaa7": {
+      "path": "C:\\Users\\Professional\\Documents\\GitHub\\RoGal\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab",
+      "time": 1713496282556.594,
+      "removeTime": 1713512309172
     }
   }
 }
