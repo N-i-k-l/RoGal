@@ -4755,10 +4755,10 @@
       "__id__": 226
     },
     "asset": {
-      "__uuid__": "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 228
     },
@@ -4766,7 +4766,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "2eF/kPJXpN+4T65/mZKndd",
+    "fileId": "5fk2BrOsNFgITSv28QnHWY",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -4796,12 +4796,12 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "nasekomoe"
+    "value": "plantGolem"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -4814,8 +4814,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": -19.115100000000005,
-      "y": 37.65769999999999,
+      "x": 12.650299999999994,
+      "y": -23.047800000000002,
       "z": 0
     }
   },
@@ -4878,7 +4878,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "5fk2BrOsNFgITSv28QnHWY",
+    "fileId": "f7hVbL3+JAAaj1yGkY4Gta",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -4908,7 +4908,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "plantGolem"
+    "value": "plantGolem-001"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -4926,8 +4926,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 12.650299999999994,
-      "y": -23.047800000000002,
+      "x": 137.2279,
+      "y": -55.1661,
       "z": 0
     }
   },
@@ -4979,10 +4979,10 @@
       "__id__": 242
     },
     "asset": {
-      "__uuid__": "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 244
     },
@@ -4990,7 +4990,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "8a+ti5un1Oj7BMZ2bC2sWR",
+    "fileId": "55fkTgw3dGs6ERQNq/pSTA",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -5020,12 +5020,12 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "nasekomoe-001"
+    "value": "plantGolem-002"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -5038,8 +5038,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 187.68380000000002,
-      "y": -7.660700000000006,
+      "x": 102.12549999999999,
+      "y": -8.410700000000006,
       "z": 0
     }
   },
@@ -5091,10 +5091,10 @@
       "__id__": 250
     },
     "asset": {
-      "__uuid__": "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7",
+      "__uuid__": "db877b4d-5e97-491d-90cd-4993e5edfcbe",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 252
     },
@@ -5102,7 +5102,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "21ACv59J9KQ5A7ynkGyFZD",
+    "fileId": "281QVqHrxEy4bOVqPtVqlx",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -5132,12 +5132,12 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "nasekomoe-002"
+    "value": "bug"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -5150,8 +5150,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 5.999999999999993,
-      "y": -55.1661,
+      "x": -12.986300000000007,
+      "y": 34.720600000000005,
       "z": 0
     }
   },
@@ -5203,7 +5203,7 @@
       "__id__": 258
     },
     "asset": {
-      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
+      "__uuid__": "db877b4d-5e97-491d-90cd-4993e5edfcbe",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
@@ -5214,7 +5214,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "f7hVbL3+JAAaj1yGkY4Gta",
+    "fileId": "52X2WKsahLhYO8ls0Jxpm6",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -5244,7 +5244,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "plantGolem-001"
+    "value": "bug-001"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -5262,8 +5262,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 137.2279,
-      "y": -55.1661,
+      "x": 57.258500000000005,
+      "y": 10.601399999999998,
       "z": 0
     }
   },
@@ -5315,7 +5315,7 @@
       "__id__": 266
     },
     "asset": {
-      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
+      "__uuid__": "db877b4d-5e97-491d-90cd-4993e5edfcbe",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
@@ -5326,7 +5326,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "55fkTgw3dGs6ERQNq/pSTA",
+    "fileId": "9eFOcl+iJG/aFKc3j4LnUK",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -5356,7 +5356,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "plantGolem-002"
+    "value": "bug-002"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -5374,8 +5374,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 102.12549999999999,
-      "y": -8.410700000000006,
+      "x": 159.93290000000002,
+      "y": -13.385600000000004,
       "z": 0
     }
   },
@@ -5517,22 +5517,22 @@
     ],
     "Enemies": [
       {
-        "__id__": 226
-      },
-      {
-        "__id__": 242
-      },
-      {
-        "__id__": 250
-      },
-      {
-        "__id__": 234
+        "__id__": 266
       },
       {
         "__id__": 258
       },
       {
-        "__id__": 266
+        "__id__": 250
+      },
+      {
+        "__id__": 226
+      },
+      {
+        "__id__": 234
+      },
+      {
+        "__id__": 242
       }
     ],
     "_id": ""

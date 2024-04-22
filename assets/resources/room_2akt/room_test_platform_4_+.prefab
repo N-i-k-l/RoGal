@@ -2754,10 +2754,10 @@
       "__id__": 134
     },
     "asset": {
-      "__uuid__": "7bcc1f58-fa76-4c25-9ea8-a3ed77be4eb7",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 136
     },
@@ -2765,7 +2765,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "ccipBdS9dI0YG15SlgAsYt",
+    "fileId": "c2iPvGxBpIKK1RbI+gJa0r",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -2795,12 +2795,12 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "nasekomoe"
+    "value": "plantGolem"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -2813,8 +2813,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 6.718600000000016,
-      "y": -26.849199999999996,
+      "x": 40.8281,
+      "y": 10.311000000000007,
       "z": 0
     }
   },
@@ -2866,7 +2866,7 @@
       "__id__": 142
     },
     "asset": {
-      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
+      "__uuid__": "db877b4d-5e97-491d-90cd-4993e5edfcbe",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
@@ -2877,7 +2877,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "c2iPvGxBpIKK1RbI+gJa0r",
+    "fileId": "c7DQ/ZkXRHh5tMi+2/j7C7",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -2907,7 +2907,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "plantGolem"
+    "value": "bug"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2925,8 +2925,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 40.8281,
-      "y": 10.311000000000007,
+      "x": -4.082999999999984,
+      "y": -29.0976,
       "z": 0
     }
   },
@@ -3068,10 +3068,10 @@
     ],
     "Enemies": [
       {
-        "__id__": 134
+        "__id__": 142
       },
       {
-        "__id__": 142
+        "__id__": 134
       }
     ],
     "_id": ""
