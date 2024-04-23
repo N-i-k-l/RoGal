@@ -67,6 +67,8 @@ export class Player extends Component {
         } else {
             console.log("nope!");
             this.weaponSlot1.destroy();
+            this.node.removeComponent(this.weaponSlot1);
+            PlayerGlobal.playerNode.removeComponent(this.weaponSlot1);
             this.weaponSlot1 = this.node.addComponent(weapon);
             console.log("Нет свободных слотов для оружия!");
         }
@@ -82,6 +84,9 @@ export class Player extends Component {
         
         
         
+    }
+    onDestroy() {
+        //
     }
 
     hookJump() {
@@ -311,7 +316,9 @@ onKeyDown(event: EventKeyboard) {
     death() {
         console.log("you're dead!")
         PlayerGlobal.playerNode.active = false;
+        director.loadScene("GameOver"); 
         PlayerGlobal.playerNode.destroy();
+        
     }
 
     updateHealthLabel() {

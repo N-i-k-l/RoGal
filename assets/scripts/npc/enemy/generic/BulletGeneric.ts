@@ -7,7 +7,7 @@ const { ccclass, property } = _decorator;
 export class BulletGeneric extends Component {
     private target: Vec2;
     setTarget(target: Vec3) {
-        let tar: Vec3 = new Vec3(new Vec3(target.subtract(this.node.getWorldPosition())));
+        let tar: Vec3 = target.subtract(this.node.getWorldPosition());
         let mult: number = 1 / tar.length();
         this.target = new Vec2(10 / tar.x,10/ tar.y);
         console.log(target.x +""+ target.y);
@@ -17,7 +17,7 @@ export class BulletGeneric extends Component {
 
     Hit(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         console.log(otherCollider.name)
-        if (otherCollider.group == PlayerGlobal.playerNode.getComponent(Collider2D).group) otherCollider.node.getComponent(Player).decreaseHealth(10);
+        if (otherCollider.node === PlayerGlobal.playerNode) otherCollider.node.getComponent(Player).decreaseHealth(10);
         this.wallHit();
     }
 
