@@ -1,9 +1,11 @@
 {
   "ver": "1.1.50",
   "importer": "prefab",
-  "imported": false,
+  "imported": true,
   "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
-  "files": [],
+  "files": [
+    ".json"
+  ],
   "subMetas": {},
   "userData": {
     "syncNodeName": "fly"

@@ -1,5 +1,6 @@
 import { _decorator, BoxCollider2D, Component, Contact2DType, Node, RigidBody, RigidBody2D } from 'cc';
-import { door } from '../door';
+import { door } from './door';
+
 const { ccclass, property } = _decorator;
 
 @ccclass('roomController')

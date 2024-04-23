@@ -14,8 +14,8 @@ export class glock extends Component {
     private reversed: boolean = false;
 
     @property(Prefab)
-    weaponDrop: Prefab;        ;
-
+    weaponDrop: Prefab;
+    
     onLoad() {
         resources.load('weapons/PickupWeapon', Prefab, (err, prefab) => {
             this.weaponDrop = prefab;
@@ -34,6 +34,7 @@ export class glock extends Component {
         const Bullet = instantiate(this.Bullet);
         director.getScene().getChildByName("Canvas").addChild(Bullet);
         Bullet.setWorldPosition(PlayerGlobal.playerNode.getWorldPosition());
+        Bullet.setRotation(this.gun.rotation);
         Bullet.getComponent(bullet).setTarget(new Vec3(mouseLoc.x, mouseLoc.y));
     }
 

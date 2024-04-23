@@ -137,10 +137,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_useGrayscale": false,
-    "_atlas": {
-      "__uuid__": "c18010b8-d157-40c6-aa75-43c73a37bcfa",
-      "__expectedType__": "cc.SpriteAtlas"
-    },
+    "_atlas": null,
     "_id": ""
   },
   {
@@ -227,15 +224,10 @@
     "__prefab": {
       "__id__": 11
     },
-<<<<<<< HEAD
-    "XSpeed": 0,
-    "DMG": 0,
-=======
     "player": null,
     "XSpeed": 100,
     "DMG": 0,
     "HPLabel": null,
->>>>>>> main
     "_id": ""
   },
   {
@@ -243,11 +235,7 @@
     "fileId": "24ZjmbSlpGKauossNuf7I4"
   },
   {
-<<<<<<< HEAD
-    "__type__": "cc.Animation",
-=======
     "__type__": "4bed060sFpMA4OK9Lu+GsEQ",
->>>>>>> main
     "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
@@ -258,33 +246,15 @@
     "__prefab": {
       "__id__": 13
     },
-<<<<<<< HEAD
-    "playOnLoad": false,
-    "_clips": [
-      {
-        "__uuid__": "f665e54e-bc2a-4f56-b527-4401bf633802",
-        "__expectedType__": "cc.AnimationClip"
-      }
-    ],
-    "_defaultClip": {
-      "__uuid__": "f665e54e-bc2a-4f56-b527-4401bf633802",
-      "__expectedType__": "cc.AnimationClip"
-    },
-=======
     "dmg": 0,
     "isDamageble": 1,
     "HPLabel": null,
     "HP": 100,
->>>>>>> main
     "_id": ""
   },
   {
     "__type__": "cc.CompPrefabInfo",
-<<<<<<< HEAD
-    "fileId": "69xqPI3shF/IS3peROu44E"
-=======
     "fileId": "50Y+ahhzRGEJyorXDFmat6"
->>>>>>> main
   },
   {
     "__type__": "cc.PrefabInfo",

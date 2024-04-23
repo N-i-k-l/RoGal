@@ -1,9 +1,11 @@
 {
   "ver": "1.1.50",
   "importer": "prefab",
-  "imported": false,
+  "imported": true,
   "uuid": "07540058-feb2-4428-a2ef-76a495bf8941",
-  "files": [],
+  "files": [
+    ".json"
+  ],
   "subMetas": {},
   "userData": {
     "syncNodeName": "Pianka"

@@ -85,6 +85,9 @@ export class Player extends Component {
         
         
     }
+    onDestroy() {
+        //
+    }
 
     hookJump() {
         let a = this.hook.getWorldPosition().subtract(this.node.getWorldPosition());
@@ -313,7 +316,9 @@ onKeyDown(event: EventKeyboard) {
     death() {
         console.log("you're dead!")
         PlayerGlobal.playerNode.active = false;
+        director.loadScene("GameOver"); 
         PlayerGlobal.playerNode.destroy();
+        
     }
 
     updateHealthLabel() {

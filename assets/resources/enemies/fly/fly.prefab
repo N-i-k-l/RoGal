@@ -122,7 +122,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "6df22269-c482-4f17-b05a-3540430d28d5@f9941",
+      "__uuid__": "eb4c2e2e-1372-46bc-ac34-7e70afccc76e@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -244,23 +244,9 @@
     "__prefab": {
       "__id__": 13
     },
-<<<<<<< HEAD
-    "playOnLoad": false,
-    "_clips": [
-      {
-        "__uuid__": "f9a219c3-d322-4f4f-bcb8-f638beb40e6b",
-        "__expectedType__": "cc.AnimationClip"
-      }
-    ],
-    "_defaultClip": {
-      "__uuid__": "f9a219c3-d322-4f4f-bcb8-f638beb40e6b",
-      "__expectedType__": "cc.AnimationClip"
-    },
-=======
     "dmg": 50,
     "isDamageble": 1,
     "HP": 100,
->>>>>>> main
     "_id": ""
   },
   {
