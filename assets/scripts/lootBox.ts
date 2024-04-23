@@ -2,12 +2,14 @@ import { _decorator, Component, Node, BoxCollider2D, IPhysics2DContact, Collider
 import { glock } from './weapons/glock/glock';
 import { shotgun } from './weapons/Shotgun/shotgun';
 import { pickupWeapon } from './weapons/pickupWeapon';
+import { sword } from './weapons/melee/swordDefault/sword';
+import { flamethrower } from './weapons/flamethrower/flamethrower';
 const { ccclass, property } = _decorator;
 
 @ccclass('lootBox')
 export class lootBox extends Component {
 
-    private weaponsList = [glock, shotgun];
+    private weaponsList = [glock, shotgun, sword, flamethrower];
     @property(SpriteFrame)
     weaponspritesList = []
     weaponDrop: Prefab;

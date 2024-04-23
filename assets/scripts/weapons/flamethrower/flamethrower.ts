@@ -1,13 +1,13 @@
-import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Sprite } from 'cc';
+import { _decorator, Component, director, EventMouse, instantiate, math, Node, Prefab, resources, Sprite, UITransform, Vec2, Vec3 } from 'cc';
 import { PlayerGlobal } from '../../PlayerGlobal';
+import { flame } from './flame';
 import { pickupWeapon } from '../pickupWeapon';
-import { Pellet } from './Pellet';
-
 const { ccclass, property } = _decorator;
-@ccclass('shotgun')
-export class shotgun extends Component {
+
+@ccclass('flamethrower')
+export class flamethrower extends Component {
     private gun: Node;
-    private Pellet: Prefab;
+    private flame: Prefab;
     private C: Node;
     private hidden: Boolean = false;
     private gunAngle: number = 0;
@@ -15,10 +15,10 @@ export class shotgun extends Component {
     private reversed: boolean = false;
 
     @property(Prefab)
-    weaponDrop: Prefab;        ;
+    weaponDrop: Prefab;;
 
     onLoad() {
-        
+
     }
 
     hide() {
@@ -33,24 +33,26 @@ export class shotgun extends Component {
     shoot(mouseLoc: Vec2) {
         if (this.hidden) return;
 
-        const numPellets: number = 5; // Количество пуль
-        const spreadAngle: number = 180; // Угол разброса дробовика в градусах
+        const numFlames: number = 1; // Количество пламен
+        const spreadAngle: number = 20; // Угол разброса огнемета в градусах
 
-        for (let i = 0; i < numPellets; i++) {
-            const pelletInstance = instantiate(this.Pellet);
-            this.C.addChild(pelletInstance);
+        for (let i = 0; i < numFlames; i++) {
+            const flameInstance = instantiate(this.flame);
+            this.C.addChild(flameInstance);
+
+            // Рассчитываем случайное отклонение от цели для создания разброса
             const deviationX: number = (Math.random() - 0.5) * spreadAngle;
             const deviationY: number = (Math.random() - 0.5) * spreadAngle;
             const targetWithDeviation = new Vec3(mouseLoc.x + deviationX, mouseLoc.y + deviationY);
 
-            pelletInstance.setPosition(this.gun.position);
-            pelletInstance.getComponent(Pellet).setTarget(targetWithDeviation);
+            flameInstance.setPosition(this.gun.position);
+            flameInstance.getComponent(flame).setTarget(targetWithDeviation);
         }
     }
 
     onDestroy() {
         const weaponItem = instantiate(this.weaponDrop)
-        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, shotgun)
+        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, flamethrower)
         if (this.gun) this.gun.destroy;
     }
 
@@ -58,14 +60,14 @@ export class shotgun extends Component {
         this.startScale = this.node.scale.x;
         this.C = PlayerGlobal.playerNode;
         PlayerGlobal.touchArea.on(Node.EventType.MOUSE_MOVE, this.mouseMove);
-        resources.load("weapons/shotgun/shotgun", Prefab, (_err, prefab) => {
+        resources.load("weapons/flamethrower/flamethrower", Prefab, (_err, prefab) => {
             this.gun = instantiate(prefab);
             this.C.addChild(this.gun);
             this.gun.setPosition(0, 0);
             PlayerGlobal.weapon = this.gun
         })
-        resources.load("weapons/shotgun/pellet", Prefab, (_err, prefab) => {
-            this.Pellet = prefab;
+        resources.load("weapons/flamethrower/flame", Prefab, (_err, prefab) => {
+            this.flame = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
                 //console.log(event.getUILocation());
                 //console.log(this.node.worldPosition);
@@ -87,8 +89,8 @@ export class shotgun extends Component {
         //const angleRadians = Math.atan2(this.node.worldPosition.y, this..x);
         //const angleDegrees = math.toDegree(angleRadians);
         //this.gunAngle = angleDegrees;
-        
-    } 
+
+    }
 
     update(deltaTime: number) {
         //if (PlayerGlobal.weapon.angle > 90 || PlayerGlobal.weapon.angle < -90 && (this.reversed = false)) PlayerGlobal.weapon.setScale(new Vec3(PlayerGlobal.weapon.scale.x, PlayerGlobal.weapon.scale.y * -1)), console.log(this.reversed), this.reversed = true
@@ -96,7 +98,7 @@ export class shotgun extends Component {
         //if (!this.gun) return
         if (this.hidden) return;
         //PlayerGlobal.weapon.angle = this.gunAngle
-       
+
 
     }
 }
