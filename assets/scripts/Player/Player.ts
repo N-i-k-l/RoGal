@@ -86,7 +86,7 @@ export class Player extends Component {
 
     hookJump() {
         let a = this.hook.getWorldPosition().subtract(this.node.getWorldPosition());
-        this.rigidbody.applyForceToCenter(new Vec2(a.x*10000, a.y*10000), true);
+        this.rigidbody.applyForceToCenter(new Vec2(a.x*100000, a.y*100000), true);
         this.hookDespawn();
     }
 
