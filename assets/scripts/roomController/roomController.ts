@@ -1,4 +1,4 @@
-import { _decorator, BoxCollider2D, Component, Contact2DType, Node, RigidBody, RigidBody2D } from 'cc';
+import { _decorator, BoxCollider2D, Collider2D, Component, Contact2DType, math, Node, RigidBody, RigidBody2D, Sprite, SpriteFrame, UITransform } from 'cc';
 import { door } from '../door';
 const { ccclass, property } = _decorator;
 
@@ -13,13 +13,20 @@ export class roomController extends Component {
     @property(Node)
     Enemies: Node[] = [];
 
+    @property(SpriteFrame)
+    Black = null;
+
     roomOpen() {
         for (let i = 0; i < this.Doors.length; i++) {
             this.Doors[i].getComponent(door).doorOpen();
         }
     }
-    roomClose() {
-        for (let i = 0; i < this.Hitboxes.length; i++) this.Hitboxes[i].off(Contact2DType.BEGIN_CONTACT);
+    roomClose(otherCollider: Collider2D) {
+        console.log(otherCollider.name);
+        for (let i = 0; i < this.Hitboxes.length; i++) {
+            this.Hitboxes[i].off(Contact2DType.BEGIN_CONTACT);
+            this.Hitboxes[i].getComponent(Sprite).enabled = false;
+        }
         for (let i = 0; i < this.Doors.length; i++) {
             this.Doors[i].getComponent(door).doorClose();
         }
@@ -41,7 +48,15 @@ export class roomController extends Component {
 
     start() {
         for (let i = 0; i < this.Enemies.length; i++) this.Enemies[i].active = false;
-        for (let i = 0; i < this.Hitboxes.length; i++) this.Hitboxes[i].on(Contact2DType.BEGIN_CONTACT, this.roomClose, this);
+        for (let i = 0; i < this.Hitboxes.length; i++) {
+            this.Hitboxes[i].on(Contact2DType.BEGIN_CONTACT, this.roomClose, this);
+            let b = new math.Size(this.Hitboxes[i].getComponent(UITransform).contentSize);
+            let a = this.Hitboxes[i].addComponent(Sprite);
+            a.type = 2;
+            a.spriteFrame = this.Black;
+            this.Hitboxes[i].getComponent(UITransform).setContentSize(b);
+        } 
+ 
     }
 
     update(deltaTime: number) {

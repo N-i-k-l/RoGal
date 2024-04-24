@@ -47,7 +47,7 @@ export class boss1 extends Component {
         this.rightHands.forEach(this.toNormalHand);
         this.leftHands.forEach(this.toNormalHand);
         console.log(Number(PlayerGlobal.playerNode.position.x < this.node.position.x))
-        setTimeout(this.attackList[Number(PlayerGlobal.playerNode.position.x < this.node.position.x)], 1); 
+        this.scheduleOnce(this.attackList[Number(PlayerGlobal.playerNode.position.x < this.node.position.x)], 10);
     }
     toNormalHand(a: Node) {
         a.getComponent(DistanceJoint2D).maxLength = 5;

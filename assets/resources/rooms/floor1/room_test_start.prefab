@@ -2965,8 +2965,16 @@
         "__id__": 62
       }
     ],
-    "Hitboxes": [],
+    "Hitboxes": [
+      {
+        "__id__": 131
+      }
+    ],
     "Enemies": [],
+    "Black": {
+      "__uuid__": "ed2d0f18-a82b-460c-92f5-4697559ba5c9@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
     "_id": ""
   },
   {
@@ -2983,6 +2991,7 @@
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": null,
+    "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
       {
         "__id__": 134
