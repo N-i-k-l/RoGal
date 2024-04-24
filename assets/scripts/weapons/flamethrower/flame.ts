@@ -5,7 +5,7 @@ const { ccclass, property } = _decorator;
 @ccclass('flame')
 export class flame extends Component {
 
-    private speed: number = 1;
+    private speed: number = 0.2;
     private target: Vec2 = new Vec2();
 
     setTarget(target: Vec3) {
