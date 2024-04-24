@@ -16,6 +16,7 @@ export class GenerateFloor1 extends Component {
     private roomList:any[] = [];
     private reverser = [1, 0, 3, 2];
     private a;
+    private badRoomList: any[] = [];
 
     @property(Number)
     roomCount = 5;
@@ -40,14 +41,16 @@ export class GenerateFloor1 extends Component {
         let status: number = 0;
         if (this.roomList.length ==0) return 1
         let r: room = this.roomList.pop();
-        console.log(r);
+        
         
         r.Nd.setPosition(point);
-        for (let i = 0/*Math.floor(Math.random() * 3)*/; i < 2; i += 1) {
+        for (let i = 0; i < 2; i += 1) {
             if (!r) return 1
             if (!r.dirList[i]) continue
             console.log(i);
-            status = this.placeRoom(r.Nd.getPosition().add(r.dirList[i]).subtract(this.roomList[this.roomList.length - 1].dirList[this.reverser[i]]));
+            let tmp = r.dirList[i];
+            r.dirList[i] = null;
+            status = this.placeRoom(r.Nd.getPosition().add(tmp).subtract(this.roomList[this.roomList.length - 1].dirList[this.reverser[i]]));
             if (status == 1) return 1;
         }
         return 0;
@@ -76,7 +79,7 @@ export class GenerateFloor1 extends Component {
             if (d) {
                 dirList[3] = (new Vec3(c.position.x * newNode.scale.x, c.position.y * newNode.scale.y));
             }
-
+            
             this.roomList.push(new room(newNode, dirList));
         })
 

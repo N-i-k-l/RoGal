@@ -5,14 +5,15 @@ const { ccclass, property } = _decorator;
 @ccclass('bullet')
 export class bullet extends Component {
     private target: Vec2;
-    private speed: number = 2;
+    private speed: number = 2.5;
     setTarget(target: Vec3) {
         //let tar: Vec3 = new Vec3(new Vec3(target.subtract(this.node.getWorldPosition())));
-        //let mult: number = 1 / tar.length();
+        
         
         //this.target = new Vec2(tar.x * mult, tar.y * mult);
         let ML: Vec3 = find("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(target.x, target.y));
-        this.target = new Vec2(ML.x/this.speed, ML.y/this.speed);
+        let mult: number = this.speed / ML.length();
+        this.target = new Vec2(ML.x* mult, ML.y* mult);
         console.log(this.target);
         this.node.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.Hit, this);
         //this.node.angle = target.angle;

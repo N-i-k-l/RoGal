@@ -12,11 +12,16 @@ export class glock extends Component {
     private gunAngle: number = 0;
     private startScale: number;
     private reversed: boolean = false;
+    private delay = 25;
+
+    @property(Number)
+    private startDelay = 25;
 
     @property(Prefab)
     weaponDrop: Prefab;
     
     onLoad() {
+        this.delay = this.startDelay;
         resources.load('weapons/PickupWeapon', Prefab, (err, prefab) => {
             this.weaponDrop = prefab;
         });
@@ -60,13 +65,15 @@ export class glock extends Component {
             this.gun.setPosition(0, 0);
             PlayerGlobal.weapon = this.gun
         })
-        resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {
+        resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {       
             this.Bullet = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
                 //console.log(event.getUILocation());
                 //console.log(this.node.worldPosition);
                 //console.log(this.node.position)
+                if (this.delay < this.startDelay) return;
                 if (event.getButton() == 0 && !this.hidden) {
+                    this.delay = 0;
                     this.shoot(event.getUILocation());
                 } //console.log();
             }, this);
@@ -94,7 +101,7 @@ export class glock extends Component {
     } 
 
     update(deltaTime: number) {
-        //if (!this.gun) return
+        this.delay += 1;
         if (this.hidden) return;
         //PlayerGlobal.weapon.angle = this.gunAngle
        

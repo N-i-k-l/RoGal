@@ -9,9 +9,6 @@ const { ccclass, property } = _decorator;
 
 @ccclass('pickupWeapon')
 export class pickupWeapon extends Component {
-
-
-
     @property(SpriteFrame)
     weaponSprite: SpriteFrame = null;
 
@@ -47,7 +44,7 @@ export class pickupWeapon extends Component {
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node === PlayerGlobal.playerNode) {
             console.log(this.weapon)
-            PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(flamethrower)
+            PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(glock)
             console.log('picked up ' + this.weapon);
             
             this.node.destroy();

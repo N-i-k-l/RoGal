@@ -2,11 +2,11 @@
   "version": "1.0.0",
   "map": {
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources": {
-      "time": 1713890309581.1362,
+      "time": 1713930025639.8972,
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts": {
-      "time": 1713890309581.1362,
+      "time": 1713948917495.854,
       "uuid": "5cbdaf68-967f-4425-a5e3-94b6e17e5881"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\debug": {
@@ -58,7 +58,7 @@
       "uuid": "c4cdee75-a7c7-4187-98e4-afe0e0bbd702"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player": {
-      "time": 1713890309581.1362,
+      "time": 1713930025639.8972,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController": {
@@ -66,7 +66,7 @@
       "uuid": "28d9a04e-3a3e-4dc9-88bc-7acbbd05ee07"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons": {
-      "time": 1713890309583.1367,
+      "time": 1713930256457.4077,
       "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\boss1": {
@@ -118,7 +118,7 @@
       "uuid": "42316bad-694a-4fb3-98f8-2dacdf3c1894"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower": {
-      "time": 1713890309579.1355,
+      "time": 1713930025639.8972,
       "uuid": "fcde89cf-0e2d-4bd4-b0e2-aba6d2e52aa2"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock": {
@@ -134,11 +134,11 @@
       "uuid": "ea955a25-2cbc-4b7b-82bc-536519e40ffe"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower": {
-      "time": 1713890309584.1372,
+      "time": 1713930025644.4268,
       "uuid": "2fa18609-977b-44e4-8e64-0901b0f9c7b7"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock": {
-      "time": 1713928271146.989,
+      "time": 1713951724188.717,
       "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\melee": {
@@ -178,7 +178,7 @@
       "uuid": "91e88f14-46eb-47b8-aef9-2acdaee705ea"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\GenerateFloor1.ts": {
-      "time": 1713509743778.5679,
+      "time": 1713948917488.2087,
       "uuid": "1092c9cf-d6b4-4660-bef1-3aeae38aae48"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\items.ts": {
@@ -234,7 +234,7 @@
       "uuid": "df9d5bb1-7edd-497f-85ba-fed8267c04cc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1713865737917.9875,
+      "time": 1713930025639.8972,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\svet.ts": {
@@ -250,7 +250,7 @@
       "uuid": "61d6e3c0-5f49-4a0b-9f48-9cee899b17cd"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\MyFirstGun.ts": {
-      "time": 1713890309582.1365,
+      "time": 1713930256449.4192,
       "uuid": "7d7cf67a-3376-4791-bb18-937bb36215cf"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\pickupWeapon.ts": {
@@ -278,19 +278,19 @@
       "uuid": "5e1cb491-3942-40ce-968a-28e20272b86d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flame.ts": {
-      "time": 1713890309584.1372,
+      "time": 1713930025639.8972,
       "uuid": "227e7949-1a9a-4b67-84b0-1297c86019d0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flamethrower.ts": {
-      "time": 1713890309584.1372,
+      "time": 1713930025644.4268,
       "uuid": "aecb96d0-7cee-42e0-95f4-52bfd1d7215b"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\Bullet.ts": {
-      "time": 1713928271138.8784,
+      "time": 1713951057816.766,
       "uuid": "0592fe65-b9ec-46ae-b626-dc2e30d9da13"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts": {
-      "time": 1713890239386.7534,
+      "time": 1713951724173.8096,
       "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Shotgun\\Pellet.ts": {
@@ -690,7 +690,7 @@
       "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
-      "time": 1713929792397.566,
+      "time": 1713930040159.968,
       "uuid": "1b8558d5-6e4e-405a-b041-c47b2f6e51d0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png": {
@@ -714,7 +714,7 @@
       "uuid": "088af85f-630e-4ecd-91d9-f990abf67254"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene": {
-      "time": 1713296238220.1704,
+      "time": 1713938371871.232,
       "uuid": "85ab87ce-1b9a-4eae-9e36-2fd2c741a470"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scenePrototype.scene": {
@@ -898,7 +898,7 @@
       "uuid": "b7fcaf8c-b493-4eed-a3fb-ffcfb903d8d4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Коробка.prefab": {
-      "time": 1713890309581.1362,
+      "time": 1713930025639.8972,
       "uuid": "a8296d19-9a9f-497a-bfb0-ac0f53d70c90"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\doorBasic.prefab": {
@@ -922,7 +922,7 @@
       "uuid": "b7b3e7a4-9094-484a-8d75-67ddf76befa1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\genTest.scene": {
-      "time": 1713500423392.4353,
+      "time": 1713948178667.429,
       "uuid": "388c7016-e6d6-462d-8b50-4d0973fa867e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_platforma_16_+.prefab": {
@@ -1538,7 +1538,7 @@
       "uuid": "5777b4eb-9b63-4c60-bec6-7eeefe7cafc0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_platform_15.prefab": {
-      "time": 1713296238203.167,
+      "time": 1713940591400.5168,
       "uuid": "9bf2ebd7-21e0-4bfb-a24e-0d35c34d6977"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_start.prefab": {
@@ -2310,6 +2310,20 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black.png": {
       "time": 1713896269148.9863,
       "uuid": "dc2ba7c6-abe3-4ca6-a59e-1b5642f9e268"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.rar": {
+      "time": 1713930025639.8972,
+      "uuid": "572ac268-5399-4243-9b29-f96590fd3e59"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flame.prefab": {
+      "time": 1713930025639.8972,
+      "uuid": "02fa1675-6ebc-4567-a541-8122f96fb9c2"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.rar.meta": {
+      "time": 1713930025639.8972
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flame.prefab.meta": {
+      "time": 1713930025639.8972
     }
   },
   "missing": {
