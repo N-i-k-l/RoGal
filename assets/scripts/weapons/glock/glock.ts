@@ -27,7 +27,6 @@ export class glock extends Component {
         });
     }
     hide() {
-        //this.node.removeFromParent();
         this.hidden = true;
     }
     show() {
@@ -44,16 +43,12 @@ export class glock extends Component {
     }
 
     onDestroy() {
-        console.log("?");
         const weaponItem = instantiate(this.weaponDrop);
         weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, glock);
         director.getScene().getChildByName('Canvas').addChild(weaponItem);
         let dropLocation: Vec3 = PlayerGlobal.playerNode.getWorldPosition();
         weaponItem.setWorldPosition(dropLocation);
         if (this.gun) this.gun.destroy();
-        
-        //PlayerGlobal.playerNode
-        console.log("!");
     }
 
     start() {
@@ -68,14 +63,11 @@ export class glock extends Component {
         resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {       
             this.Bullet = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-                //console.log(event.getUILocation());
-                //console.log(this.node.worldPosition);
-                //console.log(this.node.position)
                 if (this.delay < this.startDelay) return;
                 if (event.getButton() == 0 && !this.hidden) {
                     this.delay = 0;
                     this.shoot(event.getUILocation());
-                } //console.log();
+                } 
             }, this);
         })
     }
