@@ -2915,7 +2915,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft"
+    "value": "Door_left"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3027,7 +3027,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright"
+    "value": "Door_right"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -8685,7 +8685,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-001"
+    "value": "Door_left-001"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -8797,7 +8797,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-002"
+    "value": "Door_left-002"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -8909,7 +8909,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-003"
+    "value": "Door_left-003"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9021,7 +9021,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-004"
+    "value": "Door_left-004"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9133,7 +9133,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-005"
+    "value": "Door_left-005"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9245,7 +9245,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-006"
+    "value": "Door_left-006"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9357,7 +9357,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright-001"
+    "value": "Door_right-001"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9469,7 +9469,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright-002"
+    "value": "Door_right-002"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9581,7 +9581,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright-003"
+    "value": "Door_right-003"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9693,7 +9693,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright-004"
+    "value": "Door_right-004"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -9805,7 +9805,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright-005"
+    "value": "Door_right-005"
   },
   {
     "__type__": "cc.TargetInfo",

@@ -1,6 +1,5 @@
 import { _decorator, Component, instantiate, Node, Prefab, resources, Vec3 } from 'cc';
 import { PlayerGlobal } from '../../../PlayerGlobal';
-import { Player } from '../../../Player/Player';
 import { BulletGeneric } from './BulletGeneric';
 const { ccclass, property } = _decorator;
 
@@ -10,19 +9,22 @@ export class genericShooter extends Component {
     private direction: number = 0;
     private startScale: number;
     private player: Node;
-    @property()
+    @property(String)
     private gunPref: string = "enemies/shooter/gun";
 
     @property(Prefab)
     private bulletPref: Prefab;
 
+    @property(Number)
+    private ticksStart: number = 100;
+
     private gun: Node;
 
 
-    private ticks: number = 10;
+    private ticks: number;
 
     start() {
-
+        this.ticks = this.ticksStart;
         this.startScale = this.node.scale.x;
         this.player = PlayerGlobal.playerNode;
         this.direction = 1;
@@ -38,14 +40,14 @@ export class genericShooter extends Component {
         const Bullet = instantiate(this.bulletPref);
         this.node.addChild(Bullet);
         Bullet.setPosition(this.gun.position);
-        Bullet.getComponent(BulletGeneric).setTarget(new Vec3(PlayerGlobal.playerNode.getWorldPosition()));
+        Bullet.getComponent(BulletGeneric).setTarget(PlayerGlobal.playerNode.getWorldPosition());
     }
 
     update(deltaTime: number) {
         this.ticks -= 1;
         if (this.ticks == 0) {
             
-            this.ticks = 10;
+            this.ticks = this.ticksStart;
             this.shoot();
         }
         if (this.node.worldPosition.x > this.player.worldPosition.x && this.direction != -1) {

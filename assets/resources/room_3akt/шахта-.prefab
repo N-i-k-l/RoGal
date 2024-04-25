@@ -1923,7 +1923,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft"
+    "value": "Door_left"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2035,7 +2035,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright"
+    "value": "Door_right"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2309,7 +2309,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft-006"
+    "value": "Door_left-006"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2421,7 +2421,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright-001"
+    "value": "Door_right-001"
   },
   {
     "__type__": "cc.TargetInfo",

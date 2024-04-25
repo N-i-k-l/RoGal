@@ -2619,7 +2619,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft"
+    "value": "Door_left"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -2749,7 +2749,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright"
+    "value": "Door_right"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3612,10 +3612,10 @@
       "__id__": 175
     },
     "asset": {
-      "__uuid__": "8d9211fc-a7da-4f0d-ba54-77217fd878c0",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 177
     },
@@ -3623,7 +3623,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "e4QAoWVEVDirDlXPLYTOBB",
+    "fileId": "3fyOCqGyBPC4xFrzvhB/aU",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -3651,19 +3651,14 @@
       "__id__": 179
     },
     "propertyPath": [
-      "_lpos"
+      "_name"
     ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": -30.82499999999999,
-      "y": -92.7225,
-      "z": -1100
-    }
+    "value": "plantGolem"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -3672,9 +3667,14 @@
       "__id__": 179
     },
     "propertyPath": [
-      "_name"
+      "_lpos"
     ],
-    "value": "slime"
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": -29.310599999999987,
+      "y": -25.3851,
+      "z": 0
+    }
   },
   {
     "__type__": "CCPropertyOverrideInfo",
@@ -3724,10 +3724,10 @@
       "__id__": 183
     },
     "asset": {
-      "__uuid__": "8d9211fc-a7da-4f0d-ba54-77217fd878c0",
+      "__uuid__": "db877b4d-5e97-491d-90cd-4993e5edfcbe",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 185
     },
@@ -3735,7 +3735,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "f09ffsJ71GcbfPY6tQVvLZ",
+    "fileId": "86BjFMZWVEPKtZJE3qbW5I",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -3763,19 +3763,14 @@
       "__id__": 187
     },
     "propertyPath": [
-      "_lpos"
+      "_name"
     ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": 50.26590000000002,
-      "y": -92.7225,
-      "z": -1100
-    }
+    "value": "bug"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -3784,9 +3779,14 @@
       "__id__": 187
     },
     "propertyPath": [
-      "_name"
+      "_lpos"
     ],
-    "value": "slime-001"
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 58.19470000000002,
+      "y": 4.9435,
+      "z": 0
+    }
   },
   {
     "__type__": "CCPropertyOverrideInfo",
@@ -3836,10 +3836,10 @@
       "__id__": 191
     },
     "asset": {
-      "__uuid__": "8d9211fc-a7da-4f0d-ba54-77217fd878c0",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 193
     },
@@ -3847,7 +3847,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "c0eeTkIMxDebHd8kf+6zlx",
+    "fileId": "8aj1/keHhChbDO7DFufZtV",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -3875,19 +3875,14 @@
       "__id__": 195
     },
     "propertyPath": [
-      "_lpos"
+      "_name"
     ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": 80.10330000000002,
-      "y": -92.7225,
-      "z": -1100
-    }
+    "value": "plantGolem-001"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -3896,9 +3891,14 @@
       "__id__": 195
     },
     "propertyPath": [
-      "_name"
+      "_lpos"
     ],
-    "value": "slime-002"
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 94.66330000000002,
+      "y": -89.9186,
+      "z": 0
+    }
   },
   {
     "__type__": "CCPropertyOverrideInfo",
@@ -3948,10 +3948,10 @@
       "__id__": 199
     },
     "asset": {
-      "__uuid__": "8d9211fc-a7da-4f0d-ba54-77217fd878c0",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 201
     },
@@ -3959,7 +3959,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "fb4d7W5zZDPLHuk3z5NmTL",
+    "fileId": "86K4+ZpbFGsZTEcI8RJLk5",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -3987,19 +3987,14 @@
       "__id__": 203
     },
     "propertyPath": [
-      "_lpos"
+      "_name"
     ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": 40.04300000000002,
-      "y": 6.924199999999999,
-      "z": -1100
-    }
+    "value": "plantGolem-002"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -4008,9 +4003,14 @@
       "__id__": 203
     },
     "propertyPath": [
-      "_name"
+      "_lpos"
     ],
-    "value": "slime"
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 36.448000000000015,
+      "y": -89.18380000000002,
+      "z": 0
+    }
   },
   {
     "__type__": "CCPropertyOverrideInfo",
@@ -4060,10 +4060,10 @@
       "__id__": 207
     },
     "asset": {
-      "__uuid__": "8d9211fc-a7da-4f0d-ba54-77217fd878c0",
+      "__uuid__": "08fa852b-711a-42ac-adf3-0875f8f96db8",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "92UAfGTuVFKL1TlsXMG1XT",
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
     "instance": {
       "__id__": 209
     },
@@ -4071,7 +4071,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "9btCnyyg1Oy5BzDVdzAUgv",
+    "fileId": "c7EhKwjw5I+7Jvp3zs7Jux",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -4099,19 +4099,14 @@
       "__id__": 211
     },
     "propertyPath": [
-      "_lpos"
+      "_name"
     ],
-    "value": {
-      "__type__": "cc.Vec3",
-      "x": -30.82499999999999,
-      "y": -27.414500000000004,
-      "z": -880
-    }
+    "value": "plantGolem-003"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "92UAfGTuVFKL1TlsXMG1XT"
+      "c46/YsCPVOJYA4mWEpNYRx"
     ]
   },
   {
@@ -4120,9 +4115,14 @@
       "__id__": 211
     },
     "propertyPath": [
-      "_name"
+      "_lpos"
     ],
-    "value": "slime"
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": -29.310599999999987,
+      "y": -89.9186,
+      "z": 0
+    }
   },
   {
     "__type__": "CCPropertyOverrideInfo",
@@ -4262,10 +4262,7 @@
     ],
     "Enemies": [
       {
-        "__id__": 199
-      },
-      {
-        "__id__": 207
+        "__id__": 175
       },
       {
         "__id__": 183
@@ -4274,7 +4271,10 @@
         "__id__": 191
       },
       {
-        "__id__": 175
+        "__id__": 199
+      },
+      {
+        "__id__": 207
       }
     ],
     "_id": ""

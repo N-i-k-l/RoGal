@@ -82,17 +82,17 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 180
+      },
+      {
+        "__id__": 182
+      },
+      {
         "__id__": 184
-      },
-      {
-        "__id__": 186
-      },
-      {
-        "__id__": 188
       }
     ],
     "_prefab": {
-      "__id__": 190
+      "__id__": 186
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -2566,7 +2566,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft"
+    "value": "Door_left"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3382,7 +3382,7 @@
       "__id__": 172
     },
     "asset": {
-      "__uuid__": "c18012c4-cdb1-4c07-baf1-c1a57f0d44ca",
+      "__uuid__": "e05d3532-a173-4ef0-b151-efae0c1bcaa7",
       "__expectedType__": "cc.Prefab"
     },
     "fileId": "c46/YsCPVOJYA4mWEpNYRx",
@@ -3393,7 +3393,7 @@
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "9cpKN+3rJP64Rb623nNyRU",
+    "fileId": "f2B9HUHCZKxq+H0Of0tGa/",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -3411,12 +3411,6 @@
       },
       {
         "__id__": 179
-      },
-      {
-        "__id__": 180
-      },
-      {
-        "__id__": 182
       }
     ],
     "removedComponents": []
@@ -3429,7 +3423,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "fakeFly"
+    "value": "fly"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3447,8 +3441,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": -16.771299999999997,
-      "y": 79.3665,
+      "x": -22.4088,
+      "y": 81.09870000000001,
       "z": 0
     }
   },
@@ -3484,46 +3478,6 @@
     }
   },
   {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 181
-    },
-    "propertyPath": [
-      "_contentSize"
-    ],
-    "value": {
-      "__type__": "cc.Size",
-      "width": 2,
-      "height": 3
-    }
-  },
-  {
-    "__type__": "cc.TargetInfo",
-    "localID": [
-      "acVSoGgwpEJoNvg5h1+bCe"
-    ]
-  },
-  {
-    "__type__": "CCPropertyOverrideInfo",
-    "targetInfo": {
-      "__id__": 183
-    },
-    "propertyPath": [
-      "_size"
-    ],
-    "value": {
-      "__type__": "cc.Size",
-      "width": 2,
-      "height": 3
-    }
-  },
-  {
-    "__type__": "cc.TargetInfo",
-    "localID": [
-      "87u9z6zI1Fx5AK9ReNyxBq"
-    ]
-  },
-  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -3533,7 +3487,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 185
+      "__id__": 181
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3561,7 +3515,7 @@
     },
     "_enabled": false,
     "__prefab": {
-      "__id__": 187
+      "__id__": 183
     },
     "_projection": 0,
     "_priority": 0,
@@ -3613,7 +3567,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 189
+      "__id__": 185
     },
     "Doors": [
       {

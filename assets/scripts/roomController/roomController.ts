@@ -12,9 +12,13 @@ export class roomController extends Component {
 
     @property(Node)
     Enemies: Node[] = [];
-
+     
     @property(SpriteFrame)
     Black = null;
+
+    private destroyColliders = false;
+    
+    
 
     roomOpen() {
         for (let i = 0; i < this.Doors.length; i++) {
@@ -22,10 +26,10 @@ export class roomController extends Component {
         }
     }
     roomClose(otherCollider: Collider2D) {
-        console.log(otherCollider.name);
+        this.destroyColliders = true;
         for (let i = 0; i < this.Hitboxes.length; i++) {
-            this.Hitboxes[i].off(Contact2DType.BEGIN_CONTACT);
-            this.Hitboxes[i].getComponent(Sprite).enabled = false;
+            //this.Hitboxes[i].off(Contact2DType.BEGIN_CONTACT);
+            //this.Hitboxes[i].getComponent(Sprite).enabled = false;
         }
         for (let i = 0; i < this.Doors.length; i++) {
             this.Doors[i].getComponent(door).doorClose();
@@ -45,6 +49,7 @@ export class roomController extends Component {
         } 
     }
 
+    
 
     start() {
         for (let i = 0; i < this.Enemies.length; i++) this.Enemies[i].active = false;
@@ -58,7 +63,12 @@ export class roomController extends Component {
         } 
  
     }
-
+    lateUpdate() {
+        if (this.destroyColliders) {
+            for (let i = 0; i < this.Hitboxes.length; i++)this.Hitboxes[i].node.destroy();
+        }
+        this.destroyColliders = false;
+    }
     update(deltaTime: number) {
         for (let i = 0; i < this.Enemies.length; i++) {
             if (this.Enemies[i].parent == null) {

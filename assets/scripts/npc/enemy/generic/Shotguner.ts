@@ -1,6 +1,7 @@
-import { _decorator, Component, find, instantiate, Node, Prefab, resources, Vec3 } from 'cc';
+import { _decorator, Component, find, instantiate, Node, Prefab, resources, Vec2, Vec3 } from 'cc';
 import { PlayerGlobal } from '../../../PlayerGlobal';
 import { BulletGeneric } from './BulletGeneric';
+import { pelletGeneric } from './pelletGeneric';
 const { ccclass, property } = _decorator;
 
 @ccclass('Shotguner')
@@ -18,6 +19,7 @@ export class Shotguner extends Component {
     bulletCount: number = 4; 
     private ticks: number = 10;
     private ticks_start = this.ticks;
+
     
 
     start() {
@@ -28,14 +30,17 @@ export class Shotguner extends Component {
     }
 
     shoot() {
+        const spreadAngle: number = 180; 
+
         for (let i = 0; i < this.bulletCount; i++) {
-            const Bullet = instantiate(this.Pellet);
-            find('Canvas').addChild(Bullet);
-            Bullet.setWorldPosition(this.node.getWorldPosition());
-            Bullet.getComponent(BulletGeneric).setTarget(PlayerGlobal.playerNode.getWorldPosition());
+            const flameInstance = instantiate(this.Pellet);
+            this.node.parent.addChild(flameInstance);
+            flameInstance.setPosition(this.node.position);
+            flameInstance.getComponent(pelletGeneric).setTarget(PlayerGlobal.playerNode.worldPosition);
         }
-        
     }
+
+    
 
     update(deltaTime: number) {
         if (PlayerGlobal.playerNode.getWorldPosition().subtract(this.node.getWorldPosition()).length() > this.attackRange) {

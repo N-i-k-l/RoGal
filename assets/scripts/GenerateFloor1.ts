@@ -41,8 +41,7 @@ export class GenerateFloor1 extends Component {
         let status: number = 0;
         if (this.roomList.length ==0) return 1
         let r: room = this.roomList.pop();
-        
-        
+        //if ()
         r.Nd.setPosition(point);
         for (let i = 0; i < 2; i += 1) {
             if (!r) return 1
