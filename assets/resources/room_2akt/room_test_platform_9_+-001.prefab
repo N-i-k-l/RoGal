@@ -2404,7 +2404,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft"
+    "value": "Door_left"
   },
   {
     "__type__": "cc.TargetInfo",

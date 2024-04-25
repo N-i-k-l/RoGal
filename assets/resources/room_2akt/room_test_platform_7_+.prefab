@@ -3800,7 +3800,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorleft"
+    "value": "Door_left"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3912,7 +3912,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorright"
+    "value": "Door_right"
   },
   {
     "__type__": "cc.TargetInfo",
