@@ -223,31 +223,31 @@ export class Player extends Component {
         }
     }
 
-
-onKeyDown(event: EventKeyboard) {
-    if (this.costil) {
-        PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-             //console.log();
-        }, this);
-        this.costil = false;
-    }
-
-    switch (event.keyCode) {
-        case 65: // A
-        case 37: // LEFT
-            this.direction = -1;
-            break;
-        case 68: // D
-        case 39: // RIGHT
-            this.direction = 1;
-            break;
-        case 32: // SPACE
-        case 38: // UP
-            console.log("trytojump");
-            if (this._startJump) {
-                console.log("alreadyjump");
-                return;
-            }
+    onKeyDown(event: EventKeyboard) {
+        if (this.costil) {
+            PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+                if (event.getButton() == 2) {
+                    this.hookLaunch(event.getUILocation());
+                } //console.log();
+            }, this);
+            this.costil = false;
+        }
+        switch (event.keyCode) {
+            case 65: // A
+            case 37: // LEFT
+                this.direction = -1;
+                break;
+            case 68: // D
+            case 39: // RIGHT
+                this.direction = 1;
+                break;
+            case 32: // SPACE
+            case 38: // UP
+                console.log("trytojump");
+                if (this._startJump) {
+                    console.log("alreadyjump");
+                    return;
+                }
 
             if (!this._startJump) {
                 console.log("isonground");
