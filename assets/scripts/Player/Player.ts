@@ -7,6 +7,9 @@ export class Player extends Component {
     @property(Label)
     HPLabel: Label = null;
     public HP: number = 100;
+    public maxHP: number = 100;
+    public maxHPm: number = 1;
+    public maxHPp: number = 0;
 
     @property(Prefab)
     segmentPrefab: Prefab = null;
@@ -23,8 +26,12 @@ export class Player extends Component {
     private direction: number = 0;
     @property(Number)
     private walk_force: number = 250;
+    public walk_force_m: number = 1
+    public walk_force_p: number = 0;
     @property(Number)
     private jump_force: number = 500;
+    public jump_force_m: number = 1;
+    public jump_force_p: number = 0;
 
     private _startJump: boolean = false;
 
@@ -224,46 +231,47 @@ export class Player extends Component {
     }
 
 
-onKeyDown(event: EventKeyboard) {
-    if (this.costil) {
-        PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-             //console.log();
-        }, this);
-        this.costil = false;
-    }
+    onKeyDown(event: EventKeyboard) {
+        if (this.costil) {
+            PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+                if (event.getButton() == 2) {
+                    this.hookLaunch(event.getUILocation());
+                } //console.log();
+            }, this);
+            this.costil = false;
+        }
+        switch (event.keyCode) {
+            case 65: // A
+            case 37: // LEFT
+                this.direction = -1;
+                break;
+            case 68: // D
+            case 39: // RIGHT
+                this.direction = 1;
+                break;
+            case 32: // SPACE
+            case 38: // UP
+                console.log("trytojump");
+                if (this._startJump) {
+                    console.log("alreadyjump");
+                    return;
+                }
 
-    switch (event.keyCode) {
-        case 65: // A
-        case 37: // LEFT
-            this.direction = -1;
-            break;
-        case 68: // D
-        case 39: // RIGHT
-            this.direction = 1;
-            break;
-        case 32: // SPACE
-        case 38: // UP
-            console.log("trytojump");
-            if (this._startJump) {
-                console.log("alreadyjump");
-                return;
-            }
-
-            if (!this._startJump) {
-                console.log("isonground");
-                this._startJump = true;
-                this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
-            } else {
-                console.log("intheair");
-            }
-            break;
-        case 70: // F
-            this.switchWeapon()
-            break;
-        default:
-            break;
+                if (!this._startJump) {
+                    console.log("isonground");
+                    this._startJump = true;
+                    this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
+                } else {
+                    console.log("intheair");
+                }
+                break;
+            case 70: // F
+                this.switchWeapon()
+                break;
+            default:
+                break;
+        }
     }
-}
 
 
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {

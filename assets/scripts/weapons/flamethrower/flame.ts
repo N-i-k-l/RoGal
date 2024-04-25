@@ -9,7 +9,8 @@ export class flame extends Component {
     private speed: number = 0.2;
     private target: Vec2 = new Vec2();
 
-    setTarget(target) {
+
+    setTarget(target: Vec3) {
         let ML: Vec3 = find("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(target.x, target.y));
         let mult: number = this.speed / ML.length();
         this.target = new Vec2(ML.x * mult, ML.y * mult);
@@ -18,7 +19,7 @@ export class flame extends Component {
     }
 
     Hit(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
-        if (otherCollider.group == 16) otherCollider.node.getComponent(damageAura).getDmg(20);
+        if (otherCollider.group == 16) otherCollider.node.getComponent(damageAura).getDmg(3);
         this.wallHit();
     }
 

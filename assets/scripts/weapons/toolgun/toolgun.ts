@@ -1,11 +1,12 @@
 import { _decorator, Component, Node, Prefab, EventMouse, Vec2, Vec3, instantiate, director, math, resources, UITransform, Sprite, Canvas } from 'cc';
-import { bullet } from './Bullet';
 import { PlayerGlobal } from '../../PlayerGlobal';
+import { bullet } from '../glock/Bullet';
 import { pickupWeapon } from '../pickupWeapon';
-import { Player } from '../../Player/Player';
+import { tool } from './tool';
 const { ccclass, property } = _decorator;
-@ccclass('glock')
-export class glock extends Component {
+
+@ccclass('toolgun')
+export class toolgun extends Component {
     private gun: Node;
     private Bullet: Prefab;
     private hidden: Boolean = false;
@@ -19,7 +20,7 @@ export class glock extends Component {
 
     @property(Prefab)
     weaponDrop: Prefab;
-    
+
     onLoad() {
         this.delay = this.startDelay;
         resources.load('weapons/PickupWeapon', Prefab, (err, prefab) => {
@@ -27,6 +28,7 @@ export class glock extends Component {
         });
     }
     hide() {
+        //this.node.removeFromParent();
         this.hidden = true;
     }
     show() {
@@ -38,40 +40,47 @@ export class glock extends Component {
         const Bullet = instantiate(this.Bullet);
         director.getScene().getChildByName("Canvas").addChild(Bullet);
         Bullet.setWorldPosition(PlayerGlobal.playerNode.getWorldPosition());
-        Bullet.setRotation(this.gun.rotation);
-        Bullet.getComponent(bullet).setTarget(new Vec3(mouseLoc.x, mouseLoc.y));
+        //Bullet.setRotation(this.gun.rotation);
+        Bullet.getComponent(tool).setTarget(new Vec3(mouseLoc.x, mouseLoc.y));
     }
 
     onDestroy() {
+        console.log("?");
         const weaponItem = instantiate(this.weaponDrop);
-        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, glock);
+        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, toolgun);
         director.getScene().getChildByName('Canvas').addChild(weaponItem);
         let dropLocation: Vec3 = PlayerGlobal.playerNode.getWorldPosition();
         weaponItem.setWorldPosition(dropLocation);
         if (this.gun) this.gun.destroy();
+
+        //PlayerGlobal.playerNode
+        console.log("!");
     }
 
     start() {
         this.startScale = this.node.scale.x;
         PlayerGlobal.touchArea.on(Node.EventType.MOUSE_MOVE, this.mouseMove);
-        resources.load("weapons/glock/glock", Prefab, (err, prefab) => {
+        resources.load("weapons/toolgun/toolgun", Prefab, (err, prefab) => {
             this.gun = instantiate(prefab);
             PlayerGlobal.playerNode.addChild(this.gun);
             this.gun.setPosition(0, 0);
             PlayerGlobal.weapon = this.gun
         })
-        resources.load("weapons/glock/bullet", Prefab, (err, prefab) => {       
+        resources.load("weapons/toolgun/tool", Prefab, (_err, prefab) => {
             this.Bullet = prefab;
             PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
+                //console.log(event.getUILocation());
+                //console.log(this.node.worldPosition);
+                //console.log(this.node.position)
                 if (this.delay < this.startDelay) return;
                 if (event.getButton() == 0 && !this.hidden) {
                     this.delay = 0;
                     this.shoot(event.getUILocation());
-                } 
+                } //console.log();
             }, this);
         })
     }
-    
+
     mouseMove(event: EventMouse) {
         //console.log(PlayerGlobal.weapon.angle)
         //console.log(event.getUILocationX() + ' ' + event.getUILocationY());
@@ -89,14 +98,14 @@ export class glock extends Component {
         //const angleRadians = Math.atan2(this.node.worldPosition.y, this..x);
         //const angleDegrees = math.toDegree(angleRadians);
         //this.gunAngle = angleDegrees;
-        
-    } 
+
+    }
 
     update(deltaTime: number) {
         this.delay += 1;
         if (this.hidden) return;
         //PlayerGlobal.weapon.angle = this.gunAngle
-       
+
 
     }
 }
