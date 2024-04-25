@@ -16,7 +16,7 @@ export class pickupWeapon extends Component {
     weapon1: any;
 
     private weapon: any = null;
-
+    private isDestroyed = false;
     start() {
         
         this.weapon = this.weapon1;
@@ -36,7 +36,9 @@ export class pickupWeapon extends Component {
     pickupActivate() {
         
     }
-
+    lateUpdate() {
+        if (this.isDestroyed) this.node.destroy();
+    }
     update(deltaTime: number) {
         
     }
@@ -44,10 +46,9 @@ export class pickupWeapon extends Component {
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node === PlayerGlobal.playerNode) {
             console.log(this.weapon)
-            PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(glock)
+            PlayerGlobal.playerNode.getComponent(Player).pickupWeapon(glock);
+            this.isDestroyed = true;
             console.log('picked up ' + this.weapon);
-            
-            this.node.destroy();
             }
     }
     setWeapon(weaponSprite: SpriteFrame, weapon: any) {

@@ -17,7 +17,10 @@ export class damageAura extends Component {
     private hitbox: BoxCollider2D;
     private player: Player;
 
-
+    private isDestroyed: boolean = false;
+    lateUpdate() {
+        if (this.isDestroyed) this.node.destroy();
+    }
     onLoad() {
         this.player = PlayerGlobal.playerNode.getComponent(Player);
         let hitbox = this.node.getComponent(BoxCollider2D);
@@ -52,8 +55,7 @@ export class damageAura extends Component {
     }
 
     die() {
-        this.node.destroy();
-        this.destroy();
+        this.isDestroyed = true;
     }
 
     start() {

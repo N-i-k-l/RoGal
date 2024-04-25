@@ -2,11 +2,11 @@
   "version": "1.0.0",
   "map": {
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources": {
-      "time": 1713930025639.8972,
+      "time": 1714021330097.5317,
       "uuid": "bfa9ef40-907e-4674-99e5-d3cac3bb48b4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts": {
-      "time": 1713948917495.854,
+      "time": 1714021334981.7512,
       "uuid": "5cbdaf68-967f-4425-a5e3-94b6e17e5881"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\debug": {
@@ -14,7 +14,7 @@
       "uuid": "88a042f1-90c8-4db9-9745-e4c561c93623"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies": {
-      "time": 1713475832528.4878,
+      "time": 1714041562366.041,
       "uuid": "2387a4d1-6130-4f9c-963b-694ed4a33fb4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\platforma": {
@@ -26,15 +26,15 @@
       "uuid": "0ee68f11-3f69-4403-9fe0-23b326f85214"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms": {
-      "time": 1713475923067.397,
+      "time": 1714021334979.7488,
       "uuid": "4e833f3c-267e-4767-813c-68558c928412"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt": {
-      "time": 1713475832581.973,
+      "time": 1714021330065.5264,
       "uuid": "5fcb7f0c-aab1-4396-8a12-e787bc00d63e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt": {
-      "time": 1713475832592.4739,
+      "time": 1714021330071.5256,
       "uuid": "3bddad66-81ef-46c9-8821-0d67ac9e555b"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rope": {
@@ -42,7 +42,7 @@
       "uuid": "7c17ad34-e9f2-40ef-8022-624e9f34c561"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons": {
-      "time": 1713890309578.1355,
+      "time": 1714021330092.5305,
       "uuid": "fb2416b3-9069-4ffb-bd82-891595471571"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\debug": {
@@ -54,31 +54,31 @@
       "uuid": "053bbd97-3cc4-4fd3-aac1-d6d859ba7885"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups": {
-      "time": 1713475923077.9954,
+      "time": 1714021330102.5327,
       "uuid": "c4cdee75-a7c7-4187-98e4-afe0e0bbd702"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player": {
-      "time": 1713930025639.8972,
+      "time": 1714042521332.541,
       "uuid": "323146fb-1224-4f6e-9d9f-650533c3e744"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController": {
-      "time": 1713928031919.5017,
+      "time": 1714033662642.0046,
       "uuid": "28d9a04e-3a3e-4dc9-88bc-7acbbd05ee07"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons": {
-      "time": 1713930256457.4077,
+      "time": 1714039561279.1853,
       "uuid": "e20089be-4f04-4fc1-9500-60e43a2d1cb3"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\boss1": {
-      "time": 1713929966688.5771,
+      "time": 1714021330033.5173,
       "uuid": "b6e57310-13e7-4519-807f-faa9dce0a577"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\bug": {
-      "time": 1713296238192.1646,
+      "time": 1714021330034.5176,
       "uuid": "89d064e8-ad62-40ac-9515-390d4f0b555b"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly": {
-      "time": 1713505490148.7737,
+      "time": 1714021334979.7488,
       "uuid": "647cad86-244a-4a6c-bcf3-277c229ee2cc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers": {
@@ -86,15 +86,15 @@
       "uuid": "73e3dfcc-3d9e-44d0-bddd-5439ab83fbb6"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka": {
-      "time": 1713475832517.4502,
+      "time": 1714021330040.519,
       "uuid": "b5ae8414-a0a4-425e-893d-ef35d3e8dfd4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter": {
-      "time": 1713296238198.166,
+      "time": 1714021330041.519,
       "uuid": "78a7f5f7-1f48-4d5c-8676-5e6436ba60c4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet": {
-      "time": 1713475832528.4878,
+      "time": 1714021330041.519,
       "uuid": "6a70631d-2115-42da-86e8-aeca02e0fa12"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym": {
@@ -102,7 +102,7 @@
       "uuid": "8d02db5b-6a8a-4d6e-ae19-54190cd62329"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slime": {
-      "time": 1713475832539.5298,
+      "time": 1714021330042.522,
       "uuid": "0931f4ec-6e87-4456-97f2-69f34cef1a64"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\spisok": {
@@ -110,35 +110,27 @@
       "uuid": "9ba8633c-2add-42bc-8108-40fd0aac1d80"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\doors": {
-      "time": 1713475832592.4739,
+      "time": 1714021330072.5298,
       "uuid": "d128b9b2-bdec-40a8-bc42-ed9c2ed6e197"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1": {
-      "time": 1713890338894.7747,
+      "time": 1714021330075.5266,
       "uuid": "42316bad-694a-4fb3-98f8-2dacdf3c1894"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower": {
-      "time": 1713930025639.8972,
-      "uuid": "fcde89cf-0e2d-4bd4-b0e2-aba6d2e52aa2"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock": {
-      "time": 1713890309580.136,
+      "time": 1714021330095.5312,
       "uuid": "3a50399d-336f-400d-86b4-828e24dc4343"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun": {
-      "time": 1713475923067.397,
+      "time": 1714021330096.5315,
       "uuid": "5b1f21a0-2b27-4eea-bc75-32d4f1d75705"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy": {
       "time": 1709726424511.1897,
       "uuid": "ea955a25-2cbc-4b7b-82bc-536519e40ffe"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower": {
-      "time": 1713930025644.4268,
-      "uuid": "2fa18609-977b-44e4-8e64-0901b0f9c7b7"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock": {
-      "time": 1713951724188.717,
+      "time": 1714030908186.1238,
       "uuid": "25137249-f090-4892-b5ea-9b18b8617fe1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\melee": {
@@ -146,11 +138,11 @@
       "uuid": "0c06da63-0213-4cc7-bbf8-13b24e699456"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Shotgun": {
-      "time": 1713928807918.5974,
+      "time": 1714021330112.535,
       "uuid": "cc5bc1ab-3c2b-4ba4-b431-0d812c3d5784"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic": {
-      "time": 1713475923077.9954,
+      "time": 1714042369842.8035,
       "uuid": "99c62c66-b374-4924-b6f8-dd9331a757bb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\pianka": {
@@ -158,7 +150,7 @@
       "uuid": "56b1dde6-72a5-4e7e-ac74-adc7a395a3b9"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\melee\\swordDefault": {
-      "time": 1713890309586.1367,
+      "time": 1714021330117.5364,
       "uuid": "ddb5c8ce-7396-4189-a60e-574b21b443c4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\changeRoom.ts": {
@@ -178,23 +170,15 @@
       "uuid": "91e88f14-46eb-47b8-aef9-2acdaee705ea"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\GenerateFloor1.ts": {
-      "time": 1713948917488.2087,
+      "time": 1714021334981.7512,
       "uuid": "1092c9cf-d6b4-4660-bef1-3aeae38aae48"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\items.ts": {
-      "time": 1713475923077.9954,
-      "uuid": "5e8af6d7-d48b-4e08-b303-3e71f68c9f66"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\lootBox.ts": {
-      "time": 1713890309581.1362,
-      "uuid": "b61c7091-0f7f-416e-ad0c-fd24fa9d321e"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\PlayerGlobal.ts": {
-      "time": 1713295816174.7769,
+      "time": 1714021334981.7512,
       "uuid": "2a909ea9-45ea-4d42-a166-10fd2fc095b6"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController.ts": {
-      "time": 1713507424134.4502,
+      "time": 1714021330108.5342,
       "uuid": "ab03c103-6954-41ae-a16b-06aa07ffeffa"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\rooms.ts": {
@@ -204,10 +188,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\spawner.ts": {
       "time": 1712259112979.8318,
       "uuid": "bf4004d7-39e5-4755-84fe-52e52b500d5b"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\teleport.ts": {
-      "time": 1713865743918.0898,
-      "uuid": "3416ebf8-4be3-49be-9a07-83afea262e7c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\platforma\\platform.ts": {
       "time": 1713296238199.1658,
@@ -221,92 +201,56 @@
       "time": 1710264989628.933,
       "uuid": "aefa44ae-93f8-4cb4-8775-f7170506b757"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\firstAidKit.ts": {
-      "time": 1713475923067.397,
-      "uuid": "40a49f7e-3311-43d2-b4a0-bd04d611fb06"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\jumpboost.ts": {
-      "time": 1713475923067.397,
-      "uuid": "24672935-d073-48b7-8f83-adba1e5b182b"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\Medicbag.ts": {
-      "time": 1713475923067.397,
+      "time": 1714021330101.5325,
       "uuid": "df9d5bb1-7edd-497f-85ba-fed8267c04cc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts": {
-      "time": 1713930025639.8972,
+      "time": 1714042521325.0315,
       "uuid": "22216486-22a1-4ac3-9346-f778bab50810"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\svet.ts": {
-      "time": 1713475832614.1184,
-      "uuid": "5ecaf79f-ac16-448b-bd39-fab84c8242fc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\touchArea.ts": {
       "time": 1712259112951.1675,
       "uuid": "c2e18eaa-9294-415f-8902-48868fb1cf52"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController\\roomController.ts": {
-      "time": 1713928031918.5012,
+      "time": 1714033662634.3062,
       "uuid": "61d6e3c0-5f49-4a0b-9f48-9cee899b17cd"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\MyFirstGun.ts": {
-      "time": 1713930256449.4192,
-      "uuid": "7d7cf67a-3376-4791-bb18-937bb36215cf"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\pickupWeapon.ts": {
-      "time": 1713475923077.9954,
+      "time": 1714021330118.5364,
       "uuid": "dfff6cb6-a899-4e62-9355-1774acf70863"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sas.ts": {
-      "time": 1713475923077.9954,
-      "uuid": "57c60b7c-aac9-496d-a514-fc01ca02a981"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\weaponDrop.ts": {
       "time": 1713295816178.7766,
       "uuid": "7b2ad20c-42ff-4574-b9c1-389ac824cc97"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\boss1\\boss1.ts": {
-      "time": 1713929966678.8372,
+      "time": 1714021330033.5173,
       "uuid": "ebd46ed5-d8f6-4dac-825a-fdaaaa25d3ee"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao.ts": {
-      "time": 1713475832494.8152,
-      "uuid": "6df1cf74-c882-4f23-8763-eeb86873138c"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao2.ts": {
-      "time": 1713475832494.8152,
-      "uuid": "5e1cb491-3942-40ce-968a-28e20272b86d"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flame.ts": {
-      "time": 1713930025639.8972,
-      "uuid": "227e7949-1a9a-4b67-84b0-1297c86019d0"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flamethrower.ts": {
-      "time": 1713930025644.4268,
-      "uuid": "aecb96d0-7cee-42e0-95f4-52bfd1d7215b"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\Bullet.ts": {
-      "time": 1713951057816.766,
+      "time": 1714030908179.4724,
       "uuid": "0592fe65-b9ec-46ae-b626-dc2e30d9da13"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\glock.ts": {
-      "time": 1713951724173.8096,
+      "time": 1714021330117.5364,
       "uuid": "f22165f6-574c-41c2-8770-d9a69ae33c75"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Shotgun\\Pellet.ts": {
-      "time": 1713928807918.5974,
+      "time": 1714021330112.535,
       "uuid": "d50d0a35-1b13-4ba9-82b6-34ed1571f0a4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Shotgun\\shotgun.ts": {
-      "time": 1713890309583.1367,
+      "time": 1714021330112.535,
       "uuid": "c2ada5bc-8fc4-4870-927b-ffa85b2c3efb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\BulletGeneric.ts": {
-      "time": 1713475881241.936,
+      "time": 1714026632774.2502,
       "uuid": "0900a251-e1e2-4f86-849a-4ee1a58f5ab0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\damageAura.ts": {
-      "time": 1713475923077.9954,
+      "time": 1714026613553.937,
       "uuid": "4bed0eb4-b05a-4c03-838a-f4bbbe1ac110"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\fakeAir.ts": {
@@ -322,11 +266,11 @@
       "uuid": "b08c9a31-a04f-496d-897d-6d5f5597fcd0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\genericShooter.ts": {
-      "time": 1713296238227.172,
+      "time": 1714024753760.8892,
       "uuid": "a5dc83f8-11ac-4435-b5a8-41e09d079a4a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\Shotguner.ts": {
-      "time": 1713475881243.4446,
+      "time": 1714042369835.46,
       "uuid": "c0bd1801-0a36-4b3e-8932-ebc8a626d8db"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\Slime.ts": {
@@ -334,7 +278,7 @@
       "uuid": "033f1446-4911-478e-ae29-ae1f289f0fb9"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\melee\\swordDefault\\sword.ts": {
-      "time": 1713890309586.1367,
+      "time": 1714021330117.5364,
       "uuid": "ac04d957-8427-40fc-9723-11cc0e35ff5f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources.meta": {
@@ -424,9 +368,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1.meta": {
       "time": 1713296238200.1753
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower.meta": {
-      "time": 1713890309578.1355
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock.meta": {
       "time": 1710263566361.588
     },
@@ -435,9 +376,6 @@
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy.meta": {
       "time": 1709726396482.0425
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.meta": {
-      "time": 1713890309583.1367
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock.meta": {
       "time": 1710263566367.589
@@ -472,12 +410,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\GenerateFloor1.ts.meta": {
       "time": 1712259112951.1675
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\items.ts.meta": {
-      "time": 1713475923077.9954
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\lootBox.ts.meta": {
-      "time": 1713499283222.4248
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\PlayerGlobal.ts.meta": {
       "time": 1710263566365.5884
     },
@@ -490,9 +422,6 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\spawner.ts.meta": {
       "time": 1712259112979.8318
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\teleport.ts.meta": {
-      "time": 1713863843824.8853
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\platforma\\platform.ts.meta": {
       "time": 1709893439016.6487
     },
@@ -502,20 +431,11 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\Enemy.ts.meta": {
       "time": 1709124600265.2546
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\firstAidKit.ts.meta": {
-      "time": 1713475923067.397
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\jumpboost.ts.meta": {
-      "time": 1713475923077.9954
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\Medicbag.ts.meta": {
       "time": 1712259112951.1675
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\Player.ts.meta": {
       "time": 1707719032739.9792
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\svet.ts.meta": {
-      "time": 1713890309581.1362
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\touchArea.ts.meta": {
       "time": 1710263566364.5874
@@ -523,32 +443,14 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\roomController\\roomController.ts.meta": {
       "time": 1713296238229.1724
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\MyFirstGun.ts.meta": {
-      "time": 1713890309582.1365
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\pickupWeapon.ts.meta": {
       "time": 1713295816178.7766
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sas.ts.meta": {
-      "time": 1713475923077.9954
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\weaponDrop.ts.meta": {
       "time": 1713295816178.7766
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\boss1\\boss1.ts.meta": {
       "time": 1713296238191.1643
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao.ts.meta": {
-      "time": 1713475832494.8152
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao2.ts.meta": {
-      "time": 1713475832494.8152
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flame.ts.meta": {
-      "time": 1713890309584.1372
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flamethrower.ts.meta": {
-      "time": 1713890309585.1375
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\glock\\Bullet.ts.meta": {
       "time": 1710263566368.588
@@ -621,10 +523,6 @@
       "time": 1713296238186.163,
       "uuid": "4db06de1-af07-4dbe-b4f9-62071c3ce0a2"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GameOver.scene": {
-      "time": 1713862453754.758,
-      "uuid": "37c46f0d-3727-45e6-9349-855d46f0617e"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\glock.png": {
       "time": 1710263566359.5874,
       "uuid": "aa3b1ae2-0a63-4254-9957-119559a5a252"
@@ -661,10 +559,6 @@
       "time": 1707318582389.19,
       "uuid": "060511c9-f6c5-410c-9bff-b7efd66ab720"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Pellet.png": {
-      "time": 1713475923067.397,
-      "uuid": "505f4bb8-ee28-4840-b313-40ea61c6e078"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pers_bezruk.anim": {
       "time": 1713475832494.8152,
       "uuid": "b167de76-ee1d-45a0-992e-c3dc9f51bce6"
@@ -686,11 +580,11 @@
       "uuid": "f665e54e-bc2a-4f56-b527-4401bf633802"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Player.prefab": {
-      "time": 1713475832485.9326,
+      "time": 1714021334980.7493,
       "uuid": "eb0681b3-d5f2-4bce-9d13-b43f6689e571"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene": {
-      "time": 1713930040159.968,
+      "time": 1714030944920.1975,
       "uuid": "1b8558d5-6e4e-405a-b041-c47b2f6e51d0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png": {
@@ -705,16 +599,12 @@
       "time": 1713296238220.1704,
       "uuid": "10272a17-e98d-42a5-a7fa-c3fb7527f6bd"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTestTeleport.scene": {
-      "time": 1713863707365.522,
-      "uuid": "e290e5b2-11a8-4b2b-8adb-be02795ae59d"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ropeTest.png": {
       "time": 1708028495477.5237,
       "uuid": "088af85f-630e-4ecd-91d9-f990abf67254"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene": {
-      "time": 1713938371871.232,
+      "time": 1714021330099.5322,
       "uuid": "85ab87ce-1b9a-4eae-9e36-2fd2c741a470"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scenePrototype.scene": {
@@ -726,11 +616,11 @@
       "uuid": "97ef70a8-734b-449f-8c4d-494c5835382b"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\skelet.anim": {
-      "time": 1713475832614.1184,
+      "time": 1714021330118.5364,
       "uuid": "6bb1b299-45f6-4fd9-ba50-f239ed112169"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\slaym.anim": {
-      "time": 1713475832614.1184,
+      "time": 1714021330119.5366,
       "uuid": "7169b7dd-5b92-4bc2-b7e9-2e3a5bca3fb2"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\slaym_ataka.anim": {
@@ -825,10 +715,6 @@
       "time": 1712259113006.0583,
       "uuid": "d57bcade-41a1-4e1a-912b-d5e8a40b478b"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\огнемёт.png": {
-      "time": 1713890309586.1367,
-      "uuid": "29aeaed2-8410-4cff-8275-b3df1246abfb"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Перс.png": {
       "time": 1707719032739.9792,
       "uuid": "ec9f0f9f-24cb-47b9-a127-e14f8f826e85"
@@ -886,7 +772,7 @@
       "uuid": "0e9c226b-ed32-4363-b99d-d67651fe4933"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\FirstAidKit.prefab": {
-      "time": 1713475923067.397,
+      "time": 1714021330032.5173,
       "uuid": "acc008e4-cd5e-459f-a5ed-a3df858d3e36"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Medicbag.prefab": {
@@ -898,11 +784,11 @@
       "uuid": "b7fcaf8c-b493-4eed-a3fb-ffcfb903d8d4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Коробка.prefab": {
-      "time": 1713930025639.8972,
+      "time": 1714021330097.5317,
       "uuid": "a8296d19-9a9f-497a-bfb0-ac0f53d70c90"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\doorBasic.prefab": {
-      "time": 1713507106755.6155,
+      "time": 1714021330103.533,
       "uuid": "43bb9613-fc9f-4d5b-8797-fe6609c06f9f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\debug\\ball.prefab": {
@@ -922,87 +808,83 @@
       "uuid": "b7b3e7a4-9094-484a-8d75-67ddf76befa1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\genTest.scene": {
-      "time": 1713948178667.429,
+      "time": 1714021330076.527,
       "uuid": "388c7016-e6d6-462d-8b50-4d0973fa867e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_platforma_16_+.prefab": {
-      "time": 1713506493327.4534,
+      "time": 1714021330078.5361,
       "uuid": "4a9ca3c1-9456-4de4-91e7-55a2dafb5c0f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_cruk-004_+.prefab": {
-      "time": 1713506551199.7693,
+      "time": 1714021330079.5276,
       "uuid": "84c616a9-7586-4443-93e2-a2bb20f67828"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_plantform_11_+.prefab": {
-      "time": 1713475832592.4739,
+      "time": 1714021330079.5276,
       "uuid": "298b5396-b08e-4f8a-a842-eeca69ebfe9a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platforma_6_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330088.5298,
       "uuid": "d40394e2-dc22-4b43-9b79-8670b3b8c8bf"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_+.prefab": {
-      "time": 1713475832592.4739,
+      "time": 1714021330080.5278,
       "uuid": "b139046c-6064-477a-a6b5-dce7b746f45a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_10_+.prefab": {
-      "time": 1713475832602.5051,
+      "time": 1714021330081.528,
       "uuid": "ca651f04-0f22-499e-a19e-5aa69654e888"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_12_+.prefab": {
-      "time": 1713475832603.5818,
-      "uuid": "81601923-36e2-4dec-98c2-cfc60004ed89"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_13_+.prefab": {
-      "time": 1713475832603.5818,
+      "time": 1714021330082.5283,
       "uuid": "70224a0e-8211-4a8f-a59d-1f5b2873c014"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_14_+.prefab": {
-      "time": 1713475832603.5818,
+      "time": 1714021330082.5283,
       "uuid": "4061f430-ab8d-421b-ad90-dcb50e8bb5e6"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_2_+.prefab": {
-      "time": 1713475832603.5818,
+      "time": 1714021330083.5283,
       "uuid": "129afe7d-7227-4444-8dd3-e71fcd3551d4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_3_+.prefab": {
-      "time": 1713475832603.5818,
+      "time": 1714021330084.532,
       "uuid": "2f851509-2f83-4f70-bcd2-7c5871e1af68"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_4_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330085.529,
       "uuid": "8ca6b643-0939-4c54-aeec-9f8bea8f7026"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_5_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330085.529,
       "uuid": "bb3ca657-78b3-4506-81a2-5a9876c05009"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_7_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330086.5293,
       "uuid": "9be4d36c-943c-4e82-83c3-dad383078173"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_8_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330087.5315,
       "uuid": "f5539832-d179-4955-9af4-32a104137a9d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_9_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330088.5298,
       "uuid": "c72c050b-537d-4c6d-a6c5-1a1930e088f0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_shop_+.prefab": {
-      "time": 1713475832608.089,
+      "time": 1714021330089.53,
       "uuid": "9dbc6b5c-133d-468d-aa80-85b1b44769f2"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-001_+.prefab": {
-      "time": 1713475832614.1184,
+      "time": 1714021330090.53,
       "uuid": "866eaf12-a7dc-4aab-bfe4-ec73ffa12705"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-002_+.prefab": {
-      "time": 1713475832614.1184,
+      "time": 1714021330091.5303,
       "uuid": "4e5bd532-66e4-49ce-9f04-8b4ff4547f16"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-003_+.prefab": {
-      "time": 1713475832614.1184,
+      "time": 1714021330091.5303,
       "uuid": "e2efe3bd-ea6b-4fd2-842c-02abd742016a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-006_+.prefab": {
@@ -1014,47 +896,47 @@
       "uuid": "6c06dac0-2bfe-4c58-92e5-7462fc92290c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_=.prefab": {
-      "time": 1713475832539.5298,
+      "time": 1714021330042.522,
       "uuid": "63deb88a-6358-4fe4-8690-d8dfc0a799f9"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+-001.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330044.52,
       "uuid": "123aa6be-d837-43dd-8689-0ed792a02c6c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_platforma_16_+.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330044.52,
       "uuid": "76e7edb9-ae6d-47e4-be19-51656bd53cd5"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_cruk-004_+.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330045.5232,
       "uuid": "e83632f6-6e28-4b4d-ae6e-6926931ebc49"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_plantform_11_+-001.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330046.52,
       "uuid": "031600a0-46f0-4055-b66f-1a8e3c38d17f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_plantform_11_+.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330047.5205,
       "uuid": "4303d003-247d-41f0-a8c6-f346b5d3ec2e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platforma_6_+-001.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330058.523,
       "uuid": "6fc44aa8-0f11-4e49-bcc7-5266a01033ea"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platforma_6_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330059.5232,
       "uuid": "eff1be7f-ad01-4193-b447-49ec09a96595"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_10_+.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330048.521,
       "uuid": "7903d18d-fa40-4c6d-a3d2-e22bafe1e39e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_12_+-001.prefab": {
-      "time": 1713475832549.3108,
+      "time": 1714021330049.521,
       "uuid": "bf37a4c3-6758-44db-a4cb-e8ad84e98ef0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_12_+-002.prefab": {
-      "time": 1713475832557.3142,
+      "time": 1714021330050.521,
       "uuid": "35c8e5ea-b073-44af-a4e7-0a2161896eb7"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_13_+-001.prefab": {
@@ -1062,11 +944,11 @@
       "uuid": "6ed333e2-e632-469d-bbeb-9b58d235fed8"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_13_+.prefab": {
-      "time": 1713475832557.3142,
+      "time": 1714021330050.521,
       "uuid": "07021d2c-0c71-4380-9fcc-1cef90cf97dc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_14_+-001.prefab": {
-      "time": 1713475832560.8499,
+      "time": 1714021330051.5212,
       "uuid": "fa803c18-1df6-4629-a7f2-cb8783c85eae"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_14_+.prefab": {
@@ -1074,67 +956,67 @@
       "uuid": "0e724043-87c0-4c3a-b903-43fbc2b9b0e4"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_2_+.prefab": {
-      "time": 1713475832560.8499,
+      "time": 1714021330052.5215,
       "uuid": "724930fb-af22-483d-ae1b-f62a06a3ed01"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_3_+.prefab": {
-      "time": 1713475832560.8499,
+      "time": 1714021330053.522,
       "uuid": "e0a9d411-0ccc-42e8-8be1-a114345e01cc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_4_+-001.prefab": {
-      "time": 1713475832560.8499,
+      "time": 1714021330053.522,
       "uuid": "8844dae8-003f-42ba-8116-3e8f8368341b"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_4_+.prefab": {
-      "time": 1713475832565.8574,
+      "time": 1714021330054.5273,
       "uuid": "db87b05a-3145-4db3-993a-7fa5513d390f"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_5_+.prefab": {
-      "time": 1713475832565.8574,
+      "time": 1714021330055.5222,
       "uuid": "85d76dd6-8a76-47f1-ab64-b7c2de3b5307"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_7_+.prefab": {
-      "time": 1713475832565.8574,
+      "time": 1714021330056.5225,
       "uuid": "483e68ab-68c2-4742-8d5c-351ef12c2f06"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_8_+.prefab": {
-      "time": 1713475832565.8574,
+      "time": 1714021330056.5225,
       "uuid": "edbf0698-2914-42aa-bc3d-0c24a69fae2a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+-001.prefab": {
-      "time": 1713475832565.8574,
+      "time": 1714021330057.5227,
       "uuid": "2940d052-eb80-4a1e-9004-278d370460fb"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330057.5227,
       "uuid": "16ac7dc8-c98f-4e81-8626-5155ba8b8fa3"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_shop_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330060.5232,
       "uuid": "921bbdc4-da82-422b-b69f-b5255e598dfe"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+-001.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330061.5234,
       "uuid": "027e9de7-6f86-4b2d-b6d7-ffcb87861fbd"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330061.5234,
       "uuid": "3e0ae4f0-483e-4e7d-b6ec-a7da1cf61a8d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-002_+-001.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330062.5237,
       "uuid": "10e2d4b9-3618-4514-867b-aa9f858d1e7e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-002_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330063.524,
       "uuid": "a243c310-13eb-4b78-b69b-060e5dc5e830"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-003_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330064.5244,
       "uuid": "ec5d62b8-5466-4aca-82ad-4f3b44bc2ef1"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-006_+.prefab": {
-      "time": 1713475832571.3887,
+      "time": 1714021330065.5264,
       "uuid": "85ce83ac-f87f-498f-bba6-b31e44f56888"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\ПОЛ(2АКТ) (1).png": {
@@ -1154,35 +1036,35 @@
       "uuid": "fee0b481-85e8-477f-80ec-d426d3037eea"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_=.prefab": {
-      "time": 1713475832581.973,
+      "time": 1714021330066.5247,
       "uuid": "2ad611b9-0149-4992-8bfb-2ae32c26dab9"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_platforma_16_+-001.prefab": {
-      "time": 1713506311770.4749,
+      "time": 1714021330067.525,
       "uuid": "63ba3480-e2c8-4169-bca3-0f2428f32d2a"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_12_+-001.prefab": {
-      "time": 1713475832581.973,
+      "time": 1714021330068.5251,
       "uuid": "eafcf38c-b487-4d30-8bd2-357d4966de37"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_12_+-002.prefab": {
-      "time": 1713475832581.973,
+      "time": 1714021330068.5251,
       "uuid": "9ffc57ee-f3b3-44bf-a733-0ac0e0479061"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_13_+.prefab": {
-      "time": 1713475832581.973,
+      "time": 1714021330069.5254,
       "uuid": "e58e1038-be61-4176-aefd-274fe039b2f8"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_14_+-001.prefab": {
-      "time": 1713475832581.973,
+      "time": 1714021330070.5254,
       "uuid": "d5cf0148-88d6-44a7-b88c-dd821acc4ef9"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_9_+-001.prefab": {
-      "time": 1713475832581.973,
+      "time": 1714021330070.5254,
       "uuid": "b8741f12-6d36-4456-a0ff-01dda1be4e54"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_start-002_+-001.prefab": {
-      "time": 1713475832592.4739,
+      "time": 1714021330071.5256,
       "uuid": "a28bc3bc-1ca7-4da3-a15a-183512807751"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\Пол(3АКТ).png": {
@@ -1218,7 +1100,7 @@
       "uuid": "976c5943-87d9-4b1a-acad-e1ae6e676ae8"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\PickupWeapon.prefab": {
-      "time": 1713475923067.397,
+      "time": 1714021330092.5305,
       "uuid": "4164f4b7-ab6f-4a45-99ca-22436fb1f957"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\bossBody.prefab": {
@@ -1230,7 +1112,7 @@
       "uuid": "9ad8d721-8e76-47a8-8bc2-1cac48586584"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\bug\\bug.prefab": {
-      "time": 1713296238191.1643,
+      "time": 1714021330034.5176,
       "uuid": "db877b4d-5e97-491d-90cd-4993e5edfcbe"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\animation.anim": {
@@ -1242,16 +1124,8 @@
       "uuid": "c18012c4-cdb1-4c07-baf1-c1a57f0d44ca"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab": {
-      "time": 1713850321091.1802,
+      "time": 1714021330034.5176,
       "uuid": "e05d3532-a173-4ef0-b151-efae0c1bcaa7"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\iceHead.prefab": {
-      "time": 1713296238192.1646,
-      "uuid": "83441c0a-f35e-4ae3-81dd-34af5cf09687"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Ледяная_голова(3АКТ).png": {
-      "time": 1713296238193.1643,
-      "uuid": "b5f1610f-fbe9-49ee-9ce0-97830329fd6c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Летающий враг(полёт) (7).png": {
       "time": 1713475832502.4265,
@@ -1357,33 +1231,17 @@
       "time": 1713475832517.4502,
       "uuid": "69ba89a3-5017-405f-a21b-a74b19a5645a"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\iceGolem.prefab": {
-      "time": 1713296238194.1648,
-      "uuid": "f77d3eca-7b99-419e-97d1-9d16c152fbaa"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\pianka.pac": {
       "time": 1713475832517.4502,
       "uuid": "c18010b8-d157-40c6-aa75-43c73a37bcfa"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab": {
-      "time": 1713851370372.1924,
+      "time": 1714021330037.5225,
       "uuid": "07540058-feb2-4428-a2ef-76a495bf8941"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\PiankaMenu.prefab": {
       "time": 1713475832517.4502,
       "uuid": "16cd5ae3-806c-40d7-9b3a-ee74f695c81b"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\plantGolem.prefab": {
-      "time": 1713296238195.1648,
-      "uuid": "08fa852b-711a-42ac-adf3-0875f8f96db8"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Враг(вырастак для 2 акта).png": {
-      "time": 1713296238195.1648,
-      "uuid": "a69bfec5-1ae4-455d-bdf3-a70034492d4c"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\ЛедянойГолем(3АКТ).png": {
-      "time": 1713296238196.1648,
-      "uuid": "bb2e9654-f9fc-4d29-841a-ef0ce85ffe97"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(1кадр) (1).png": {
       "time": 1713475832517.4502,
@@ -1414,7 +1272,7 @@
       "uuid": "f5b8fdf0-ec1a-4b1b-a5b0-714e37b2b51d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\bullet.prefab": {
-      "time": 1713296238196.1648,
+      "time": 1714023932908.7642,
       "uuid": "45219292-5186-4174-8832-8f7202ec223d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\gun.prefab": {
@@ -1422,19 +1280,15 @@
       "uuid": "fb6f59b2-962d-49b8-8f2a-d13d8c43b571"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\shooter.prefab": {
-      "time": 1713296238197.165,
+      "time": 1714024799781.7068,
       "uuid": "a759fe85-3e37-4bb0-b9ed-f3b6e80afa4c"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\soldier.prefab": {
-      "time": 1713296238198.166,
-      "uuid": "bdd0ffd7-df37-46d3-808a-25edb4c1678e"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\skelet.pac": {
       "time": 1713475832528.4878,
       "uuid": "df8d987a-6649-4c02-85d6-12a172ec4089"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\skelet.prefab": {
-      "time": 1713475832528.4878,
+      "time": 1714021330041.519,
       "uuid": "7ed7df50-d953-47c6-990e-aeb4c528721d"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\Скэлет(идёт) (5).png": {
@@ -1514,7 +1368,7 @@
       "uuid": "34ee90b0-43f3-4685-8aab-e5245476bf7c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slime\\slime.prefab": {
-      "time": 1713475832539.5298,
+      "time": 1714021330042.522,
       "uuid": "8d9211fc-a7da-4f0d-ba54-77217fd878c0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\spisok\\Spisok.prefab": {
@@ -1522,15 +1376,15 @@
       "uuid": "23e5432a-1f19-45c3-a755-ea19d7ba6f39"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\doors\\doorBasic.prefab": {
-      "time": 1713507112602.8513,
+      "time": 1714021330072.5298,
       "uuid": "db59bd0c-e7e6-4386-800a-a7fcfbb5e006"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_4.prefab": {
-      "time": 1713296238200.1753,
+      "time": 1714021330073.5261,
       "uuid": "c9c1807b-0ef6-4617-883c-fbbaeef93829"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_cruk.prefab": {
-      "time": 1713296238201.1665,
+      "time": 1714021330073.5261,
       "uuid": "77df32a7-c34e-4db0-9659-350844005766"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_papka-001.prefab": {
@@ -1538,35 +1392,23 @@
       "uuid": "5777b4eb-9b63-4c60-bec6-7eeefe7cafc0"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_platform_15.prefab": {
-      "time": 1713940591400.5168,
+      "time": 1714021330075.5266,
       "uuid": "9bf2ebd7-21e0-4bfb-a24e-0d35c34d6977"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_start.prefab": {
-      "time": 1713895152095.2195,
+      "time": 1714021330076.527,
       "uuid": "468ebbd2-ae24-4673-8565-1e28b40d9995"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\falme.prefab": {
-      "time": 1713890309578.1355,
-      "uuid": "02fa1675-6ebc-4567-a541-8122f96fb9c2"
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flamethrower.prefab": {
-      "time": 1713890309579.1355,
-      "uuid": "f34c0f37-be6a-484e-ad41-f4a812ced850"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\bullet.prefab": {
-      "time": 1713928126072.0269,
+      "time": 1714028364199.1768,
       "uuid": "ff286410-7f3f-493f-93ba-b20eb60d7cdc"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\glock.prefab": {
       "time": 1713296010916.0093,
       "uuid": "3d69a399-32e1-492f-b57d-a9024d413d58"
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\pellet.prefab": {
-      "time": 1713475923067.397,
-      "uuid": "412926b0-da3d-461e-a178-bb3c800191b4"
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\shotgun.prefab": {
-      "time": 1713475923067.397,
+      "time": 1714021330096.5315,
       "uuid": "99db830c-e5f1-4402-8680-2350ab00ef1c"
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\animation-001.anim.meta": {
@@ -1575,20 +1417,17 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\animation.anim.meta": {
       "time": 1713296238188.1638
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\bossTest.scene.meta": {
-      "time": 1713296238189.1638
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\fly.anim.meta": {
       "time": 1713475832494.8152
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GameOver.scene.meta": {
-      "time": 1713861560176.438
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\bossHandSegment2.png.meta": {
-      "time": 1713296238188.1638
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\bossTest.scene.meta": {
+      "time": 1713296238189.1638
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\FirsAidKit(30hp).png.meta": {
       "time": 1710264989549.913
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\bossHandSegment2.png.meta": {
+      "time": 1713296238188.1638
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\lab7.sql.meta": {
       "time": 1712259112889.87
@@ -1610,9 +1449,6 @@
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\MedicBag(80hp).png.meta": {
       "time": 1710264989550.9229
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Pellet.png.meta": {
-      "time": 1713475923067.397
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Medicbag.png.meta": {
       "time": 1709550347903.7268
@@ -1644,17 +1480,11 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\PlayerRoom.scene.meta": {
       "time": 1712259112878.3513
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTestTeleport.scene.meta": {
-      "time": 1713863707366.5125
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTest.scene.meta": {
       "time": 1713296238220.1704
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scene.scene.meta": {
       "time": 1713296238221.1711
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scenePrototype.scene.meta": {
-      "time": 1712259112943.8428
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pol3.png.meta": {
       "time": 1706643701772.3499
@@ -1662,11 +1492,14 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\pngwing.com.png.meta": {
       "time": 1706645597691.0796
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ropeTest.png.meta": {
-      "time": 1708030054423.626
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scenePrototype.scene.meta": {
+      "time": 1712259112943.8428
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\showCase.scene.meta": {
       "time": 1713296238230.1729
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ropeTest.png.meta": {
+      "time": 1708030054423.626
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\skelet.anim.meta": {
       "time": 1713475832614.1184
@@ -1689,17 +1522,17 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\start-mech.png.meta": {
       "time": 1710264989629.9312
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Stamin-up.png.meta": {
-      "time": 1712259112878.3513
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\stena1.png.meta": {
       "time": 1706643368069.833
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\swordanimation.anim.meta": {
-      "time": 1712259112990.4785
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Stamin-up.png.meta": {
+      "time": 1712259112878.3513
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\stena3.png.meta": {
       "time": 1706705086872.4258
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\swordanimation.anim.meta": {
+      "time": 1712259112990.4785
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\TestRoom.scene.meta": {
       "time": 1709125807798.0393
@@ -1728,23 +1561,20 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\доспех.png.meta": {
       "time": 1712259113006.0583
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Летающий враг.png.meta": {
-      "time": 1713850321091.1802
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Дробовик.png.meta": {
       "time": 1713295816178.7766
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Коробка.png.meta": {
       "time": 1713295816179.7769
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Летающий враг.png.meta": {
+      "time": 1713850321091.1802
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\насекомое_для(2акта).png.meta": {
       "time": 1713296238236.1736
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\новый 2.sql.meta": {
       "time": 1712259113006.0583
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\огнемёт.png.meta": {
-      "time": 1713890309586.1367
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Перс.png.meta": {
       "time": 1707719032739.9792
@@ -1764,32 +1594,32 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Решотка.png.meta": {
       "time": 1713296238233.1738
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\MedicbagPayday2.png.meta": {
-      "time": 1710264989624.9412
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\скэлет.png.meta": {
-      "time": 1712259113011.847
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\слайм.png.meta": {
       "time": 1712259113011.847
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Солдат(3АКТ).png.meta": {
       "time": 1713296238234.174
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\слайм.png.meta": {
+      "time": 1712259113011.847
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Стена.png.meta": {
       "time": 1710264989629.9312
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ФОН.png.meta": {
-      "time": 1713296238235.1753
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Чел.prefab.meta": {
       "time": 1713296238235.1753
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\студ2.jpg.meta": {
+      "time": 1710264989631.933
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\FirstAidKit.prefab.meta": {
       "time": 1710264989626.9304
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\студ2.jpg.meta": {
-      "time": 1710264989631.933
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ФОН.png.meta": {
+      "time": 1713296238235.1753
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Чел.png.meta": {
+      "time": 1710264989630.9312
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Medicbag.prefab.meta": {
       "time": 1709550347911.712
@@ -1797,14 +1627,11 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Sword.prefab.meta": {
       "time": 1710264989627.941
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\doorBasic.prefab.meta": {
-      "time": 1713499283271.8152
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\Коробка.prefab.meta": {
       "time": 1713295816172.7754
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Чел.png.meta": {
-      "time": 1710264989630.9312
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\doorBasic.prefab.meta": {
+      "time": 1714021330104.5332
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\debug\\ball.prefab.meta": {
       "time": 1712259112894.6533
@@ -1824,17 +1651,17 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_cruk-004_+.prefab.meta": {
       "time": 1713475832592.4739
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platforma_6_+.prefab.meta": {
-      "time": 1713475832608.089
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_plantform_11_+.prefab.meta": {
       "time": 1713475832592.4739
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\platforma\\Pol2.png.meta": {
       "time": 1709893439015.6482
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_12_+.prefab.meta": {
-      "time": 1713475832603.5818
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\MedicbagPayday2.png.meta": {
+      "time": 1710264989624.9412
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platforma_6_+.prefab.meta": {
+      "time": 1713475832608.089
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_+.prefab.meta": {
       "time": 1713475832592.4739
@@ -1845,10 +1672,10 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_13_+.prefab.meta": {
       "time": 1713475832603.5818
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_14_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_2_+.prefab.meta": {
       "time": 1713475832603.5818
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_2_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_14_+.prefab.meta": {
       "time": 1713475832603.5818
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_3_+.prefab.meta": {
@@ -1872,10 +1699,10 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_shop_+.prefab.meta": {
       "time": 1713475832614.1184
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-002_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-001_+.prefab.meta": {
       "time": 1713475832614.1184
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-001_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-002_+.prefab.meta": {
       "time": 1713475832614.1184
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_start-003_+.prefab.meta": {
@@ -1941,40 +1768,40 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_4_+-001.prefab.meta": {
       "time": 1713475832565.8574
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_4_+.prefab.meta": {
-      "time": 1713475832565.8574
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_5_+.prefab.meta": {
       "time": 1713475832565.8574
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_7_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_4_+.prefab.meta": {
       "time": 1713475832565.8574
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_8_+.prefab.meta": {
       "time": 1713475832565.8574
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+-001.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_7_+.prefab.meta": {
       "time": 1713475832565.8574
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+.prefab.meta": {
-      "time": 1713475832571.3887
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+-001.prefab.meta": {
+      "time": 1713475832565.8574
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_shop_+.prefab.meta": {
       "time": 1713475832571.3887
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_platform_9_+.prefab.meta": {
       "time": 1713475832571.3887
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+-001.prefab.meta": {
       "time": 1713475832571.3887
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-001_+.prefab.meta": {
+      "time": 1713475832571.3887
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-002_+-001.prefab.meta": {
       "time": 1713475832571.3887
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-002_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-003_+.prefab.meta": {
       "time": 1713475832571.3887
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-003_+.prefab.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-002_+.prefab.meta": {
       "time": 1713475832571.3887
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\room_test_start-006_+.prefab.meta": {
@@ -1995,13 +1822,13 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\Потолок(2АКТ) (2).png.meta": {
       "time": 1713475832581.973
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_12_+-001.prefab.meta": {
-      "time": 1713475832581.973
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_2akt\\Стена(2АКТ) (1).png.meta": {
       "time": 1713475832581.973
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_12_+-002.prefab.meta": {
+      "time": 1713475832581.973
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_12_+-001.prefab.meta": {
       "time": 1713475832581.973
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\room_test_platform_13_+.prefab.meta": {
@@ -2031,8 +1858,8 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\ФоноваяСтена(3АКТ).png.meta": {
       "time": 1713475832592.4739
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\PickupWeapon.prefab.meta": {
-      "time": 1713295816170.776
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\шахта-.prefab.meta": {
+      "time": 1713475832592.4739
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rope\\hook.prefab.meta": {
       "time": 1709124727140.955
@@ -2040,8 +1867,8 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rope\\ropeSegment1.prefab.meta": {
       "time": 1709124727148.937
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\room_3akt\\шахта-.prefab.meta": {
-      "time": 1713475832592.4739
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\PickupWeapon.prefab.meta": {
+      "time": 1713295816170.776
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\bossBody.prefab.meta": {
       "time": 1713296238224.172
@@ -2055,20 +1882,17 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\bug\\bug.prefab.meta": {
       "time": 1713296238192.1646
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
-      "time": 1713850321091.1802
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fakeFly.prefab.meta": {
       "time": 1712259112894.6533
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\iceHead.prefab.meta": {
-      "time": 1713296238193.1643
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\fly.prefab.meta": {
+      "time": 1713850321091.1802
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Летающий враг(полёт) (7).png.meta": {
       "time": 1713475832502.4265
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Ледяная_голова(3АКТ).png.meta": {
-      "time": 1713296238193.1643
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)3.png.meta": {
+      "time": 1713475832502.4265
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)1.png.meta": {
       "time": 1713475832502.4265
@@ -2076,13 +1900,10 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)2.png.meta": {
       "time": 1713475832502.4265
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)3.png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)5.png.meta": {
       "time": 1713475832502.4265
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)4.png.meta": {
-      "time": 1713475832502.4265
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)5.png.meta": {
       "time": 1713475832502.4265
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)6.png.meta": {
@@ -2100,10 +1921,10 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\ЛетающийВраг(полёт)9.png.meta": {
       "time": 1713475832507.4453
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(дышит)1.png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(дышит)2.png.meta": {
       "time": 1713475832507.4453
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(дышит)2.png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(дышит)1.png.meta": {
       "time": 1713475832507.4453
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(дышит)3.png.meta": {
@@ -2127,26 +1948,23 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)1.png.meta": {
       "time": 1713475832507.4453
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)2.png.meta": {
+      "time": 1713475832507.4453
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)3.png.meta": {
       "time": 1713475832507.4453
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)4.png.meta": {
       "time": 1713475832517.4502
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)2.png.meta": {
-      "time": 1713475832507.4453
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)5.png.meta": {
-      "time": 1713475832517.4502
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)6.png.meta": {
       "time": 1713475832517.4502
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\pianka.pac.meta": {
       "time": 1713475832517.4502
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\iceGolem.prefab.meta": {
-      "time": 1713296238194.1648
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)6.png.meta": {
+      "time": 1713475832517.4502
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Pianka.prefab.meta": {
       "time": 1713851370372.1924
@@ -2154,20 +1972,11 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\PiankaMenu.prefab.meta": {
       "time": 1712259112905.1235
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\plantGolem.prefab.meta": {
-      "time": 1713296238195.1648
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pers\\Чел(смерть)7.png.meta": {
       "time": 1713475832517.4502
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Враг(вырастак для 2 акта).png.meta": {
-      "time": 1713296238195.1648
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(1кадр) (1).png.meta": {
       "time": 1713475832517.4502
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\ЛедянойГолем(3АКТ).png.meta": {
-      "time": 1713296238196.1648
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(2кадр) (1).png.meta": {
       "time": 1713475832517.4502
@@ -2178,29 +1987,26 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\bullet.prefab.meta": {
       "time": 1713296238196.1648
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(4кадр) (1).png.meta": {
-      "time": 1713475832517.4502
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\gun.prefab.meta": {
       "time": 1713296238197.165
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(5кадр) (1).png.meta": {
+      "time": 1713475832517.4502
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(6кадр) (1).png.meta": {
       "time": 1713475832517.4502
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(5кадр) (1).png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(4кадр) (1).png.meta": {
       "time": 1713475832517.4502
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Пьянка(идёт).png.meta": {
       "time": 1713475832528.4878
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\skelet.pac.meta": {
-      "time": 1713475832528.4878
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\shooter.prefab.meta": {
       "time": 1713296238198.166
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\soldier.prefab.meta": {
-      "time": 1713296238198.166
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\skelet.pac.meta": {
+      "time": 1713475832528.4878
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\skelet.prefab.meta": {
       "time": 1713475832528.4878
@@ -2223,10 +2029,10 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\slaym.prefab.meta": {
       "time": 1713475832528.4878
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\скэлет(идёт)5.png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\Слайм(атака)1.png.meta": {
       "time": 1713475832528.4878
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\Слайм(атака)1.png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\skelet\\скэлет(идёт)5.png.meta": {
       "time": 1713475832528.4878
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\Слайм(атака)2.png.meta": {
@@ -2241,16 +2047,16 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\Слайм(атака)6.png.meta": {
       "time": 1713475832539.5298
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(движение)2.png.meta": {
-      "time": 1713475832539.5298
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(движение)1.png.meta": {
       "time": 1713475832539.5298
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\Слайм(сжатие) (3).png.meta": {
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(движение)2.png.meta": {
       "time": 1713475832539.5298
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(движение)3.png.meta": {
+      "time": 1713475832539.5298
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\Слайм(сжатие) (3).png.meta": {
       "time": 1713475832539.5298
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slime\\slime.prefab.meta": {
@@ -2259,19 +2065,19 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\spisok\\Spisok.prefab.meta": {
       "time": 1712259112915.5718
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(сжатие)1.png.meta": {
+      "time": 1713475832539.5298
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\doors\\doorBasic.prefab.meta": {
       "time": 1713475832592.4739
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(сжатие)2.png.meta": {
+      "time": 1713475832539.5298
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_4.prefab.meta": {
       "time": 1713296238200.1753
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(сжатие)1.png.meta": {
-      "time": 1713475832539.5298
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(сжатие)3.png.meta": {
-      "time": 1713475832539.5298
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\slaym\\слайм(сжатие)2.png.meta": {
       "time": 1713475832539.5298
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_cruk.prefab.meta": {
@@ -2283,20 +2089,11 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_platform_15.prefab.meta": {
       "time": 1713296238203.167
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\falme.prefab.meta": {
-      "time": 1713890309579.1355
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\floor1\\room_test_start.prefab.meta": {
       "time": 1713296238204.1672
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flamethrower.prefab.meta": {
-      "time": 1713890309579.1355
-    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\bullet.prefab.meta": {
       "time": 1710263566362.5884
-    },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\pellet.prefab.meta": {
-      "time": 1713475923067.397
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\glock\\glock.prefab.meta": {
       "time": 1710263566363.5889
@@ -2304,38 +2101,732 @@
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\shotgun.prefab.meta": {
       "time": 1713295816172.7754
     },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\items.ts.meta": {
+      "time": 1714021330104.5332
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\lootBox.ts.meta": {
+      "time": 1714021330105.5334
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\teleport.ts.meta": {
+      "time": 1714021330110.5347
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower.meta": {
+      "time": 1714021330092.5305
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\firstAidKit.ts.meta": {
+      "time": 1714021330101.5325
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\jumpboost.ts.meta": {
+      "time": 1714021330102.5327
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.meta": {
+      "time": 1714021330112.535
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\MyFirstGun.ts.meta": {
+      "time": 1714021330110.5347
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sas.ts.meta": {
+      "time": 1714021330111.535
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flame.ts.meta": {
+      "time": 1714021330114.5361
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flamethrower.ts.meta": {
+      "time": 1714021330115.5425
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower": {
+      "time": 1714021330094.531,
+      "uuid": "fcde89cf-0e2d-4bd4-b0e2-aba6d2e52aa2"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\items.ts": {
+      "time": 1714021330104.5332,
+      "uuid": "5e8af6d7-d48b-4e08-b303-3e71f68c9f66"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\lootBox.ts": {
+      "time": 1714021330105.5334,
+      "uuid": "b61c7091-0f7f-416e-ad0c-fd24fa9d321e"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\teleport.ts": {
+      "time": 1714021330109.5366,
+      "uuid": "3416ebf8-4be3-49be-9a07-83afea262e7c"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower": {
+      "time": 1714021334983.7534,
+      "uuid": "2fa18609-977b-44e4-8e64-0901b0f9c7b7"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\firstAidKit.ts": {
+      "time": 1714021330101.5325,
+      "uuid": "40a49f7e-3311-43d2-b4a0-bd04d611fb06"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\jumpboost.ts": {
+      "time": 1714021330101.5325,
+      "uuid": "24672935-d073-48b7-8f83-adba1e5b182b"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\MyFirstGun.ts": {
+      "time": 1714021334982.754,
+      "uuid": "7d7cf67a-3376-4791-bb18-937bb36215cf"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sas.ts": {
+      "time": 1714021330111.535,
+      "uuid": "57c60b7c-aac9-496d-a514-fc01ca02a981"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flame.ts": {
+      "time": 1714021334982.754,
+      "uuid": "227e7949-1a9a-4b67-84b0-1297c86019d0"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flamethrower.ts": {
+      "time": 1714021334983.7534,
+      "uuid": "aecb96d0-7cee-42e0-95f4-52bfd1d7215b"
+    },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black.png.meta": {
-      "time": 1713896325217.533
+      "time": 1714021330032.5173
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black.png": {
-      "time": 1713896269148.9863,
-      "uuid": "dc2ba7c6-abe3-4ca6-a59e-1b5642f9e268"
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GameOver.scene.meta": {
+      "time": 1714021330029.5166
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.rar": {
-      "time": 1713930025639.8972,
-      "uuid": "572ac268-5399-4243-9b29-f96590fd3e59"
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Pellet.png.meta": {
+      "time": 1714021330030.5166
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flame.prefab": {
-      "time": 1713930025639.8972,
-      "uuid": "02fa1675-6ebc-4567-a541-8122f96fb9c2"
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTestTeleport.scene.meta": {
+      "time": 1714021330098.533
     },
-    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.rar.meta": {
-      "time": 1713930025639.8972
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\огнемёт.png.meta": {
+      "time": 1714021330119.5366
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\iceHead.prefab.meta": {
+      "time": 1714021330036.518
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Ледяная_голова(3АКТ).png.meta": {
+      "time": 1714021330036.518
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\iceGolem.prefab.meta": {
+      "time": 1714021330038.5183
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\plantGolem.prefab.meta": {
+      "time": 1714021330038.5183
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Враг(вырастак для 2 акта).png.meta": {
+      "time": 1714021330039.5186
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\ЛедянойГолем(3АКТ).png.meta": {
+      "time": 1714021330040.519
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\soldier.prefab.meta": {
+      "time": 1714021330041.519
     },
     "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flame.prefab.meta": {
-      "time": 1713930025639.8972
+      "time": 1714021330094.531
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flamethrower.prefab.meta": {
+      "time": 1714021330094.531
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\pellet.prefab.meta": {
+      "time": 1714021330096.5315
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTestTeleport.scene": {
+      "time": 1714021330098.533,
+      "uuid": "e290e5b2-11a8-4b2b-8adb-be02795ae59d"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GameOver.scene": {
+      "time": 1714021330028.5173,
+      "uuid": "37c46f0d-3727-45e6-9349-855d46f0617e"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\iceHead.prefab": {
+      "time": 1714021330035.5278,
+      "uuid": "83441c0a-f35e-4ae3-81dd-34af5cf09687"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black.png": {
+      "time": 1714021330031.517,
+      "uuid": "dc2ba7c6-abe3-4ca6-a59e-1b5642f9e268"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\огнемёт.png": {
+      "time": 1714021330119.5366,
+      "uuid": "29aeaed2-8410-4cff-8275-b3df1246abfb"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Pellet.png": {
+      "time": 1714021330029.5166,
+      "uuid": "505f4bb8-ee28-4840-b313-40ea61c6e078"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\iceGolem.prefab": {
+      "time": 1714021330037.5225,
+      "uuid": "f77d3eca-7b99-419e-97d1-9d16c152fbaa"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\plantGolem.prefab": {
+      "time": 1714021330038.5183,
+      "uuid": "08fa852b-711a-42ac-adf3-0875f8f96db8"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\shooter\\soldier.prefab": {
+      "time": 1714021330040.519,
+      "uuid": "bdd0ffd7-df37-46d3-808a-25edb4c1678e"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flame.prefab": {
+      "time": 1714021330093.5308,
+      "uuid": "02fa1675-6ebc-4567-a541-8122f96fb9c2"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\Ледяная_голова(3АКТ).png": {
+      "time": 1714021330036.518,
+      "uuid": "b5f1610f-fbe9-49ee-9ce0-97830329fd6c"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flamethrower.prefab": {
+      "time": 1714021330094.531,
+      "uuid": "f34c0f37-be6a-484e-ad41-f4a812ced850"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\pellet.prefab": {
+      "time": 1714021330095.5312,
+      "uuid": "412926b0-da3d-461e-a178-bb3c800191b4"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\ЛедянойГолем(3АКТ).png": {
+      "time": 1714021330039.5186,
+      "uuid": "bb2e9654-f9fc-4d29-841a-ef0ce85ffe97"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\pianka\\Враг(вырастак для 2 акта).png": {
+      "time": 1714021330039.5186,
+      "uuid": "a69bfec5-1ae4-455d-bdf3-a70034492d4c"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\pelletGeneric.ts.meta": {
+      "time": 1714041038610.058
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\npc\\enemy\\generic\\pelletGeneric.ts": {
+      "time": 1714041519777.9846,
+      "uuid": "021b1635-9256-480e-b440-69d264fe1bb3"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer.meta": {
+      "time": 1714041562367.041
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer": {
+      "time": 1714042020026.356,
+      "uuid": "492de587-5688-413e-bb0d-7c0f33c1ca0f"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer\\flame.prefab.meta": {
+      "time": 1714041984370.6316
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer\\flame.prefab": {
+      "time": 1714041984369.6292,
+      "uuid": "f752f929-c866-4874-a279-6affccb96c5e"
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer\\Flamer.prefab.meta": {
+      "time": 1714042020030.3574
+    },
+    "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer\\Flamer.prefab": {
+      "time": 1714042550414.3765,
+      "uuid": "6dc4afd6-467e-450f-8f4b-28ed3597430e"
     }
   },
   "missing": {
-    "ed2d0f18-a82b-460c-92f5-4697559ba5c9": {
-      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black.png",
-      "time": 1713894958115.348,
-      "removeTime": 1713896314137
+    "498f1f2b-efde-49eb-bbb6-a952cb633d24": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\NewComponent.ts",
+      "time": 1713952898044.9756,
+      "removeTime": 1713952905224
+    },
+    "81601923-36e2-4dec-98c2-cfc60004ed89": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\rooms\\room_test_platform_12_+.prefab",
+      "time": 1714021270323.864,
+      "removeTime": 1714021531266
+    },
+    "6df1cf74-c882-4f23-8763-eeb86873138c": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao.ts",
+      "time": 1714021270321.863,
+      "removeTime": 1714021531265
+    },
+    "5e1cb491-3942-40ce-968a-28e20272b86d": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\fly\\playQianniao2.ts",
+      "time": 1714021270322.8633,
+      "removeTime": 1714021531265
+    },
+    "fcde89cf-0e2d-4bd4-b0e2-aba6d2e52aa2": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower",
+      "time": 1713930025639.8972,
+      "removeTime": 1714021274092
+    },
+    "2fa18609-977b-44e4-8e64-0901b0f9c7b7": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower",
+      "time": 1713955004216.0952,
+      "removeTime": 1714021274092
+    },
+    "5e8af6d7-d48b-4e08-b303-3e71f68c9f66": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\items.ts",
+      "time": 1713475923077.9954,
+      "removeTime": 1714021274092
+    },
+    "b61c7091-0f7f-416e-ad0c-fd24fa9d321e": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\lootBox.ts",
+      "time": 1713890309581.1362,
+      "removeTime": 1714021274092
+    },
+    "3416ebf8-4be3-49be-9a07-83afea262e7c": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\teleport.ts",
+      "time": 1713865743918.0898,
+      "removeTime": 1714021274092
+    },
+    "40a49f7e-3311-43d2-b4a0-bd04d611fb06": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\firstAidKit.ts",
+      "time": 1713475923067.397,
+      "removeTime": 1714021274092
+    },
+    "24672935-d073-48b7-8f83-adba1e5b182b": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Pickups\\jumpboost.ts",
+      "time": 1713475923067.397,
+      "removeTime": 1714021274093
+    },
+    "7d7cf67a-3376-4791-bb18-937bb36215cf": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\MyFirstGun.ts",
+      "time": 1713960329449.578,
+      "removeTime": 1714021274093
+    },
+    "57c60b7c-aac9-496d-a514-fc01ca02a981": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\Sas.ts",
+      "time": 1713475923077.9954,
+      "removeTime": 1714021274093
+    },
+    "227e7949-1a9a-4b67-84b0-1297c86019d0": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flame.ts",
+      "time": 1713953687407.6711,
+      "removeTime": 1714021274093
+    },
+    "aecb96d0-7cee-42e0-95f4-52bfd1d7215b": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower\\flamethrower.ts",
+      "time": 1713955004201.7412,
+      "removeTime": 1714021274093
     },
     "dc2ba7c6-abe3-4ca6-a59e-1b5642f9e268": {
-      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black (Пользовательское).png",
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\black.png",
       "time": 1713896269148.9863,
-      "removeTime": 1713896325209
+      "removeTime": 1714021274093
+    },
+    "37c46f0d-3727-45e6-9349-855d46f0617e": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\GameOver.scene",
+      "time": 1713862453754.758,
+      "removeTime": 1714021274094
+    },
+    "505f4bb8-ee28-4840-b313-40ea61c6e078": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Pellet.png",
+      "time": 1713475923067.397,
+      "removeTime": 1714021274094
+    },
+    "e290e5b2-11a8-4b2b-8adb-be02795ae59d": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\roomTestTeleport.scene",
+      "time": 1713863707365.522,
+      "removeTime": 1714021274094
+    },
+    "29aeaed2-8410-4cff-8275-b3df1246abfb": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\огнемёт.png",
+      "time": 1713890309586.1367,
+      "removeTime": 1714021274094
+    },
+    "572ac268-5399-4243-9b29-f96590fd3e59": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\weapons\\flamethrower.rar",
+      "time": 1714021330113.5361,
+      "removeTime": 1714039561287
+    },
+    "83441c0a-f35e-4ae3-81dd-34af5cf09687": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead\\iceHead.prefab",
+      "time": 1714021270475.6287,
+      "removeTime": 1714021531268
+    },
+    "b5f1610f-fbe9-49ee-9ce0-97830329fd6c": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead\\Ледяная_голова(3АКТ).png",
+      "time": 1714021270476.6326,
+      "removeTime": 1714021531268
+    },
+    "f77d3eca-7b99-419e-97d1-9d16c152fbaa": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2\\iceGolem.prefab",
+      "time": 1714021270470.6287,
+      "removeTime": 1714021531268
+    },
+    "08fa852b-711a-42ac-adf3-0875f8f96db8": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\plantGolem.prefab",
+      "time": 1714021270463.6262,
+      "removeTime": 1714021531267
+    },
+    "a69bfec5-1ae4-455d-bdf3-a70034492d4c": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта).png",
+      "time": 1714021270463.6262,
+      "removeTime": 1714021531267
+    },
+    "bb2e9654-f9fc-4d29-841a-ef0ce85ffe97": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2\\ЛедянойГолем(3АКТ).png",
+      "time": 1714021270471.629,
+      "removeTime": 1714021531268
+    },
+    "bdd0ffd7-df37-46d3-808a-25edb4c1678e": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\soldier.prefab",
+      "time": 1714021270484.632,
+      "removeTime": 1714021531269
+    },
+    "02fa1675-6ebc-4567-a541-8122f96fb9c2": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flame.prefab",
+      "time": 1713930025639.8972,
+      "removeTime": 1714021274095
+    },
+    "f34c0f37-be6a-484e-ad41-f4a812ced850": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\flamethrower\\flamethrower.prefab",
+      "time": 1713890309579.1355,
+      "removeTime": 1714021274095
+    },
+    "412926b0-da3d-461e-a178-bb3c800191b4": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\weapons\\shotgun\\pellet.prefab",
+      "time": 1713475923067.397,
+      "removeTime": 1714021274095
+    },
+    "1bb4d58a-9fe6-48bf-a08d-d3a91b0466f5": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\box.ts",
+      "time": 1714021270560.6477,
+      "removeTime": 1714021531264
+    },
+    "11016be5-4242-4310-a036-b7978051c116": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss",
+      "time": 1714021270460.6267,
+      "removeTime": 1714021531264
+    },
+    "9e1dbfa7-1e3e-430f-9834-690ed7ba6b2b": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem",
+      "time": 1714021270469.6284,
+      "removeTime": 1714021531264
+    },
+    "5fc1af49-a1a1-43eb-9b83-ca442fa52071": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2",
+      "time": 1714021270473.6284,
+      "removeTime": 1714021531265
+    },
+    "93ec604c-2071-442b-91b3-a098e6dedea8": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead",
+      "time": 1714021270478.6292,
+      "removeTime": 1714021531265
+    },
+    "fb1c7993-2b54-4465-837a-68507f576ddc": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\nasekomoe",
+      "time": 1714021270481.6313,
+      "removeTime": 1714021531265
+    },
+    "e4757cb0-dc1d-4bcf-8b65-a48584293d23": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier",
+      "time": 1714021270489.6333,
+      "removeTime": 1714021531265
+    },
+    "235b312f-d64f-4d55-aa8e-f01a9a95219f": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик",
+      "time": 1714021270495.634,
+      "removeTime": 1714021531265
+    },
+    "a8a12c69-8d49-40fa-926c-f03997ba8062": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\scripts\\Player\\svet.ts",
+      "time": 1714021270325.8638,
+      "removeTime": 1714021531265
+    },
+    "3e3281fe-b68c-444a-83a9-03c65478e825": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\Boss.anim",
+      "time": 1714021270447.6245,
+      "removeTime": 1714021531265
+    },
+    "e5bf8f52-7122-4f5d-8cdc-2b206e6e24f9": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\iceGolem.anim",
+      "time": 1714021270449.6228,
+      "removeTime": 1714021531265
+    },
+    "7bd8d68c-b776-4fa8-ae15-47bba63c5cc3": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\iceHead.anim",
+      "time": 1714021270450.6248,
+      "removeTime": 1714021531265
+    },
+    "bece6ccc-eb3b-4b09-85ff-c32879a7eac6": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\nasekomoe.anim",
+      "time": 1714021270450.6248,
+      "removeTime": 1714021531265
+    },
+    "13eff855-d5e0-4a42-97cd-29c9f9e0a711": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\ognemetchik.anim",
+      "time": 1714021270451.6233,
+      "removeTime": 1714021531265
+    },
+    "e6952943-2a43-4006-8c2b-feb6fef91d84": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\plantGolem.anim",
+      "time": 1714021270452.6238,
+      "removeTime": 1714021531265
+    },
+    "9d7ae844-662d-4276-8eff-232e630bd09f": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\soldier.anim",
+      "time": 1714021270569.6504,
+      "removeTime": 1714021531266
+    },
+    "0184f352-5425-4efe-ada7-c2185bec0339": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\plantGolem.prefab",
+      "time": 1714021270454.6238,
+      "removeTime": 1714021531266
+    },
+    "339ed08f-956b-4a8c-8c89-48c16a823c89": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ1).png",
+      "time": 1714021270454.6238,
+      "removeTime": 1714021531266
+    },
+    "626b6091-9e88-4f84-b34d-137c15aba661": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ10).png",
+      "time": 1714021270455.6243,
+      "removeTime": 1714021531266
+    },
+    "9571dbc0-9467-4851-b0be-4d35c3a22a61": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ11).png",
+      "time": 1714021270455.6243,
+      "removeTime": 1714021531266
+    },
+    "e1ca4a0d-4cd4-4c1d-86ec-001b53e53d91": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ12).png",
+      "time": 1714021270456.6267,
+      "removeTime": 1714021531266
+    },
+    "cd9dc6d0-22b0-4626-80c7-4716be677271": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ2).png",
+      "time": 1714021270456.6267,
+      "removeTime": 1714021531266
+    },
+    "135bec6b-acab-4d96-8937-603fc4895e76": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ3).png",
+      "time": 1714021270457.6245,
+      "removeTime": 1714021531266
+    },
+    "46ddf062-d4f9-4a3d-8f28-851ab5c20781": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ4).png",
+      "time": 1714021270457.6245,
+      "removeTime": 1714021531266
+    },
+    "25774dbe-2251-44a0-b4f5-1d66d53b62d5": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ5).png",
+      "time": 1714021270458.6245,
+      "removeTime": 1714021531266
+    },
+    "bc780d03-784c-4ca2-931a-38811351ae37": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ6).png",
+      "time": 1714021270458.6245,
+      "removeTime": 1714021531267
+    },
+    "c57e5826-e4cd-4892-80aa-4802556859b5": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ7).png",
+      "time": 1714021270459.6248,
+      "removeTime": 1714021531267
+    },
+    "722239fb-f891-4e49-a9cc-86d6e831d988": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ8).png",
+      "time": 1714021270459.6248,
+      "removeTime": 1714021531267
+    },
+    "c3b9d5ec-acb7-49de-91a6-9e01af0664ec": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\Boss\\Босс(3АКТ9).png",
+      "time": 1714021270460.6267,
+      "removeTime": 1714021531267
+    },
+    "5e16ce4d-bb00-42e2-b803-fbb77c580ba4": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта1).png",
+      "time": 1714021270464.626,
+      "removeTime": 1714021531267
+    },
+    "0ecfa805-a5fc-4d51-91c7-ece6530362f4": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта2).png",
+      "time": 1714021270465.6262,
+      "removeTime": 1714021531267
+    },
+    "b4661c87-c40f-4273-94eb-4c6868107dc9": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта3).png",
+      "time": 1714021270465.6262,
+      "removeTime": 1714021531267
+    },
+    "479ebe4d-9b01-4fcc-8147-090366e5fb32": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта4).png",
+      "time": 1714021270466.6272,
+      "removeTime": 1714021531267
+    },
+    "72024540-3c2c-487b-a7e9-26dbe7ff4e44": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта5).png",
+      "time": 1714021270467.627,
+      "removeTime": 1714021531267
+    },
+    "0b4d4210-3d7c-4445-a875-da33594e0813": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта6).png",
+      "time": 1714021270467.627,
+      "removeTime": 1714021531267
+    },
+    "db1fa661-5ba1-4fbb-a9b6-be430acae249": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта7).png",
+      "time": 1714021270468.6272,
+      "removeTime": 1714021531268
+    },
+    "6cd31c0a-9c85-405d-ab36-8263b86366eb": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem\\Враг(вырастак для 2 акта8).png",
+      "time": 1714021270469.6284,
+      "removeTime": 1714021531268
+    },
+    "94fb3ea9-5833-4f38-a88f-c1f7d697532a": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2\\ЛедянойГолем(3АКТ1).png",
+      "time": 1714021270471.629,
+      "removeTime": 1714021531268
+    },
+    "ea254f07-7028-4de5-a6ab-ba4fcc9f48b7": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2\\ЛедянойГолем(3АКТ2).png",
+      "time": 1714021270472.628,
+      "removeTime": 1714021531268
+    },
+    "9419b084-e70c-4536-bc83-ad0dab31d33e": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2\\ЛедянойГолем(3АКТ3).png",
+      "time": 1714021270473.6284,
+      "removeTime": 1714021531268
+    },
+    "fd100008-7094-4930-9e3d-bcf742f942c9": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\golem2\\ЛедянойГолем(3АКТ4).png",
+      "time": 1714021270473.6284,
+      "removeTime": 1714021531268
+    },
+    "995141cc-4b9d-4bb2-ad95-288bc5101683": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead\\Ледяная_голова(3АКТ1).png",
+      "time": 1714021270476.6326,
+      "removeTime": 1714021531268
+    },
+    "f04664ba-597e-4a27-837a-4c4b806ee468": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead\\Ледяная_голова(3АКТ2).png",
+      "time": 1714021270477.6292,
+      "removeTime": 1714021531268
+    },
+    "b3f2a5e4-670f-4f12-9a13-34fb5140ea9f": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead\\Ледяная_голова(3АКТ3).png",
+      "time": 1714021270477.6292,
+      "removeTime": 1714021531268
+    },
+    "1713737d-2855-4b4e-a1f9-01156d35f7e6": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\iceHead\\Ледяная_голова(3АКТ4).png",
+      "time": 1714021270478.6292,
+      "removeTime": 1714021531268
+    },
+    "d1f7b032-8068-4edf-98dd-b0c4c147789f": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\nasekomoe\\насекомое_для(2акта1).png",
+      "time": 1714021270479.6296,
+      "removeTime": 1714021531268
+    },
+    "985d5b13-eb70-441a-b8aa-e5031c2cbdae": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\nasekomoe\\насекомое_для(2акта2).png",
+      "time": 1714021270480.6296,
+      "removeTime": 1714021531269
+    },
+    "f474d37b-d2e8-4135-b1cc-8aed4e623f40": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\nasekomoe\\насекомое_для(2акта3).png",
+      "time": 1714021270480.6296,
+      "removeTime": 1714021531269
+    },
+    "8accceb7-947f-4882-8c93-93178806b996": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\nasekomoe\\насекомое_для(2акта4).png",
+      "time": 1714021270481.6313,
+      "removeTime": 1714021531269
+    },
+    "88f568c1-277b-4c6e-976d-6fe75cee0310": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\nasekomoe\\насекомое_для(2акта5).png",
+      "time": 1714021270481.6313,
+      "removeTime": 1714021531269
+    },
+    "6c70ecf5-c6ca-43f9-a5b6-118b3866e515": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ).gif",
+      "time": 1714021270485.631,
+      "removeTime": 1714021531269
+    },
+    "1366f6ac-901a-4b43-a7d8-69aea73b09f0": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ1).png",
+      "time": 1714021270485.631,
+      "removeTime": 1714021531269
+    },
+    "16433a80-7a36-422b-95ad-24d635c18659": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ2).png",
+      "time": 1714021270486.631,
+      "removeTime": 1714021531269
+    },
+    "df115819-f3c9-4880-9f76-a9b6b0d92b90": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ3).png",
+      "time": 1714021270486.631,
+      "removeTime": 1714021531269
+    },
+    "7a0b95fc-3364-4b8f-ae38-22915c877cc1": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ4).png",
+      "time": 1714021270487.6343,
+      "removeTime": 1714021531269
+    },
+    "c098d1c2-bce3-40d8-883a-c3c44187c373": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ5).png",
+      "time": 1714021270487.6343,
+      "removeTime": 1714021531269
+    },
+    "7acdfb90-1c7e-4684-9a8f-dfcc034b1b2b": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ6).png",
+      "time": 1714021270488.6328,
+      "removeTime": 1714021531269
+    },
+    "92cea2bf-56ab-44a5-943a-c87044ff6d8e": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ7).png",
+      "time": 1714021270488.6328,
+      "removeTime": 1714021531269
+    },
+    "bdddf274-77af-4ec7-b3dd-546953ed3e92": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\soldier\\Солдат(3АКТ8).png",
+      "time": 1714021270489.6333,
+      "removeTime": 1714021531270
+    },
+    "03c0cad7-6a68-47e7-8a74-ef6229bcd15f": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\ognemechik.prefab",
+      "time": 1714021270490.6333,
+      "removeTime": 1714021531270
+    },
+    "f9d5c0df-e8ea-44ed-95ed-fa1db1ea01f9": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта1).png",
+      "time": 1714021270490.6333,
+      "removeTime": 1714021531270
+    },
+    "f43e588b-5c5b-48c0-8a46-a45e5b38f16f": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта10).png",
+      "time": 1714021270491.632,
+      "removeTime": 1714021531270
+    },
+    "042ed3f9-fda1-4687-9041-7f54d2dedff8": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта11).png",
+      "time": 1714021270491.632,
+      "removeTime": 1714021531270
+    },
+    "289ed34b-6cf4-41d3-971a-c5b041731073": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта2).png",
+      "time": 1714021270492.6323,
+      "removeTime": 1714021531270
+    },
+    "8bb7e6b9-7f2f-4e8c-b4d0-7352a366be04": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта3).png",
+      "time": 1714021270492.6323,
+      "removeTime": 1714021531270
+    },
+    "6132a6fa-0fa8-488b-861a-cc3fc9b71641": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта4).png",
+      "time": 1714021270493.6326,
+      "removeTime": 1714021531270
+    },
+    "543fa068-fec5-4ce2-bf16-f7eb2ac72890": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта5).png",
+      "time": 1714021270493.6326,
+      "removeTime": 1714021531270
+    },
+    "a6e004ed-ba38-4a88-adb5-6e7721e4a718": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта6).png",
+      "time": 1714021270494.6345,
+      "removeTime": 1714021531270
+    },
+    "ca6d4d0f-2746-411c-8e56-0c61ff590475": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта7).png",
+      "time": 1714021270494.6345,
+      "removeTime": 1714021531270
+    },
+    "af549f1f-1bcb-4b34-9ae9-2dc19883bbd5": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта8).png",
+      "time": 1714021270495.634,
+      "removeTime": 1714021531270
+    },
+    "c1ab604d-5bea-49da-93ce-051093795bf9": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\огнеметчик\\Враг(огнемётчик для 2 акта9).png",
+      "time": 1714021270495.634,
+      "removeTime": 1714021531270
+    },
+    "6dc4afd6-467e-450f-8f4b-28ed3597430e": {
+      "path": "C:\\Users\\USERRR\\Documents\\GitHub\\RoGal\\assets\\resources\\enemies\\flamer\\spriteFrame.prefab",
+      "time": 1714042011811.9138,
+      "removeTime": 1714042020027
     }
   }
 }

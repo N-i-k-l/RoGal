@@ -45,14 +45,14 @@ export class Player extends Component {
     private weaponSlot1: any = null;
     private weaponSlot2: any = null;
 
-
+    
     switchWeapon() {
         if (this.weaponSlot1 && this.weaponSlot2) {
             this.weaponSlot1.hide();
             this.weaponSlot2.show();
-            let a = this.weaponSlot1
-            this.weaponSlot1 = this.weaponSlot2
-            this.weaponSlot2 = a
+            let a = this.weaponSlot1;
+            this.weaponSlot1 = this.weaponSlot2;
+            this.weaponSlot2 = a;
             console.log(this.weaponSlot1, ", ", this.weaponSlot2)
         }
     }
@@ -227,9 +227,7 @@ export class Player extends Component {
 onKeyDown(event: EventKeyboard) {
     if (this.costil) {
         PlayerGlobal.touchArea.on(Node.EventType.MOUSE_DOWN, (event: EventMouse) => {
-            if (event.getButton() == 2) {
-                this.hookLaunch(event.getUILocation());
-            } //console.log();
+             //console.log();
         }, this);
         this.costil = false;
     }

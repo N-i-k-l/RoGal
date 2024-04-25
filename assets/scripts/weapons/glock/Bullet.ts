@@ -6,6 +6,13 @@ const { ccclass, property } = _decorator;
 export class bullet extends Component {
     private target: Vec2;
     private speed: number = 2.5;
+
+    private isDestroyed = false;
+
+    lateUpdate() {
+        if (this.isDestroyed) this.node.destroy();
+    }
+
     setTarget(target: Vec3) {
         //let tar: Vec3 = new Vec3(new Vec3(target.subtract(this.node.getWorldPosition())));
         
@@ -21,14 +28,18 @@ export class bullet extends Component {
 
     Hit(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         console.log(otherCollider.name)
-        if (otherCollider.group == 16) otherCollider.node.getComponent(damageAura).getDmg(20);
-
+        try {
+            if (otherCollider.group == 16 && !otherCollider.sensor) otherCollider.node.getComponent(damageAura).getDmg(20);
+        }
+        catch (E) {
+            console.log("E",E); 
+        }
         this.wallHit();
     }
 
     wallHit() {
         console.log('OK');
-        this.node.destroy();
+        this.isDestroyed = true;
     }
 
     update(deltaTime: number) {

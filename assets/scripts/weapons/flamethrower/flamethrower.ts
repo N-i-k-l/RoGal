@@ -48,7 +48,7 @@ export class flamethrower extends Component {
             const targetWithDeviation = new Vec3(mouseLoc.x + deviationX, mouseLoc.y + deviationY);
 
             flameInstance.setPosition(this.gun.position);
-            flameInstance.getComponent(flame).setTarget(targetWithDeviation);
+            flameInstance.getComponent(flame).setTarget(PlayerGlobal.ML);
         }
     }
 
@@ -95,6 +95,7 @@ export class flamethrower extends Component {
         //console.log(event.getUILocationX() + ' ' + event.getUILocationY());
         //console.log(director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY())))
         let ML: Vec3 = director.getScene().getChildByName("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(event.getUILocationX(), event.getUILocationY()));
+        PlayerGlobal.ML = new Vec2(ML.x, ML.y);
         globalThis.ML.set(ML.x, ML.y)
         PlayerGlobal.weapon.angle = 90 - math.toDegree(Math.atan2(ML.x, ML.y))
         
