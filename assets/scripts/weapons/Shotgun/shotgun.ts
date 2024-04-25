@@ -37,14 +37,12 @@ export class shotgun extends Component {
         const spreadAngle: number = 180; // Угол разброса дробовика в градусах
 
         for (let i = 0; i < numPellets; i++) {
-            const pelletInstance = instantiate(this.Pellet);
-            this.C.addChild(pelletInstance);
-            const deviationX: number = (Math.random() - 0.5) * spreadAngle;
-            const deviationY: number = (Math.random() - 0.5) * spreadAngle;
-            const targetWithDeviation = new Vec3(mouseLoc.x + deviationX, mouseLoc.y + deviationY);
-
-            pelletInstance.setPosition(this.gun.position);
-            pelletInstance.getComponent(Pellet).setTarget(targetWithDeviation);
+            if (this.hidden) return
+            const pellet = instantiate(this.Pellet);
+            director.getScene().getChildByName("Canvas").addChild(pellet);
+            pellet.setWorldPosition(PlayerGlobal.playerNode.getWorldPosition());
+            pellet.setRotation(this.gun.rotation);
+            pellet.getComponent(Pellet).setTarget(new Vec3(mouseLoc.x, mouseLoc.y));
         }
     }
 
