@@ -7,10 +7,9 @@ export class Player extends Component {
     @property(Label)
     HPLabel: Label = null;
     public HP: number = 100;
-    public maxHP: number = 100;
-    public maxHPm: number = 1;
-    public maxHPp: number = 0;
-
+    public maxHP: number = 100
+    public maxHPm: number = 1 
+    public maxHPp: number = 0 
     @property(Prefab)
     segmentPrefab: Prefab = null;
 
@@ -22,8 +21,9 @@ export class Player extends Component {
     ropeLength: number = 10;
     private isSwitching = false;
 
+
     private collider: any;
-    private rigidbody: RigidBody2D;
+    public rigidbody: RigidBody2D;
     private direction: number = 0;
     @property(Number)
     private walk_force: number = 250;
@@ -217,7 +217,8 @@ export class Player extends Component {
     }
 
     update(deltaTime: number) {
-        this.rigidbody.applyForceToCenter(new Vec2(this.direction * this.walk_force, 0), true);
+
+        this.rigidbody.applyForceToCenter(new Vec2(this.direction * (this.walk_force + this.walk_force_p) * this.walk_force_m, 0), true);
         try {
             if (this.hook && !this.hContact) {
                 if (this.cutTheRope != 0 && this.cutTheRope < this.getDistance(this.hook.getWorldPosition(), this.node.getWorldPosition())) {
@@ -230,7 +231,6 @@ export class Player extends Component {
         }
         
     }
-
 
     onKeyDown(event: EventKeyboard) {
         if (this.costil) {
@@ -249,7 +249,7 @@ export class Player extends Component {
             case 68: // D
             case 39: // RIGHT
                 this.direction = 1;
-               
+
                 break;
             case 32: // SPACE
             case 38: // UP
@@ -258,17 +258,13 @@ export class Player extends Component {
                     console.log("alreadyjump");
                     return;
                 }
-
                 if (!this._startJump) {
                     console.log("isonground");
                     this._startJump = true;
-                    this.rigidbody.applyForceToCenter(new Vec2(0, this.jump_force), true);
+                    this.rigidbody.applyForceToCenter(new Vec2(0, (this.jump_force + this.jump_force_p) * this.jump_force_m), true);
                 } else {
                     console.log("intheair");
                 }
-                break;
-            default:
-                break;
         }
     }
 
@@ -304,7 +300,7 @@ export class Player extends Component {
 
     decreaseHealth(amount: number) {
         this.HP -= amount;
-        if (this.HP < 0) {
+        if (this.HP <= 0) {
             this.HP = 0;
             this.death()
         }
@@ -313,8 +309,9 @@ export class Player extends Component {
 
     increaseHealth(amount: number) {
         this.HP += amount;
-        if (this.HP > 100) {
-            this.HP = 100;
+        let MAXHP = (this.maxHP + this.maxHPp) * this.maxHPm; 
+        if (this.HP > MAXHP) {
+            this.HP = MAXHP;
         }
         this.updateHealthLabel();
     }
