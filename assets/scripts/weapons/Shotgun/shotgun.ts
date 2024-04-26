@@ -22,11 +22,13 @@ export class shotgun extends Component {
     }
 
     hide() {
-        //this.node.removeFromParent();
+        this.gun.active = false;
         this.hidden = true;
     }
     show() {
-        this.node.setParent(this.C);
+        this.gun.active = true;
+        this.node.setParent(PlayerGlobal.playerNode);
+        PlayerGlobal.weapon = this.gun;
         this.hidden = false;
     }
 
@@ -47,9 +49,12 @@ export class shotgun extends Component {
     }
 
     onDestroy() {
-        const weaponItem = instantiate(this.weaponDrop)
-        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, shotgun)
-        if (this.gun) this.gun.destroy;
+        const weaponItem = instantiate(this.weaponDrop);
+        weaponItem.getComponent(pickupWeapon).setWeapon(this.gun.getComponent(Sprite).spriteFrame, glock);
+        director.getScene().getChildByName('Canvas').addChild(weaponItem);
+        let dropLocation: Vec3 = PlayerGlobal.playerNode.getWorldPosition();
+        weaponItem.setWorldPosition(dropLocation);
+        if (this.gun) this.gun.destroy();
     }
 
     start() {

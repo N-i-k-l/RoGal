@@ -4021,7 +4021,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorniz"
+    "value": "Door_down"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -4039,8 +4039,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": 97.87600000000003,
-      "y": -30.267900000000004,
+      "x": 98.049,
+      "y": -32.862,
       "z": 0
     }
   },
@@ -4133,7 +4133,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorup"
+    "value": "Door_up"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -4151,8 +4151,8 @@
     ],
     "value": {
       "__type__": "cc.Vec3",
-      "x": -72.4139,
-      "y": 107.07730000000002,
+      "x": -72.428,
+      "y": 108.119,
       "z": 0
     }
   },
@@ -5376,6 +5376,7 @@
         "__id__": 240
       }
     ],
+    "Black": null,
     "_id": ""
   },
   {

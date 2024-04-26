@@ -83,25 +83,28 @@
       },
       {
         "__id__": 199
+      },
+      {
+        "__id__": 207
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 207
+        "__id__": 215
       },
       {
-        "__id__": 209
+        "__id__": 217
       },
       {
-        "__id__": 211
+        "__id__": 219
       },
       {
-        "__id__": 213
+        "__id__": 221
       }
     ],
     "_prefab": {
-      "__id__": 215
+      "__id__": 223
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -354,7 +357,7 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 15.76270000000001,
+      "x": 29.57595000000001,
       "y": -100.55865,
       "z": 0
     },
@@ -395,7 +398,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 132.41039999999998,
+      "width": 104.78389999999999,
       "height": 3
     },
     "_anchorPoint": {
@@ -479,8 +482,8 @@
     },
     "_size": {
       "__type__": "cc.Size",
-      "width": 132.4104,
-      "height": 3
+      "width": 1,
+      "height": 1
     },
     "_id": ""
   },
@@ -2965,7 +2968,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorupp"
+    "value": "Door_up"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3892,6 +3895,118 @@
     }
   },
   {
+    "__type__": "cc.Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_prefab": {
+      "__id__": 208
+    },
+    "__editorExtras__": {}
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 207
+    },
+    "asset": {
+      "__uuid__": "db59bd0c-e7e6-4386-800a-a7fcfbb5e006",
+      "__expectedType__": "cc.Prefab"
+    },
+    "fileId": "c46/YsCPVOJYA4mWEpNYRx",
+    "instance": {
+      "__id__": 209
+    },
+    "targetOverrides": null
+  },
+  {
+    "__type__": "cc.PrefabInstance",
+    "fileId": "428VWs9Q9ErqobY7iZYiXN",
+    "prefabRootNode": {
+      "__id__": 1
+    },
+    "mountedChildren": [],
+    "mountedComponents": [],
+    "propertyOverrides": [
+      {
+        "__id__": 210
+      },
+      {
+        "__id__": 212
+      },
+      {
+        "__id__": 213
+      },
+      {
+        "__id__": 214
+      }
+    ],
+    "removedComponents": []
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 211
+    },
+    "propertyPath": [
+      "_name"
+    ],
+    "value": "Door_down"
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "c46/YsCPVOJYA4mWEpNYRx"
+    ]
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 211
+    },
+    "propertyPath": [
+      "_lpos"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": -31.163000000000004,
+      "y": -102.0586,
+      "z": 0
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 211
+    },
+    "propertyPath": [
+      "_lrot"
+    ],
+    "value": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0.7071067811865475,
+      "w": 0.7071067811865476
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 211
+    },
+    "propertyPath": [
+      "_euler"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 90
+    }
+  },
+  {
     "__type__": "cc.UITransform",
     "_name": "",
     "_objFlags": 0,
@@ -3901,7 +4016,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 208
+      "__id__": 216
     },
     "_contentSize": {
       "__type__": "cc.Size",
@@ -3929,7 +4044,7 @@
     },
     "_enabled": false,
     "__prefab": {
-      "__id__": 210
+      "__id__": 218
     },
     "_projection": 0,
     "_priority": 0,
@@ -3981,7 +4096,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 212
+      "__id__": 220
     },
     "enabledContactListener": false,
     "bullet": false,
@@ -4015,7 +4130,7 @@
     },
     "_enabled": true,
     "__prefab": {
-      "__id__": 214
+      "__id__": 222
     },
     "Doors": [
       {
@@ -4050,6 +4165,7 @@
         "__id__": 183
       }
     ],
+    "Black": null,
     "_id": ""
   },
   {
@@ -4068,6 +4184,9 @@
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": [
+      {
+        "__id__": 207
+      },
       {
         "__id__": 199
       },

@@ -8,6 +8,13 @@ export class Pellet extends Component {
     private speed: number = 0.5; 
     private target: Vec2 = new Vec2();
 
+    private isDestroyed = false;
+
+    lateUpdate() {
+        if (this.isDestroyed) this.node.destroy();
+    }
+
+
     setTarget(target: Vec3) {
         //let tar: Vec3 = new Vec3(new Vec3(target.subtract(this.node.getWorldPosition())));
 
@@ -29,7 +36,7 @@ export class Pellet extends Component {
 
     wallHit() {
         console.log('wallHit')
-        this.node.destroy();
+        this.isDestroyed = true;
     }
 
     update(deltaTime: number) {

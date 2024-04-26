@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3, RigidBody, Input } from 'cc';
+import { _decorator, Component, Node, systemEvent, SystemEventType, EventKeyboard, macro, Vec2, RigidBody2D, Collider2D, BoxCollider2D, Contact2DType, IPhysics2DContact, Label, Prefab, director, instantiate, DistanceJoint2D, error, RigidBodyComponent, ERigidBody2DType, EventMouse, Vec3, RigidBody, Input, find, UITransform, math, ECollider2DType, ERigidBodyType } from 'cc';
 const { ccclass, property } = _decorator;
 import { PlayerGlobal } from "../PlayerGlobal";
 @ccclass('Player')
@@ -20,6 +20,7 @@ export class Player extends Component {
 
     @property
     ropeLength: number = 10;
+    private isSwitching = false;
 
     private collider: any;
     private rigidbody: RigidBody2D;
@@ -29,7 +30,7 @@ export class Player extends Component {
     public walk_force_m: number = 1
     public walk_force_p: number = 0;
     @property(Number)
-    private jump_force: number = 500;
+    private jump_force: number = 2500;
     public jump_force_m: number = 1;
     public jump_force_p: number = 0;
 
@@ -42,42 +43,26 @@ export class Player extends Component {
     private hLaunch: boolean = false;
     private cutTheRope: number = 0;
     private isSmall: boolean = false;
-    private smallList: string[] = ["Medicbag<BoxCollider2D>", "fly<BoxCollider2D>", "FirstAidKit<BoxCollider2D>" ];
 
     //private weapons;
     //private currentWeapon: number = 0;
 
     private costil: boolean = true;
 
-    private weaponSlot1: any = null;
-    private weaponSlot2: any = null;
+    private weaponSlot: any = null;
 
-    
-    switchWeapon() {
-        if (this.weaponSlot1 && this.weaponSlot2) {
-            this.weaponSlot1.hide();
-            this.weaponSlot2.show();
-            let a = this.weaponSlot1;
-            this.weaponSlot1 = this.weaponSlot2;
-            this.weaponSlot2 = a;
-            console.log(this.weaponSlot1, ", ", this.weaponSlot2)
-        }
-    }
+    private hookDestroyed = false;
+
 
     pickupWeapon(weapon: any) {
         console.log(weapon)
-        if (!this.weaponSlot1) {
-            this.weaponSlot1 = this.node.addComponent(weapon);
-        } else if (!this.weaponSlot2) {            
-            this.weaponSlot2 = this.node.addComponent(weapon);
-            this.weaponSlot2.hide();
+        if (!this.weaponSlot) {
+            this.weaponSlot = this.node.addComponent(weapon);
         } else {
             console.log("nope!");
-            this.weaponSlot1.destroy();
-            this.node.removeComponent(this.weaponSlot1);
-            PlayerGlobal.playerNode.removeComponent(this.weaponSlot1);
-            this.weaponSlot1 = this.node.addComponent(weapon);
-            console.log("Нет свободных слотов для оружия!");
+            this.weaponSlot.destroy();
+            this.node.removeComponent(this.weaponSlot);
+            this.weaponSlot = this.node.addComponent(weapon);
         }
     }
     
@@ -98,18 +83,20 @@ export class Player extends Component {
 
     hookJump() {
         let a = this.hook.getWorldPosition().subtract(this.node.getWorldPosition());
-        this.rigidbody.applyForceToCenter(new Vec2(a.x*100000, a.y*100000), true);
+        PlayerGlobal.playerNode.getComponent(RigidBody2D).applyForceToCenter(new Vec2(a.x*this.jump_force/35, a.y*this.jump_force/35), true);
         this.hookDespawn();
     }
 
     hookGrab() {
         let a = this.node.getWorldPosition().subtract(this.hook.getWorldPosition());
-        this.contactObject.applyForceToCenter(new Vec2(a.x * 1000, a.y * 1000), true)
+        this.contactObject.applyForceToCenter(new Vec2(a.x * this.jump_force/35, a.y * this.jump_force/35), true)
         this.hookDespawn();
     }
 
     hookLaunch(mouseLoc: Vec2) {
+        this.hookDestroyed = false;
         
+
         if (this.hContact) {
             if (this.isSmall) {
                 this.hookGrab();
@@ -121,6 +108,9 @@ export class Player extends Component {
             return
         }
         if (this.hLaunch) return;
+        let ML: Vec3 = find("Canvas").getComponent(UITransform).convertToNodeSpaceAR(new Vec3(mouseLoc.x, mouseLoc.y));
+        let mult: number = 10 / ML.length();
+        const target = new Vec2(ML.x * mult, ML.y * mult);
         this.cutTheRope = 0;
         this.hLaunch = true;
         //console.log(mouseLoc);
@@ -153,7 +143,7 @@ export class Player extends Component {
         this.hook.setWorldPosition(this.node.worldPosition);
         
         this.hook.getComponent(Collider2D).on(Contact2DType.BEGIN_CONTACT, this.hookHit, this);
-
+        this.hook.angle =90 - math.toDegree(Math.atan2(ML.x, ML.y));
         let distanceJoint = this.hook.getComponent(DistanceJoint2D);
         distanceJoint.connectedBody = this.rope[this.ropeLength - 1].getComponent(RigidBody2D);
         distanceJoint.enabled = false; //Удаление этой строки ломает всю физику
@@ -161,10 +151,7 @@ export class Player extends Component {
         //let x = 0;
         //if (mouseLoc.x - this.node.worldPosition.x < 0)
         //console.log(x)
-        let tar: Vec2 = mouseLoc.subtract(new Vec2(this.node.worldPosition.x,this.node.worldPosition.y));
-        let mult: number = 10 / tar.length();
-        tar.set(tar.x * mult, tar.y * mult);
-        this.hook.getComponent(RigidBody2D).linearVelocity = tar;
+        this.hook.getComponent(RigidBody2D).linearVelocity = target;
         console.log(this.node.getWorldPosition());
         //mouseLoc.x - this.node.worldPosition.x, mouseLoc.y - this.node.worldPosition.y); //applyForceToCenter(new Vec2(mouseLoc.x - this.node.worldPosition.x, mouseLoc.y - this.node.worldPosition.y), true);
         //setTimeout(this.hookDespawn, 10000);
@@ -173,8 +160,11 @@ export class Player extends Component {
     hookHit(selfCollider: Collider2D, otherCollider: Collider2D, contact: IPhysics2DContact | null) {
         
         if (otherCollider.name != "ropeSegment1<BoxCollider2D>" && !this.hContact && otherCollider.node != this.node) {
-            if (this.smallList.indexOf(otherCollider.name) !== 1) {
+            this.hook.getComponent(Collider2D).off(Contact2DType.BEGIN_CONTACT);
+            if (otherCollider.node.getComponent(RigidBody2D).type == ERigidBody2DType.Dynamic) {
                 this.isSmall = true;
+                otherCollider.node.addChild(this.hook);
+                
             }
             else {
                 this.isSmall = false;
@@ -192,20 +182,25 @@ export class Player extends Component {
 
     hookDespawn() {
         
-        this.hook.removeFromParent();
-        this.hook.destroy();
-        let c: Node;
-        for (let i = 0; i < this.ropeLength; i++) {
-            c = this.rope.pop();
-            console.log(i);
-            c.removeFromParent();
-            c.destroy();
-        }
+        this.hookDestroyed = true;
+        
         this.hContact = false;
         this.hLaunch = false;
     }
 
-    
+    lateUpdate() {
+        if (this.hookDestroyed) {
+            this.hookDestroyed = false;
+            this.hook.destroy();
+            this.hook = null;
+            let c: Node;
+            for (let i = 0; i < this.ropeLength; i++) {
+                c = this.rope.pop();
+                console.log(i);
+                c.destroy();
+            }
+        }
+    }
 
     start() {
 
@@ -223,11 +218,17 @@ export class Player extends Component {
 
     update(deltaTime: number) {
         this.rigidbody.applyForceToCenter(new Vec2(this.direction * this.walk_force, 0), true);
-        if (this.hook && !this.hContact) {
-            if (this.cutTheRope != 0 && this.cutTheRope < this.getDistance(this.hook.getWorldPosition(), this.node.getWorldPosition())) {
-                this.hookDespawn();
+        try {
+            if (this.hook && !this.hContact) {
+                if (this.cutTheRope != 0 && this.cutTheRope < this.getDistance(this.hook.getWorldPosition(), this.node.getWorldPosition())) {
+                    this.hookDespawn();
+                }
             }
         }
+        catch (e) {
+            console.log(e);
+        }
+        
     }
 
 
@@ -248,6 +249,7 @@ export class Player extends Component {
             case 68: // D
             case 39: // RIGHT
                 this.direction = 1;
+               
                 break;
             case 32: // SPACE
             case 38: // UP
@@ -264,9 +266,6 @@ export class Player extends Component {
                 } else {
                     console.log("intheair");
                 }
-                break;
-            case 70: // F
-                this.switchWeapon()
                 break;
             default:
                 break;

@@ -1,0 +1,1 @@
+['rooms/floor1/room_test_platforma_6_+.prefab','rooms/floor1/ room_test_platform_13_+.prefab','rooms/floor1/ room_test_platform_3_+.prefab','rooms/floor1/ room_test_platform_9_+.prefab]

@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.1",
+  "importer": "*",
+  "imported": true,
+  "uuid": "38c7d3c8-109f-47ab-872b-9b9e3eec9be4",
+  "files": [
+    ".json",
+    ".ps1"
+  ],
+  "subMetas": {},
+  "userData": {}
+}

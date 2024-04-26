@@ -8,7 +8,6 @@ export class genericShooter extends Component {
 
     private direction: number = 0;
     private startScale: number;
-    private player: Node;
     @property(String)
     private gunPref: string = "enemies/shooter/gun";
 
@@ -26,7 +25,6 @@ export class genericShooter extends Component {
     start() {
         this.ticks = this.ticksStart;
         this.startScale = this.node.scale.x;
-        this.player = PlayerGlobal.playerNode;
         this.direction = 1;
         resources.load(this.gunPref, Prefab, (err, prefab) => {
             this.gun = instantiate(prefab);
@@ -50,11 +48,11 @@ export class genericShooter extends Component {
             this.ticks = this.ticksStart;
             this.shoot();
         }
-        if (this.node.worldPosition.x > this.player.worldPosition.x && this.direction != -1) {
+        if (this.node.worldPosition.x > PlayerGlobal.playerNode.worldPosition.x && this.direction != -1) {
             this.direction = -1;
             this.node.setScale(new Vec3(this.startScale * 1, this.node.scale.y));
         }
-        if (this.node.worldPosition.x < this.player.worldPosition.x && this.direction != 1) {
+        if (this.node.worldPosition.x < PlayerGlobal.playerNode.worldPosition.x && this.direction != 1) {
             this.direction = 1;
             this.node.setScale(new Vec3(this.startScale * -1, this.node.scale.y));
         }

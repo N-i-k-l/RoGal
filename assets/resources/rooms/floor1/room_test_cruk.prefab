@@ -2674,7 +2674,7 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "doorrith"
+    "value": "Door_right"
   },
   {
     "__type__": "cc.TargetInfo",
@@ -3342,6 +3342,7 @@
         "__id__": 146
       }
     ],
+    "Black": null,
     "_id": ""
   },
   {

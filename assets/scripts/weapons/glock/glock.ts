@@ -27,10 +27,13 @@ export class glock extends Component {
         });
     }
     hide() {
+        this.gun.active = false;
         this.hidden = true;
     }
     show() {
+        this.gun.active = true;
         this.node.setParent(PlayerGlobal.playerNode);
+        PlayerGlobal.weapon = this.gun;
         this.hidden = false;
     }
     shoot(mouseLoc: Vec2) {

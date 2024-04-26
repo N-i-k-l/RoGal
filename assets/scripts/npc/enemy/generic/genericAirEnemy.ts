@@ -5,7 +5,6 @@ const { ccclass, property } = _decorator;
 
 @ccclass('genericAirEnemy')
 export class genericAirEnemy extends Component {
-    private player: Node;
     @property(Number)
     Speed: number = 0;
     @property(Number)
@@ -14,11 +13,10 @@ export class genericAirEnemy extends Component {
     private direction: number = 0;
 
     start() {
-        this.player = PlayerGlobal.playerNode;
     }
 
     update(deltaTime: number) {
-        let tar: Vec3 = new Vec3(new Vec3(this.player.worldPosition).subtract(this.node.worldPosition));
+        let tar: Vec3 = new Vec3(new Vec3(PlayerGlobal.playerNode.worldPosition).subtract(this.node.worldPosition));
         let mult: number = this.Speed/ tar.length();
         this.node.getComponent(RigidBody2D).applyForceToCenter(new Vec2(tar.x * mult, tar.y * mult), true);
         if (tar.x > 0) {
