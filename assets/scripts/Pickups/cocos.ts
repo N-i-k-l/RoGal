@@ -3,8 +3,8 @@ import { PlayerGlobal } from '../PlayerGlobal';
 import { Player } from '../Player/Player';
 const { ccclass, property } = _decorator;
 
-@ccclass('Medicbag')
-export class Medicbag extends Component {
+@ccclass('cocos')
+export class cocos extends Component {
     otherCollider: any;
 
     private isDestroyed = false;
@@ -19,18 +19,17 @@ export class Medicbag extends Component {
     }
 
     update(deltaTime: number) {
-        
+
     }
 
     onBeginContact(selfCollider: Collider2D, otherCollider: BoxCollider2D, contact: IPhysics2DContact | null) {
         if (otherCollider.node === PlayerGlobal.playerNode) {
-            console.log('using a medickbag!');
-            PlayerGlobal.playerNode.getComponent(Player).increaseHealth(80);
-            console.log('Ouagh thanks a lot my friend');
+            console.log('haleluyah');
+            PlayerGlobal.playerNode.getComponent(Player).walk_force_m = 1.5;
+            PlayerGlobal.playerNode.getComponent(Player).jump_force_m = 1.5;
+            PlayerGlobal.playerNode.getComponent(Player).maxHPm = 1.5;
             this.isDestroyed = true;
         }
 
+    }
 }
-}
-
-

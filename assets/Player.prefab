@@ -620,7 +620,7 @@
       "__expectedType__": "cc.Prefab"
     },
     "ropeLength": 10,
-    "walk_force": 25,
+    "walk_force": 250,
     "jump_force": 500,
     "_id": ""
   },

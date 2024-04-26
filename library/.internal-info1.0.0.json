@@ -1403,74 +1403,32 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\surfaces.meta": {
       "time": 1706269268314.6301
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animask.meta": {
-      "time": 1706269268587.3257
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\anim.meta": {
       "time": 1706269268570.2688
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animgraph.meta": {
-      "time": 1706268596895.0889
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animgraph.meta": {
-      "time": 1706268596895.0889
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\anim.meta": {
-      "time": 1706269268570.2688
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\chunk.meta": {
-      "time": 1706269268597.812
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\anim.meta": {
-      "time": 1706268596895.0889
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animgraphvari.meta": {
       "time": 1706269268593.818
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animgraph.meta": {
       "time": 1706269268590.3167
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animgraph.meta": {
-      "time": 1706269268590.3167
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\animask.meta": {
+      "time": 1706269268587.3257
     },
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\effect.meta": {
-      "time": 1706269268608.4336
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\effect-surface.meta": {
-      "time": 1706269268606.4414
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\effect-surface.meta": {
-      "time": 1706269268606.4414
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\flow.meta": {
-      "time": 1706269268614.9324
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\chunk.meta": {
+      "time": 1706269268597.812
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\forward-pipeline.meta": {
       "time": 1706269268619.9146
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\effect.meta": {
+      "time": 1706269268608.4336
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\effect-surface.meta": {
-      "time": 1706268596903.0884
+      "time": 1706269268606.4414
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\flow.meta": {
+      "time": 1706269268614.9324
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\js.meta": {
       "time": 1706269268626.4475
@@ -1481,97 +1439,41 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\pac.meta": {
       "time": 1706269268638.9268
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\prefab.meta": {
+      "time": 1706269268651.462
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\pmtl.meta": {
       "time": 1706269268642.458
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\prefab.meta": {
-      "time": 1706269268651.462
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\prefab.meta": {
-      "time": 1706269268651.462
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\rpp.meta": {
       "time": 1706269268661.9988
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene-2d.meta": {
-      "time": 1706269268684.133
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\prefab.meta": {
-      "time": 1706268596911.0894
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\prefab.meta": {
-      "time": 1706268596911.0894
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene-2d.meta": {
-      "time": 1706269268684.133
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\rt.meta": {
       "time": 1706269268669.9858
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene.meta": {
       "time": 1706269268702.1807
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene-2d.meta": {
-      "time": 1706268596911.0894
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene-2d.meta": {
-      "time": 1706268596911.0894
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene.meta": {
-      "time": 1706269268702.1807
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\stg.meta": {
-      "time": 1706269268706.179
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene.meta": {
-      "time": 1706268596919.09
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene-quality.meta": {
       "time": 1706269268697.6897
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts.meta": {
-      "time": 1706269268740.746
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\stg.meta": {
+      "time": 1706269268706.179
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts.meta": {
-      "time": 1706269268740.746
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\scene-2d.meta": {
+      "time": 1706269268684.133
     },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\terrain.meta": {
       "time": 1706269268710.1638
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-flow.meta": {
-      "time": 1706268596919.09
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-animation-graph.meta": {
+      "time": 1706269268720.7375
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap.meta": {
       "time": 1706269268749.7458
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-animation-graph.meta": {
-      "time": 1706269268720.7375
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts.meta": {
+      "time": 1706269268740.746
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype.meta": {
       "time": 1706269268800.5923
@@ -1579,23 +1481,6 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\2d.meta": {
       "time": 1706269268947.1113
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-flow.meta": {
-      "time": 1706269268727.2356
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-pipeline.meta": {
-      "time": 1706269268734.7651
-    },
-<<<<<<< HEAD
-=======
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d.meta": {
       "time": 1706269268964.8567
     },
@@ -1608,11 +1493,8 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui.meta": {
       "time": 1706269269075.6624
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts.meta": {
-      "time": 1706268596927.0952
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-pipeline.meta": {
-      "time": 1706268596919.09
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-flow.meta": {
+      "time": 1706269268727.2356
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\dependencies\\textures.meta": {
       "time": 1706269269409.969
@@ -1622,6 +1504,9 @@
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d.meta": {
       "time": 1706269269555.4128
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-pipeline.meta": {
+      "time": 1706269268734.7651
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal.meta": {
       "time": 1706269269581.9316
@@ -1695,6 +1580,9 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\lighting-models\\model-functions.meta": {
       "time": 1706269268132.8743
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-stage.meta": {
+      "time": 1706269268739.7485
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shading-entries\\data-structures.meta": {
       "time": 1706269268176.4165
     },
@@ -1709,9 +1597,6 @@
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\surfaces\\effect-macros.meta": {
       "time": 1706269268375.4004
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-stage.meta": {
-      "time": 1706268596927.0952
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\surfaces\\includes.meta": {
       "time": 1706269268424.0557
@@ -1749,20 +1634,6 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shading-entries\\main-functions\\render-to-shadowmap.meta": {
       "time": 1706269268301.574
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-stage.meta": {
-      "time": 1706269268739.7485
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_file_content\\ts-render-stage.meta": {
-      "time": 1706269268739.7485
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\chunks.meta": {
       "time": 1706269269814.6946
     },
@@ -2246,71 +2117,29 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-reflection-probe-preview.effect.meta": {
       "time": 1706269269525.7354
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-unlit.effect.meta": {
-      "time": 1706269269552.4153
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-terrain.effect.meta": {
-      "time": 1706269269535.2258
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-terrain.effect.meta": {
-      "time": 1706269269535.2258
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-toon.effect.meta": {
       "time": 1706269269547.8372
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-standard.effect.meta": {
       "time": 1706269269528.7258
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\eye.effect.meta": {
-      "time": 1706269269461.2986
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-terrain.effect.meta": {
-      "time": 1706268597111.1108
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-terrain.effect.meta": {
-      "time": 1706268597111.1108
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\eye.effect.meta": {
-      "time": 1706269269461.2986
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269269535.2258
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\builtin-unlit.effect.meta": {
+      "time": 1706269269552.4153
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\car-paint.effect.meta": {
       "time": 1706269269444.1875
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\glass.effect.meta": {
-      "time": 1706269269476.292
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\eye.effect.meta": {
-      "time": 1706268597095.1106
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\eye.effect.meta": {
-      "time": 1706268597095.1106
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\glass.effect.meta": {
-      "time": 1706269269476.292
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269269461.2986
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\fabric.effect.meta": {
       "time": 1706269269472.2935
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\glass.effect.meta": {
-      "time": 1706268597095.1106
+      "time": 1706269269476.292
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\hair.effect.meta": {
       "time": 1706269269480.2798
@@ -2321,78 +2150,29 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\simple-skin.effect.meta": {
       "time": 1706269269492.4856
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\skin.effect.meta": {
-      "time": 1706268597103.1106
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\sky.effect.meta": {
-      "time": 1706268597103.1106
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\sky.effect.meta": {
-      "time": 1706269269503.968
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\skin.effect.meta": {
       "time": 1706269269497.4756
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\skin.effect.meta": {
-      "time": 1706268597103.1106
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\sky.effect.meta": {
-      "time": 1706268597103.1106
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269269503.968
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\advanced\\water.effect.meta": {
       "time": 1706269269518.5818
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d\\builtin-sprite-renderer.effect.meta": {
-      "time": 1706269269565.8997
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d\\builtin-sprite-renderer.effect.meta": {
-      "time": 1706269269565.8997
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d\\builtin-spine.effect.meta": {
       "time": 1706269269561.3933
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-camera-texture.effect.meta": {
-      "time": 1706269269585.9326
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d\\builtin-sprite-renderer.effect.meta": {
-      "time": 1706268597114.5417
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d\\builtin-sprite-renderer.effect.meta": {
-      "time": 1706268597114.5417
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-camera-texture.effect.meta": {
-      "time": 1706269269585.9326
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269269565.8997
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\for2d\\builtin-sprite.effect.meta": {
       "time": 1706269269577.4363
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-camera-texture.effect.meta": {
+      "time": 1706269269585.9326
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-clear-stencil.effect.meta": {
       "time": 1706269269589.92
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-camera-texture.effect.meta": {
-      "time": 1706268597114.5417
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-debug-renderer.effect.meta": {
       "time": 1706269269595.541
@@ -2400,37 +2180,23 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-geometry-renderer.effect.meta": {
       "time": 1706269269604.0312
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-occlusion-query.effect.meta": {
-      "time": 1706269269620.6284
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-occlusion-query.effect.meta": {
-      "time": 1706269269620.6284
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-graphics.effect.meta": {
       "time": 1706269269614.6475
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-occlusion-query.effect.meta": {
+      "time": 1706269269620.6284
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-reflection-deferred.effect.meta": {
       "time": 1706269269624.139
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-occlusion-query.effect.meta": {
-      "time": 1706268597122.5537
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\builtin-wireframe.effect.meta": {
       "time": 1706269269629.1235
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\legacy\\terrain.effect.meta": {
-      "time": 1706269269714.728
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\legacy\\standard.effect.meta": {
       "time": 1706269269710.0942
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\legacy\\terrain.effect.meta": {
+      "time": 1706269269714.728
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\legacy\\toon.effect.meta": {
       "time": 1706269269720.7058
@@ -2441,134 +2207,71 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\particles\\builtin-particle-gpu.effect.meta": {
       "time": 1706269269735.7278
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\particles\\builtin-particle-xr-trail.effect.meta": {
-      "time": 1706269269747.2085
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\particles\\builtin-particle-trail.effect.meta": {
       "time": 1706269269742.2136
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\cluster-build.effect.meta": {
-      "time": 1706269269760.33
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\particles\\builtin-particle-xr-trail.effect.meta": {
+      "time": 1706269269747.2085
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\particles\\builtin-particle.effect.meta": {
       "time": 1706269269753.3472
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\cluster-build.effect.meta": {
+      "time": 1706269269760.33
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\cluster-culling.effect.meta": {
       "time": 1706269269764.836
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\deferred-lighting.effect.meta": {
-      "time": 1706269269781.443
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\deferred-lighting.effect.meta": {
-      "time": 1706269269781.443
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\copy-pass.effect.meta": {
       "time": 1706269269776.459
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\deferred-lighting.effect.meta": {
+      "time": 1706269269781.443
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\float-output-process.effect.meta": {
       "time": 1706269269785.949
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\deferred-lighting.effect.meta": {
-      "time": 1706268597154.5574
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\planar-shadow.effect.meta": {
       "time": 1706269269789.935
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\skybox.effect.meta": {
-      "time": 1706269269877.3987
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process.effect.meta": {
       "time": 1706269269798.5796
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\skybox.effect.meta": {
+      "time": 1706269269877.3987
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\smaa.effect.meta": {
       "time": 1706269269882.8953
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\tonemap.effect.meta": {
+      "time": 1706269269897.4392
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\ssss-blur.effect.meta": {
       "time": 1706269269891.4497
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\batched-unlit.effect.meta": {
       "time": 1706269269907.9243
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\batched-unlit.effect.meta": {
-      "time": 1706269269907.9243
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\tonemap.effect.meta": {
-      "time": 1706269269897.4392
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\sequence-anim.effect.meta": {
-      "time": 1706269269966.8296
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\batched-unlit.effect.meta": {
-      "time": 1706268597178.56
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\batched-unlit.effect.meta": {
-      "time": 1706268597178.56
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\sequence-anim.effect.meta": {
-      "time": 1706269269966.8296
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\profiler.effect.meta": {
       "time": 1706269269957.207
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\sequence-anim.effect.meta": {
+      "time": 1706269269966.8296
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\splash-screen.effect.meta": {
       "time": 1706269269972.458
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\sequence-anim.effect.meta": {
-      "time": 1706268597194.5635
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\box-height-light.effect.meta": {
       "time": 1706269269636.7217
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\grid-stroke.effect.meta": {
-      "time": 1706268597130.546
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\gizmo.effect.meta": {
-      "time": 1706268597130.546
-=======
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\gizmo.effect.meta": {
       "time": 1706269269647.2056
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\grid-stroke.effect.meta": {
-      "time": 1706269269658.2483
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\grid-stroke.effect.meta": {
-      "time": 1706268597130.546
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\gizmo.effect.meta": {
-      "time": 1706268597130.546
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\grid-2d.effect.meta": {
       "time": 1706269269650.7544
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\grid-stroke.effect.meta": {
+      "time": 1706269269658.2483
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\grid.effect.meta": {
       "time": 1706269269668.863
@@ -2576,38 +2279,17 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\light-probe-visualization.effect.meta": {
       "time": 1706269269678.4827
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-circle-brush.effect.meta": {
-      "time": 1706269269695.621
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\light.effect.meta": {
       "time": 1706269269689.9658
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-image-brush.effect.meta": {
-      "time": 1706268597138.5527
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-select-brush.effect.meta": {
-      "time": 1706268597138.5527
-=======
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-select-brush.effect.meta": {
       "time": 1706269269703.1106
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-circle-brush.effect.meta": {
+      "time": 1706269269695.621
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-image-brush.effect.meta": {
       "time": 1706269269699.6084
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-image-brush.effect.meta": {
-      "time": 1706268597138.5527
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\internal\\editor\\terrain-select-brush.effect.meta": {
-      "time": 1706268597138.5527
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\blit-screen.effect.meta": {
       "time": 1706269269807.0708
@@ -2615,32 +2297,11 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\bloom.effect.meta": {
       "time": 1706269269811.6924
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\color-grading.effect.meta": {
-      "time": 1706268597170.5605
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\dof.effect.meta": {
-      "time": 1706268597170.5605
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\dof.effect.meta": {
-      "time": 1706269269844.1956
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\color-grading.effect.meta": {
       "time": 1706269269837.6936
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\color-grading.effect.meta": {
-      "time": 1706268597170.5605
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\dof.effect.meta": {
-      "time": 1706268597170.5605
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269269844.1956
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\fsr.effect.meta": {
       "time": 1706269269849.6897
@@ -2654,25 +2315,11 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\post-final.effect.meta": {
       "time": 1706269269866.8423
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\taa.effect.meta": {
       "time": 1706269269872.4092
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\taa.effect.meta": {
-      "time": 1706269269872.4092
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\imported-metallic-roughness.effect.meta": {
       "time": 1706269269917.5413
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\pipeline\\post-process\\taa.effect.meta": {
-      "time": 1706268597170.5605
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\imported-specular-glossiness.effect.meta": {
       "time": 1706269269923.0376
@@ -2680,31 +2327,17 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-fluid-v3-liquid.effect.meta": {
       "time": 1706269269940.5608
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-rigidbody-v2.effect.meta": {
-      "time": 1706269269946.0662
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-softbody-v3.effect.meta": {
-      "time": 1706269269949.7048
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-softbody-v3.effect.meta": {
-      "time": 1706269269949.7048
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\tools\\debug-view-runtime-control.ts.meta": {
       "time": 1706269270091.7651
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-softbody-v3.effect.meta": {
-      "time": 1706268597186.5527
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-rigidbody-v2.effect.meta": {
+      "time": 1706269269946.0662
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\zeno-fluid-liquid.effect.meta": {
       "time": 1706269269954.2158
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\effects\\util\\dcc\\vat\\houdini-softbody-v3.effect.meta": {
+      "time": 1706269269949.7048
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\Default-Particle.png": {
       "time": 1706269268500.1646,
@@ -3226,143 +2859,59 @@
       "time": 1706269269417.613,
       "uuid": "10b516ad-ae94-468a-a050-11ce19d40c3d"
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\Default-Particle.png.meta": {
       "time": 1706269268506.8174
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\Default-Particle.png.meta": {
-      "time": 1706269268506.8174
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\back.jpg.meta": {
       "time": 1706269268536.0708
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\Default-Particle.png.meta": {
-      "time": 1706268596879.0896
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default-terrain\\default-layer-texture.jpg.meta": {
       "time": 1706269268519.9531
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default-video.mp4.meta": {
-      "time": 1706269268530.5674
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\bottom.jpg.meta": {
-      "time": 1706269268540.0579
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\bottom.jpg.meta": {
-      "time": 1706269268540.0579
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\front.jpg.meta": {
       "time": 1706269268546.6975
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\left.jpg.meta": {
-      "time": 1706269268555.795
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\bottom.jpg.meta": {
-      "time": 1706268596887.0874
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\bottom.jpg.meta": {
-      "time": 1706268596887.0874
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\left.jpg.meta": {
-      "time": 1706269268555.795
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\right.jpg.meta": {
-      "time": 1706269268560.7788
+      "time": 1706269268540.0579
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\left.jpg.meta": {
-      "time": 1706268596887.0874
+      "time": 1706269268555.795
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-billboard-material.mtl.meta": {
       "time": 1706269268843.2234
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-clear-stencil.mtl.meta": {
+      "time": 1706269268846.22
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default-video.mp4.meta": {
+      "time": 1706269268530.5674
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-material-transparent.mtl.meta": {
       "time": 1706269268850.7532
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-clear-stencil.mtl.meta": {
-      "time": 1706269268846.22
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\right.jpg.meta": {
+      "time": 1706269268560.7788
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\top.jpg.meta": {
+      "time": 1706269268564.2886
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-material.mtl.meta": {
       "time": 1706269268859.2444
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-particle-gpu-material.mtl.meta": {
       "time": 1706269268862.8706
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-particle-gpu-material.mtl.meta": {
-      "time": 1706269268862.8706
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-particle-material.mtl.meta": {
       "time": 1706269268865.8691
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\top.jpg.meta": {
-      "time": 1706269268564.2886
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-particle-gpu-material.mtl.meta": {
-      "time": 1706268596959.0945
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-particle-gpu-material.mtl.meta": {
-      "time": 1706268596959.0945
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\top.jpg.meta": {
-      "time": 1706269268564.2886
->>>>>>> YakhlakovAlexander
->>>>>>> main
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-sprite-renderer-material.mtl.meta": {
+      "time": 1706269268882.908
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-spine-material.mtl.meta": {
       "time": 1706269268877.4119
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-trail-material.mtl.meta": {
-      "time": 1706268596967.096
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-sprite-renderer-material.mtl.meta": {
-      "time": 1706269268882.908
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-trail-material.mtl.meta": {
       "time": 1706269268885.905
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\top.jpg.meta": {
-      "time": 1706268596895.0889
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_cubemap\\top.jpg.meta": {
-      "time": 1706268596895.0889
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\default-trail-material.mtl.meta": {
-      "time": 1706269268885.905
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\missing-effect-material.mtl.meta": {
       "time": 1706269268889.891
@@ -3370,32 +2919,11 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\missing-material.mtl.meta": {
       "time": 1706269268900.4097
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\standard-material.mtl.meta": {
-      "time": 1706268596967.096
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\particle-add.mtl.meta": {
-      "time": 1706268596967.096
-=======
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\particle-add.mtl.meta": {
       "time": 1706269268904.9143
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\standard-material.mtl.meta": {
       "time": 1706269268908.9016
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\standard-material.mtl.meta": {
-      "time": 1706268596967.096
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\particle-add.mtl.meta": {
-      "time": 1706268596967.096
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_materials\\ui-alpha-test-material.mtl.meta": {
       "time": 1706269268912.532
@@ -3421,51 +2949,23 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\Camera.prefab.meta": {
       "time": 1706269269016.6316
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\builtin-forward.rpp.meta": {
-      "time": 1706269269207.0464
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\Terrain.prefab.meta": {
-      "time": 1706268597007.1003
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\Terrain.prefab.meta": {
-      "time": 1706268597007.1003
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\builtin-forward.rpp.meta": {
-      "time": 1706269269207.0464
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\builtin-deferred.rpp.meta": {
       "time": 1706269269203.0527
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\Terrain.prefab.meta": {
-      "time": 1706269269072.6626
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\builtin-forward.rpp.meta": {
-      "time": 1706268597039.103
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\builtin-forward.rpp.meta": {
-      "time": 1706268597039.103
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\Terrain.prefab.meta": {
-      "time": 1706269269072.6626
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\deferred-lighting.mtl.meta": {
       "time": 1706269269211.5447
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\tonemap.mtl.meta": {
-      "time": 1706269269228.1565
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\Terrain.prefab.meta": {
+      "time": 1706269269072.6626
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\builtin-forward.rpp.meta": {
+      "time": 1706269269207.0464
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\post-process.mtl.meta": {
       "time": 1706269269223.165
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_renderpipeline\\tonemap.mtl.meta": {
+      "time": 1706269269228.1565
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\primitives.fbx.meta": {
       "time": 1706269270080.1284
@@ -3473,11 +2973,11 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.plist.meta": {
       "time": 1706269269273.55
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom_new.plist.meta": {
-      "time": 1706269269284.036
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom.png.meta": {
       "time": 1706269269278.5403
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\atom_new.plist.meta": {
+      "time": 1706269269284.036
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_btn_disabled.png.meta": {
       "time": 1706269269287.0315
@@ -3500,69 +3000,23 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_progressbar_bg.png.meta": {
       "time": 1706269269324.1958
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_radio_button_off.png.meta": {
       "time": 1706269269329.1797
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_radio_button_off.png.meta": {
-      "time": 1706269269329.1797
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_radio_button_on.png.meta": {
       "time": 1706269269332.7258
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_bg.png.meta": {
-      "time": 1706269269344.221
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_radio_button_off.png.meta": {
-      "time": 1706268597071.1067
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_radio_button_off.png.meta": {
-      "time": 1706268597071.1067
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_bg.png.meta": {
-      "time": 1706269269344.221
->>>>>>> YakhlakovAlexander
->>>>>>> main
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.png.meta": {
+      "time": 1706269269262.9111
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar.png.meta": {
       "time": 1706269269339.7097
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_bg.png.meta": {
-      "time": 1706268597071.1067
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_vertical.png.meta": {
-      "time": 1706268597071.1067
-=======
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_vertical.png.meta": {
       "time": 1706269269353.2485
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.png.meta": {
-      "time": 1706269269262.9111
-<<<<<<< HEAD
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_bg.png.meta": {
-      "time": 1706268597071.1067
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_vertical.png.meta": {
-      "time": 1706268597071.1067
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269269344.221
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_scrollbar_vertical_bg.png.meta": {
       "time": 1706269269358.2383
@@ -3570,17 +3024,14 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_sprite.png.meta": {
       "time": 1706269269361.8623
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_toggle_checkmark.png.meta": {
+      "time": 1706269269376.4446
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_sprite_splash.png.meta": {
       "time": 1706269269365.8623
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.png.meta": {
-      "time": 1706268597055.1067
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_toggle_disabled.png.meta": {
       "time": 1706269269393.5007
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_toggle_checkmark.png.meta": {
-      "time": 1706269269376.4446
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_toggle_normal.png.meta": {
       "time": 1706269269397.4934
@@ -3588,25 +3039,14 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_ui\\default_toggle_pressed.png.meta": {
       "time": 1706269269402.987
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\camera.png.meta": {
       "time": 1706269269981.4348
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\camera.png.meta": {
-      "time": 1706269269981.4348
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\directional-light.png.meta": {
       "time": 1706269269987.9346
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\camera.png.meta": {
-      "time": 1706268597194.5635
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.hdr.meta": {
+      "time": 1706269269254.3025
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\scene-gizmo.mtl.meta": {
       "time": 1706269270009.0444
@@ -3614,64 +3054,23 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\light-probe.png.meta": {
       "time": 1706269269992.571
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\particle-system.png.meta": {
-      "time": 1706269269996.5637
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\reflection-probe.png.meta": {
-      "time": 1706268597202.5583
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\sphere-light.png.meta": {
-      "time": 1706268597202.5583
-=======
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\sphere-light.png.meta": {
       "time": 1706269270015.6719
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\reflection-probe.png.meta": {
       "time": 1706269269999.5547
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\reflection-probe.png.meta": {
-      "time": 1706268597202.5583
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\sphere-light.png.meta": {
-      "time": 1706268597202.5583
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\spot-light.png.meta": {
       "time": 1706269270020.1648
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\particle-system.png.meta": {
+      "time": 1706269269996.5637
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\webview.png.meta": {
       "time": 1706269270032.2778
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.hdr.meta": {
-      "time": 1706269269254.3025
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.hdr.meta": {
-      "time": 1706269269254.3025
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\physics\\default-physics-material.pmtl.meta": {
       "time": 1706269270062.6604
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_skybox\\default_skybox.hdr.meta": {
-      "time": 1706268597047.105
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\tools\\debug-view-runtime-control.prefab.meta": {
-      "time": 1706269270087.7776
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\x.png.meta": {
       "time": 1706269270039.2668
@@ -3679,142 +3078,56 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\y.png.meta": {
       "time": 1706269270044.8994
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\tools\\debug-view-runtime-control.prefab.meta": {
+      "time": 1706269270087.7776
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\tools\\parsed-effect-info.json.meta": {
       "time": 1706269270100.2598
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Bold.fnt.meta": {
-      "time": 1706269268754.278
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\gizmo\\z.png.meta": {
       "time": 1706269270052.0488
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Bold.fnt.meta": {
+      "time": 1706269268754.278
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic.fnt.meta": {
       "time": 1706269268760.259
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png.meta": {
-      "time": 1706269268764.8948
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png.meta": {
-      "time": 1706269268764.8948
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic.fnt.meta": {
       "time": 1706269268780.4912
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular.fnt.meta": {
+      "time": 1706269268789.9775
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png.meta": {
+      "time": 1706269268764.8948
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Bold_0.png.meta": {
       "time": 1706269268774.5103
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic_0.png.meta": {
       "time": 1706269268784.9944
     },
-<<<<<<< HEAD
-=======
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular.fnt.meta": {
-      "time": 1706269268789.9775
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-BoldItalic.ttf.meta": {
       "time": 1706269268819.6775
-=======
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Bold_0.png.meta": {
-      "time": 1706268596935.092
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-BoldItalic_0.png.meta": {
-      "time": 1706268596935.092
-<<<<<<< HEAD
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-BoldItalic.ttf.meta": {
-      "time": 1706269268819.6775
->>>>>>> YakhlakovAlexander
->>>>>>> main
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Bold.ttf.meta": {
       "time": 1706269268811.6914
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Capsule.prefab.meta": {
-      "time": 1706269268967.8477
-=======
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Italic_0.png.meta": {
-      "time": 1706268596935.092
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular_0.png.meta": {
+      "time": 1706269268796.6055
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-BoldItalic.ttf.meta": {
-      "time": 1706268596943.093
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Regular.ttf.meta": {
+      "time": 1706269268836.7317
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Italic.ttf.meta": {
-      "time": 1706268596951.0945
-<<<<<<< HEAD
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Capsule.prefab.meta": {
-      "time": 1706269268967.8477
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269268828.169
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\2d\\Camera.prefab.meta": {
       "time": 1706269268950.692
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Italic.ttf.meta": {
-      "time": 1706269268828.169
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Regular.ttf.meta": {
-      "time": 1706268596951.0945
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Regular.ttf.meta": {
-      "time": 1706268596951.0945
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Italic.ttf.meta": {
-      "time": 1706269268828.169
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-bitmap\\OpenSans-Regular_0.png.meta": {
-      "time": 1706269268796.6055
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Regular.ttf.meta": {
-      "time": 1706269268836.7317
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Capsule.prefab.meta": {
-      "time": 1706268596983.0981
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Capsule.prefab.meta": {
-      "time": 1706268596983.0981
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_fonts\\builtin-freetype\\OpenSans-Regular.ttf.meta": {
-      "time": 1706269268836.7317
->>>>>>> YakhlakovAlexander
->>>>>>> main
+      "time": 1706269268967.8477
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Cone.prefab.meta": {
       "time": 1706269268972.4795
@@ -3822,115 +3135,56 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Cube.prefab.meta": {
       "time": 1706269268982.9666
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Plane.prefab.meta": {
-      "time": 1706268596991.0986
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Quad.prefab.meta": {
+      "time": 1706269268993.5151
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Cylinder.prefab.meta": {
       "time": 1706269268986.96
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Quad.prefab.meta": {
-      "time": 1706269268993.5151
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Plane.prefab.meta": {
       "time": 1706269268989.9507
-    },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Plane.prefab.meta": {
-      "time": 1706269268989.9507
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Sphere.prefab.meta": {
-      "time": 1706269268999.5015
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Torus.prefab.meta": {
       "time": 1706269269011.6355
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\effects\\Particle System.prefab.meta": {
-      "time": 1706268596999.0996
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\3d\\Sphere.prefab.meta": {
+      "time": 1706269268999.5015
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Directional Light.prefab.meta": {
-      "time": 1706269269029.7878
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\effects\\Particle System.prefab.meta": {
+      "time": 1706269269021.8035
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Light Probe Group.prefab.meta": {
       "time": 1706269269033.4263
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\effects\\Particle System.prefab.meta": {
-      "time": 1706269269021.8035
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Directional Light.prefab.meta": {
+      "time": 1706269269029.7878
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\effects\\Particle System.prefab.meta": {
-      "time": 1706269269021.8035
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Point Light.prefab.meta": {
       "time": 1706269269039.4126
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Ranged Directional Light.prefab.meta": {
       "time": 1706269269050.4065
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Reflection Probe.prefab.meta": {
-      "time": 1706269269055.5435
-    },
-<<<<<<< HEAD
-=======
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Spot Light.prefab.meta": {
       "time": 1706269269063.0337
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Reflection Probe.prefab.meta": {
-      "time": 1706268596999.0996
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Ranged Directional Light.prefab.meta": {
-      "time": 1706268596999.0996
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Sphere Light.prefab.meta": {
       "time": 1706269269059.5295
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\light\\Reflection Probe.prefab.meta": {
+      "time": 1706269269055.5435
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Button.prefab.meta": {
       "time": 1706269269079.6487
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Canvas.prefab.meta": {
       "time": 1706269269084.154
     },
-=======
->>>>>>> main
-=======
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Canvas.prefab.meta": {
-      "time": 1706269269084.154
-    },
->>>>>>> YakhlakovAlexander
->>>>>>> main
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Graphics.prefab.meta": {
       "time": 1706269269093.718
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\EditBox.prefab.meta": {
       "time": 1706269269088.1409
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Canvas.prefab.meta": {
-      "time": 1706268597007.1003
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Label.prefab.meta": {
       "time": 1706269269098.7083
@@ -3941,31 +3195,20 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Mask.prefab.meta": {
       "time": 1706269269106.2026
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\pageView.prefab.meta": {
+      "time": 1706269269110.191
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ParticleSystem2D.prefab.meta": {
       "time": 1706269269119.719
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\RichText.prefab.meta": {
-      "time": 1706268597023.1018
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ProgressBar.prefab.meta": {
       "time": 1706269269125.219
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\RichText.prefab.meta": {
       "time": 1706269269130.203
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\pageView.prefab.meta": {
-      "time": 1706268597015.1003
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\pageView.prefab.meta": {
-      "time": 1706268597015.1003
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\RichText.prefab.meta": {
-      "time": 1706269269130.203
->>>>>>> YakhlakovAlexander
->>>>>>> main
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ScrollView.prefab.meta": {
+      "time": 1706269269140.7722
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Slider.prefab.meta": {
       "time": 1706269269144.2817
@@ -3976,91 +3219,35 @@
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\SpriteRenderer.prefab.meta": {
       "time": 1706269269151.849
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ScrollView.prefab.meta": {
-      "time": 1706268597023.1018
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\pageView.prefab.meta": {
-      "time": 1706269269110.191
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\SpriteSplash.prefab.meta": {
-      "time": 1706269269156.3542
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ScrollView.prefab.meta": {
-      "time": 1706268597023.1018
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\TiledMap.prefab.meta": {
       "time": 1706269269160.341
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\SpriteSplash.prefab.meta": {
-      "time": 1706268597023.1018
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Toggle.prefab.meta": {
-      "time": 1706268597031.103
-=======
->>>>>>> main
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Toggle.prefab.meta": {
-      "time": 1706269269172.4673
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\WebView.prefab.meta": {
-      "time": 1706269269184.9512
-<<<<<<< HEAD
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\SpriteSplash.prefab.meta": {
-      "time": 1706268597023.1018
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Toggle.prefab.meta": {
-      "time": 1706268597031.103
->>>>>>> main
-=======
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\VideoPlayer.prefab.meta": {
-      "time": 1706269269181.4421
-    },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ScrollView.prefab.meta": {
-      "time": 1706269269140.7722
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\WebView.prefab.meta": {
-      "time": 1706268597031.103
->>>>>>> main
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\WebView.prefab.meta": {
-      "time": 1706268597031.103
-=======
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ScrollView.prefab.meta": {
-      "time": 1706269269140.7722
->>>>>>> YakhlakovAlexander
->>>>>>> main
-    },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Widget.prefab.meta": {
-      "time": 1706269269192.5635
+      "time": 1706269269156.3542
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\ToggleContainer.prefab.meta": {
       "time": 1706269269176.4583
     },
-    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\2d\\ui\\Canvas.prefab.meta": {
-      "time": 1706269268961.855
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Toggle.prefab.meta": {
+      "time": 1706269269172.4673
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\VideoPlayer.prefab.meta": {
+      "time": 1706269269181.4421
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\WebView.prefab.meta": {
+      "time": 1706269269184.9512
     },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\dependencies\\textures\\preintegrated-skin.png.meta": {
       "time": 1706269269430.091
     },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\ui\\Widget.prefab.meta": {
+      "time": 1706269269192.5635
+    },
     "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\dependencies\\textures\\lut\\original-color-grading.png.meta": {
       "time": 1706269269420.6018
+    },
+    "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\default_prefab\\2d\\ui\\Canvas.prefab.meta": {
+      "time": 1706269268961.855
     }
   },
   "missing": {}
